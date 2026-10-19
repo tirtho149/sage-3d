@@ -1,0 +1,199 @@
+[
+ {
+  "name": "P1 KB3D - U3D",
+  "a": "KB3D",
+  "b": "U3D",
+  "primary": true
+ },
+ {
+  "name": "P2 KB3D - KB2D",
+  "a": "KB3D",
+  "b": "KB2D",
+  "primary": true
+ },
+ {
+  "name": "P3 MIX50 - KB2D",
+  "a": "MIX50",
+  "b": "MIX0",
+  "primary": true
+ },
+ {
+  "name": "texture: TEX3D - U3D",
+  "a": "TEX3D",
+  "b": "U3D"
+ },
+ {
+  "name": "harmonise: HARM3D - U3D",
+  "a": "HARM3D",
+  "b": "U3D"
+ },
+ {
+  "name": "generic 3D edit: GEN3D - U3D",
+  "a": "GEN3D",
+  "b": "U3D"
+ },
+ {
+  "name": "KB in 3D: KBAPP3D - GEN3D",
+  "a": "KBAPP3D",
+  "b": "GEN3D"
+ },
+ {
+  "name": "KB in 2D: KB2D - GEN2D",
+  "a": "KB2D",
+  "b": "GEN2D"
+ },
+ {
+  "name": "generic 2D edit: GEN2D - PHOTO2D",
+  "a": "GEN2D",
+  "b": "PHOTO2D"
+ },
+ {
+  "name": "KB 2D edit: KB2D - PHOTO2D",
+  "a": "KB2D",
+  "b": "PHOTO2D"
+ },
+ {
+  "name": "render gap: TEX3D - PHOTO2D",
+  "a": "TEX3D",
+  "b": "PHOTO2D"
+ },
+ {
+  "name": "MIX25 - KB2D",
+  "a": "MIX25",
+  "b": "MIX0"
+ },
+ {
+  "name": "MIX75 - KB2D",
+  "a": "MIX75",
+  "b": "MIX0"
+ },
+ {
+  "name": "geometry (all): GEO3D - U3D",
+  "a": "GEO3D",
+  "b": "U3D"
+ },
+ {
+  "name": "geometry cohort: GEO3D - U3D",
+  "a": "GEO3D",
+  "b": "U3D",
+  "keep": [
+   11,
+   5,
+   8,
+   1
+  ]
+ },
+ {
+  "name": "geometry cohort: KB3D - KBAPP3D",
+  "a": "KB3D",
+  "b": "KBAPP3D",
+  "keep": [
+   11,
+   5,
+   8,
+   1
+  ]
+ },
+ {
+  "name": "geometry cohort: TEXGEO3D - TEX3D",
+  "a": "TEXGEO3D",
+  "b": "TEX3D",
+  "keep": [
+   11,
+   5,
+   8,
+   1
+  ]
+ },
+ {
+  "name": "appearance cohort: KB3D - KBAPP3D",
+  "a": "KB3D",
+  "b": "KBAPP3D",
+  "keep": [
+   0,
+   2,
+   3,
+   4,
+   6,
+   7,
+   9,
+   10,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19
+  ]
+ },
+ {
+  "name": "geometry cohort: KB3D - KB2D",
+  "a": "KB3D",
+  "b": "KB2D",
+  "keep": [
+   11,
+   5,
+   8,
+   1
+  ]
+ },
+ {
+  "name": "appearance cohort: KB3D - KB2D",
+  "a": "KB3D",
+  "b": "KB2D",
+  "keep": [
+   0,
+   2,
+   3,
+   4,
+   6,
+   7,
+   9,
+   10,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19
+  ]
+ },
+ {
+  "name": "geometry cohort: U3D - PHOTO2D",
+  "a": "U3D",
+  "b": "PHOTO2D",
+  "keep": [
+   11,
+   5,
+   8,
+   1
+  ]
+ },
+ {
+  "name": "appearance cohort: U3D - PHOTO2D",
+  "a": "U3D",
+  "b": "PHOTO2D",
+  "keep": [
+   0,
+   2,
+   3,
+   4,
+   6,
+   7,
+   9,
+   10,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19
+  ]
+ }
+]

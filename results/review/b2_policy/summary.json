@@ -1,0 +1,2744 @@
+{
+ "tau": 0.04561718688655503,
+ "tau_source": "max fitted-IoU drop over 24 appearance-only edits (E/F/K)",
+ "records": [
+  {
+   "demo": "corn",
+   "specimen": "Corn__Smut__0012",
+   "arm": "J",
+   "label": "KB height field",
+   "iou_before": 0.943337310553172,
+   "iou_after": 0.8296937504098629,
+   "preserve_tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.943337310553172,
+    "iou_after": 0.8296937504098629,
+    "drop": 0.11364356014330912,
+    "tau": 0.04561718688655503,
+    "reason": "fitted input-view IoU drops 0.114 > tau 0.046: contradicts the photo"
+   },
+   "preserve_2tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.943337310553172,
+    "iou_after": 0.8296937504098629,
+    "drop": 0.11364356014330912,
+    "tau": 0.09123437377311006,
+    "reason": "fitted input-view IoU drops 0.114 > tau 0.091: contradicts the photo"
+   }
+  },
+  {
+   "demo": "corn",
+   "specimen": "Corn__Smut__0012",
+   "arm": "G",
+   "label": "generic geometry",
+   "iou_before": 0.943337310553172,
+   "iou_after": 0.9102437040990063,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.943337310553172,
+    "iou_after": 0.9102437040990063,
+    "drop": 0.0330936064541657,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.943337310553172,
+    "iou_after": 0.9102437040990063,
+    "drop": 0.0330936064541657,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "corn",
+   "specimen": "Corn__Smut__0012",
+   "arm": "V_s0",
+   "label": "volumetric galls on kernels",
+   "iou_before": 0.943337310553172,
+   "iou_after": 0.7871390798519302,
+   "preserve_tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.943337310553172,
+    "iou_after": 0.7871390798519302,
+    "drop": 0.15619823070124184,
+    "tau": 0.04561718688655503,
+    "reason": "fitted input-view IoU drops 0.156 > tau 0.046: contradicts the photo"
+   },
+   "preserve_2tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.943337310553172,
+    "iou_after": 0.7871390798519302,
+    "drop": 0.15619823070124184,
+    "tau": 0.09123437377311006,
+    "reason": "fitted input-view IoU drops 0.156 > tau 0.091: contradicts the photo"
+   }
+  },
+  {
+   "demo": "corn",
+   "specimen": "Corn__Smut__0012",
+   "arm": "Vr_s0",
+   "label": "volumetric galls, random sites",
+   "iou_before": 0.943337310553172,
+   "iou_after": 0.8435611290943251,
+   "preserve_tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.943337310553172,
+    "iou_after": 0.8435611290943251,
+    "drop": 0.09977618145884692,
+    "tau": 0.04561718688655503,
+    "reason": "fitted input-view IoU drops 0.100 > tau 0.046: contradicts the photo"
+   },
+   "preserve_2tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.943337310553172,
+    "iou_after": 0.8435611290943251,
+    "drop": 0.09977618145884692,
+    "tau": 0.09123437377311006,
+    "reason": "fitted input-view IoU drops 0.100 > tau 0.091: contradicts the photo"
+   }
+  },
+  {
+   "demo": "corn",
+   "specimen": "Corn__Smut__0012",
+   "arm": "V_s1",
+   "label": "volumetric galls on kernels",
+   "iou_before": 0.943337310553172,
+   "iou_after": 0.8918659828404352,
+   "preserve_tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.943337310553172,
+    "iou_after": 0.8918659828404352,
+    "drop": 0.05147132771273688,
+    "tau": 0.04561718688655503,
+    "reason": "fitted input-view IoU drops 0.051 > tau 0.046: contradicts the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.943337310553172,
+    "iou_after": 0.8918659828404352,
+    "drop": 0.05147132771273688,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "corn",
+   "specimen": "Corn__Smut__0012",
+   "arm": "Vr_s1",
+   "label": "volumetric galls, random sites",
+   "iou_before": 0.943337310553172,
+   "iou_after": 0.8392709381639271,
+   "preserve_tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.943337310553172,
+    "iou_after": 0.8392709381639271,
+    "drop": 0.10406637238924499,
+    "tau": 0.04561718688655503,
+    "reason": "fitted input-view IoU drops 0.104 > tau 0.046: contradicts the photo"
+   },
+   "preserve_2tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.943337310553172,
+    "iou_after": 0.8392709381639271,
+    "drop": 0.10406637238924499,
+    "tau": 0.09123437377311006,
+    "reason": "fitted input-view IoU drops 0.104 > tau 0.091: contradicts the photo"
+   }
+  },
+  {
+   "demo": "corn",
+   "specimen": "Corn__Smut__0012",
+   "arm": "V_s2",
+   "label": "volumetric galls on kernels",
+   "iou_before": 0.943337310553172,
+   "iou_after": 0.838325498097157,
+   "preserve_tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.943337310553172,
+    "iou_after": 0.838325498097157,
+    "drop": 0.1050118124560151,
+    "tau": 0.04561718688655503,
+    "reason": "fitted input-view IoU drops 0.105 > tau 0.046: contradicts the photo"
+   },
+   "preserve_2tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.943337310553172,
+    "iou_after": 0.838325498097157,
+    "drop": 0.1050118124560151,
+    "tau": 0.09123437377311006,
+    "reason": "fitted input-view IoU drops 0.105 > tau 0.091: contradicts the photo"
+   }
+  },
+  {
+   "demo": "corn",
+   "specimen": "Corn__Smut__0012",
+   "arm": "Vr_s2",
+   "label": "volumetric galls, random sites",
+   "iou_before": 0.943337310553172,
+   "iou_after": 0.8807651930479412,
+   "preserve_tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.943337310553172,
+    "iou_after": 0.8807651930479412,
+    "drop": 0.06257211750523084,
+    "tau": 0.04561718688655503,
+    "reason": "fitted input-view IoU drops 0.063 > tau 0.046: contradicts the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.943337310553172,
+    "iou_after": 0.8807651930479412,
+    "drop": 0.06257211750523084,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "corn",
+   "specimen": "Corn__Smut__0025",
+   "arm": "J",
+   "label": "KB height field",
+   "iou_before": 0.770912226129294,
+   "iou_after": 0.7574904257715702,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.770912226129294,
+    "iou_after": 0.7574904257715702,
+    "drop": 0.013421800357723779,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.770912226129294,
+    "iou_after": 0.7574904257715702,
+    "drop": 0.013421800357723779,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "corn",
+   "specimen": "Corn__Smut__0025",
+   "arm": "G",
+   "label": "generic geometry",
+   "iou_before": 0.770912226129294,
+   "iou_after": 0.7656886009734467,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.770912226129294,
+    "iou_after": 0.7656886009734467,
+    "drop": 0.005223625155847289,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.770912226129294,
+    "iou_after": 0.7656886009734467,
+    "drop": 0.005223625155847289,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "corn",
+   "specimen": "Corn__Smut__0052",
+   "arm": "J",
+   "label": "KB height field",
+   "iou_before": 0.8964329589329589,
+   "iou_after": 0.781836110026911,
+   "preserve_tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.8964329589329589,
+    "iou_after": 0.781836110026911,
+    "drop": 0.11459684890604793,
+    "tau": 0.04561718688655503,
+    "reason": "fitted input-view IoU drops 0.115 > tau 0.046: contradicts the photo"
+   },
+   "preserve_2tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.8964329589329589,
+    "iou_after": 0.781836110026911,
+    "drop": 0.11459684890604793,
+    "tau": 0.09123437377311006,
+    "reason": "fitted input-view IoU drops 0.115 > tau 0.091: contradicts the photo"
+   }
+  },
+  {
+   "demo": "corn",
+   "specimen": "Corn__Smut__0052",
+   "arm": "G",
+   "label": "generic geometry",
+   "iou_before": 0.8964329589329589,
+   "iou_after": 0.8159781643307411,
+   "preserve_tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.8964329589329589,
+    "iou_after": 0.8159781643307411,
+    "drop": 0.08045479460221783,
+    "tau": 0.04561718688655503,
+    "reason": "fitted input-view IoU drops 0.080 > tau 0.046: contradicts the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.8964329589329589,
+    "iou_after": 0.8159781643307411,
+    "drop": 0.08045479460221783,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "corn",
+   "specimen": "Corn__Smut__0052",
+   "arm": "V_s0",
+   "label": "volumetric galls on kernels",
+   "iou_before": 0.8964329589329589,
+   "iou_after": 0.8964329589329589,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.8964329589329589,
+    "iou_after": 0.8964329589329589,
+    "drop": 0.0,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.8964329589329589,
+    "iou_after": 0.8964329589329589,
+    "drop": 0.0,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "corn",
+   "specimen": "Corn__Smut__0052",
+   "arm": "Vr_s0",
+   "label": "volumetric galls, random sites",
+   "iou_before": 0.8964329589329589,
+   "iou_after": 0.8362779504662589,
+   "preserve_tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.8964329589329589,
+    "iou_after": 0.8362779504662589,
+    "drop": 0.06015500846670008,
+    "tau": 0.04561718688655503,
+    "reason": "fitted input-view IoU drops 0.060 > tau 0.046: contradicts the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.8964329589329589,
+    "iou_after": 0.8362779504662589,
+    "drop": 0.06015500846670008,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "corn",
+   "specimen": "Corn__Smut__0052",
+   "arm": "V_s1",
+   "label": "volumetric galls on kernels",
+   "iou_before": 0.8964329589329589,
+   "iou_after": 0.7621745731955709,
+   "preserve_tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.8964329589329589,
+    "iou_after": 0.7621745731955709,
+    "drop": 0.13425838573738802,
+    "tau": 0.04561718688655503,
+    "reason": "fitted input-view IoU drops 0.134 > tau 0.046: contradicts the photo"
+   },
+   "preserve_2tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.8964329589329589,
+    "iou_after": 0.7621745731955709,
+    "drop": 0.13425838573738802,
+    "tau": 0.09123437377311006,
+    "reason": "fitted input-view IoU drops 0.134 > tau 0.091: contradicts the photo"
+   }
+  },
+  {
+   "demo": "corn",
+   "specimen": "Corn__Smut__0052",
+   "arm": "Vr_s1",
+   "label": "volumetric galls, random sites",
+   "iou_before": 0.8964329589329589,
+   "iou_after": 0.7872168751080629,
+   "preserve_tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.8964329589329589,
+    "iou_after": 0.7872168751080629,
+    "drop": 0.109216083824896,
+    "tau": 0.04561718688655503,
+    "reason": "fitted input-view IoU drops 0.109 > tau 0.046: contradicts the photo"
+   },
+   "preserve_2tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.8964329589329589,
+    "iou_after": 0.7872168751080629,
+    "drop": 0.109216083824896,
+    "tau": 0.09123437377311006,
+    "reason": "fitted input-view IoU drops 0.109 > tau 0.091: contradicts the photo"
+   }
+  },
+  {
+   "demo": "corn",
+   "specimen": "Corn__Smut__0052",
+   "arm": "V_s2",
+   "label": "volumetric galls on kernels",
+   "iou_before": 0.8964329589329589,
+   "iou_after": 0.8617752415861379,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.8964329589329589,
+    "iou_after": 0.8617752415861379,
+    "drop": 0.03465771734682099,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.8964329589329589,
+    "iou_after": 0.8617752415861379,
+    "drop": 0.03465771734682099,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "corn",
+   "specimen": "Corn__Smut__0052",
+   "arm": "Vr_s2",
+   "label": "volumetric galls, random sites",
+   "iou_before": 0.8964329589329589,
+   "iou_after": 0.8571960528765593,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.8964329589329589,
+    "iou_after": 0.8571960528765593,
+    "drop": 0.03923690605639962,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.8964329589329589,
+    "iou_after": 0.8571960528765593,
+    "drop": 0.03923690605639962,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "mango_curl",
+   "specimen": "Mango__Anthracnose__0044",
+   "arm": "G",
+   "label": "generic geometry",
+   "iou_before": 0.9279694347679515,
+   "iou_after": 0.9340857787810384,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9279694347679515,
+    "iou_after": 0.9340857787810384,
+    "drop": -0.006116344013086916,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9279694347679515,
+    "iou_after": 0.9340857787810384,
+    "drop": -0.006116344013086916,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "mango_curl",
+   "specimen": "Mango__Anthracnose__0044",
+   "arm": "CU_kb_s0",
+   "label": "KB curl (cited dir.)",
+   "iou_before": 0.9279694347679515,
+   "iou_after": 0.597592883307169,
+   "preserve_tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.9279694347679515,
+    "iou_after": 0.597592883307169,
+    "drop": 0.3303765514607825,
+    "tau": 0.04561718688655503,
+    "reason": "fitted input-view IoU drops 0.330 > tau 0.046: contradicts the photo"
+   },
+   "preserve_2tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.9279694347679515,
+    "iou_after": 0.597592883307169,
+    "drop": 0.3303765514607825,
+    "tau": 0.09123437377311006,
+    "reason": "fitted input-view IoU drops 0.330 > tau 0.091: contradicts the photo"
+   }
+  },
+  {
+   "demo": "mango_curl",
+   "specimen": "Mango__Anthracnose__0044",
+   "arm": "CD_opposite_s0",
+   "label": "reversed curl (control)",
+   "iou_before": 0.9279694347679515,
+   "iou_after": 0.6266127268751367,
+   "preserve_tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.9279694347679515,
+    "iou_after": 0.6266127268751367,
+    "drop": 0.30135670789281477,
+    "tau": 0.04561718688655503,
+    "reason": "fitted input-view IoU drops 0.301 > tau 0.046: contradicts the photo"
+   },
+   "preserve_2tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.9279694347679515,
+    "iou_after": 0.6266127268751367,
+    "drop": 0.30135670789281477,
+    "tau": 0.09123437377311006,
+    "reason": "fitted input-view IoU drops 0.301 > tau 0.091: contradicts the photo"
+   }
+  },
+  {
+   "demo": "mango_curl",
+   "specimen": "Mango__Anthracnose__0044",
+   "arm": "CU_kb_s1",
+   "label": "KB curl (cited dir.)",
+   "iou_before": 0.9279694347679515,
+   "iou_after": 0.5989457037427517,
+   "preserve_tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.9279694347679515,
+    "iou_after": 0.5989457037427517,
+    "drop": 0.3290237310251998,
+    "tau": 0.04561718688655503,
+    "reason": "fitted input-view IoU drops 0.329 > tau 0.046: contradicts the photo"
+   },
+   "preserve_2tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.9279694347679515,
+    "iou_after": 0.5989457037427517,
+    "drop": 0.3290237310251998,
+    "tau": 0.09123437377311006,
+    "reason": "fitted input-view IoU drops 0.329 > tau 0.091: contradicts the photo"
+   }
+  },
+  {
+   "demo": "mango_curl",
+   "specimen": "Mango__Anthracnose__0044",
+   "arm": "CD_opposite_s1",
+   "label": "reversed curl (control)",
+   "iou_before": 0.9279694347679515,
+   "iou_after": 0.6343979804631764,
+   "preserve_tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.9279694347679515,
+    "iou_after": 0.6343979804631764,
+    "drop": 0.29357145430477505,
+    "tau": 0.04561718688655503,
+    "reason": "fitted input-view IoU drops 0.294 > tau 0.046: contradicts the photo"
+   },
+   "preserve_2tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.9279694347679515,
+    "iou_after": 0.6343979804631764,
+    "drop": 0.29357145430477505,
+    "tau": 0.09123437377311006,
+    "reason": "fitted input-view IoU drops 0.294 > tau 0.091: contradicts the photo"
+   }
+  },
+  {
+   "demo": "mango_curl",
+   "specimen": "Mango__Anthracnose__0044",
+   "arm": "CU_kb_s2",
+   "label": "KB curl (cited dir.)",
+   "iou_before": 0.9279694347679515,
+   "iou_after": 0.5999789074035013,
+   "preserve_tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.9279694347679515,
+    "iou_after": 0.5999789074035013,
+    "drop": 0.3279905273644501,
+    "tau": 0.04561718688655503,
+    "reason": "fitted input-view IoU drops 0.328 > tau 0.046: contradicts the photo"
+   },
+   "preserve_2tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.9279694347679515,
+    "iou_after": 0.5999789074035013,
+    "drop": 0.3279905273644501,
+    "tau": 0.09123437377311006,
+    "reason": "fitted input-view IoU drops 0.328 > tau 0.091: contradicts the photo"
+   }
+  },
+  {
+   "demo": "mango_curl",
+   "specimen": "Mango__Anthracnose__0044",
+   "arm": "CD_opposite_s2",
+   "label": "reversed curl (control)",
+   "iou_before": 0.9279694347679515,
+   "iou_after": 0.6215891726697228,
+   "preserve_tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.9279694347679515,
+    "iou_after": 0.6215891726697228,
+    "drop": 0.30638026209822866,
+    "tau": 0.04561718688655503,
+    "reason": "fitted input-view IoU drops 0.306 > tau 0.046: contradicts the photo"
+   },
+   "preserve_2tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.9279694347679515,
+    "iou_after": 0.6215891726697228,
+    "drop": 0.30638026209822866,
+    "tau": 0.09123437377311006,
+    "reason": "fitted input-view IoU drops 0.306 > tau 0.091: contradicts the photo"
+   }
+  },
+  {
+   "demo": "mango_curl",
+   "specimen": "Mango__Anthracnose__0049",
+   "arm": "G",
+   "label": "generic geometry",
+   "iou_before": 0.9530301895273054,
+   "iou_after": 0.9540066026410564,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9530301895273054,
+    "iou_after": 0.9540066026410564,
+    "drop": -0.0009764131137509624,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9530301895273054,
+    "iou_after": 0.9540066026410564,
+    "drop": -0.0009764131137509624,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "mango_curl",
+   "specimen": "Mango__Anthracnose__0049",
+   "arm": "CU_kb_s0",
+   "label": "KB curl (cited dir.)",
+   "iou_before": 0.9530301895273054,
+   "iou_after": 0.6740769230769231,
+   "preserve_tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.9530301895273054,
+    "iou_after": 0.6740769230769231,
+    "drop": 0.2789532664503823,
+    "tau": 0.04561718688655503,
+    "reason": "fitted input-view IoU drops 0.279 > tau 0.046: contradicts the photo"
+   },
+   "preserve_2tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.9530301895273054,
+    "iou_after": 0.6740769230769231,
+    "drop": 0.2789532664503823,
+    "tau": 0.09123437377311006,
+    "reason": "fitted input-view IoU drops 0.279 > tau 0.091: contradicts the photo"
+   }
+  },
+  {
+   "demo": "mango_curl",
+   "specimen": "Mango__Anthracnose__0049",
+   "arm": "CD_opposite_s0",
+   "label": "reversed curl (control)",
+   "iou_before": 0.9530301895273054,
+   "iou_after": 0.7445059167050868,
+   "preserve_tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.9530301895273054,
+    "iou_after": 0.7445059167050868,
+    "drop": 0.20852427282221864,
+    "tau": 0.04561718688655503,
+    "reason": "fitted input-view IoU drops 0.209 > tau 0.046: contradicts the photo"
+   },
+   "preserve_2tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.9530301895273054,
+    "iou_after": 0.7445059167050868,
+    "drop": 0.20852427282221864,
+    "tau": 0.09123437377311006,
+    "reason": "fitted input-view IoU drops 0.209 > tau 0.091: contradicts the photo"
+   }
+  },
+  {
+   "demo": "mango_curl",
+   "specimen": "Mango__Anthracnose__0049",
+   "arm": "CU_kb_s1",
+   "label": "KB curl (cited dir.)",
+   "iou_before": 0.9530301895273054,
+   "iou_after": 0.6738546542859335,
+   "preserve_tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.9530301895273054,
+    "iou_after": 0.6738546542859335,
+    "drop": 0.27917553524137195,
+    "tau": 0.04561718688655503,
+    "reason": "fitted input-view IoU drops 0.279 > tau 0.046: contradicts the photo"
+   },
+   "preserve_2tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.9530301895273054,
+    "iou_after": 0.6738546542859335,
+    "drop": 0.27917553524137195,
+    "tau": 0.09123437377311006,
+    "reason": "fitted input-view IoU drops 0.279 > tau 0.091: contradicts the photo"
+   }
+  },
+  {
+   "demo": "mango_curl",
+   "specimen": "Mango__Anthracnose__0049",
+   "arm": "CD_opposite_s1",
+   "label": "reversed curl (control)",
+   "iou_before": 0.9530301895273054,
+   "iou_after": 0.7499232658072437,
+   "preserve_tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.9530301895273054,
+    "iou_after": 0.7499232658072437,
+    "drop": 0.20310692372006178,
+    "tau": 0.04561718688655503,
+    "reason": "fitted input-view IoU drops 0.203 > tau 0.046: contradicts the photo"
+   },
+   "preserve_2tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.9530301895273054,
+    "iou_after": 0.7499232658072437,
+    "drop": 0.20310692372006178,
+    "tau": 0.09123437377311006,
+    "reason": "fitted input-view IoU drops 0.203 > tau 0.091: contradicts the photo"
+   }
+  },
+  {
+   "demo": "mango_curl",
+   "specimen": "Mango__Anthracnose__0049",
+   "arm": "CU_kb_s2",
+   "label": "KB curl (cited dir.)",
+   "iou_before": 0.9530301895273054,
+   "iou_after": 0.6716865155589704,
+   "preserve_tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.9530301895273054,
+    "iou_after": 0.6716865155589704,
+    "drop": 0.28134367396833504,
+    "tau": 0.04561718688655503,
+    "reason": "fitted input-view IoU drops 0.281 > tau 0.046: contradicts the photo"
+   },
+   "preserve_2tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.9530301895273054,
+    "iou_after": 0.6716865155589704,
+    "drop": 0.28134367396833504,
+    "tau": 0.09123437377311006,
+    "reason": "fitted input-view IoU drops 0.281 > tau 0.091: contradicts the photo"
+   }
+  },
+  {
+   "demo": "mango_curl",
+   "specimen": "Mango__Anthracnose__0049",
+   "arm": "CD_opposite_s2",
+   "label": "reversed curl (control)",
+   "iou_before": 0.9530301895273054,
+   "iou_after": 0.7475996620324141,
+   "preserve_tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.9530301895273054,
+    "iou_after": 0.7475996620324141,
+    "drop": 0.20543052749489132,
+    "tau": 0.04561718688655503,
+    "reason": "fitted input-view IoU drops 0.205 > tau 0.046: contradicts the photo"
+   },
+   "preserve_2tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.9530301895273054,
+    "iou_after": 0.7475996620324141,
+    "drop": 0.20543052749489132,
+    "tau": 0.09123437377311006,
+    "reason": "fitted input-view IoU drops 0.205 > tau 0.091: contradicts the photo"
+   }
+  },
+  {
+   "demo": "mango_curl",
+   "specimen": "Mango__Anthracnose__0094",
+   "arm": "G",
+   "label": "generic geometry",
+   "iou_before": 0.8554260413842957,
+   "iou_after": 0.8580774123205525,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.8554260413842957,
+    "iou_after": 0.8580774123205525,
+    "drop": -0.0026513709362567806,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.8554260413842957,
+    "iou_after": 0.8580774123205525,
+    "drop": -0.0026513709362567806,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "mango_curl",
+   "specimen": "Mango__Anthracnose__0094",
+   "arm": "CU_kb_s0",
+   "label": "KB curl (cited dir.)",
+   "iou_before": 0.8554260413842957,
+   "iou_after": 0.5970191760015189,
+   "preserve_tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.8554260413842957,
+    "iou_after": 0.5970191760015189,
+    "drop": 0.2584068653827768,
+    "tau": 0.04561718688655503,
+    "reason": "fitted input-view IoU drops 0.258 > tau 0.046: contradicts the photo"
+   },
+   "preserve_2tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.8554260413842957,
+    "iou_after": 0.5970191760015189,
+    "drop": 0.2584068653827768,
+    "tau": 0.09123437377311006,
+    "reason": "fitted input-view IoU drops 0.258 > tau 0.091: contradicts the photo"
+   }
+  },
+  {
+   "demo": "mango_curl",
+   "specimen": "Mango__Anthracnose__0094",
+   "arm": "CD_opposite_s0",
+   "label": "reversed curl (control)",
+   "iou_before": 0.8554260413842957,
+   "iou_after": 0.6777238403451996,
+   "preserve_tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.8554260413842957,
+    "iou_after": 0.6777238403451996,
+    "drop": 0.17770220103909606,
+    "tau": 0.04561718688655503,
+    "reason": "fitted input-view IoU drops 0.178 > tau 0.046: contradicts the photo"
+   },
+   "preserve_2tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.8554260413842957,
+    "iou_after": 0.6777238403451996,
+    "drop": 0.17770220103909606,
+    "tau": 0.09123437377311006,
+    "reason": "fitted input-view IoU drops 0.178 > tau 0.091: contradicts the photo"
+   }
+  },
+  {
+   "demo": "mango_curl",
+   "specimen": "Mango__Anthracnose__0094",
+   "arm": "CU_kb_s1",
+   "label": "KB curl (cited dir.)",
+   "iou_before": 0.8554260413842957,
+   "iou_after": 0.6004741583688952,
+   "preserve_tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.8554260413842957,
+    "iou_after": 0.6004741583688952,
+    "drop": 0.2549518830154005,
+    "tau": 0.04561718688655503,
+    "reason": "fitted input-view IoU drops 0.255 > tau 0.046: contradicts the photo"
+   },
+   "preserve_2tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.8554260413842957,
+    "iou_after": 0.6004741583688952,
+    "drop": 0.2549518830154005,
+    "tau": 0.09123437377311006,
+    "reason": "fitted input-view IoU drops 0.255 > tau 0.091: contradicts the photo"
+   }
+  },
+  {
+   "demo": "mango_curl",
+   "specimen": "Mango__Anthracnose__0094",
+   "arm": "CD_opposite_s1",
+   "label": "reversed curl (control)",
+   "iou_before": 0.8554260413842957,
+   "iou_after": 0.6717358049131648,
+   "preserve_tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.8554260413842957,
+    "iou_after": 0.6717358049131648,
+    "drop": 0.18369023647113092,
+    "tau": 0.04561718688655503,
+    "reason": "fitted input-view IoU drops 0.184 > tau 0.046: contradicts the photo"
+   },
+   "preserve_2tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.8554260413842957,
+    "iou_after": 0.6717358049131648,
+    "drop": 0.18369023647113092,
+    "tau": 0.09123437377311006,
+    "reason": "fitted input-view IoU drops 0.184 > tau 0.091: contradicts the photo"
+   }
+  },
+  {
+   "demo": "mango_curl",
+   "specimen": "Mango__Anthracnose__0094",
+   "arm": "CU_kb_s2",
+   "label": "KB curl (cited dir.)",
+   "iou_before": 0.8554260413842957,
+   "iou_after": 0.5946150929086083,
+   "preserve_tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.8554260413842957,
+    "iou_after": 0.5946150929086083,
+    "drop": 0.2608109484756874,
+    "tau": 0.04561718688655503,
+    "reason": "fitted input-view IoU drops 0.261 > tau 0.046: contradicts the photo"
+   },
+   "preserve_2tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.8554260413842957,
+    "iou_after": 0.5946150929086083,
+    "drop": 0.2608109484756874,
+    "tau": 0.09123437377311006,
+    "reason": "fitted input-view IoU drops 0.261 > tau 0.091: contradicts the photo"
+   }
+  },
+  {
+   "demo": "mango_curl",
+   "specimen": "Mango__Anthracnose__0094",
+   "arm": "CD_opposite_s2",
+   "label": "reversed curl (control)",
+   "iou_before": 0.8554260413842957,
+   "iou_after": 0.6781351060007187,
+   "preserve_tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.8554260413842957,
+    "iou_after": 0.6781351060007187,
+    "drop": 0.177290935383577,
+    "tau": 0.04561718688655503,
+    "reason": "fitted input-view IoU drops 0.177 > tau 0.046: contradicts the photo"
+   },
+   "preserve_2tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.8554260413842957,
+    "iou_after": 0.6781351060007187,
+    "drop": 0.177290935383577,
+    "tau": 0.09123437377311006,
+    "reason": "fitted input-view IoU drops 0.177 > tau 0.091: contradicts the photo"
+   }
+  },
+  {
+   "demo": "peach",
+   "specimen": "Peach__Leaf_Curl__0006",
+   "arm": "J",
+   "label": "KB geometry v1",
+   "iou_before": 0.5035642710368097,
+   "iou_after": 0.5593774670125183,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.5035642710368097,
+    "iou_after": 0.5593774670125183,
+    "drop": -0.05581319597570866,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.5035642710368097,
+    "iou_after": 0.5593774670125183,
+    "drop": -0.05581319597570866,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "peach",
+   "specimen": "Peach__Leaf_Curl__0006",
+   "arm": "G",
+   "label": "generic geometry",
+   "iou_before": 0.5035642710368097,
+   "iou_after": 0.5286914480462868,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.5035642710368097,
+    "iou_after": 0.5286914480462868,
+    "drop": -0.025127177009477086,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.5035642710368097,
+    "iou_after": 0.5286914480462868,
+    "drop": -0.025127177009477086,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "peach",
+   "specimen": "Peach__Leaf_Curl__0006",
+   "arm": "J2_s0",
+   "label": "KB pucker, evidence-placed",
+   "iou_before": 0.5035642710368097,
+   "iou_after": 0.5221256692873892,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.5035642710368097,
+    "iou_after": 0.5221256692873892,
+    "drop": -0.018561398250579564,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.5035642710368097,
+    "iou_after": 0.5221256692873892,
+    "drop": -0.018561398250579564,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "peach",
+   "specimen": "Peach__Leaf_Curl__0006",
+   "arm": "J2u_s0",
+   "label": "KB pucker, uniform",
+   "iou_before": 0.5035642710368097,
+   "iou_after": 0.5203285626635613,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.5035642710368097,
+    "iou_after": 0.5203285626635613,
+    "drop": -0.016764291626751637,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.5035642710368097,
+    "iou_after": 0.5203285626635613,
+    "drop": -0.016764291626751637,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "peach",
+   "specimen": "Peach__Leaf_Curl__0006",
+   "arm": "J2_s1",
+   "label": "KB pucker, evidence-placed",
+   "iou_before": 0.5035642710368097,
+   "iou_after": 0.5159477852316485,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.5035642710368097,
+    "iou_after": 0.5159477852316485,
+    "drop": -0.012383514194838852,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.5035642710368097,
+    "iou_after": 0.5159477852316485,
+    "drop": -0.012383514194838852,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "peach",
+   "specimen": "Peach__Leaf_Curl__0006",
+   "arm": "J2u_s1",
+   "label": "KB pucker, uniform",
+   "iou_before": 0.5035642710368097,
+   "iou_after": 0.507330563740882,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.5035642710368097,
+    "iou_after": 0.507330563740882,
+    "drop": -0.0037662927040723604,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.5035642710368097,
+    "iou_after": 0.507330563740882,
+    "drop": -0.0037662927040723604,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "peach",
+   "specimen": "Peach__Leaf_Curl__0006",
+   "arm": "J2_s2",
+   "label": "KB pucker, evidence-placed",
+   "iou_before": 0.5035642710368097,
+   "iou_after": 0.5248584493394303,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.5035642710368097,
+    "iou_after": 0.5248584493394303,
+    "drop": -0.021294178302620592,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.5035642710368097,
+    "iou_after": 0.5248584493394303,
+    "drop": -0.021294178302620592,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "peach",
+   "specimen": "Peach__Leaf_Curl__0006",
+   "arm": "J2u_s2",
+   "label": "KB pucker, uniform",
+   "iou_before": 0.5035642710368097,
+   "iou_after": 0.5255601754142075,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.5035642710368097,
+    "iou_after": 0.5255601754142075,
+    "drop": -0.021995904377397846,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.5035642710368097,
+    "iou_after": 0.5255601754142075,
+    "drop": -0.021995904377397846,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "peach",
+   "specimen": "Peach__Leaf_Curl__0006",
+   "arm": "J2+curl_up_HYP",
+   "label": "curl up (hypothesis)",
+   "iou_before": 0.5035642710368097,
+   "iou_after": 0.5561047519944502,
+   "preserve_tau": {
+    "decision": "abstain",
+    "mode": "preserve",
+    "iou_before": 0.5035642710368097,
+    "iou_after": 0.5561047519944502,
+    "drop": null,
+    "tau": 0.04561718688655503,
+    "reason": "KB does not specify this attribute; no edit"
+   },
+   "preserve_2tau": {
+    "decision": "abstain",
+    "mode": "preserve",
+    "iou_before": 0.5035642710368097,
+    "iou_after": 0.5561047519944502,
+    "drop": null,
+    "tau": 0.09123437377311006,
+    "reason": "KB does not specify this attribute; no edit"
+   }
+  },
+  {
+   "demo": "peach",
+   "specimen": "Peach__Leaf_Curl__0006",
+   "arm": "J2+curl_down_HYP",
+   "label": "curl down (hypothesis)",
+   "iou_before": 0.5035642710368097,
+   "iou_after": 0.4890894894730354,
+   "preserve_tau": {
+    "decision": "abstain",
+    "mode": "preserve",
+    "iou_before": 0.5035642710368097,
+    "iou_after": 0.4890894894730354,
+    "drop": null,
+    "tau": 0.04561718688655503,
+    "reason": "KB does not specify this attribute; no edit"
+   },
+   "preserve_2tau": {
+    "decision": "abstain",
+    "mode": "preserve",
+    "iou_before": 0.5035642710368097,
+    "iou_after": 0.4890894894730354,
+    "drop": null,
+    "tau": 0.09123437377311006,
+    "reason": "KB does not specify this attribute; no edit"
+   }
+  },
+  {
+   "demo": "peach",
+   "specimen": "Peach__Leaf_Curl__0063",
+   "arm": "J",
+   "label": "KB geometry v1",
+   "iou_before": 0.670544049008168,
+   "iou_after": 0.6589147286821705,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.670544049008168,
+    "iou_after": 0.6589147286821705,
+    "drop": 0.011629320325997505,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.670544049008168,
+    "iou_after": 0.6589147286821705,
+    "drop": 0.011629320325997505,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "peach",
+   "specimen": "Peach__Leaf_Curl__0063",
+   "arm": "G",
+   "label": "generic geometry",
+   "iou_before": 0.670544049008168,
+   "iou_after": 0.6711974345893157,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.670544049008168,
+    "iou_after": 0.6711974345893157,
+    "drop": -0.0006533855811476919,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.670544049008168,
+    "iou_after": 0.6711974345893157,
+    "drop": -0.0006533855811476919,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "peach",
+   "specimen": "Peach__Leaf_Curl__0063",
+   "arm": "J2_s0",
+   "label": "KB pucker, evidence-placed",
+   "iou_before": 0.670544049008168,
+   "iou_after": 0.6814769141489246,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.670544049008168,
+    "iou_after": 0.6814769141489246,
+    "drop": -0.010932865140756642,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.670544049008168,
+    "iou_after": 0.6814769141489246,
+    "drop": -0.010932865140756642,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "peach",
+   "specimen": "Peach__Leaf_Curl__0063",
+   "arm": "J2u_s0",
+   "label": "KB pucker, uniform",
+   "iou_before": 0.670544049008168,
+   "iou_after": 0.6792411766839567,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.670544049008168,
+    "iou_after": 0.6792411766839567,
+    "drop": -0.008697127675788674,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.670544049008168,
+    "iou_after": 0.6792411766839567,
+    "drop": -0.008697127675788674,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "peach",
+   "specimen": "Peach__Leaf_Curl__0063",
+   "arm": "J2_s1",
+   "label": "KB pucker, evidence-placed",
+   "iou_before": 0.670544049008168,
+   "iou_after": 0.6786679641042275,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.670544049008168,
+    "iou_after": 0.6786679641042275,
+    "drop": -0.008123915096059475,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.670544049008168,
+    "iou_after": 0.6786679641042275,
+    "drop": -0.008123915096059475,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "peach",
+   "specimen": "Peach__Leaf_Curl__0063",
+   "arm": "J2u_s1",
+   "label": "KB pucker, uniform",
+   "iou_before": 0.670544049008168,
+   "iou_after": 0.6759225954967268,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.670544049008168,
+    "iou_after": 0.6759225954967268,
+    "drop": -0.005378546488558844,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.670544049008168,
+    "iou_after": 0.6759225954967268,
+    "drop": -0.005378546488558844,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "peach",
+   "specimen": "Peach__Leaf_Curl__0063",
+   "arm": "J2_s2",
+   "label": "KB pucker, evidence-placed",
+   "iou_before": 0.670544049008168,
+   "iou_after": 0.6790203029326458,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.670544049008168,
+    "iou_after": 0.6790203029326458,
+    "drop": -0.008476253924477817,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.670544049008168,
+    "iou_after": 0.6790203029326458,
+    "drop": -0.008476253924477817,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "peach",
+   "specimen": "Peach__Leaf_Curl__0063",
+   "arm": "J2u_s2",
+   "label": "KB pucker, uniform",
+   "iou_before": 0.670544049008168,
+   "iou_after": 0.6772626616186871,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.670544049008168,
+    "iou_after": 0.6772626616186871,
+    "drop": -0.006718612610519092,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.670544049008168,
+    "iou_after": 0.6772626616186871,
+    "drop": -0.006718612610519092,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "peach",
+   "specimen": "Peach__Leaf_Curl__0063",
+   "arm": "J2+curl_up_HYP",
+   "label": "curl up (hypothesis)",
+   "iou_before": 0.670544049008168,
+   "iou_after": 0.5910827032504482,
+   "preserve_tau": {
+    "decision": "abstain",
+    "mode": "preserve",
+    "iou_before": 0.670544049008168,
+    "iou_after": 0.5910827032504482,
+    "drop": null,
+    "tau": 0.04561718688655503,
+    "reason": "KB does not specify this attribute; no edit"
+   },
+   "preserve_2tau": {
+    "decision": "abstain",
+    "mode": "preserve",
+    "iou_before": 0.670544049008168,
+    "iou_after": 0.5910827032504482,
+    "drop": null,
+    "tau": 0.09123437377311006,
+    "reason": "KB does not specify this attribute; no edit"
+   }
+  },
+  {
+   "demo": "peach",
+   "specimen": "Peach__Leaf_Curl__0063",
+   "arm": "J2+curl_down_HYP",
+   "label": "curl down (hypothesis)",
+   "iou_before": 0.670544049008168,
+   "iou_after": 0.5724762053362459,
+   "preserve_tau": {
+    "decision": "abstain",
+    "mode": "preserve",
+    "iou_before": 0.670544049008168,
+    "iou_after": 0.5724762053362459,
+    "drop": null,
+    "tau": 0.04561718688655503,
+    "reason": "KB does not specify this attribute; no edit"
+   },
+   "preserve_2tau": {
+    "decision": "abstain",
+    "mode": "preserve",
+    "iou_before": 0.670544049008168,
+    "iou_after": 0.5724762053362459,
+    "drop": null,
+    "tau": 0.09123437377311006,
+    "reason": "KB does not specify this attribute; no edit"
+   }
+  },
+  {
+   "demo": "peach",
+   "specimen": "Peach__Leaf_Curl__0087",
+   "arm": "J",
+   "label": "KB geometry v1",
+   "iou_before": 0.9460555972952667,
+   "iou_after": 0.8872089507106139,
+   "preserve_tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.9460555972952667,
+    "iou_after": 0.8872089507106139,
+    "drop": 0.05884664658465277,
+    "tau": 0.04561718688655503,
+    "reason": "fitted input-view IoU drops 0.059 > tau 0.046: contradicts the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9460555972952667,
+    "iou_after": 0.8872089507106139,
+    "drop": 0.05884664658465277,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "peach",
+   "specimen": "Peach__Leaf_Curl__0087",
+   "arm": "G",
+   "label": "generic geometry",
+   "iou_before": 0.9460555972952667,
+   "iou_after": 0.8658892128279884,
+   "preserve_tau": {
+    "decision": "refuse",
+    "mode": "preserve",
+    "iou_before": 0.9460555972952667,
+    "iou_after": 0.8658892128279884,
+    "drop": 0.0801663844672783,
+    "tau": 0.04561718688655503,
+    "reason": "fitted input-view IoU drops 0.080 > tau 0.046: contradicts the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9460555972952667,
+    "iou_after": 0.8658892128279884,
+    "drop": 0.0801663844672783,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "peach",
+   "specimen": "Peach__Leaf_Curl__0087",
+   "arm": "J2_s0",
+   "label": "KB pucker, evidence-placed",
+   "iou_before": 0.9460555972952667,
+   "iou_after": 0.9100568692008381,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9460555972952667,
+    "iou_after": 0.9100568692008381,
+    "drop": 0.03599872809442861,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9460555972952667,
+    "iou_after": 0.9100568692008381,
+    "drop": 0.03599872809442861,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "peach",
+   "specimen": "Peach__Leaf_Curl__0087",
+   "arm": "J2u_s0",
+   "label": "KB pucker, uniform",
+   "iou_before": 0.9460555972952667,
+   "iou_after": 0.9036738351254481,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9460555972952667,
+    "iou_after": 0.9036738351254481,
+    "drop": 0.04238176216981859,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9460555972952667,
+    "iou_after": 0.9036738351254481,
+    "drop": 0.04238176216981859,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "peach",
+   "specimen": "Peach__Leaf_Curl__0087",
+   "arm": "J2_s1",
+   "label": "KB pucker, evidence-placed",
+   "iou_before": 0.9460555972952667,
+   "iou_after": 0.9031789809841777,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9460555972952667,
+    "iou_after": 0.9031789809841777,
+    "drop": 0.042876616311088966,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9460555972952667,
+    "iou_after": 0.9031789809841777,
+    "drop": 0.042876616311088966,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "peach",
+   "specimen": "Peach__Leaf_Curl__0087",
+   "arm": "J2u_s1",
+   "label": "KB pucker, uniform",
+   "iou_before": 0.9460555972952667,
+   "iou_after": 0.9072615923009624,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9460555972952667,
+    "iou_after": 0.9072615923009624,
+    "drop": 0.0387940049943043,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9460555972952667,
+    "iou_after": 0.9072615923009624,
+    "drop": 0.0387940049943043,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "peach",
+   "specimen": "Peach__Leaf_Curl__0087",
+   "arm": "J2_s2",
+   "label": "KB pucker, evidence-placed",
+   "iou_before": 0.9460555972952667,
+   "iou_after": 0.9126329986512813,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9460555972952667,
+    "iou_after": 0.9126329986512813,
+    "drop": 0.033422598643985335,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9460555972952667,
+    "iou_after": 0.9126329986512813,
+    "drop": 0.033422598643985335,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "peach",
+   "specimen": "Peach__Leaf_Curl__0087",
+   "arm": "J2u_s2",
+   "label": "KB pucker, uniform",
+   "iou_before": 0.9460555972952667,
+   "iou_after": 0.9076785180758888,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9460555972952667,
+    "iou_after": 0.9076785180758888,
+    "drop": 0.03837707921937783,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9460555972952667,
+    "iou_after": 0.9076785180758888,
+    "drop": 0.03837707921937783,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "peach",
+   "specimen": "Peach__Leaf_Curl__0087",
+   "arm": "J2+curl_up_HYP",
+   "label": "curl up (hypothesis)",
+   "iou_before": 0.9460555972952667,
+   "iou_after": 0.716728855721393,
+   "preserve_tau": {
+    "decision": "abstain",
+    "mode": "preserve",
+    "iou_before": 0.9460555972952667,
+    "iou_after": 0.716728855721393,
+    "drop": null,
+    "tau": 0.04561718688655503,
+    "reason": "KB does not specify this attribute; no edit"
+   },
+   "preserve_2tau": {
+    "decision": "abstain",
+    "mode": "preserve",
+    "iou_before": 0.9460555972952667,
+    "iou_after": 0.716728855721393,
+    "drop": null,
+    "tau": 0.09123437377311006,
+    "reason": "KB does not specify this attribute; no edit"
+   }
+  },
+  {
+   "demo": "peach",
+   "specimen": "Peach__Leaf_Curl__0087",
+   "arm": "J2+curl_down_HYP",
+   "label": "curl down (hypothesis)",
+   "iou_before": 0.9460555972952667,
+   "iou_after": 0.782197835695778,
+   "preserve_tau": {
+    "decision": "abstain",
+    "mode": "preserve",
+    "iou_before": 0.9460555972952667,
+    "iou_after": 0.782197835695778,
+    "drop": null,
+    "tau": 0.04561718688655503,
+    "reason": "KB does not specify this attribute; no edit"
+   },
+   "preserve_2tau": {
+    "decision": "abstain",
+    "mode": "preserve",
+    "iou_before": 0.9460555972952667,
+    "iou_after": 0.782197835695778,
+    "drop": null,
+    "tau": 0.09123437377311006,
+    "reason": "KB does not specify this attribute; no edit"
+   }
+  },
+  {
+   "demo": "tomato",
+   "specimen": "Tomato__Leaf_Mold__0015",
+   "arm": "BLk_s0",
+   "label": "two-surface mold",
+   "iou_before": 0.9355245763730321,
+   "iou_after": 0.9320480780673569,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9355245763730321,
+    "iou_after": 0.9320480780673569,
+    "drop": 0.003476498305675202,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9355245763730321,
+    "iou_after": 0.9320480780673569,
+    "drop": 0.003476498305675202,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "tomato",
+   "specimen": "Tomato__Leaf_Mold__0015",
+   "arm": "BLr_s0",
+   "label": "two-surface, random",
+   "iou_before": 0.9355245763730321,
+   "iou_after": 0.9320480780673569,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9355245763730321,
+    "iou_after": 0.9320480780673569,
+    "drop": 0.003476498305675202,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9355245763730321,
+    "iou_after": 0.9320480780673569,
+    "drop": 0.003476498305675202,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "tomato",
+   "specimen": "Tomato__Leaf_Mold__0015",
+   "arm": "BLu_s0",
+   "label": "two-surface, uniform",
+   "iou_before": 0.9355245763730321,
+   "iou_after": 0.9320480780673569,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9355245763730321,
+    "iou_after": 0.9320480780673569,
+    "drop": 0.003476498305675202,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9355245763730321,
+    "iou_after": 0.9320480780673569,
+    "drop": 0.003476498305675202,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "tomato",
+   "specimen": "Tomato__Leaf_Mold__0015",
+   "arm": "BLk_s1",
+   "label": "two-surface mold",
+   "iou_before": 0.9355245763730321,
+   "iou_after": 0.9320480780673569,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9355245763730321,
+    "iou_after": 0.9320480780673569,
+    "drop": 0.003476498305675202,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9355245763730321,
+    "iou_after": 0.9320480780673569,
+    "drop": 0.003476498305675202,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "tomato",
+   "specimen": "Tomato__Leaf_Mold__0015",
+   "arm": "BLr_s1",
+   "label": "two-surface, random",
+   "iou_before": 0.9355245763730321,
+   "iou_after": 0.9320480780673569,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9355245763730321,
+    "iou_after": 0.9320480780673569,
+    "drop": 0.003476498305675202,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9355245763730321,
+    "iou_after": 0.9320480780673569,
+    "drop": 0.003476498305675202,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "tomato",
+   "specimen": "Tomato__Leaf_Mold__0015",
+   "arm": "BLu_s1",
+   "label": "two-surface, uniform",
+   "iou_before": 0.9355245763730321,
+   "iou_after": 0.9320480780673569,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9355245763730321,
+    "iou_after": 0.9320480780673569,
+    "drop": 0.003476498305675202,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9355245763730321,
+    "iou_after": 0.9320480780673569,
+    "drop": 0.003476498305675202,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "tomato",
+   "specimen": "Tomato__Leaf_Mold__0015",
+   "arm": "BLk_s2",
+   "label": "two-surface mold",
+   "iou_before": 0.9355245763730321,
+   "iou_after": 0.9320480780673569,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9355245763730321,
+    "iou_after": 0.9320480780673569,
+    "drop": 0.003476498305675202,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9355245763730321,
+    "iou_after": 0.9320480780673569,
+    "drop": 0.003476498305675202,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "tomato",
+   "specimen": "Tomato__Leaf_Mold__0015",
+   "arm": "BLr_s2",
+   "label": "two-surface, random",
+   "iou_before": 0.9355245763730321,
+   "iou_after": 0.9320480780673569,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9355245763730321,
+    "iou_after": 0.9320480780673569,
+    "drop": 0.003476498305675202,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9355245763730321,
+    "iou_after": 0.9320480780673569,
+    "drop": 0.003476498305675202,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "tomato",
+   "specimen": "Tomato__Leaf_Mold__0015",
+   "arm": "BLu_s2",
+   "label": "two-surface, uniform",
+   "iou_before": 0.9355245763730321,
+   "iou_after": 0.9320480780673569,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9355245763730321,
+    "iou_after": 0.9320480780673569,
+    "drop": 0.003476498305675202,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9355245763730321,
+    "iou_after": 0.9320480780673569,
+    "drop": 0.003476498305675202,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "tomato",
+   "specimen": "Tomato__Leaf_Mold__0052",
+   "arm": "BLk_s0",
+   "label": "two-surface mold",
+   "iou_before": 0.9207391872106367,
+   "iou_after": 0.9212357033368707,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9207391872106367,
+    "iou_after": 0.9212357033368707,
+    "drop": -0.0004965161262339146,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9207391872106367,
+    "iou_after": 0.9212357033368707,
+    "drop": -0.0004965161262339146,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "tomato",
+   "specimen": "Tomato__Leaf_Mold__0052",
+   "arm": "BLr_s0",
+   "label": "two-surface, random",
+   "iou_before": 0.9207391872106367,
+   "iou_after": 0.9212357033368707,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9207391872106367,
+    "iou_after": 0.9212357033368707,
+    "drop": -0.0004965161262339146,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9207391872106367,
+    "iou_after": 0.9212357033368707,
+    "drop": -0.0004965161262339146,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "tomato",
+   "specimen": "Tomato__Leaf_Mold__0052",
+   "arm": "BLu_s0",
+   "label": "two-surface, uniform",
+   "iou_before": 0.9207391872106367,
+   "iou_after": 0.9212357033368707,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9207391872106367,
+    "iou_after": 0.9212357033368707,
+    "drop": -0.0004965161262339146,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9207391872106367,
+    "iou_after": 0.9212357033368707,
+    "drop": -0.0004965161262339146,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "tomato",
+   "specimen": "Tomato__Leaf_Mold__0052",
+   "arm": "BLk_s1",
+   "label": "two-surface mold",
+   "iou_before": 0.9207391872106367,
+   "iou_after": 0.9212357033368707,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9207391872106367,
+    "iou_after": 0.9212357033368707,
+    "drop": -0.0004965161262339146,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9207391872106367,
+    "iou_after": 0.9212357033368707,
+    "drop": -0.0004965161262339146,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "tomato",
+   "specimen": "Tomato__Leaf_Mold__0052",
+   "arm": "BLr_s1",
+   "label": "two-surface, random",
+   "iou_before": 0.9207391872106367,
+   "iou_after": 0.9212357033368707,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9207391872106367,
+    "iou_after": 0.9212357033368707,
+    "drop": -0.0004965161262339146,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9207391872106367,
+    "iou_after": 0.9212357033368707,
+    "drop": -0.0004965161262339146,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "tomato",
+   "specimen": "Tomato__Leaf_Mold__0052",
+   "arm": "BLu_s1",
+   "label": "two-surface, uniform",
+   "iou_before": 0.9207391872106367,
+   "iou_after": 0.9212357033368707,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9207391872106367,
+    "iou_after": 0.9212357033368707,
+    "drop": -0.0004965161262339146,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9207391872106367,
+    "iou_after": 0.9212357033368707,
+    "drop": -0.0004965161262339146,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "tomato",
+   "specimen": "Tomato__Leaf_Mold__0052",
+   "arm": "BLk_s2",
+   "label": "two-surface mold",
+   "iou_before": 0.9207391872106367,
+   "iou_after": 0.9212357033368707,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9207391872106367,
+    "iou_after": 0.9212357033368707,
+    "drop": -0.0004965161262339146,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9207391872106367,
+    "iou_after": 0.9212357033368707,
+    "drop": -0.0004965161262339146,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "tomato",
+   "specimen": "Tomato__Leaf_Mold__0052",
+   "arm": "BLr_s2",
+   "label": "two-surface, random",
+   "iou_before": 0.9207391872106367,
+   "iou_after": 0.9212357033368707,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9207391872106367,
+    "iou_after": 0.9212357033368707,
+    "drop": -0.0004965161262339146,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9207391872106367,
+    "iou_after": 0.9212357033368707,
+    "drop": -0.0004965161262339146,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "tomato",
+   "specimen": "Tomato__Leaf_Mold__0052",
+   "arm": "BLu_s2",
+   "label": "two-surface, uniform",
+   "iou_before": 0.9207391872106367,
+   "iou_after": 0.9212357033368707,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9207391872106367,
+    "iou_after": 0.9212357033368707,
+    "drop": -0.0004965161262339146,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.9207391872106367,
+    "iou_after": 0.9212357033368707,
+    "drop": -0.0004965161262339146,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "tomato",
+   "specimen": "Tomato__Leaf_Mold__0092",
+   "arm": "BLk_s0",
+   "label": "two-surface mold",
+   "iou_before": 0.8353567704454045,
+   "iou_after": 0.8386275594908689,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.8353567704454045,
+    "iou_after": 0.8386275594908689,
+    "drop": -0.003270789045464406,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.8353567704454045,
+    "iou_after": 0.8386275594908689,
+    "drop": -0.003270789045464406,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "tomato",
+   "specimen": "Tomato__Leaf_Mold__0092",
+   "arm": "BLr_s0",
+   "label": "two-surface, random",
+   "iou_before": 0.8353567704454045,
+   "iou_after": 0.8386275594908689,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.8353567704454045,
+    "iou_after": 0.8386275594908689,
+    "drop": -0.003270789045464406,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.8353567704454045,
+    "iou_after": 0.8386275594908689,
+    "drop": -0.003270789045464406,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "tomato",
+   "specimen": "Tomato__Leaf_Mold__0092",
+   "arm": "BLu_s0",
+   "label": "two-surface, uniform",
+   "iou_before": 0.8353567704454045,
+   "iou_after": 0.8386275594908689,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.8353567704454045,
+    "iou_after": 0.8386275594908689,
+    "drop": -0.003270789045464406,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.8353567704454045,
+    "iou_after": 0.8386275594908689,
+    "drop": -0.003270789045464406,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "tomato",
+   "specimen": "Tomato__Leaf_Mold__0092",
+   "arm": "BLk_s1",
+   "label": "two-surface mold",
+   "iou_before": 0.8353567704454045,
+   "iou_after": 0.8386275594908689,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.8353567704454045,
+    "iou_after": 0.8386275594908689,
+    "drop": -0.003270789045464406,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.8353567704454045,
+    "iou_after": 0.8386275594908689,
+    "drop": -0.003270789045464406,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "tomato",
+   "specimen": "Tomato__Leaf_Mold__0092",
+   "arm": "BLr_s1",
+   "label": "two-surface, random",
+   "iou_before": 0.8353567704454045,
+   "iou_after": 0.8386275594908689,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.8353567704454045,
+    "iou_after": 0.8386275594908689,
+    "drop": -0.003270789045464406,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.8353567704454045,
+    "iou_after": 0.8386275594908689,
+    "drop": -0.003270789045464406,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "tomato",
+   "specimen": "Tomato__Leaf_Mold__0092",
+   "arm": "BLu_s1",
+   "label": "two-surface, uniform",
+   "iou_before": 0.8353567704454045,
+   "iou_after": 0.8386275594908689,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.8353567704454045,
+    "iou_after": 0.8386275594908689,
+    "drop": -0.003270789045464406,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.8353567704454045,
+    "iou_after": 0.8386275594908689,
+    "drop": -0.003270789045464406,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "tomato",
+   "specimen": "Tomato__Leaf_Mold__0092",
+   "arm": "BLk_s2",
+   "label": "two-surface mold",
+   "iou_before": 0.8353567704454045,
+   "iou_after": 0.8386275594908689,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.8353567704454045,
+    "iou_after": 0.8386275594908689,
+    "drop": -0.003270789045464406,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.8353567704454045,
+    "iou_after": 0.8386275594908689,
+    "drop": -0.003270789045464406,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "tomato",
+   "specimen": "Tomato__Leaf_Mold__0092",
+   "arm": "BLr_s2",
+   "label": "two-surface, random",
+   "iou_before": 0.8353567704454045,
+   "iou_after": 0.8386275594908689,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.8353567704454045,
+    "iou_after": 0.8386275594908689,
+    "drop": -0.003270789045464406,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.8353567704454045,
+    "iou_after": 0.8386275594908689,
+    "drop": -0.003270789045464406,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  },
+  {
+   "demo": "tomato",
+   "specimen": "Tomato__Leaf_Mold__0092",
+   "arm": "BLu_s2",
+   "label": "two-surface, uniform",
+   "iou_before": 0.8353567704454045,
+   "iou_after": 0.8386275594908689,
+   "preserve_tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.8353567704454045,
+    "iou_after": 0.8386275594908689,
+    "drop": -0.003270789045464406,
+    "tau": 0.04561718688655503,
+    "reason": "consistent with the photo"
+   },
+   "preserve_2tau": {
+    "decision": "accept",
+    "mode": "preserve",
+    "iou_before": 0.8353567704454045,
+    "iou_after": 0.8386275594908689,
+    "drop": -0.003270789045464406,
+    "tau": 0.09123437377311006,
+    "reason": "consistent with the photo"
+   }
+  }
+ ],
+ "by_edit": {
+  "corn|KB height field": {
+   "n": 3,
+   "accept": 1,
+   "refuse": 2,
+   "abstain": 0,
+   "accept_2tau": 1,
+   "drops": [
+    0.11364356014330912,
+    0.013421800357723779,
+    0.11459684890604793
+   ]
+  },
+  "corn|generic geometry": {
+   "n": 3,
+   "accept": 2,
+   "refuse": 1,
+   "abstain": 0,
+   "accept_2tau": 3,
+   "drops": [
+    0.0330936064541657,
+    0.005223625155847289,
+    0.08045479460221783
+   ]
+  },
+  "corn|volumetric galls on kernels": {
+   "n": 6,
+   "accept": 2,
+   "refuse": 4,
+   "abstain": 0,
+   "accept_2tau": 3,
+   "drops": [
+    0.15619823070124184,
+    0.05147132771273688,
+    0.1050118124560151,
+    0.0,
+    0.13425838573738802,
+    0.03465771734682099
+   ]
+  },
+  "corn|volumetric galls, random sites": {
+   "n": 6,
+   "accept": 1,
+   "refuse": 5,
+   "abstain": 0,
+   "accept_2tau": 3,
+   "drops": [
+    0.09977618145884692,
+    0.10406637238924499,
+    0.06257211750523084,
+    0.06015500846670008,
+    0.109216083824896,
+    0.03923690605639962
+   ]
+  },
+  "mango_curl|generic geometry": {
+   "n": 3,
+   "accept": 3,
+   "refuse": 0,
+   "abstain": 0,
+   "accept_2tau": 3,
+   "drops": [
+    -0.006116344013086916,
+    -0.0009764131137509624,
+    -0.0026513709362567806
+   ]
+  },
+  "mango_curl|KB curl (cited dir.)": {
+   "n": 9,
+   "accept": 0,
+   "refuse": 9,
+   "abstain": 0,
+   "accept_2tau": 0,
+   "drops": [
+    0.3303765514607825,
+    0.3290237310251998,
+    0.3279905273644501,
+    0.2789532664503823,
+    0.27917553524137195,
+    0.28134367396833504,
+    0.2584068653827768,
+    0.2549518830154005,
+    0.2608109484756874
+   ]
+  },
+  "mango_curl|reversed curl (control)": {
+   "n": 9,
+   "accept": 0,
+   "refuse": 9,
+   "abstain": 0,
+   "accept_2tau": 0,
+   "drops": [
+    0.30135670789281477,
+    0.29357145430477505,
+    0.30638026209822866,
+    0.20852427282221864,
+    0.20310692372006178,
+    0.20543052749489132,
+    0.17770220103909606,
+    0.18369023647113092,
+    0.177290935383577
+   ]
+  },
+  "peach|KB geometry v1": {
+   "n": 3,
+   "accept": 2,
+   "refuse": 1,
+   "abstain": 0,
+   "accept_2tau": 3,
+   "drops": [
+    -0.05581319597570866,
+    0.011629320325997505,
+    0.05884664658465277
+   ]
+  },
+  "peach|generic geometry": {
+   "n": 3,
+   "accept": 2,
+   "refuse": 1,
+   "abstain": 0,
+   "accept_2tau": 3,
+   "drops": [
+    -0.025127177009477086,
+    -0.0006533855811476919,
+    0.0801663844672783
+   ]
+  },
+  "peach|KB pucker, evidence-placed": {
+   "n": 9,
+   "accept": 9,
+   "refuse": 0,
+   "abstain": 0,
+   "accept_2tau": 9,
+   "drops": [
+    -0.018561398250579564,
+    -0.012383514194838852,
+    -0.021294178302620592,
+    -0.010932865140756642,
+    -0.008123915096059475,
+    -0.008476253924477817,
+    0.03599872809442861,
+    0.042876616311088966,
+    0.033422598643985335
+   ]
+  },
+  "peach|KB pucker, uniform": {
+   "n": 9,
+   "accept": 9,
+   "refuse": 0,
+   "abstain": 0,
+   "accept_2tau": 9,
+   "drops": [
+    -0.016764291626751637,
+    -0.0037662927040723604,
+    -0.021995904377397846,
+    -0.008697127675788674,
+    -0.005378546488558844,
+    -0.006718612610519092,
+    0.04238176216981859,
+    0.0387940049943043,
+    0.03837707921937783
+   ]
+  },
+  "peach|curl up (hypothesis)": {
+   "n": 3,
+   "accept": 0,
+   "refuse": 0,
+   "abstain": 3,
+   "accept_2tau": 0,
+   "drops": [
+    -0.05254048095764052,
+    0.07946134575771979,
+    0.22932674157387367
+   ]
+  },
+  "peach|curl down (hypothesis)": {
+   "n": 3,
+   "accept": 0,
+   "refuse": 0,
+   "abstain": 3,
+   "accept_2tau": 0,
+   "drops": [
+    0.014474781563774297,
+    0.09806784367192212,
+    0.16385776159948862
+   ]
+  },
+  "tomato|two-surface mold": {
+   "n": 9,
+   "accept": 9,
+   "refuse": 0,
+   "abstain": 0,
+   "accept_2tau": 9,
+   "drops": [
+    0.003476498305675202,
+    0.003476498305675202,
+    0.003476498305675202,
+    -0.0004965161262339146,
+    -0.0004965161262339146,
+    -0.0004965161262339146,
+    -0.003270789045464406,
+    -0.003270789045464406,
+    -0.003270789045464406
+   ]
+  },
+  "tomato|two-surface, random": {
+   "n": 9,
+   "accept": 9,
+   "refuse": 0,
+   "abstain": 0,
+   "accept_2tau": 9,
+   "drops": [
+    0.003476498305675202,
+    0.003476498305675202,
+    0.003476498305675202,
+    -0.0004965161262339146,
+    -0.0004965161262339146,
+    -0.0004965161262339146,
+    -0.003270789045464406,
+    -0.003270789045464406,
+    -0.003270789045464406
+   ]
+  },
+  "tomato|two-surface, uniform": {
+   "n": 9,
+   "accept": 9,
+   "refuse": 0,
+   "abstain": 0,
+   "accept_2tau": 9,
+   "drops": [
+    0.003476498305675202,
+    0.003476498305675202,
+    0.003476498305675202,
+    -0.0004965161262339146,
+    -0.0004965161262339146,
+    -0.0004965161262339146,
+    -0.003270789045464406,
+    -0.003270789045464406,
+    -0.003270789045464406
+   ]
+  }
+ }
+}

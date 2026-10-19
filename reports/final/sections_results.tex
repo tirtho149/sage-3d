@@ -1,0 +1,46 @@
+\section{Results}\label{sec:res}
+\begin{figure}[H]\centering\includegraphics[width=\linewidth]{figs/fig1_pipeline.png}\caption{Pipeline and data status.}\end{figure}
+
+\subsection{Input-view alignment (E1)}
+\input{tables/alignment.tex}
+
+\begin{figure}[H]\centering\includegraphics[width=\linewidth]{figs/fig2_alignment.png}\caption{Reconstruction debugging: A0 vs corrected pose A3*. Fitted, not verified.}\end{figure}
+
+\subsection{What GaussianEditor changes}
+\begin{figure}[H]\centering\includegraphics[width=\linewidth]{figs/fig5_displacement_Peach__Leaf_Curl__0087.png}\caption{Displacement heatmaps and geometry-only / appearance-only decomposition (Peach 0087).}\end{figure}
+
+\subsection{Geometry-aware editing and knowledge ablation}
+\begin{figure}[H]\centering\includegraphics[width=\linewidth]{figs/fig3_editing_Peach__Leaf_Curl__0087.png}\caption{All 3D arms of Peach 0087 on fixed rig views (synthetic, unverified).}\end{figure}
+
+\begin{figure}[H]\centering\includegraphics[width=\linewidth]{figs/fig4_kb_ablation_Peach__Leaf_Curl__0087.png}\caption{Knowledge ablation in 2D and 3D on Peach 0087.}\end{figure}
+
+\begin{figure}[H]\centering\includegraphics[width=\linewidth]{figs/fig6_attributes.png}\caption{Requested (KB) vs realised attributes per class.}\end{figure}
+
+\input{tables/specimen_metrics.tex}
+
+\input{tables/comparisons.tex}
+
+\input{tables/ablation.tex}
+
+\subsection{2D baselines}
+\begin{table}[H]\centering\scriptsize\caption{2D arms vs the real photo (specimen-averaged). Outside-mask change = changed area outside the organ mask $\div$ organ area (shape-change capacity).}\begin{tabular}{lrrrrr}\toprule Arm & n & $\Delta$E in organ & outside change & KB colour recall & unsupported colours\\\midrule
+B & 15 & 32.8 & 0.00 & 0.38 & 0.48\\
+C & 15 & 47.1 & 0.00 & 0.71 & 0.77\\
+C\_nogeo & 9 & 42.5 & 0.00 & 0.25 & 0.91\\
+C\_mismatch & 15 & 37.4 & 0.00 & 0.29 & 0.85\\
+C\_stage & 15 & 36.8 & 0.00 & 0.69 & 0.58\\
+I & 15 & 43.3 & 0.83 & 0.74 & 0.74\\
+\bottomrule\end{tabular}\end{table}
+\subsection{Cross-view consistency}
+\input{tables/crossview.tex}
+
+\begin{figure}[H]\centering\includegraphics[width=\linewidth]{figs/fig7_crossview_Peach__Leaf_Curl__0087.png}\caption{Per-view 2D edits vs one 3D asset (Peach 0087).}\end{figure}
+
+\subsection{Quality control and failures}
+\input{tables/qc.tex}
+
+\begin{figure}[H]\centering\includegraphics[width=\linewidth]{figs/fig9_failures.png}\caption{Failure taxonomy (real runs).}\end{figure}
+
+\subsection{What 3D adds, and what it does not}
+\begin{figure}[H]\centering\includegraphics[width=\linewidth]{figs/fig10_added_value_Peach__Leaf_Curl__0087.png}\caption{Added value of the 3D asset vs 2D editing, with a reconstruction failure.}\end{figure}
+

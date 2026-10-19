@@ -1,0 +1,9 @@
+{
+ "image": "data/inputs/Peach__Leaf_Curl__0087/image.png",
+ "mask": "data/inputs/Peach__Leaf_Curl__0087/0.png",
+ "prompt": "make this peach leaf show leaf curl: developing leaves become severely distorted; thickened and puckered; developing leaves have a reddish or purple cast",
+ "seed": 1,
+ "out": "results/phaseA/Peach__Leaf_Curl__0087/C_stage/seed1.png",
+ "arm": "C_stage",
+ "sec": 240.8
+}

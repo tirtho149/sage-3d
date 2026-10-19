@@ -1,0 +1,110 @@
+{
+ "input": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/pilot/sam3d/Mango__Anthracnose__0049/seed0/splat_ge.ply",
+ "spec": {
+  "seed": 2,
+  "ops": [
+   {
+    "amp": 0.006,
+    "sigma": 0.012,
+    "n": 12,
+    "op": "depress",
+    "kb_term": "sunken",
+    "kb_phrase": "The disease's symptoms show up as oval or irregular brown to deep brown sunken point-sized spots of varying sizes spread all over the leaf surface"
+   }
+  ],
+  "iters": 300
+ },
+ "mode": "sheet",
+ "L_bbox_diag": 1.0215073534052128,
+ "oplog": [
+  {
+   "op": "depress",
+   "n": 12,
+   "sigma": 0.012258088240862554
+  }
+ ],
+ "loss_history": [
+  {
+   "it": 0,
+   "total": 8.763110963627696e-05,
+   "edit": 4.6325805919570494e-21,
+   "arap": 0.0008763078367337584,
+   "smooth": 3.2422086349015444e-08,
+   "anchor": 0.0
+  },
+  {
+   "it": 50,
+   "total": 0.0005465987487696111,
+   "edit": 7.803759558555612e-07,
+   "arap": 0.005458031315356493,
+   "smooth": 1.5204382179945242e-06,
+   "anchor": 0.0
+  },
+  {
+   "it": 100,
+   "total": 9.034642425831407e-05,
+   "edit": 8.007417022781738e-07,
+   "arap": 0.000895315024536103,
+   "smooth": 1.4181578080751933e-06,
+   "anchor": 0.0
+  },
+  {
+   "it": 150,
+   "total": 0.00013104378012940288,
+   "edit": 8.142003480315907e-07,
+   "arap": 0.0013021547347307205,
+   "smooth": 1.4114016266830731e-06,
+   "anchor": 0.0
+  },
+  {
+   "it": 200,
+   "total": 0.00017331744311377406,
+   "edit": 8.202504773180408e-07,
+   "arap": 0.0017248312942683697,
+   "smooth": 1.4050873460291768e-06,
+   "anchor": 0.0
+  },
+  {
+   "it": 250,
+   "total": 0.0002384512627031654,
+   "edit": 8.249351708400354e-07,
+   "arap": 0.002376123098656535,
+   "smooth": 1.4020340586284874e-06,
+   "anchor": 0.0
+  },
+  {
+   "it": 299,
+   "total": 0.00022117170738056302,
+   "edit": 8.32365856240358e-07,
+   "arap": 0.0022032535634934902,
+   "smooth": 1.3988310456625186e-06,
+   "anchor": 0.0
+  }
+ ],
+ "lambdas": {
+  "edit": 1.0,
+  "arap": 0.1,
+  "smooth": 0.01,
+  "anchor": 1.0
+ },
+ "sec": 7.4918224811553955,
+ "target_normal_rms_rel": 0.001132964091097069,
+ "realised_normal_rms_rel": 0.0013617529717187792,
+ "edit_fidelity_corr": 0.7186011946809863,
+ "disp_rel": {
+  "median": 0.0006523435562117589,
+  "p95": 0.0033739114453327753
+ },
+ "edge_stretch": {
+  "median_abs": 0.005741515194600866,
+  "p95_abs": 0.05770187961206477
+ },
+ "normal_change_deg": {
+  "median": 4.008802169911853,
+  "p95": 26.13548335789404
+ },
+ "displacement_in_region_frac": 0.9999999999999595,
+ "thicken_factor": 1.0,
+ "thicken_applied_frac": 0.0,
+ "n": 23136
+}

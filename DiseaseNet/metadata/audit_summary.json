@@ -1,0 +1,25 @@
+{
+ "rows": 820502,
+ "image_rows": 820502,
+ "unique_images": 604514,
+ "exact_duplicate_rows": 215988,
+ "images_with_conflicting_labels": 6228,
+ "crops": 335,
+ "classes": 1252,
+ "classes_with_kb": 635,
+ "tiers": {
+  "D": 1057,
+  "B": 135,
+  "C": 60
+ },
+ "tier_A": 120,
+ "tier_A_geometry": 45,
+ "exclusion_reasons": {
+  "no source-grounded KB text": 617,
+  "< 30 unique images": 361,
+  "organ not reconstructable (...)": 70,
+  "> 20% of images carry conflicting labels": 7,
+  "no supported symptom term": 2
+ },
+ "unique_images_in_eligible": 428030
+}

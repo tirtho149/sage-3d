@@ -1,0 +1,10 @@
+{
+ "figure": "fig10_added_value_Peach__Leaf_Curl__0087",
+ "generated": "2026-10-14 15:50:08",
+ "sources": [
+  "data/inputs/Peach__Leaf_Curl__0087",
+  "results/phaseA/Peach__Leaf_Curl__0087",
+  "results/alignment/Peach__Leaf_Curl__0006"
+ ],
+ "caption": "Added value of a KB-edited 3D asset vs 2D editing. Row 1: all at the input camera - the 3D geometric edit is barely visible from the photo's viewpoint. Row 2: views absent from the photo, where the edit is visible; these are synthetic and unverified. Row 3: a reconstruction failure (curled leaf reconstructed as a closed ring)."
+}

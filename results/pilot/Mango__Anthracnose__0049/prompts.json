@@ -1,0 +1,10 @@
+{
+ "specimen": "Mango__Anthracnose/0049",
+ "organ": "leaf",
+ "prompts": {
+  "generic": "add disease symptoms to the leaf",
+  "kb": "make this mango leaf show anthracnose: symptoms show up as oval or irregular brown to deep brown sunken point-sized spots of varying sizes spread all over the leaf; as the leaves age, these spots develop into larger lesions that are either circular or irregular in shape and surrounded by a",
+  "kb_no_geometry": "make this mango leaf show anthracnose: as the leaves age, these spots develop into larger lesions that are either circular or irregular in shape and surrounded by a",
+  "kb_mismatched": "make this mango leaf show bacterial canker: the spots merge, destroying large areas of the leaves, and as they age they turn grey and crack"
+ }
+}

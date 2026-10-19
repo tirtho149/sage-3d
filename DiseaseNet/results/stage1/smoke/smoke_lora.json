@@ -1,0 +1,39 @@
+{
+ "set": "U3D",
+ "args": {
+  "set": "U3D",
+  "mode": "lora",
+  "k": 2,
+  "r": 8,
+  "lr_head": 0.001,
+  "lr_bb": 2e-05,
+  "llrd": 1.0,
+  "wd": 0.05,
+  "ls": 0.0,
+  "balanced": false,
+  "epochs": 1,
+  "clip": 1.0,
+  "aug": "std",
+  "seed": 0,
+  "bs": 64,
+  "val_fold": 0,
+  "final": null,
+  "tag": "smoke_lora",
+  "out": "results/stage1/smoke"
+ },
+ "n_train": 1280,
+ "steps": 20,
+ "history": [
+  {
+   "epoch": 0,
+   "train_loss": 2.5798657298088075,
+   "val_loss": 2.674467086791992,
+   "val_macro_f1": 0.1856068454663132
+  }
+ ],
+ "train_sec": 70.6,
+ "trainable_params": 155156,
+ "best_val_macro_f1": 0.1856068454663132,
+ "best_epoch": 0,
+ "last_val_macro_f1": 0.1856068454663132
+}

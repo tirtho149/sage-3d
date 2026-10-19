@@ -1,0 +1,2256 @@
+{
+ "data_status": "SIMULATED RATINGS - NOT EXPERT DATA. No real expert ratings exist yet (as of 2026-10-14).",
+ "key": "results/review_package_v1/key_DO_NOT_SHARE.csv",
+ "ratings": [
+  "results/review_package_v1/dryrun_SIMULATED/ratings"
+ ],
+ "raters": [
+  "SIM01",
+  "SIM02",
+  "SIM03"
+ ],
+ "raters_excluded": [],
+ "raters_used_for_method_effect": [
+  "SIM01",
+  "SIM02",
+  "SIM03"
+ ],
+ "unknown_item_ids": [],
+ "agreement": {
+  "per_criterion": {
+   "a_symptom_match": {
+    "alpha": 0.155187672350927,
+    "ci95": [
+     0.012032255705313794,
+     0.28589368827373945
+    ],
+    "level": "ordinal",
+    "n_items": 72,
+    "n_raters": 3,
+    "n_pairable_values": 216
+   },
+   "b_distribution": {
+    "alpha": 0.2858809598111305,
+    "ci95": [
+     0.1276756674378181,
+     0.4259163780653905
+    ],
+    "level": "ordinal",
+    "n_items": 72,
+    "n_raters": 3,
+    "n_pairable_values": 216
+   },
+   "c_geometry": {
+    "alpha": 0.232262148672975,
+    "ci95": [
+     0.07817117592257493,
+     0.36895929457314386
+    ],
+    "level": "ordinal",
+    "n_items": 72,
+    "n_raters": 3,
+    "n_pairable_values": 216
+   },
+   "d_surface": {
+    "alpha": 0.2624609745859877,
+    "ci95": [
+     0.09089615381103612,
+     0.4099874121560428
+    ],
+    "level": "ordinal",
+    "n_items": 72,
+    "n_raters": 3,
+    "n_pairable_values": 216
+   },
+   "e_artefacts": {
+    "alpha": 0.09050229015168654,
+    "ci95": [
+     -0.08224450427189056,
+     0.23877410664739612
+    ],
+    "level": "ordinal",
+    "n_items": 72,
+    "n_raters": 3,
+    "n_pairable_values": 216
+   },
+   "f_overall_accept": {
+    "alpha": 0.24802075262814083,
+    "ci95": [
+     0.09969927462627316,
+     0.38533993403958194
+    ],
+    "level": "ordinal",
+    "n_items": 72,
+    "n_raters": 3,
+    "n_pairable_values": 216
+   },
+   "prohibited_feature": {
+    "alpha": 0.03673835125448033,
+    "ci95": [
+     -0.08062827225130897,
+     0.16015625
+    ],
+    "level": "nominal",
+    "n_items": 72,
+    "n_raters": 3,
+    "n_pairable_values": 216
+   }
+  },
+  "pairwise_kappa": [
+   {
+    "criterion": "a_symptom_match",
+    "rater_a": "SIM01",
+    "rater_b": "SIM02",
+    "kappa_quadratic": 0.15526315789473677,
+    "n_items": 72
+   },
+   {
+    "criterion": "a_symptom_match",
+    "rater_a": "SIM01",
+    "rater_b": "SIM03",
+    "kappa_quadratic": 0.12132701421800973,
+    "n_items": 72
+   },
+   {
+    "criterion": "a_symptom_match",
+    "rater_a": "SIM02",
+    "rater_b": "SIM03",
+    "kappa_quadratic": 0.2620320855614974,
+    "n_items": 72
+   },
+   {
+    "criterion": "b_distribution",
+    "rater_a": "SIM01",
+    "rater_b": "SIM02",
+    "kappa_quadratic": 0.2238427393785668,
+    "n_items": 72
+   },
+   {
+    "criterion": "b_distribution",
+    "rater_a": "SIM01",
+    "rater_b": "SIM03",
+    "kappa_quadratic": 0.438770899231812,
+    "n_items": 72
+   },
+   {
+    "criterion": "b_distribution",
+    "rater_a": "SIM02",
+    "rater_b": "SIM03",
+    "kappa_quadratic": 0.29910141206675245,
+    "n_items": 72
+   },
+   {
+    "criterion": "c_geometry",
+    "rater_a": "SIM01",
+    "rater_b": "SIM02",
+    "kappa_quadratic": 0.2845188284518828,
+    "n_items": 72
+   },
+   {
+    "criterion": "c_geometry",
+    "rater_a": "SIM01",
+    "rater_b": "SIM03",
+    "kappa_quadratic": 0.39120631341600887,
+    "n_items": 72
+   },
+   {
+    "criterion": "c_geometry",
+    "rater_a": "SIM02",
+    "rater_b": "SIM03",
+    "kappa_quadratic": 0.2417582417582419,
+    "n_items": 72
+   },
+   {
+    "criterion": "d_surface",
+    "rater_a": "SIM01",
+    "rater_b": "SIM02",
+    "kappa_quadratic": 0.23611111111111105,
+    "n_items": 72
+   },
+   {
+    "criterion": "d_surface",
+    "rater_a": "SIM01",
+    "rater_b": "SIM03",
+    "kappa_quadratic": 0.3529411764705882,
+    "n_items": 72
+   },
+   {
+    "criterion": "d_surface",
+    "rater_a": "SIM02",
+    "rater_b": "SIM03",
+    "kappa_quadratic": 0.40582524271844655,
+    "n_items": 72
+   },
+   {
+    "criterion": "e_artefacts",
+    "rater_a": "SIM01",
+    "rater_b": "SIM02",
+    "kappa_quadratic": 0.1413969335604769,
+    "n_items": 72
+   },
+   {
+    "criterion": "e_artefacts",
+    "rater_a": "SIM01",
+    "rater_b": "SIM03",
+    "kappa_quadratic": 0.35443037974683544,
+    "n_items": 72
+   },
+   {
+    "criterion": "e_artefacts",
+    "rater_a": "SIM02",
+    "rater_b": "SIM03",
+    "kappa_quadratic": 0.0960000000000002,
+    "n_items": 72
+   },
+   {
+    "criterion": "f_overall_accept",
+    "rater_a": "SIM01",
+    "rater_b": "SIM02",
+    "kappa_quadratic": 0.24859110832811515,
+    "n_items": 72
+   },
+   {
+    "criterion": "f_overall_accept",
+    "rater_a": "SIM01",
+    "rater_b": "SIM03",
+    "kappa_quadratic": 0.48071495766698025,
+    "n_items": 72
+   },
+   {
+    "criterion": "f_overall_accept",
+    "rater_a": "SIM02",
+    "rater_b": "SIM03",
+    "kappa_quadratic": 0.2076190476190477,
+    "n_items": 72
+   }
+  ],
+  "icc": {
+   "a_symptom_match": {
+    "ICC(2,k)": 0.40136244346418,
+    "ICC(2,1)": 0.18266371883814897,
+    "n_complete_items": 72,
+    "k_raters": 3
+   },
+   "b_distribution": {
+    "ICC(2,k)": 0.5865854742643788,
+    "ICC(2,1)": 0.3210948905109487,
+    "n_complete_items": 72,
+    "k_raters": 3
+   },
+   "c_geometry": {
+    "ICC(2,k)": 0.5642563794933318,
+    "ICC(2,1)": 0.30150159035431595,
+    "n_complete_items": 72,
+    "k_raters": 3
+   },
+   "d_surface": {
+    "ICC(2,k)": 0.5921461531217628,
+    "ICC(2,1)": 0.3261241636844561,
+    "n_complete_items": 72,
+    "k_raters": 3
+   },
+   "e_artefacts": {
+    "ICC(2,k)": 0.391806331471136,
+    "ICC(2,1)": 0.17677701226684595,
+    "n_complete_items": 72,
+    "k_raters": 3
+   },
+   "f_overall_accept": {
+    "ICC(2,k)": 0.5560280140070034,
+    "ICC(2,1)": 0.2945151033386327,
+    "n_complete_items": 72,
+    "k_raters": 3
+   }
+  },
+  "intra_rater": {
+   "SIM01": {
+    "a_symptom_match": {
+     "n_pairs": 9,
+     "kappa_quadratic": 0.45999999999999985,
+     "exact_agreement": 0.5555555555555556,
+     "mean_abs_diff": 0.6666666666666666
+    },
+    "b_distribution": {
+     "n_pairs": 9,
+     "kappa_quadratic": 0.5970149253731343,
+     "exact_agreement": 0.3333333333333333,
+     "mean_abs_diff": 0.6666666666666666
+    },
+    "c_geometry": {
+     "n_pairs": 9,
+     "kappa_quadratic": 0.4,
+     "exact_agreement": 0.3333333333333333,
+     "mean_abs_diff": 0.7777777777777778
+    },
+    "d_surface": {
+     "n_pairs": 9,
+     "kappa_quadratic": 0.07692307692307687,
+     "exact_agreement": 0.4444444444444444,
+     "mean_abs_diff": 0.6666666666666666
+    },
+    "e_artefacts": {
+     "n_pairs": 9,
+     "kappa_quadratic": 0.6017699115044248,
+     "exact_agreement": 0.4444444444444444,
+     "mean_abs_diff": 0.5555555555555556
+    },
+    "f_overall_accept": {
+     "n_pairs": 9,
+     "kappa_quadratic": 0.6400000000000001,
+     "exact_agreement": 0.6666666666666666,
+     "mean_abs_diff": 0.3333333333333333
+    }
+   },
+   "SIM02": {
+    "a_symptom_match": {
+     "n_pairs": 9,
+     "kappa_quadratic": 0.4374999999999999,
+     "exact_agreement": 0.3333333333333333,
+     "mean_abs_diff": 0.6666666666666666
+    },
+    "b_distribution": {
+     "n_pairs": 9,
+     "kappa_quadratic": 0.09999999999999987,
+     "exact_agreement": 0.2222222222222222,
+     "mean_abs_diff": 0.8888888888888888
+    },
+    "c_geometry": {
+     "n_pairs": 9,
+     "kappa_quadratic": 0.6493506493506493,
+     "exact_agreement": 0.6666666666666666,
+     "mean_abs_diff": 0.3333333333333333
+    },
+    "d_surface": {
+     "n_pairs": 9,
+     "kappa_quadratic": 0.22857142857142854,
+     "exact_agreement": 0.3333333333333333,
+     "mean_abs_diff": 0.7777777777777778
+    },
+    "e_artefacts": {
+     "n_pairs": 9,
+     "kappa_quadratic": 0.48275862068965514,
+     "exact_agreement": 0.7777777777777778,
+     "mean_abs_diff": 0.3333333333333333
+    },
+    "f_overall_accept": {
+     "n_pairs": 9,
+     "kappa_quadratic": -0.4210526315789478,
+     "exact_agreement": 0.0,
+     "mean_abs_diff": 1.1111111111111112
+    }
+   },
+   "SIM03": {
+    "a_symptom_match": {
+     "n_pairs": 9,
+     "kappa_quadratic": 0.5714285714285714,
+     "exact_agreement": 0.4444444444444444,
+     "mean_abs_diff": 0.5555555555555556
+    },
+    "b_distribution": {
+     "n_pairs": 9,
+     "kappa_quadratic": -0.16793893129770998,
+     "exact_agreement": 0.1111111111111111,
+     "mean_abs_diff": 1.2222222222222223
+    },
+    "c_geometry": {
+     "n_pairs": 9,
+     "kappa_quadratic": 0.2831858407079646,
+     "exact_agreement": 0.3333333333333333,
+     "mean_abs_diff": 0.7777777777777778
+    },
+    "d_surface": {
+     "n_pairs": 9,
+     "kappa_quadratic": 0.49056603773584906,
+     "exact_agreement": 0.3333333333333333,
+     "mean_abs_diff": 0.6666666666666666
+    },
+    "e_artefacts": {
+     "n_pairs": 9,
+     "kappa_quadratic": 0.5384615384615384,
+     "exact_agreement": 0.5555555555555556,
+     "mean_abs_diff": 0.4444444444444444
+    },
+    "f_overall_accept": {
+     "n_pairs": 9,
+     "kappa_quadratic": 0.5190839694656488,
+     "exact_agreement": 0.5555555555555556,
+     "mean_abs_diff": 0.5555555555555556
+    }
+   }
+  },
+  "catch": {
+   "SIM01": {
+    "n": 3,
+    "passed": 2,
+    "pass_rate": 0.6666666666666666,
+    "flagged": false
+   },
+   "SIM02": {
+    "n": 3,
+    "passed": 2,
+    "pass_rate": 0.6666666666666666,
+    "flagged": false
+   },
+   "SIM03": {
+    "n": 3,
+    "passed": 3,
+    "pass_rate": 1.0,
+    "flagged": false
+   }
+  }
+ },
+ "method_effect": {
+  "per_method": [
+   {
+    "criterion": "a_symptom_match",
+    "method": "B",
+    "family": "generic-2D",
+    "mean": 3.148148148148148,
+    "ci95": [
+     2.7777777777777777,
+     3.518518518518518
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "a_symptom_match",
+    "method": "C_stage",
+    "family": "KB-2D",
+    "mean": 3.6296296296296293,
+    "ci95": [
+     3.2592592592592595,
+     3.888888888888889
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "a_symptom_match",
+    "method": "D",
+    "family": "unedited-3D",
+    "mean": 3.185185185185185,
+    "ci95": [
+     2.740740740740741,
+     3.5555555555555554
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "a_symptom_match",
+    "method": "E",
+    "family": "generic-3D",
+    "mean": 2.6296296296296298,
+    "ci95": [
+     2.4074074074074074,
+     2.814814814814815
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "a_symptom_match",
+    "method": "G",
+    "family": "generic-3D",
+    "mean": 3.2777777777777772,
+    "ci95": [
+     2.8333333333333335,
+     3.722222222222222
+    ],
+    "n_items": 6,
+    "n_specimens": 6
+   },
+   {
+    "criterion": "a_symptom_match",
+    "method": "H",
+    "family": "KB-3D",
+    "mean": 3.5555555555555554,
+    "ci95": [
+     3.0555555555555554,
+     4.111111111111112
+    ],
+    "n_items": 6,
+    "n_specimens": 6
+   },
+   {
+    "criterion": "a_symptom_match",
+    "method": "I",
+    "family": "shape-2D",
+    "mean": 2.9999999999999996,
+    "ci95": [
+     2.6666666666666665,
+     3.2962962962962963
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "a_symptom_match",
+    "method": "J",
+    "family": "KB-3D",
+    "mean": 3.5000000000000004,
+    "ci95": [
+     3.111111111111111,
+     3.777777777777778
+    ],
+    "n_items": 6,
+    "n_specimens": 6
+   },
+   {
+    "criterion": "a_symptom_match",
+    "method": "K",
+    "family": "KB-3D",
+    "mean": 3.3333333333333335,
+    "ci95": [
+     3.0740740740740744,
+     3.592592592592592
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "b_distribution",
+    "method": "B",
+    "family": "generic-2D",
+    "mean": 3.185185185185185,
+    "ci95": [
+     2.7777777777777777,
+     3.5555555555555554
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "b_distribution",
+    "method": "C_stage",
+    "family": "KB-2D",
+    "mean": 3.444444444444444,
+    "ci95": [
+     3.111111111111111,
+     3.8148148148148144
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "b_distribution",
+    "method": "D",
+    "family": "unedited-3D",
+    "mean": 2.6296296296296298,
+    "ci95": [
+     2.2962962962962963,
+     2.9629629629629632
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "b_distribution",
+    "method": "E",
+    "family": "generic-3D",
+    "mean": 2.481481481481482,
+    "ci95": [
+     2.111111111111111,
+     2.8888888888888893
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "b_distribution",
+    "method": "G",
+    "family": "generic-3D",
+    "mean": 2.6666666666666665,
+    "ci95": [
+     2.277777777777778,
+     3.111111111111111
+    ],
+    "n_items": 6,
+    "n_specimens": 6
+   },
+   {
+    "criterion": "b_distribution",
+    "method": "H",
+    "family": "KB-3D",
+    "mean": 3.777777777777778,
+    "ci95": [
+     3.4430555555555555,
+     4.111111111111111
+    ],
+    "n_items": 6,
+    "n_specimens": 6
+   },
+   {
+    "criterion": "b_distribution",
+    "method": "I",
+    "family": "shape-2D",
+    "mean": 3.185185185185185,
+    "ci95": [
+     2.851851851851852,
+     3.5555555555555554
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "b_distribution",
+    "method": "J",
+    "family": "KB-3D",
+    "mean": 3.444444444444444,
+    "ci95": [
+     3.0555555555555554,
+     3.8333333333333335
+    ],
+    "n_items": 6,
+    "n_specimens": 6
+   },
+   {
+    "criterion": "b_distribution",
+    "method": "K",
+    "family": "KB-3D",
+    "mean": 3.3703703703703702,
+    "ci95": [
+     3.111111111111111,
+     3.592592592592593
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "c_geometry",
+    "method": "B",
+    "family": "generic-2D",
+    "mean": 2.9999999999999996,
+    "ci95": [
+     2.703703703703704,
+     3.407407407407407
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "c_geometry",
+    "method": "C_stage",
+    "family": "KB-2D",
+    "mean": 3.6296296296296293,
+    "ci95": [
+     3.258333333333333,
+     3.962962962962963
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "c_geometry",
+    "method": "D",
+    "family": "unedited-3D",
+    "mean": 2.814814814814815,
+    "ci95": [
+     2.4074074074074074,
+     3.185185185185185
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "c_geometry",
+    "method": "E",
+    "family": "generic-3D",
+    "mean": 2.7037037037037037,
+    "ci95": [
+     2.333333333333334,
+     3.037037037037037
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "c_geometry",
+    "method": "G",
+    "family": "generic-3D",
+    "mean": 2.722222222222222,
+    "ci95": [
+     2.388888888888889,
+     3.055555555555556
+    ],
+    "n_items": 6,
+    "n_specimens": 6
+   },
+   {
+    "criterion": "c_geometry",
+    "method": "H",
+    "family": "KB-3D",
+    "mean": 3.944444444444444,
+    "ci95": [
+     3.666666666666666,
+     4.222222222222221
+    ],
+    "n_items": 6,
+    "n_specimens": 6
+   },
+   {
+    "criterion": "c_geometry",
+    "method": "I",
+    "family": "shape-2D",
+    "mean": 3.185185185185185,
+    "ci95": [
+     2.888888888888889,
+     3.5555555555555554
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "c_geometry",
+    "method": "J",
+    "family": "KB-3D",
+    "mean": 3.5000000000000004,
+    "ci95": [
+     3.2763888888888886,
+     3.7222222222222228
+    ],
+    "n_items": 6,
+    "n_specimens": 6
+   },
+   {
+    "criterion": "c_geometry",
+    "method": "K",
+    "family": "KB-3D",
+    "mean": 3.3703703703703702,
+    "ci95": [
+     3.111111111111111,
+     3.6666666666666665
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "d_surface",
+    "method": "B",
+    "family": "generic-2D",
+    "mean": 2.814814814814815,
+    "ci95": [
+     2.481481481481482,
+     3.0740740740740744
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "d_surface",
+    "method": "C_stage",
+    "family": "KB-2D",
+    "mean": 3.333333333333334,
+    "ci95": [
+     2.9999999999999996,
+     3.6296296296296293
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "d_surface",
+    "method": "D",
+    "family": "unedited-3D",
+    "mean": 2.6666666666666665,
+    "ci95": [
+     2.259259259259259,
+     3.0740740740740744
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "d_surface",
+    "method": "E",
+    "family": "generic-3D",
+    "mean": 2.8518518518518516,
+    "ci95": [
+     2.5925925925925926,
+     3.0740740740740744
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "d_surface",
+    "method": "G",
+    "family": "generic-3D",
+    "mean": 2.611111111111111,
+    "ci95": [
+     2.0,
+     3.111111111111111
+    ],
+    "n_items": 6,
+    "n_specimens": 6
+   },
+   {
+    "criterion": "d_surface",
+    "method": "H",
+    "family": "KB-3D",
+    "mean": 3.777777777777778,
+    "ci95": [
+     3.4444444444444446,
+     4.166666666666667
+    ],
+    "n_items": 6,
+    "n_specimens": 6
+   },
+   {
+    "criterion": "d_surface",
+    "method": "I",
+    "family": "shape-2D",
+    "mean": 3.3333333333333335,
+    "ci95": [
+     3.036111111111111,
+     3.6296296296296293
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "d_surface",
+    "method": "J",
+    "family": "KB-3D",
+    "mean": 3.4444444444444446,
+    "ci95": [
+     3.0555555555555554,
+     3.8333333333333335
+    ],
+    "n_items": 6,
+    "n_specimens": 6
+   },
+   {
+    "criterion": "d_surface",
+    "method": "K",
+    "family": "KB-3D",
+    "mean": 3.3333333333333335,
+    "ci95": [
+     3.0,
+     3.7777777777777777
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "e_artefacts",
+    "method": "B",
+    "family": "generic-2D",
+    "mean": 2.814814814814815,
+    "ci95": [
+     2.5555555555555554,
+     3.0009259259259253
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "e_artefacts",
+    "method": "C_stage",
+    "family": "KB-2D",
+    "mean": 3.5555555555555554,
+    "ci95": [
+     3.185185185185185,
+     3.9259259259259256
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "e_artefacts",
+    "method": "D",
+    "family": "unedited-3D",
+    "mean": 2.888888888888889,
+    "ci95": [
+     2.5925925925925926,
+     3.2222222222222223
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "e_artefacts",
+    "method": "E",
+    "family": "generic-3D",
+    "mean": 2.9259259259259256,
+    "ci95": [
+     2.5185185185185186,
+     3.2601851851851844
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "e_artefacts",
+    "method": "G",
+    "family": "generic-3D",
+    "mean": 2.7777777777777772,
+    "ci95": [
+     2.555555555555556,
+     2.9444444444444446
+    ],
+    "n_items": 6,
+    "n_specimens": 6
+   },
+   {
+    "criterion": "e_artefacts",
+    "method": "H",
+    "family": "KB-3D",
+    "mean": 3.444444444444444,
+    "ci95": [
+     3.111111111111111,
+     3.7222222222222228
+    ],
+    "n_items": 6,
+    "n_specimens": 6
+   },
+   {
+    "criterion": "e_artefacts",
+    "method": "I",
+    "family": "shape-2D",
+    "mean": 3.148148148148148,
+    "ci95": [
+     2.8518518518518516,
+     3.4814814814814814
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "e_artefacts",
+    "method": "J",
+    "family": "KB-3D",
+    "mean": 3.388888888888889,
+    "ci95": [
+     3.222222222222222,
+     3.555555555555556
+    ],
+    "n_items": 6,
+    "n_specimens": 6
+   },
+   {
+    "criterion": "e_artefacts",
+    "method": "K",
+    "family": "KB-3D",
+    "mean": 3.2592592592592595,
+    "ci95": [
+     3.0370370370370368,
+     3.5185185185185186
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "f_overall_accept",
+    "method": "B",
+    "family": "generic-2D",
+    "mean": 2.9629629629629632,
+    "ci95": [
+     2.6296296296296298,
+     3.259259259259259
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "f_overall_accept",
+    "method": "C_stage",
+    "family": "KB-2D",
+    "mean": 3.1111111111111116,
+    "ci95": [
+     2.814814814814815,
+     3.4444444444444446
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "f_overall_accept",
+    "method": "D",
+    "family": "unedited-3D",
+    "mean": 2.8518518518518516,
+    "ci95": [
+     2.481481481481482,
+     3.185185185185185
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "f_overall_accept",
+    "method": "E",
+    "family": "generic-3D",
+    "mean": 2.851851851851852,
+    "ci95": [
+     2.5925925925925926,
+     3.185185185185185
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "f_overall_accept",
+    "method": "G",
+    "family": "generic-3D",
+    "mean": 2.8333333333333335,
+    "ci95": [
+     2.3875,
+     3.3333333333333335
+    ],
+    "n_items": 6,
+    "n_specimens": 6
+   },
+   {
+    "criterion": "f_overall_accept",
+    "method": "H",
+    "family": "KB-3D",
+    "mean": 3.277777777777778,
+    "ci95": [
+     2.777777777777778,
+     3.722222222222222
+    ],
+    "n_items": 6,
+    "n_specimens": 6
+   },
+   {
+    "criterion": "f_overall_accept",
+    "method": "I",
+    "family": "shape-2D",
+    "mean": 3.2592592592592595,
+    "ci95": [
+     2.7407407407407405,
+     3.703703703703704
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "f_overall_accept",
+    "method": "J",
+    "family": "KB-3D",
+    "mean": 3.1666666666666665,
+    "ci95": [
+     2.944444444444444,
+     3.3888888888888893
+    ],
+    "n_items": 6,
+    "n_specimens": 6
+   },
+   {
+    "criterion": "f_overall_accept",
+    "method": "K",
+    "family": "KB-3D",
+    "mean": 3.185185185185185,
+    "ci95": [
+     2.703703703703704,
+     3.6296296296296293
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   }
+  ],
+  "comparisons": [
+   {
+    "criterion": "a_symptom_match",
+    "a": "KB-3D",
+    "b": "KB-2D",
+    "n_specimens": 9,
+    "mean_diff": -0.23456790123456794,
+    "ci95": [
+     -0.5682098765432101,
+     0.08672839506172805
+    ],
+    "p_signflip": 0.28125,
+    "status": "secondary (exploratory, unadjusted)",
+    "agreement_alpha": 0.155187672350927,
+    "interpretable": false
+   },
+   {
+    "criterion": "a_symptom_match",
+    "a": "KB-3D",
+    "b": "generic-3D",
+    "n_specimens": 9,
+    "mean_diff": 0.5617283950617283,
+    "ci95": [
+     0.2901234567901236,
+     0.8518518518518517
+    ],
+    "p_signflip": 0.0078125,
+    "status": "secondary (exploratory, unadjusted)",
+    "agreement_alpha": 0.155187672350927,
+    "interpretable": false
+   },
+   {
+    "criterion": "a_symptom_match",
+    "a": "KB-2D",
+    "b": "generic-2D",
+    "n_specimens": 9,
+    "mean_diff": 0.48148148148148145,
+    "ci95": [
+     0.03703703703703701,
+     0.9629629629629629
+    ],
+    "p_signflip": 0.1328125,
+    "status": "secondary (exploratory, unadjusted)",
+    "agreement_alpha": 0.155187672350927,
+    "interpretable": false
+   },
+   {
+    "criterion": "b_distribution",
+    "a": "KB-3D",
+    "b": "KB-2D",
+    "n_specimens": 9,
+    "mean_diff": 0.07407407407407406,
+    "ci95": [
+     -0.4074074074074073,
+     0.5185185185185185
+    ],
+    "p_signflip": 0.84375,
+    "status": "secondary (exploratory, unadjusted)",
+    "agreement_alpha": 0.2858809598111305,
+    "interpretable": false
+   },
+   {
+    "criterion": "b_distribution",
+    "a": "KB-3D",
+    "b": "generic-3D",
+    "n_specimens": 9,
+    "mean_diff": 1.037037037037037,
+    "ci95": [
+     0.7469135802469136,
+     1.3952160493827157
+    ],
+    "p_signflip": 0.00390625,
+    "status": "secondary (exploratory, unadjusted)",
+    "agreement_alpha": 0.2858809598111305,
+    "interpretable": false
+   },
+   {
+    "criterion": "b_distribution",
+    "a": "KB-2D",
+    "b": "generic-2D",
+    "n_specimens": 9,
+    "mean_diff": 0.2592592592592592,
+    "ci95": [
+     -0.4074074074074075,
+     0.9259259259259258
+    ],
+    "p_signflip": 0.546875,
+    "status": "secondary (exploratory, unadjusted)",
+    "agreement_alpha": 0.2858809598111305,
+    "interpretable": false
+   },
+   {
+    "criterion": "c_geometry",
+    "a": "KB-3D",
+    "b": "KB-2D",
+    "n_specimens": 9,
+    "mean_diff": -0.11111111111111106,
+    "ci95": [
+     -0.5064814814814815,
+     0.2966049382716047
+    ],
+    "p_signflip": 0.640625,
+    "status": "secondary (exploratory, unadjusted)",
+    "agreement_alpha": 0.232262148672975,
+    "interpretable": false
+   },
+   {
+    "criterion": "c_geometry",
+    "a": "KB-3D",
+    "b": "generic-3D",
+    "n_specimens": 9,
+    "mean_diff": 0.8518518518518517,
+    "ci95": [
+     0.41975308641975295,
+     1.2532407407407404
+    ],
+    "p_signflip": 0.01171875,
+    "status": "secondary (exploratory, unadjusted)",
+    "agreement_alpha": 0.232262148672975,
+    "interpretable": false
+   },
+   {
+    "criterion": "c_geometry",
+    "a": "KB-2D",
+    "b": "generic-2D",
+    "n_specimens": 9,
+    "mean_diff": 0.6296296296296297,
+    "ci95": [
+     0.25925925925925936,
+     0.9268518518518509
+    ],
+    "p_signflip": 0.0234375,
+    "status": "secondary (exploratory, unadjusted)",
+    "agreement_alpha": 0.232262148672975,
+    "interpretable": false
+   },
+   {
+    "criterion": "d_surface",
+    "a": "KB-3D",
+    "b": "KB-2D",
+    "n_specimens": 9,
+    "mean_diff": 0.09876543209876543,
+    "ci95": [
+     -0.19753086419753096,
+     0.5061728395061729
+    ],
+    "p_signflip": 0.71875,
+    "status": "secondary (exploratory, unadjusted)",
+    "agreement_alpha": 0.2624609745859877,
+    "interpretable": false
+   },
+   {
+    "criterion": "d_surface",
+    "a": "KB-3D",
+    "b": "generic-3D",
+    "n_specimens": 9,
+    "mean_diff": 0.6728395061728395,
+    "ci95": [
+     0.47530864197530853,
+     0.9075617283950616
+    ],
+    "p_signflip": 0.00390625,
+    "status": "secondary (exploratory, unadjusted)",
+    "agreement_alpha": 0.2624609745859877,
+    "interpretable": false
+   },
+   {
+    "criterion": "d_surface",
+    "a": "KB-2D",
+    "b": "generic-2D",
+    "n_specimens": 9,
+    "mean_diff": 0.5185185185185185,
+    "ci95": [
+     0.11111111111111101,
+     0.8518518518518517
+    ],
+    "p_signflip": 0.0546875,
+    "status": "secondary (exploratory, unadjusted)",
+    "agreement_alpha": 0.2624609745859877,
+    "interpretable": false
+   },
+   {
+    "criterion": "e_artefacts",
+    "a": "KB-3D",
+    "b": "KB-2D",
+    "n_specimens": 9,
+    "mean_diff": -0.18518518518518506,
+    "ci95": [
+     -0.5802469135802466,
+     0.1728395061728397
+    ],
+    "p_signflip": 0.44921875,
+    "status": "secondary (exploratory, unadjusted)",
+    "agreement_alpha": 0.09050229015168654,
+    "interpretable": false
+   },
+   {
+    "criterion": "e_artefacts",
+    "a": "KB-3D",
+    "b": "generic-3D",
+    "n_specimens": 9,
+    "mean_diff": 0.4444444444444444,
+    "ci95": [
+     0.1234567901234568,
+     0.7777777777777778
+    ],
+    "p_signflip": 0.046875,
+    "status": "secondary (exploratory, unadjusted)",
+    "agreement_alpha": 0.09050229015168654,
+    "interpretable": false
+   },
+   {
+    "criterion": "e_artefacts",
+    "a": "KB-2D",
+    "b": "generic-2D",
+    "n_specimens": 9,
+    "mean_diff": 0.7407407407407407,
+    "ci95": [
+     0.29629629629629634,
+     1.1851851851851851
+    ],
+    "p_signflip": 0.015625,
+    "status": "secondary (exploratory, unadjusted)",
+    "agreement_alpha": 0.09050229015168654,
+    "interpretable": false
+   },
+   {
+    "criterion": "f_overall_accept",
+    "a": "KB-3D",
+    "b": "KB-2D",
+    "n_specimens": 9,
+    "mean_diff": 0.04938271604938254,
+    "ci95": [
+     -0.32129629629629647,
+     0.4320987654320986
+    ],
+    "p_signflip": 0.8671875,
+    "p_holm": 1.0,
+    "status": "primary (confirmatory)",
+    "agreement_alpha": 0.24802075262814083,
+    "interpretable": false
+   },
+   {
+    "criterion": "f_overall_accept",
+    "a": "KB-3D",
+    "b": "generic-3D",
+    "n_specimens": 9,
+    "mean_diff": 0.345679012345679,
+    "ci95": [
+     0.10478395061728389,
+     0.6606481481481481
+    ],
+    "p_signflip": 0.01953125,
+    "p_holm": 0.05859375,
+    "status": "primary (confirmatory)",
+    "agreement_alpha": 0.24802075262814083,
+    "interpretable": false
+   },
+   {
+    "criterion": "f_overall_accept",
+    "a": "KB-2D",
+    "b": "generic-2D",
+    "n_specimens": 9,
+    "mean_diff": 0.14814814814814817,
+    "ci95": [
+     -0.18518518518518517,
+     0.40740740740740744
+    ],
+    "p_signflip": 0.53125,
+    "p_holm": 1.0,
+    "status": "primary (confirmatory)",
+    "agreement_alpha": 0.24802075262814083,
+    "interpretable": false
+   }
+  ]
+ },
+ "method_effect_all_raters": {
+  "per_method": [
+   {
+    "criterion": "a_symptom_match",
+    "method": "B",
+    "family": "generic-2D",
+    "mean": 3.148148148148148,
+    "ci95": [
+     2.7777777777777777,
+     3.518518518518518
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "a_symptom_match",
+    "method": "C_stage",
+    "family": "KB-2D",
+    "mean": 3.6296296296296293,
+    "ci95": [
+     3.2592592592592595,
+     3.888888888888889
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "a_symptom_match",
+    "method": "D",
+    "family": "unedited-3D",
+    "mean": 3.185185185185185,
+    "ci95": [
+     2.740740740740741,
+     3.5555555555555554
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "a_symptom_match",
+    "method": "E",
+    "family": "generic-3D",
+    "mean": 2.6296296296296298,
+    "ci95": [
+     2.4074074074074074,
+     2.814814814814815
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "a_symptom_match",
+    "method": "G",
+    "family": "generic-3D",
+    "mean": 3.2777777777777772,
+    "ci95": [
+     2.8333333333333335,
+     3.722222222222222
+    ],
+    "n_items": 6,
+    "n_specimens": 6
+   },
+   {
+    "criterion": "a_symptom_match",
+    "method": "H",
+    "family": "KB-3D",
+    "mean": 3.5555555555555554,
+    "ci95": [
+     3.0555555555555554,
+     4.111111111111112
+    ],
+    "n_items": 6,
+    "n_specimens": 6
+   },
+   {
+    "criterion": "a_symptom_match",
+    "method": "I",
+    "family": "shape-2D",
+    "mean": 2.9999999999999996,
+    "ci95": [
+     2.6666666666666665,
+     3.2962962962962963
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "a_symptom_match",
+    "method": "J",
+    "family": "KB-3D",
+    "mean": 3.5000000000000004,
+    "ci95": [
+     3.111111111111111,
+     3.777777777777778
+    ],
+    "n_items": 6,
+    "n_specimens": 6
+   },
+   {
+    "criterion": "a_symptom_match",
+    "method": "K",
+    "family": "KB-3D",
+    "mean": 3.3333333333333335,
+    "ci95": [
+     3.0740740740740744,
+     3.592592592592592
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "b_distribution",
+    "method": "B",
+    "family": "generic-2D",
+    "mean": 3.185185185185185,
+    "ci95": [
+     2.7777777777777777,
+     3.5555555555555554
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "b_distribution",
+    "method": "C_stage",
+    "family": "KB-2D",
+    "mean": 3.444444444444444,
+    "ci95": [
+     3.111111111111111,
+     3.8148148148148144
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "b_distribution",
+    "method": "D",
+    "family": "unedited-3D",
+    "mean": 2.6296296296296298,
+    "ci95": [
+     2.2962962962962963,
+     2.9629629629629632
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "b_distribution",
+    "method": "E",
+    "family": "generic-3D",
+    "mean": 2.481481481481482,
+    "ci95": [
+     2.111111111111111,
+     2.8888888888888893
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "b_distribution",
+    "method": "G",
+    "family": "generic-3D",
+    "mean": 2.6666666666666665,
+    "ci95": [
+     2.277777777777778,
+     3.111111111111111
+    ],
+    "n_items": 6,
+    "n_specimens": 6
+   },
+   {
+    "criterion": "b_distribution",
+    "method": "H",
+    "family": "KB-3D",
+    "mean": 3.777777777777778,
+    "ci95": [
+     3.4430555555555555,
+     4.111111111111111
+    ],
+    "n_items": 6,
+    "n_specimens": 6
+   },
+   {
+    "criterion": "b_distribution",
+    "method": "I",
+    "family": "shape-2D",
+    "mean": 3.185185185185185,
+    "ci95": [
+     2.851851851851852,
+     3.5555555555555554
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "b_distribution",
+    "method": "J",
+    "family": "KB-3D",
+    "mean": 3.444444444444444,
+    "ci95": [
+     3.0555555555555554,
+     3.8333333333333335
+    ],
+    "n_items": 6,
+    "n_specimens": 6
+   },
+   {
+    "criterion": "b_distribution",
+    "method": "K",
+    "family": "KB-3D",
+    "mean": 3.3703703703703702,
+    "ci95": [
+     3.111111111111111,
+     3.592592592592593
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "c_geometry",
+    "method": "B",
+    "family": "generic-2D",
+    "mean": 2.9999999999999996,
+    "ci95": [
+     2.703703703703704,
+     3.407407407407407
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "c_geometry",
+    "method": "C_stage",
+    "family": "KB-2D",
+    "mean": 3.6296296296296293,
+    "ci95": [
+     3.258333333333333,
+     3.962962962962963
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "c_geometry",
+    "method": "D",
+    "family": "unedited-3D",
+    "mean": 2.814814814814815,
+    "ci95": [
+     2.4074074074074074,
+     3.185185185185185
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "c_geometry",
+    "method": "E",
+    "family": "generic-3D",
+    "mean": 2.7037037037037037,
+    "ci95": [
+     2.333333333333334,
+     3.037037037037037
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "c_geometry",
+    "method": "G",
+    "family": "generic-3D",
+    "mean": 2.722222222222222,
+    "ci95": [
+     2.388888888888889,
+     3.055555555555556
+    ],
+    "n_items": 6,
+    "n_specimens": 6
+   },
+   {
+    "criterion": "c_geometry",
+    "method": "H",
+    "family": "KB-3D",
+    "mean": 3.944444444444444,
+    "ci95": [
+     3.666666666666666,
+     4.222222222222221
+    ],
+    "n_items": 6,
+    "n_specimens": 6
+   },
+   {
+    "criterion": "c_geometry",
+    "method": "I",
+    "family": "shape-2D",
+    "mean": 3.185185185185185,
+    "ci95": [
+     2.888888888888889,
+     3.5555555555555554
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "c_geometry",
+    "method": "J",
+    "family": "KB-3D",
+    "mean": 3.5000000000000004,
+    "ci95": [
+     3.2763888888888886,
+     3.7222222222222228
+    ],
+    "n_items": 6,
+    "n_specimens": 6
+   },
+   {
+    "criterion": "c_geometry",
+    "method": "K",
+    "family": "KB-3D",
+    "mean": 3.3703703703703702,
+    "ci95": [
+     3.111111111111111,
+     3.6666666666666665
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "d_surface",
+    "method": "B",
+    "family": "generic-2D",
+    "mean": 2.814814814814815,
+    "ci95": [
+     2.481481481481482,
+     3.0740740740740744
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "d_surface",
+    "method": "C_stage",
+    "family": "KB-2D",
+    "mean": 3.333333333333334,
+    "ci95": [
+     2.9999999999999996,
+     3.6296296296296293
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "d_surface",
+    "method": "D",
+    "family": "unedited-3D",
+    "mean": 2.6666666666666665,
+    "ci95": [
+     2.259259259259259,
+     3.0740740740740744
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "d_surface",
+    "method": "E",
+    "family": "generic-3D",
+    "mean": 2.8518518518518516,
+    "ci95": [
+     2.5925925925925926,
+     3.0740740740740744
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "d_surface",
+    "method": "G",
+    "family": "generic-3D",
+    "mean": 2.611111111111111,
+    "ci95": [
+     2.0,
+     3.111111111111111
+    ],
+    "n_items": 6,
+    "n_specimens": 6
+   },
+   {
+    "criterion": "d_surface",
+    "method": "H",
+    "family": "KB-3D",
+    "mean": 3.777777777777778,
+    "ci95": [
+     3.4444444444444446,
+     4.166666666666667
+    ],
+    "n_items": 6,
+    "n_specimens": 6
+   },
+   {
+    "criterion": "d_surface",
+    "method": "I",
+    "family": "shape-2D",
+    "mean": 3.3333333333333335,
+    "ci95": [
+     3.036111111111111,
+     3.6296296296296293
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "d_surface",
+    "method": "J",
+    "family": "KB-3D",
+    "mean": 3.4444444444444446,
+    "ci95": [
+     3.0555555555555554,
+     3.8333333333333335
+    ],
+    "n_items": 6,
+    "n_specimens": 6
+   },
+   {
+    "criterion": "d_surface",
+    "method": "K",
+    "family": "KB-3D",
+    "mean": 3.3333333333333335,
+    "ci95": [
+     3.0,
+     3.7777777777777777
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "e_artefacts",
+    "method": "B",
+    "family": "generic-2D",
+    "mean": 2.814814814814815,
+    "ci95": [
+     2.5555555555555554,
+     3.0009259259259253
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "e_artefacts",
+    "method": "C_stage",
+    "family": "KB-2D",
+    "mean": 3.5555555555555554,
+    "ci95": [
+     3.185185185185185,
+     3.9259259259259256
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "e_artefacts",
+    "method": "D",
+    "family": "unedited-3D",
+    "mean": 2.888888888888889,
+    "ci95": [
+     2.5925925925925926,
+     3.2222222222222223
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "e_artefacts",
+    "method": "E",
+    "family": "generic-3D",
+    "mean": 2.9259259259259256,
+    "ci95": [
+     2.5185185185185186,
+     3.2601851851851844
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "e_artefacts",
+    "method": "G",
+    "family": "generic-3D",
+    "mean": 2.7777777777777772,
+    "ci95": [
+     2.555555555555556,
+     2.9444444444444446
+    ],
+    "n_items": 6,
+    "n_specimens": 6
+   },
+   {
+    "criterion": "e_artefacts",
+    "method": "H",
+    "family": "KB-3D",
+    "mean": 3.444444444444444,
+    "ci95": [
+     3.111111111111111,
+     3.7222222222222228
+    ],
+    "n_items": 6,
+    "n_specimens": 6
+   },
+   {
+    "criterion": "e_artefacts",
+    "method": "I",
+    "family": "shape-2D",
+    "mean": 3.148148148148148,
+    "ci95": [
+     2.8518518518518516,
+     3.4814814814814814
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "e_artefacts",
+    "method": "J",
+    "family": "KB-3D",
+    "mean": 3.388888888888889,
+    "ci95": [
+     3.222222222222222,
+     3.555555555555556
+    ],
+    "n_items": 6,
+    "n_specimens": 6
+   },
+   {
+    "criterion": "e_artefacts",
+    "method": "K",
+    "family": "KB-3D",
+    "mean": 3.2592592592592595,
+    "ci95": [
+     3.0370370370370368,
+     3.5185185185185186
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "f_overall_accept",
+    "method": "B",
+    "family": "generic-2D",
+    "mean": 2.9629629629629632,
+    "ci95": [
+     2.6296296296296298,
+     3.259259259259259
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "f_overall_accept",
+    "method": "C_stage",
+    "family": "KB-2D",
+    "mean": 3.1111111111111116,
+    "ci95": [
+     2.814814814814815,
+     3.4444444444444446
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "f_overall_accept",
+    "method": "D",
+    "family": "unedited-3D",
+    "mean": 2.8518518518518516,
+    "ci95": [
+     2.481481481481482,
+     3.185185185185185
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "f_overall_accept",
+    "method": "E",
+    "family": "generic-3D",
+    "mean": 2.851851851851852,
+    "ci95": [
+     2.5925925925925926,
+     3.185185185185185
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "f_overall_accept",
+    "method": "G",
+    "family": "generic-3D",
+    "mean": 2.8333333333333335,
+    "ci95": [
+     2.3875,
+     3.3333333333333335
+    ],
+    "n_items": 6,
+    "n_specimens": 6
+   },
+   {
+    "criterion": "f_overall_accept",
+    "method": "H",
+    "family": "KB-3D",
+    "mean": 3.277777777777778,
+    "ci95": [
+     2.777777777777778,
+     3.722222222222222
+    ],
+    "n_items": 6,
+    "n_specimens": 6
+   },
+   {
+    "criterion": "f_overall_accept",
+    "method": "I",
+    "family": "shape-2D",
+    "mean": 3.2592592592592595,
+    "ci95": [
+     2.7407407407407405,
+     3.703703703703704
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   },
+   {
+    "criterion": "f_overall_accept",
+    "method": "J",
+    "family": "KB-3D",
+    "mean": 3.1666666666666665,
+    "ci95": [
+     2.944444444444444,
+     3.3888888888888893
+    ],
+    "n_items": 6,
+    "n_specimens": 6
+   },
+   {
+    "criterion": "f_overall_accept",
+    "method": "K",
+    "family": "KB-3D",
+    "mean": 3.185185185185185,
+    "ci95": [
+     2.703703703703704,
+     3.6296296296296293
+    ],
+    "n_items": 9,
+    "n_specimens": 9
+   }
+  ],
+  "comparisons": [
+   {
+    "criterion": "a_symptom_match",
+    "a": "KB-3D",
+    "b": "KB-2D",
+    "n_specimens": 9,
+    "mean_diff": -0.23456790123456794,
+    "ci95": [
+     -0.5682098765432101,
+     0.08672839506172805
+    ],
+    "p_signflip": 0.28125,
+    "status": "secondary (exploratory, unadjusted)",
+    "agreement_alpha": 0.155187672350927,
+    "interpretable": false
+   },
+   {
+    "criterion": "a_symptom_match",
+    "a": "KB-3D",
+    "b": "generic-3D",
+    "n_specimens": 9,
+    "mean_diff": 0.5617283950617283,
+    "ci95": [
+     0.2901234567901236,
+     0.8518518518518517
+    ],
+    "p_signflip": 0.0078125,
+    "status": "secondary (exploratory, unadjusted)",
+    "agreement_alpha": 0.155187672350927,
+    "interpretable": false
+   },
+   {
+    "criterion": "a_symptom_match",
+    "a": "KB-2D",
+    "b": "generic-2D",
+    "n_specimens": 9,
+    "mean_diff": 0.48148148148148145,
+    "ci95": [
+     0.03703703703703701,
+     0.9629629629629629
+    ],
+    "p_signflip": 0.1328125,
+    "status": "secondary (exploratory, unadjusted)",
+    "agreement_alpha": 0.155187672350927,
+    "interpretable": false
+   },
+   {
+    "criterion": "b_distribution",
+    "a": "KB-3D",
+    "b": "KB-2D",
+    "n_specimens": 9,
+    "mean_diff": 0.07407407407407406,
+    "ci95": [
+     -0.4074074074074073,
+     0.5185185185185185
+    ],
+    "p_signflip": 0.84375,
+    "status": "secondary (exploratory, unadjusted)",
+    "agreement_alpha": 0.2858809598111305,
+    "interpretable": false
+   },
+   {
+    "criterion": "b_distribution",
+    "a": "KB-3D",
+    "b": "generic-3D",
+    "n_specimens": 9,
+    "mean_diff": 1.037037037037037,
+    "ci95": [
+     0.7469135802469136,
+     1.3952160493827157
+    ],
+    "p_signflip": 0.00390625,
+    "status": "secondary (exploratory, unadjusted)",
+    "agreement_alpha": 0.2858809598111305,
+    "interpretable": false
+   },
+   {
+    "criterion": "b_distribution",
+    "a": "KB-2D",
+    "b": "generic-2D",
+    "n_specimens": 9,
+    "mean_diff": 0.2592592592592592,
+    "ci95": [
+     -0.4074074074074075,
+     0.9259259259259258
+    ],
+    "p_signflip": 0.546875,
+    "status": "secondary (exploratory, unadjusted)",
+    "agreement_alpha": 0.2858809598111305,
+    "interpretable": false
+   },
+   {
+    "criterion": "c_geometry",
+    "a": "KB-3D",
+    "b": "KB-2D",
+    "n_specimens": 9,
+    "mean_diff": -0.11111111111111106,
+    "ci95": [
+     -0.5064814814814815,
+     0.2966049382716047
+    ],
+    "p_signflip": 0.640625,
+    "status": "secondary (exploratory, unadjusted)",
+    "agreement_alpha": 0.232262148672975,
+    "interpretable": false
+   },
+   {
+    "criterion": "c_geometry",
+    "a": "KB-3D",
+    "b": "generic-3D",
+    "n_specimens": 9,
+    "mean_diff": 0.8518518518518517,
+    "ci95": [
+     0.41975308641975295,
+     1.2532407407407404
+    ],
+    "p_signflip": 0.01171875,
+    "status": "secondary (exploratory, unadjusted)",
+    "agreement_alpha": 0.232262148672975,
+    "interpretable": false
+   },
+   {
+    "criterion": "c_geometry",
+    "a": "KB-2D",
+    "b": "generic-2D",
+    "n_specimens": 9,
+    "mean_diff": 0.6296296296296297,
+    "ci95": [
+     0.25925925925925936,
+     0.9268518518518509
+    ],
+    "p_signflip": 0.0234375,
+    "status": "secondary (exploratory, unadjusted)",
+    "agreement_alpha": 0.232262148672975,
+    "interpretable": false
+   },
+   {
+    "criterion": "d_surface",
+    "a": "KB-3D",
+    "b": "KB-2D",
+    "n_specimens": 9,
+    "mean_diff": 0.09876543209876543,
+    "ci95": [
+     -0.19753086419753096,
+     0.5061728395061729
+    ],
+    "p_signflip": 0.71875,
+    "status": "secondary (exploratory, unadjusted)",
+    "agreement_alpha": 0.2624609745859877,
+    "interpretable": false
+   },
+   {
+    "criterion": "d_surface",
+    "a": "KB-3D",
+    "b": "generic-3D",
+    "n_specimens": 9,
+    "mean_diff": 0.6728395061728395,
+    "ci95": [
+     0.47530864197530853,
+     0.9075617283950616
+    ],
+    "p_signflip": 0.00390625,
+    "status": "secondary (exploratory, unadjusted)",
+    "agreement_alpha": 0.2624609745859877,
+    "interpretable": false
+   },
+   {
+    "criterion": "d_surface",
+    "a": "KB-2D",
+    "b": "generic-2D",
+    "n_specimens": 9,
+    "mean_diff": 0.5185185185185185,
+    "ci95": [
+     0.11111111111111101,
+     0.8518518518518517
+    ],
+    "p_signflip": 0.0546875,
+    "status": "secondary (exploratory, unadjusted)",
+    "agreement_alpha": 0.2624609745859877,
+    "interpretable": false
+   },
+   {
+    "criterion": "e_artefacts",
+    "a": "KB-3D",
+    "b": "KB-2D",
+    "n_specimens": 9,
+    "mean_diff": -0.18518518518518506,
+    "ci95": [
+     -0.5802469135802466,
+     0.1728395061728397
+    ],
+    "p_signflip": 0.44921875,
+    "status": "secondary (exploratory, unadjusted)",
+    "agreement_alpha": 0.09050229015168654,
+    "interpretable": false
+   },
+   {
+    "criterion": "e_artefacts",
+    "a": "KB-3D",
+    "b": "generic-3D",
+    "n_specimens": 9,
+    "mean_diff": 0.4444444444444444,
+    "ci95": [
+     0.1234567901234568,
+     0.7777777777777778
+    ],
+    "p_signflip": 0.046875,
+    "status": "secondary (exploratory, unadjusted)",
+    "agreement_alpha": 0.09050229015168654,
+    "interpretable": false
+   },
+   {
+    "criterion": "e_artefacts",
+    "a": "KB-2D",
+    "b": "generic-2D",
+    "n_specimens": 9,
+    "mean_diff": 0.7407407407407407,
+    "ci95": [
+     0.29629629629629634,
+     1.1851851851851851
+    ],
+    "p_signflip": 0.015625,
+    "status": "secondary (exploratory, unadjusted)",
+    "agreement_alpha": 0.09050229015168654,
+    "interpretable": false
+   },
+   {
+    "criterion": "f_overall_accept",
+    "a": "KB-3D",
+    "b": "KB-2D",
+    "n_specimens": 9,
+    "mean_diff": 0.04938271604938254,
+    "ci95": [
+     -0.32129629629629647,
+     0.4320987654320986
+    ],
+    "p_signflip": 0.8671875,
+    "p_holm": 1.0,
+    "status": "primary (confirmatory)",
+    "agreement_alpha": 0.24802075262814083,
+    "interpretable": false
+   },
+   {
+    "criterion": "f_overall_accept",
+    "a": "KB-3D",
+    "b": "generic-3D",
+    "n_specimens": 9,
+    "mean_diff": 0.345679012345679,
+    "ci95": [
+     0.10478395061728389,
+     0.6606481481481481
+    ],
+    "p_signflip": 0.01953125,
+    "p_holm": 0.05859375,
+    "status": "primary (confirmatory)",
+    "agreement_alpha": 0.24802075262814083,
+    "interpretable": false
+   },
+   {
+    "criterion": "f_overall_accept",
+    "a": "KB-2D",
+    "b": "generic-2D",
+    "n_specimens": 9,
+    "mean_diff": 0.14814814814814817,
+    "ci95": [
+     -0.18518518518518517,
+     0.40740740740740744
+    ],
+    "p_signflip": 0.53125,
+    "p_holm": 1.0,
+    "status": "primary (confirmatory)",
+    "agreement_alpha": 0.24802075262814083,
+    "interpretable": false
+   }
+  ]
+ }
+}

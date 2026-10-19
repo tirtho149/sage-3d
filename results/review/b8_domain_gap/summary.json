@@ -1,0 +1,399 @@
+{
+ "per_specimen": [
+  {
+   "specimen": "Citrus__Canker__0004",
+   "cond": "photo",
+   "nn_dist": 0.000982522964477539
+  },
+  {
+   "specimen": "Citrus__Canker__0004",
+   "cond": "in_photo",
+   "nn_dist": 0.31607770919799805
+  },
+  {
+   "specimen": "Citrus__Canker__0004",
+   "cond": "in_white",
+   "nn_dist": 0.3639611005783081
+  },
+  {
+   "specimen": "Citrus__Canker__0004",
+   "cond": "rig_white",
+   "nn_dist": 0.7596466541290283
+  },
+  {
+   "specimen": "Citrus__Canker__0004",
+   "cond": "rig_phototex",
+   "nn_dist": 0.7259559631347656
+  },
+  {
+   "specimen": "Citrus__Canker__0012",
+   "cond": "photo",
+   "nn_dist": 0.0035096406936645508
+  },
+  {
+   "specimen": "Citrus__Canker__0012",
+   "cond": "in_photo",
+   "nn_dist": 0.4240925908088684
+  },
+  {
+   "specimen": "Citrus__Canker__0012",
+   "cond": "in_white",
+   "nn_dist": 0.30263543128967285
+  },
+  {
+   "specimen": "Citrus__Canker__0012",
+   "cond": "rig_white",
+   "nn_dist": 0.3073085844516754
+  },
+  {
+   "specimen": "Citrus__Canker__0012",
+   "cond": "rig_phototex",
+   "nn_dist": 0.30625736713409424
+  },
+  {
+   "specimen": "Citrus__Canker__0016",
+   "cond": "photo",
+   "nn_dist": 0.001107335090637207
+  },
+  {
+   "specimen": "Citrus__Canker__0016",
+   "cond": "in_photo",
+   "nn_dist": 0.12755250930786133
+  },
+  {
+   "specimen": "Citrus__Canker__0016",
+   "cond": "in_white",
+   "nn_dist": 0.2312849760055542
+  },
+  {
+   "specimen": "Citrus__Canker__0016",
+   "cond": "rig_white",
+   "nn_dist": 0.35609617829322815
+  },
+  {
+   "specimen": "Citrus__Canker__0016",
+   "cond": "rig_phototex",
+   "nn_dist": 0.38830381631851196
+  },
+  {
+   "specimen": "Corn__Smut__0012",
+   "cond": "photo",
+   "nn_dist": 0.000680387020111084
+  },
+  {
+   "specimen": "Corn__Smut__0012",
+   "cond": "in_photo",
+   "nn_dist": 0.290677011013031
+  },
+  {
+   "specimen": "Corn__Smut__0012",
+   "cond": "in_white",
+   "nn_dist": 0.3450484275817871
+  },
+  {
+   "specimen": "Corn__Smut__0012",
+   "cond": "rig_white",
+   "nn_dist": 0.7057727575302124
+  },
+  {
+   "specimen": "Corn__Smut__0012",
+   "cond": "rig_phototex",
+   "nn_dist": 0.7063554525375366
+  },
+  {
+   "specimen": "Corn__Smut__0025",
+   "cond": "photo",
+   "nn_dist": 0.0020754337310791016
+  },
+  {
+   "specimen": "Corn__Smut__0025",
+   "cond": "in_photo",
+   "nn_dist": 0.21464580297470093
+  },
+  {
+   "specimen": "Corn__Smut__0025",
+   "cond": "in_white",
+   "nn_dist": 0.5840215682983398
+  },
+  {
+   "specimen": "Corn__Smut__0025",
+   "cond": "rig_white",
+   "nn_dist": 0.6208192706108093
+  },
+  {
+   "specimen": "Corn__Smut__0025",
+   "cond": "rig_phototex",
+   "nn_dist": 0.5605937838554382
+  },
+  {
+   "specimen": "Corn__Smut__0052",
+   "cond": "photo",
+   "nn_dist": 0.00023156404495239258
+  },
+  {
+   "specimen": "Corn__Smut__0052",
+   "cond": "in_photo",
+   "nn_dist": 0.08280885219573975
+  },
+  {
+   "specimen": "Corn__Smut__0052",
+   "cond": "in_white",
+   "nn_dist": 0.3622763156890869
+  },
+  {
+   "specimen": "Corn__Smut__0052",
+   "cond": "rig_white",
+   "nn_dist": 0.45436525344848633
+  },
+  {
+   "specimen": "Corn__Smut__0052",
+   "cond": "rig_phototex",
+   "nn_dist": 0.4920350909233093
+  },
+  {
+   "specimen": "Mango__Anthracnose__0044",
+   "cond": "photo",
+   "nn_dist": 0.0010590553283691406
+  },
+  {
+   "specimen": "Mango__Anthracnose__0044",
+   "cond": "in_photo",
+   "nn_dist": 0.2760812044143677
+  },
+  {
+   "specimen": "Mango__Anthracnose__0044",
+   "cond": "in_white",
+   "nn_dist": 0.33054906129837036
+  },
+  {
+   "specimen": "Mango__Anthracnose__0044",
+   "cond": "rig_white",
+   "nn_dist": 0.43277543783187866
+  },
+  {
+   "specimen": "Mango__Anthracnose__0044",
+   "cond": "rig_phototex",
+   "nn_dist": 0.4416915774345398
+  },
+  {
+   "specimen": "Mango__Anthracnose__0049",
+   "cond": "photo",
+   "nn_dist": 0.000563204288482666
+  },
+  {
+   "specimen": "Mango__Anthracnose__0049",
+   "cond": "in_photo",
+   "nn_dist": 0.32500308752059937
+  },
+  {
+   "specimen": "Mango__Anthracnose__0049",
+   "cond": "in_white",
+   "nn_dist": 0.30854618549346924
+  },
+  {
+   "specimen": "Mango__Anthracnose__0049",
+   "cond": "rig_white",
+   "nn_dist": 0.5703010559082031
+  },
+  {
+   "specimen": "Mango__Anthracnose__0049",
+   "cond": "rig_phototex",
+   "nn_dist": 0.5768113136291504
+  },
+  {
+   "specimen": "Mango__Anthracnose__0094",
+   "cond": "photo",
+   "nn_dist": 0.0009137988090515137
+  },
+  {
+   "specimen": "Mango__Anthracnose__0094",
+   "cond": "in_photo",
+   "nn_dist": 0.18328821659088135
+  },
+  {
+   "specimen": "Mango__Anthracnose__0094",
+   "cond": "in_white",
+   "nn_dist": 0.2433013916015625
+  },
+  {
+   "specimen": "Mango__Anthracnose__0094",
+   "cond": "rig_white",
+   "nn_dist": 0.5354209542274475
+  },
+  {
+   "specimen": "Mango__Anthracnose__0094",
+   "cond": "rig_phototex",
+   "nn_dist": 0.48601922392845154
+  },
+  {
+   "specimen": "Peach__Leaf_Curl__0006",
+   "cond": "photo",
+   "nn_dist": 0.0017721056938171387
+  },
+  {
+   "specimen": "Peach__Leaf_Curl__0006",
+   "cond": "in_photo",
+   "nn_dist": 0.2129521369934082
+  },
+  {
+   "specimen": "Peach__Leaf_Curl__0006",
+   "cond": "in_white",
+   "nn_dist": 0.7120192646980286
+  },
+  {
+   "specimen": "Peach__Leaf_Curl__0006",
+   "cond": "rig_white",
+   "nn_dist": 0.5694857835769653
+  },
+  {
+   "specimen": "Peach__Leaf_Curl__0006",
+   "cond": "rig_phototex",
+   "nn_dist": 0.5844688415527344
+  },
+  {
+   "specimen": "Peach__Leaf_Curl__0063",
+   "cond": "photo",
+   "nn_dist": 0.0007148385047912598
+  },
+  {
+   "specimen": "Peach__Leaf_Curl__0063",
+   "cond": "in_photo",
+   "nn_dist": 0.10943001508712769
+  },
+  {
+   "specimen": "Peach__Leaf_Curl__0063",
+   "cond": "in_white",
+   "nn_dist": 0.6741576790809631
+  },
+  {
+   "specimen": "Peach__Leaf_Curl__0063",
+   "cond": "rig_white",
+   "nn_dist": 0.6730446815490723
+  },
+  {
+   "specimen": "Peach__Leaf_Curl__0063",
+   "cond": "rig_phototex",
+   "nn_dist": 0.7088468074798584
+  },
+  {
+   "specimen": "Peach__Leaf_Curl__0087",
+   "cond": "photo",
+   "nn_dist": 0.0006662607192993164
+  },
+  {
+   "specimen": "Peach__Leaf_Curl__0087",
+   "cond": "in_photo",
+   "nn_dist": 0.0905003547668457
+  },
+  {
+   "specimen": "Peach__Leaf_Curl__0087",
+   "cond": "in_white",
+   "nn_dist": 0.6190866827964783
+  },
+  {
+   "specimen": "Peach__Leaf_Curl__0087",
+   "cond": "rig_white",
+   "nn_dist": 0.6633702516555786
+  },
+  {
+   "specimen": "Peach__Leaf_Curl__0087",
+   "cond": "rig_phototex",
+   "nn_dist": 0.6509006023406982
+  },
+  {
+   "specimen": "Tomato__Leaf_Mold__0015",
+   "cond": "photo",
+   "nn_dist": 0.00020366907119750977
+  },
+  {
+   "specimen": "Tomato__Leaf_Mold__0015",
+   "cond": "in_photo",
+   "nn_dist": 0.47530829906463623
+  },
+  {
+   "specimen": "Tomato__Leaf_Mold__0015",
+   "cond": "in_white",
+   "nn_dist": 0.45192432403564453
+  },
+  {
+   "specimen": "Tomato__Leaf_Mold__0015",
+   "cond": "rig_white",
+   "nn_dist": 0.6247191429138184
+  },
+  {
+   "specimen": "Tomato__Leaf_Mold__0015",
+   "cond": "rig_phototex",
+   "nn_dist": 0.5307333469390869
+  },
+  {
+   "specimen": "Tomato__Leaf_Mold__0052",
+   "cond": "photo",
+   "nn_dist": 0.0002486705780029297
+  },
+  {
+   "specimen": "Tomato__Leaf_Mold__0052",
+   "cond": "in_photo",
+   "nn_dist": 0.48983705043792725
+  },
+  {
+   "specimen": "Tomato__Leaf_Mold__0052",
+   "cond": "in_white",
+   "nn_dist": 0.43241703510284424
+  },
+  {
+   "specimen": "Tomato__Leaf_Mold__0052",
+   "cond": "rig_white",
+   "nn_dist": 0.6347008347511292
+  },
+  {
+   "specimen": "Tomato__Leaf_Mold__0052",
+   "cond": "rig_phototex",
+   "nn_dist": 0.5954800248146057
+  },
+  {
+   "specimen": "Tomato__Leaf_Mold__0092",
+   "cond": "photo",
+   "nn_dist": 0.0001538991928100586
+  },
+  {
+   "specimen": "Tomato__Leaf_Mold__0092",
+   "cond": "in_photo",
+   "nn_dist": 0.5200200080871582
+  },
+  {
+   "specimen": "Tomato__Leaf_Mold__0092",
+   "cond": "in_white",
+   "nn_dist": 0.5565043091773987
+  },
+  {
+   "specimen": "Tomato__Leaf_Mold__0092",
+   "cond": "rig_white",
+   "nn_dist": 0.5466516613960266
+  },
+  {
+   "specimen": "Tomato__Leaf_Mold__0092",
+   "cond": "rig_phototex",
+   "nn_dist": 0.5237753391265869
+  }
+ ],
+ "median_nn_dist": {
+  "photo": 0.0007148385047912598,
+  "in_photo": 0.2760812044143677,
+  "in_white": 0.3639611005783081,
+  "rig_white": 0.5703010559082031,
+  "rig_phototex": 0.5605937838554382
+ },
+ "auc": {
+  "photo": 0.17777777777777778,
+  "in_photo": 0.7555555555555555,
+  "in_white": 0.9555555555555555,
+  "rig_white": 0.9987654320987656,
+  "rig_phototex": 0.9962962962962962
+ },
+ "steps": {
+  "render object at matched pose+background (photo -> in_photo)": 0.2753663659095764,
+  "background (in_photo -> in_white)": 0.08787989616394043,
+  "viewpoint (in_white -> rig_white)": 0.20633995532989502,
+  "texture = photo colours (rig_white -> rig_phototex)": -0.009707272052764893
+ }
+}

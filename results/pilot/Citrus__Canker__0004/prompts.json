@@ -1,0 +1,10 @@
+{
+ "specimen": "Citrus__Canker/0004",
+ "organ": "leaf",
+ "prompts": {
+  "generic": "add disease symptoms to the leaf",
+  "kb": "make this citrus fruit show canker: lesions appear as brown spots that are oily in appearance and surrounded by a yellow halo, becoming corky with a crater-like depression",
+  "kb_no_geometry": null,
+  "kb_mismatched": "make this citrus fruit show greening disease: enlarged, corky mid-ribs of leaves; typical symptoms include: yellow shoots with pale green and yellow flushes"
+ }
+}

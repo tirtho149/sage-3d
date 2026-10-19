@@ -1,0 +1,211 @@
+{
+ "specimen": "Corn__Smut__0025",
+ "assumptions": [
+  {
+   "item": "ear axis",
+   "value": "first principal axis",
+   "status": "approximation"
+  },
+  {
+   "item": "kernel tissue",
+   "value": "NONE identifiable (most yellow cluster b* = 19.2 < 30)",
+   "status": "abstain"
+  },
+  {
+   "item": "existing galls",
+   "value": "cluster 3 (centre [71.9, -3.8, 11.8])",
+   "status": "inferred from photo colour"
+  },
+  {
+   "item": "tip vs base",
+   "value": "not inferred",
+   "status": "unknown"
+  }
+ ],
+ "methods": {
+  "D": {
+   "input_view_iou": 0.770912226129294
+  },
+  "J": {
+   "input_view_iou": 0.7574904257715702,
+   "added_volume_heightfield": 0.004783657117372666,
+   "max_offset_rel": 0.0762944301543546,
+   "undercut_frac": 0.0
+  },
+  "G": {
+   "input_view_iou": 0.7656886009734467,
+   "added_volume_heightfield": 0.0021466513578419326,
+   "max_offset_rel": 0.02407604370315785,
+   "undercut_frac": 0.0
+  },
+  "E": {
+   "input_view_iou": 0.7666797252892218
+  },
+  "F": {
+   "input_view_iou": 0.7652365709553612
+  }
+ },
+ "evidence": [
+  {
+   "source_url": "https://www.apsnet.org/edcenter/pdlessons/Pages/CornSmut.aspx",
+   "in_sage_kb": true,
+   "quote": "The most obvious symptoms are tumor-like galls that vary in size from less than 1 cm to more than 30 cm (0.4-12 inch) in diameter.",
+   "constrains": "gall diameter range 1-30 cm"
+  },
+  {
+   "source_url": "https://cropwatch.unl.edu/plantdisease/corn/common-smut",
+   "in_sage_kb": false,
+   "quote": "but are probably most common and easily recognizable when they develop on the ear replacing kernels.",
+   "constrains": "placement: galls on kernel-bearing ear tissue (replacing kernels), not on husk/shank"
+  },
+  {
+   "source_url": "https://cropwatch.unl.edu/plantdisease/corn/common-smut",
+   "in_sage_kb": false,
+   "quote": "Young galls may be white to gray in color and fleshy to the touch.",
+   "constrains": "appearance of new (young) galls: white to gray"
+  },
+  {
+   "source_url": "https://cropwatch.unl.edu/plantdisease/corn/common-smut",
+   "in_sage_kb": false,
+   "quote": "Galls on stalks and ears tend to be larger than those produced on infected leaves.",
+   "constrains": "no quantitative ear-gall size beyond the SAGE range"
+  },
+  {
+   "source_url": "https://extension.umn.edu/corn-pest-management/common-smut-corn",
+   "in_sage_kb": false,
+   "quote": null,
+   "constrains": "NEGATIVE EVIDENCE: no position along the ear (tip vs base) is stated in any source checked; along-ear position is NOT inferable and is sampled uniformly over kernel tissue (logged)."
+  }
+ ],
+ "status": "ABSTAIN: no kernel tissue identifiable in this reconstruction (the evidence-based placement rule cannot be applied)",
+ "real_galls_in_photo": [
+  {
+   "n": 639,
+   "extent_cm": [
+    0.06,
+    0.08,
+    0.15
+   ]
+  },
+  {
+   "n": 2984,
+   "extent_cm": [
+    0.06,
+    0.17,
+    0.19
+   ]
+  },
+  {
+   "n": 323,
+   "extent_cm": [
+    0.03,
+    0.09,
+    0.11
+   ]
+  },
+  {
+   "n": 796,
+   "extent_cm": [
+    0.07,
+    0.08,
+    0.11
+   ]
+  },
+  {
+   "n": 2951,
+   "extent_cm": [
+    0.08,
+    0.12,
+    0.2
+   ]
+  },
+  {
+   "n": 755,
+   "extent_cm": [
+    0.06,
+    0.07,
+    0.11
+   ]
+  },
+  {
+   "n": 2101,
+   "extent_cm": [
+    0.08,
+    0.12,
+    0.25
+   ]
+  },
+  {
+   "n": 289,
+   "extent_cm": [
+    0.03,
+    0.06,
+    0.08
+   ]
+  },
+  {
+   "n": 1022,
+   "extent_cm": [
+    0.05,
+    0.14,
+    0.16
+   ]
+  },
+  {
+   "n": 1947,
+   "extent_cm": [
+    0.06,
+    0.09,
+    0.19
+   ]
+  },
+  {
+   "n": 326,
+   "extent_cm": [
+    0.03,
+    0.07,
+    0.07
+   ]
+  },
+  {
+   "n": 563,
+   "extent_cm": [
+    0.03,
+    0.07,
+    0.12
+   ]
+  },
+  {
+   "n": 477,
+   "extent_cm": [
+    0.05,
+    0.04,
+    0.11
+   ]
+  },
+  {
+   "n": 256,
+   "extent_cm": [
+    0.02,
+    0.05,
+    0.09
+   ]
+  },
+  {
+   "n": 691,
+   "extent_cm": [
+    0.04,
+    0.08,
+    0.1
+   ]
+  },
+  {
+   "n": 227,
+   "extent_cm": [
+    0.02,
+    0.03,
+    0.09
+   ]
+  }
+ ]
+}

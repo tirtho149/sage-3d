@@ -1,0 +1,10 @@
+{
+ "specimen": "Corn__Smut/0012",
+ "organ": "fruit",
+ "prompts": {
+  "generic": "add disease symptoms to the ear",
+  "kb": "make this corn ear show smut: the most obvious symptoms are tumor-like galls that vary in size from less than 1 cm to more than 30 cm (0; young galls are white, smooth and firm, and as they mature they become masses of powdery, dark, sooty teliospores as the periderm",
+  "kb_no_geometry": null,
+  "kb_mismatched": "make this corn ear show northern leaf blight: however, before lesions are fully developed, they first appear as small light-green to grayish spots approximately 1-2 weeks after infection"
+ }
+}

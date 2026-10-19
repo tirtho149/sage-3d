@@ -1,0 +1,8 @@
+{
+ "image": "/home/tirtho/Desktop/Research/external/SAGE-Extend/data/inputs/Tomato__Leaf_Mold__0092/image.png",
+ "mask": "/home/tirtho/Desktop/Research/external/SAGE-Extend/data/inputs/Tomato__Leaf_Mold__0092/0.png",
+ "prompt": "add disease symptoms to the leaf",
+ "seed": 2,
+ "out": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/pilot/Tomato__Leaf_Mold__0092/B/seed2.png",
+ "sec": 58.3
+}

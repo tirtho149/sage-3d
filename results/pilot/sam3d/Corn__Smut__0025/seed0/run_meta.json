@@ -1,0 +1,19 @@
+{
+ "specimen": "Corn__Smut/0025",
+ "seed": 0,
+ "input": "/home/tirtho/Desktop/Research/external/SAGE-Extend/data/inputs/Corn__Smut__0025",
+ "load_s": 64.0,
+ "gpu": "NVIDIA GeForce GTX TITAN X",
+ "offload": true,
+ "status": "ok",
+ "n_gaussians": 253376,
+ "infer_s": 1200.4,
+ "peak_vram_gb": 11.57,
+ "stage_s": {
+  "compute_pointmap": 3.2,
+  "get_condition_input": 8.8,
+  "sample_sparse_structure": 913.4,
+  "sample_slat": 256.7,
+  "decode_slat": 21.8
+ }
+}

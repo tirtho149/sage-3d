@@ -1,0 +1,8 @@
+{
+ "n_upper": 66240,
+ "n_lower": 66240,
+ "delta_rel": 0.002,
+ "thickness_scale_rel": 0.0006666666666666668,
+ "lower_base": "original colour with upper lesions removed (unverified)",
+ "lower_symptom_frac": 0.0
+}

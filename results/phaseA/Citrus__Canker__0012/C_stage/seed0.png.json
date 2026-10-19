@@ -1,0 +1,10 @@
+{
+ "image": "data/inputs/Citrus__Canker__0012/image.png",
+ "mask": "data/inputs/Citrus__Canker__0012/0.png",
+ "prompt": "make this citrus fruit show canker: lesions become corky",
+ "seed": 0,
+ "out": "results/phaseA/Citrus__Canker__0012/C_stage/seed0.png",
+ "arm": "C_stage",
+ "key": "Citrus__Canker",
+ "sec": 148.4
+}

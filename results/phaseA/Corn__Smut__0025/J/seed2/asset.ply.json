@@ -1,0 +1,110 @@
+{
+ "input": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/pilot/sam3d/Corn__Smut__0025/seed0/splat_ge.ply",
+ "spec": {
+  "seed": 2,
+  "ops": [
+   {
+    "amp": 0.08,
+    "sigma": 0.08,
+    "n": 3,
+    "op": "outgrowth",
+    "kb_term": "tumor",
+    "kb_phrase": "The most obvious symptoms are tumor-like galls that vary in size from less than 1 cm to more than 30 cm"
+   }
+  ],
+  "iters": 300
+ },
+ "mode": "volume",
+ "L_bbox_diag": 1.2766589183335033,
+ "oplog": [
+  {
+   "op": "outgrowth",
+   "n": 3,
+   "sigma": 0.10213271346668026
+  }
+ ],
+ "loss_history": [
+  {
+   "it": 0,
+   "total": 0.0863046795129776,
+   "edit": 1.631159532706979e-18,
+   "arap": 0.863045871257782,
+   "smooth": 8.93152264325181e-06,
+   "anchor": 0.0
+  },
+  {
+   "it": 50,
+   "total": 0.025605063885450363,
+   "edit": 1.2396994861774147e-05,
+   "arap": 0.2559262216091156,
+   "smooth": 4.30202271672897e-06,
+   "anchor": 0.0
+  },
+  {
+   "it": 100,
+   "total": 0.00919296219944954,
+   "edit": 2.2194884877535515e-05,
+   "arap": 0.09170731902122498,
+   "smooth": 3.4279034935025265e-06,
+   "anchor": 0.0
+  },
+  {
+   "it": 150,
+   "total": 0.004246942698955536,
+   "edit": 2.9723943953285925e-05,
+   "arap": 0.04217187687754631,
+   "smooth": 3.087171990046045e-06,
+   "anchor": 0.0
+  },
+  {
+   "it": 200,
+   "total": 0.008894343860447407,
+   "edit": 3.563361315173097e-05,
+   "arap": 0.08858681470155716,
+   "smooth": 2.8861181817774195e-06,
+   "anchor": 0.0
+  },
+  {
+   "it": 250,
+   "total": 0.0033146257046610117,
+   "edit": 4.053621887578629e-05,
+   "arap": 0.03274061903357506,
+   "smooth": 2.746704694800428e-06,
+   "anchor": 0.0
+  },
+  {
+   "it": 299,
+   "total": 0.004184565506875515,
+   "edit": 4.470639396458864e-05,
+   "arap": 0.04139832407236099,
+   "smooth": 2.6477398478164105e-06,
+   "anchor": 0.0
+  }
+ ],
+ "lambdas": {
+  "edit": 1.0,
+  "arap": 0.1,
+  "smooth": 0.01,
+  "anchor": 1.0
+ },
+ "sec": 55.51226806640625,
+ "target_normal_rms_rel": 0.023429294698883708,
+ "realised_normal_rms_rel": 0.018096832592446984,
+ "edit_fidelity_corr": 0.9712406561233321,
+ "disp_rel": {
+  "median": 0.004118642548033856,
+  "p95": 0.04883817693126731
+ },
+ "edge_stretch": {
+  "median_abs": 0.02064106487850581,
+  "p95_abs": 0.22375491832138708
+ },
+ "normal_change_deg": {
+  "median": 13.78897322958941,
+  "p95": 48.9549976013095
+ },
+ "displacement_in_region_frac": 0.9999999999999998,
+ "thicken_factor": 1.0,
+ "thicken_applied_frac": 0.0,
+ "n": 253376
+}

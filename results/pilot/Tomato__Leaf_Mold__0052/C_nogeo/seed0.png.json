@@ -1,0 +1,8 @@
+{
+ "image": "/home/tirtho/Desktop/Research/external/SAGE-Extend/data/inputs/Tomato__Leaf_Mold__0052/image.png",
+ "mask": "/home/tirtho/Desktop/Research/external/SAGE-Extend/data/inputs/Tomato__Leaf_Mold__0052/0.png",
+ "prompt": "make this tomato leaf show leaf mold: olive-green to brown velvety mold forms on the lower leaf surface below leaf spots; pale greenish-yellow spots, usually less than 1/4 inch, with no definite margins, form on the upper sides of leaves",
+ "seed": 0,
+ "out": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/pilot/Tomato__Leaf_Mold__0052/C_nogeo/seed0.png",
+ "sec": 59.4
+}

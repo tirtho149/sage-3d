@@ -1,0 +1,89 @@
+{
+ "set": "KB3D",
+ "args": {
+  "set": "KB3D",
+  "mode": "lora",
+  "k": 2,
+  "r": 8,
+  "lr_head": 0.001,
+  "lr_bb": 0.0001,
+  "llrd": 1.0,
+  "wd": 0.05,
+  "ls": 0.0,
+  "balanced": false,
+  "epochs": 5,
+  "clip": 1.0,
+  "aug": "std",
+  "seed": 2,
+  "bs": 64,
+  "val_fold": null,
+  "final": null,
+  "tag": "KB3D_lora_sel_s2",
+  "out": "results/stage1/ft"
+ },
+ "n_train": 1920,
+ "steps": 150,
+ "history": [
+  {
+   "epoch": 0,
+   "train_loss": 1.8915883203347523
+  },
+  {
+   "epoch": 1,
+   "train_loss": 0.12091997818400463
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.01628931212859849
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.00817416653347512
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.006938035879284143
+  }
+ ],
+ "train_sec": 215.1,
+ "trainable_params": 155156,
+ "dev": {
+  "macro_f1": 0.38967174902688856,
+  "top1": 0.43574488338886247,
+  "bal_acc": 0.4296318006801149,
+  "top5": 0.8355544978581628,
+  "macro_f1_ci": [
+   0.37276168380567476,
+   0.40448502008884424
+  ],
+  "per_class_recall": {
+   "citrus::canker": 0.4658385093167702,
+   "citrus::greening_disease": 0.7916666666666666,
+   "coffee::berry_blotch": 0.058823529411764705,
+   "coffee::brown_eye_spot": 0.27586206896551724,
+   "corn::common_rust": 0.9433333333333334,
+   "corn::smut": 0.8642857142857143,
+   "grape::black_rot": 0.0033333333333333335,
+   "grape::downy_mildew": 0.8172043010752689,
+   "mango::anthracnose": 0.31666666666666665,
+   "mango::bacterial_canker": 0.18,
+   "peach::bacterial_spot": 0.37333333333333335,
+   "peach::leaf_curl": 0.208955223880597,
+   "potato::late_blight": 0.5533333333333333,
+   "potato::tomato_spotted_wilt_virus": 0.13333333333333333,
+   "pumpkin::bacterial_leaf_spot": 0.37333333333333335,
+   "pumpkin::downy_mildew": 0.19333333333333333,
+   "strawberry::leaf_scorch": 0.5433333333333333,
+   "strawberry::leaf_spot": 0.6466666666666666,
+   "tomato::bacterial_leaf_spot": 0.0,
+   "tomato::leaf_mold": 0.85
+  },
+  "crop": {
+   "crop_acc": 0.6330318895763922,
+   "errors": 2371,
+   "errors_right_crop": 829,
+   "errors_wrong_crop": 1542
+  }
+ },
+ "embedding_drift": 0.0620424747467041
+}

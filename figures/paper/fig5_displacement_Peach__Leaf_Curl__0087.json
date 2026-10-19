@@ -1,0 +1,9 @@
+{
+ "figure": "fig5_displacement_Peach__Leaf_Curl__0087",
+ "generated": "2026-10-14 15:50:45",
+ "sources": [
+  "results/phaseA/Peach__Leaf_Curl__0087/*/seed0/asset.ply",
+  "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/pilot/sam3d/Peach__Leaf_Curl__0087/seed0/splat_ge.ply"
+ ],
+ "caption": "Per-Gaussian displacement (prune-aware index matching) and decomposition of each 3D edit into a geometry-only render (edited positions/rotations/scales, original colours) and an appearance-only render (original geometry, edited colours). Displacement medians/p95 (fraction of L): {\"E\": [0.0123, 0.0231], \"J\": [0.0327, 0.057], \"G\": [0.0314, 0.0577], \"F\": [0.0122, 0.023], \"K\": [0.0, 0.0], \"H\": [0.0327, 0.057]}. All views are synthetic renders of synthetic assets."
+}

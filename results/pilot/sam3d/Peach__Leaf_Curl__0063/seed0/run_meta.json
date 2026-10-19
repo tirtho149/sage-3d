@@ -1,0 +1,19 @@
+{
+ "specimen": "Peach__Leaf_Curl/0063",
+ "seed": 0,
+ "input": "/home/tirtho/Desktop/Research/external/SAGE-Extend/data/inputs/Peach__Leaf_Curl__0063",
+ "load_s": 64.0,
+ "gpu": "NVIDIA GeForce GTX TITAN X",
+ "offload": true,
+ "status": "ok",
+ "n_gaussians": 182880,
+ "infer_s": 1117.4,
+ "peak_vram_gb": 11.6,
+ "stage_s": {
+  "compute_pointmap": 3.3,
+  "get_condition_input": 8.7,
+  "sample_sparse_structure": 910.0,
+  "sample_slat": 185.8,
+  "decode_slat": 12.7
+ }
+}

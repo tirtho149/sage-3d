@@ -1,0 +1,54 @@
+{
+ "name": "U3D#INPUT",
+ "n_train": 1920,
+ "n_parents": 59,
+ "parents_per_class": {
+  "min": 3.0,
+  "mean": 3.0,
+  "max": 3.0
+ },
+ "lopo_macro_f1": 0.4884213009213009,
+ "lopo_folds": [
+  0.4718650793650793,
+  0.48558441558441556,
+  0.5078144078144078
+ ],
+ "dev": {
+  "macro_f1": 0.5362228821108028,
+  "top1": 0.623988576868158,
+  "bal_acc": 0.5728693984260929,
+  "top5": 0.9326511185149928,
+  "macro_f1_ci": [
+   0.5161249775049129,
+   0.5540739072206642
+  ],
+  "per_class_recall": {
+   "citrus::canker": 0.4906832298136646,
+   "citrus::greening_disease": 0.75,
+   "coffee::berry_blotch": 0.20588235294117646,
+   "coffee::brown_eye_spot": 0.0,
+   "corn::common_rust": 0.9766666666666667,
+   "corn::smut": 0.8142857142857143,
+   "grape::black_rot": 0.9833333333333333,
+   "grape::downy_mildew": 0.6989247311827957,
+   "mango::anthracnose": 0.9066666666666666,
+   "mango::bacterial_canker": 0.19,
+   "peach::bacterial_spot": 0.6,
+   "peach::leaf_curl": 0.47761194029850745,
+   "potato::late_blight": 0.84,
+   "potato::tomato_spotted_wilt_virus": 0.43333333333333335,
+   "pumpkin::bacterial_leaf_spot": 0.5966666666666667,
+   "pumpkin::downy_mildew": 0.2633333333333333,
+   "strawberry::leaf_scorch": 0.6433333333333333,
+   "strawberry::leaf_spot": 0.31333333333333335,
+   "tomato::bacterial_leaf_spot": 0.8633333333333333,
+   "tomato::leaf_mold": 0.41
+  },
+  "crop": {
+   "crop_acc": 0.7555925749643028,
+   "errors": 1580,
+   "errors_right_crop": 553,
+   "errors_wrong_crop": 1027
+  }
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "near_threshold": 0.95,
+ "cluster_distance": 0.1,
+ "by_arm": [
+  {
+   "arm": "GEN2D",
+   "images": 96.0,
+   "root_photos": 3.0,
+   "spread": 0.408,
+   "near_dup_rate": 0.023,
+   "clusters": 39.8,
+   "eff_parents": 2.86,
+   "parent_var_share": 0.495
+  },
+  {
+   "arm": "KB2D",
+   "images": 96.0,
+   "root_photos": 3.0,
+   "spread": 0.405,
+   "near_dup_rate": 0.024,
+   "clusters": 38.55,
+   "eff_parents": 2.858,
+   "parent_var_share": 0.491
+  },
+  {
+   "arm": "KB3D",
+   "images": 96.0,
+   "root_photos": 3.0,
+   "spread": 0.464,
+   "near_dup_rate": 0.017,
+   "clusters": 50.0,
+   "eff_parents": 2.868,
+   "parent_var_share": 0.432
+  },
+  {
+   "arm": "PHOTO",
+   "images": 96.0,
+   "root_photos": 3.0,
+   "spread": 0.406,
+   "near_dup_rate": 0.023,
+   "clusters": 39.85,
+   "eff_parents": 2.859,
+   "parent_var_share": 0.491
+  },
+  {
+   "arm": "REAL(test sample)",
+   "images": 82.25,
+   "root_photos": 82.25,
+   "spread": 0.431,
+   "near_dup_rate": 0.003,
+   "clusters": 69.8,
+   "eff_parents": 70.724,
+   "parent_var_share": 0.996
+  },
+  {
+   "arm": "U3D",
+   "images": 96.0,
+   "root_photos": 3.0,
+   "spread": 0.459,
+   "near_dup_rate": 0.017,
+   "clusters": 47.8,
+   "eff_parents": 2.904,
+   "parent_var_share": 0.459
+  }
+ ],
+ "classes_mostly_near_identical": []
+}

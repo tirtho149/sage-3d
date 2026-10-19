@@ -1,0 +1,12 @@
+{
+ "prompt": "add disease symptoms to the ear",
+ "prompt_sha1": "f1fb9869887d14d55bb4d07616892e00bcf73e8d",
+ "clip_tokens": 8,
+ "seed": 0,
+ "max_steps": 200,
+ "gs_source": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/pilot/sam3d/Corn__Smut__0012/seed0/splat_ge.ply",
+ "data_source": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/pilot/Corn__Smut__0012/D",
+ "exp_root": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/pilot/Corn__Smut__0012/E/_ge",
+ "tag": "edit",
+ "extra": {}
+}

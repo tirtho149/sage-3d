@@ -1,0 +1,10 @@
+{
+ "prompt": "add disease symptoms to the leaf",
+ "seed": 0,
+ "steps": 20,
+ "res": 512,
+ "gs": 7.5,
+ "igs": 1.5,
+ "sec": 171.3,
+ "peak_vram_gb": 3.08
+}

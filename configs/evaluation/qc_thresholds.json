@@ -1,0 +1,5 @@
+{"_doc": "Technical QC thresholds (brief s20). Grain/fuzz: 1.2 x the maximum observed on Peach 0087 in the geometry-only arms J and G (which never change texture): grain max 1.29, fuzz max 1.39. J/G therefore pass grain/fuzz by construction; those two flags are informative only for texture-editing arms. Other thresholds are fixed a priori. Technical QC is NOT biological validation.",
+ "grain_ratio_max": 1.55, "fuzz_ratio_max": 1.67,
+ "disp_p95_min_geometry_arm": 0.001, "disp_p95_max": 0.2,
+ "dE_min_appearance_arm": 1.0, "silhouette_area_ratio_min": 0.5,
+ "alignment_iou_min": 0.6}

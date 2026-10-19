@@ -1,0 +1,50 @@
+{
+ "name": "KB3D",
+ "n_train": 1536,
+ "n_parents": 47,
+ "parents_per_class": {
+  "min": 3.0,
+  "mean": 3.0,
+  "max": 3.0
+ },
+ "lopo_macro_f1": 0.42119490631141804,
+ "lopo_folds": [
+  0.3921373869453568,
+  0.3872880134598885,
+  0.48415931852900873
+ ],
+ "dev": {
+  "macro_f1": 0.37841231215664595,
+  "top1": 0.4126090627638615,
+  "bal_acc": 0.43219133081403166,
+  "top5": 0.8629327329017732,
+  "macro_f1_ci": [
+   0.35542396973175244,
+   0.39637533530734276
+  ],
+  "per_class_recall": {
+   "coffee::berry_blotch": 0.4117647058823529,
+   "coffee::brown_eye_spot": 0.5172413793103449,
+   "grape::black_rot": 0.006666666666666667,
+   "grape::downy_mildew": 0.8924731182795699,
+   "mango::anthracnose": 0.49333333333333335,
+   "mango::bacterial_canker": 0.17333333333333334,
+   "peach::bacterial_spot": 0.6166666666666667,
+   "peach::leaf_curl": 0.2835820895522388,
+   "potato::late_blight": 0.6466666666666666,
+   "potato::tomato_spotted_wilt_virus": 0.4,
+   "pumpkin::bacterial_leaf_spot": 0.45,
+   "pumpkin::downy_mildew": 0.21,
+   "strawberry::leaf_scorch": 0.3566666666666667,
+   "strawberry::leaf_spot": 0.62,
+   "tomato::bacterial_leaf_spot": 0.0,
+   "tomato::leaf_mold": 0.8366666666666667
+  },
+  "crop": {
+   "crop_acc": 0.6298902336054039,
+   "errors": 2087,
+   "errors_right_crop": 772,
+   "errors_wrong_crop": 1315
+  }
+ }
+}

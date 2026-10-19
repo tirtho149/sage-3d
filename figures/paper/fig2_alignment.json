@@ -1,0 +1,10 @@
+{
+ "figure": "fig2_alignment",
+ "generated": "2026-10-14 15:50:21",
+ "sources": [
+  "results/alignment/summary.json",
+  "results/alignment/*/A0.png",
+  "results/alignment/*/A3_render_compare.png"
+ ],
+ "caption": "Input-view alignment of SAM 3D reconstructions. Overlays: green = render and mask agree, blue = mask only, red = render only. A0 = SAM 3D pose; A3* = pose-only render-and-compare (geometry frozen) accepted only if better than the closed-form A2. Fitted to the input silhouette: agreement here is NOT reconstruction accuracy (no second real view exists)."
+}

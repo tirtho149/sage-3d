@@ -1,0 +1,20 @@
+[
+ {
+  "arm": "J+G",
+  "seed": 0,
+  "status": "OK",
+  "J_disp_rms_rel": 0.017629007447680218
+ },
+ {
+  "arm": "J+G",
+  "seed": 1,
+  "status": "OK",
+  "J_disp_rms_rel": 0.0148578167210067
+ },
+ {
+  "arm": "J+G",
+  "seed": 2,
+  "status": "OK",
+  "J_disp_rms_rel": 0.01948287245506483
+ }
+]

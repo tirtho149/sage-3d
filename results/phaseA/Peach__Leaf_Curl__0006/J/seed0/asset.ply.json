@@ -1,0 +1,130 @@
+{
+ "input": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/pilot/sam3d/Peach__Leaf_Curl__0006/seed0/splat_ge.ply",
+ "spec": {
+  "seed": 0,
+  "ops": [
+   {
+    "amp": 0.06,
+    "sigma": 0.3,
+    "op": "distort",
+    "kb_term": "distorted",
+    "kb_phrase": "Developing leaves become severely distorted"
+   },
+   {
+    "amp": 0.02,
+    "sigma": 0.035,
+    "op": "pucker",
+    "kb_term": "puckered",
+    "kb_phrase": "thickened and puckered"
+   },
+   {
+    "factor": 2.0,
+    "op": "thicken",
+    "kb_term": "thickened",
+    "kb_phrase": "thickened and puckered"
+   }
+  ],
+  "iters": 300
+ },
+ "mode": "sheet",
+ "L_bbox_diag": 1.3767324596557566,
+ "oplog": [
+  {
+   "op": "distort",
+   "sigma": 0.41301973789672697
+  },
+  {
+   "op": "pucker",
+   "n_bumps": 31,
+   "sigma": 0.04818563608795149
+  },
+  {
+   "op": "thicken",
+   "factor": 2.0
+  }
+ ],
+ "loss_history": [
+  {
+   "it": 0,
+   "total": 0.25283142924308777,
+   "edit": 4.36756988256164e-18,
+   "arap": 2.5283122062683105,
+   "smooth": 2.2034031644579954e-05,
+   "anchor": 0.0
+  },
+  {
+   "it": 50,
+   "total": 0.0541018545627594,
+   "edit": 2.5600464141461998e-05,
+   "arap": 0.5407617092132568,
+   "smooth": 8.08710956334835e-06,
+   "anchor": 0.0
+  },
+  {
+   "it": 100,
+   "total": 0.012285579927265644,
+   "edit": 4.6173860027920455e-05,
+   "arap": 0.1223934143781662,
+   "smooth": 6.398668574547628e-06,
+   "anchor": 0.0
+  },
+  {
+   "it": 150,
+   "total": 0.009865278378129005,
+   "edit": 6.22831576038152e-05,
+   "arap": 0.09802938252687454,
+   "smooth": 5.6860321819840465e-06,
+   "anchor": 0.0
+  },
+  {
+   "it": 200,
+   "total": 0.005358201917260885,
+   "edit": 7.500297942897305e-05,
+   "arap": 0.052831459790468216,
+   "smooth": 5.2688101277453825e-06,
+   "anchor": 0.0
+  },
+  {
+   "it": 250,
+   "total": 0.004711026791483164,
+   "edit": 8.527652971679345e-05,
+   "arap": 0.046257004141807556,
+   "smooth": 4.986995008948725e-06,
+   "anchor": 0.0
+  },
+  {
+   "it": 299,
+   "total": 0.0039280615746974945,
+   "edit": 9.35822754399851e-05,
+   "arap": 0.03834431245923042,
+   "smooth": 4.791641458723461e-06,
+   "anchor": 0.0
+  }
+ ],
+ "lambdas": {
+  "edit": 1.0,
+  "arap": 0.1,
+  "smooth": 0.01,
+  "anchor": 1.0
+ },
+ "sec": 76.79811191558838,
+ "target_normal_rms_rel": 0.03630360185648127,
+ "realised_normal_rms_rel": 0.0297578533363357,
+ "edit_fidelity_corr": 0.9754086932856408,
+ "disp_rel": {
+  "median": 0.029031338403463558,
+  "p95": 0.0490061026013953
+ },
+ "edge_stretch": {
+  "median_abs": 0.03478448201448214,
+  "p95_abs": 0.2832625643136235
+ },
+ "normal_change_deg": {
+  "median": 21.775902073085945,
+  "p95": 51.043823071032094
+ },
+ "displacement_in_region_frac": 0.9999999999999999,
+ "thicken_factor": 2.0,
+ "thicken_applied_frac": 0.7976391476478808,
+ "n": 343520
+}

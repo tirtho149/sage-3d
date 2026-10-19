@@ -1,0 +1,234 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sage-extend/acquisition/specimen_metadata_schema.json",
+  "title": "SAGE-Extend multi-view specimen capture record",
+  "description": "One record per physical specimen (specimen.json). See reports/12_acquisition_protocol.md. views[] mirrors views.csv (one row per image).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "specimen_id", "plant_id", "class", "organ", "health_status", "collection", "diagnosis", "capture", "views", "split", "measurements", "annotations", "qc"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "specimen_id": {"type": "string", "pattern": "^(PLC|CSM|TLM|HPE|HCO|HTO)-[0-9]{3}$", "description": "PLC Peach Leaf Curl, CSM Corn Common Smut, TLM Tomato Leaf Mold; HPE/HCO/HTO healthy peach/corn/tomato controls."},
+    "plant_id": {"type": "string", "description": "Source plant/tree; specimens sharing a plant_id are clustered in analysis."},
+    "class": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sage_class_name", "host_species", "pathogen"],
+      "properties": {
+        "sage_class_name": {"type": "string", "description": "Exact SAGE class string, e.g. 'Tomato Leaf Mold' or 'healthy'."},
+        "sage_class_id": {"type": ["integer", "string", "null"]},
+        "kb_quote": {"type": ["string", "null"], "description": "Verbatim SAGE symptom quote used to drive the KB edit."},
+        "host_species": {"type": "string", "examples": ["Prunus persica", "Zea mays", "Solanum lycopersicum"]},
+        "cultivar": {"type": ["string", "null"]},
+        "pathogen": {"type": ["string", "null"], "examples": ["Taphrina deformans", "Ustilago maydis", "Passalora fulva", null]},
+        "symptom_stage": {"type": ["string", "null"], "enum": ["early", "mid", "late", null]}
+      }
+    },
+    "organ": {"type": "string", "enum": ["leaf", "leaflet", "ear", "stalk_segment", "tassel", "other"]},
+    "health_status": {"type": "string", "enum": ["diseased", "healthy_control"]},
+    "collection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["date", "source_type", "site", "collector", "minutes_collection_to_capture", "storage"],
+      "properties": {
+        "date": {"type": "string", "format": "date"},
+        "source_type": {"type": "string", "enum": ["field", "research_farm", "high_tunnel", "greenhouse", "home_garden", "clinic_submission", "market"]},
+        "site": {"type": "string", "description": "Named site; no private addresses."},
+        "lat_lon_coarse": {"type": ["array", "null"], "items": {"type": "number"}, "minItems": 2, "maxItems": 2, "description": "Rounded to 0.01 deg."},
+        "collector": {"type": "string"},
+        "minutes_collection_to_capture": {"type": "number", "minimum": 0},
+        "storage": {"type": "string", "examples": ["sealed bag, damp towel, 4-8 C"]}
+      }
+    },
+    "diagnosis": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["method", "confirmed_by", "confirmed"],
+      "properties": {
+        "method": {"type": "string", "enum": ["PIDC", "pathologist_visual_plus_microscopy", "pathologist_visual", "none_healthy_control"]},
+        "confirmed_by": {"type": "string"},
+        "confirmed": {"type": "boolean"},
+        "clinic_sample_id": {"type": ["string", "null"]},
+        "signs_observed": {"type": ["string", "null"], "examples": ["asci on adaxial surface", "teliospores", "conidiophores on abaxial surface"]}
+      }
+    },
+    "capture": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["datetime_start", "operator", "camera", "lighting", "charuco", "color_checker", "scale_bar_mm", "turntable_step_deg", "mount", "rings"],
+      "properties": {
+        "datetime_start": {"type": "string", "format": "date-time"},
+        "operator": {"type": "string"},
+        "camera": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["make", "model", "focal_length_mm", "aperture_f", "iso", "shutter_s", "white_balance_K", "raw"],
+          "properties": {
+            "make": {"type": "string"}, "model": {"type": "string"}, "lens": {"type": ["string", "null"]},
+            "focal_length_mm": {"type": "number"}, "aperture_f": {"type": "number"}, "iso": {"type": "integer"},
+            "shutter_s": {"type": "number"}, "white_balance_K": {"type": "integer"}, "raw": {"type": "boolean"},
+            "image_width_px": {"type": "integer"}, "image_height_px": {"type": "integer"}
+          }
+        },
+        "lighting": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["setup", "cct_K", "cri"],
+          "properties": {"setup": {"type": "string"}, "cct_K": {"type": "integer"}, "cri": {"type": "number"}, "cross_polarised": {"type": "boolean"}}
+        },
+        "charuco": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["squares_x", "squares_y", "square_mm_measured", "marker_mm", "dictionary"],
+          "properties": {
+            "squares_x": {"type": "integer"}, "squares_y": {"type": "integer"},
+            "square_mm_nominal": {"type": "number"}, "square_mm_measured": {"type": "number"},
+            "marker_mm": {"type": "number"}, "dictionary": {"type": "string", "examples": ["DICT_5X5_100"]}
+          }
+        },
+        "color_checker": {"type": "string", "examples": ["ColorChecker Classic 24"]},
+        "scale_bar_mm": {"type": "number"},
+        "turntable_step_deg": {"type": "number", "examples": [15]},
+        "mount": {"type": "string", "enum": ["petiole_clip_rod", "shank_spike", "other"]},
+        "mount_height_mm": {"type": "number"},
+        "rings": {
+          "type": "array",
+          "items": {
+            "type": "object", "additionalProperties": false,
+            "required": ["ring", "elevation_deg", "n_views"],
+            "properties": {"ring": {"type": "string", "enum": ["R1", "R2", "R3", "R4", "T", "B", "CAL"]}, "elevation_deg": {"type": "number"}, "n_views": {"type": "integer"}}
+          }
+        }
+      }
+    },
+    "views": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["view_id", "file", "sha256", "ring", "azimuth_deg", "elevation_deg", "surface_visible", "role"],
+        "properties": {
+          "view_id": {"type": "string", "pattern": "^(R[1-4]_a[0-9]{3}|T|B|CAL_[0-9]{2}|flat_ad|flat_ab|scan600_ad|scan600_ab)$"},
+          "file": {"type": "string", "description": "Relative path, e.g. raw/PLC-003_R4_a090.dng"},
+          "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+          "ring": {"type": "string", "enum": ["R1", "R2", "R3", "R4", "T", "B", "CAL", "FLAT"]},
+          "azimuth_deg": {"type": ["number", "null"]},
+          "elevation_deg": {"type": ["number", "null"]},
+          "surface_visible": {"type": "string", "enum": ["adaxial", "abaxial", "both", "edge", "na"]},
+          "role": {"type": "string", "enum": ["input", "input_alt", "heldout_eval", "ref_check", "calibration", "flat_reference"]},
+          "angular_bin": {"type": ["string", "null"], "enum": ["E-near", "E-mid", "E-far", "E-under", null]},
+          "colmap_registered": {"type": ["boolean", "null"]},
+          "notes": {"type": ["string", "null"]}
+        }
+      }
+    },
+    "split": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["input_view_id", "frozen_at", "frozen_hash"],
+      "properties": {
+        "input_view_id": {"type": "string", "examples": ["R1_a000"]},
+        "input_alt_view_id": {"type": ["string", "null"], "examples": ["T"]},
+        "ref_check_view_ids": {"type": "array", "items": {"type": "string"}},
+        "frozen_at": {"type": "string", "format": "date-time", "description": "Must precede any reconstruction of this specimen."},
+        "frozen_hash": {"type": "string", "description": "SHA-256 of the sorted (view_id, role) list."}
+      }
+    },
+    "registration_both_surfaces": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "properties": {
+        "method": {"type": "string", "enum": ["pinhole_similarity", "pinhole_tps", "outline_tps"]},
+        "pinhole_residual_mm": {"type": "number"},
+        "registration_failed": {"type": "boolean", "description": "true if residual > 1.0 mm; record is kept and flagged."}
+      }
+    },
+    "measurements": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "leaf": {
+          "type": ["object", "null"],
+          "additionalProperties": false,
+          "properties": {
+            "length_mm": {"type": "number"}, "width_mm": {"type": "number"},
+            "thickness_mm": {"type": "array", "items": {"type": "number"}, "minItems": 3, "maxItems": 3},
+            "thickness_sites": {"type": "array", "items": {"type": "string", "enum": ["symptomatic", "least_affected"]}},
+            "fresh_mass_g": {"type": "number"},
+            "curl_direction_visual": {"type": "string", "enum": ["adaxial_concave", "abaxial_concave", "mixed", "none"]},
+            "roll_axis": {"type": "string", "enum": ["longitudinal", "transverse", "both", "none"]},
+            "blister_count": {"type": ["integer", "null"]}
+          }
+        },
+        "ear": {
+          "type": ["object", "null"],
+          "additionalProperties": false,
+          "properties": {
+            "length_mm": {"type": "number"}, "max_diameter_mm": {"type": "number"},
+            "gall_count_ge3mm": {"type": "integer", "minimum": 0}
+          }
+        },
+        "galls": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["gall_id", "location", "maturity", "axes_mm"],
+            "properties": {
+              "gall_id": {"type": "string", "pattern": "^G[0-9]{2}$"},
+              "location": {"type": "string", "enum": ["ear", "shank", "stalk", "tassel", "leaf"]},
+              "maturity": {"type": "string", "enum": ["immature_white", "silvery", "ruptured_black"]},
+              "axes_mm": {"type": "array", "items": {"type": "number"}, "minItems": 3, "maxItems": 3, "description": "a >= b >= c"},
+              "ellipsoid_volume_mL": {"type": "number"},
+              "displacement_volume_mL": {"type": "array", "items": {"type": "number"}, "minItems": 1, "maxItems": 5},
+              "mass_g": {"type": "number"}
+            }
+          }
+        }
+      }
+    },
+    "annotations": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["annotators", "frozen_hash"],
+      "properties": {
+        "annotators": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+        "double_annotated": {"type": "boolean"},
+        "label_map": {"type": "object", "default": {"0": "background", "1": "lesion_chlorosis", "2": "sporulation_mold", "3": "blister_pucker", "4": "gall"}},
+        "specimen_masks": {"type": "array", "items": {"type": "string"}},
+        "symptom_masks_adaxial": {"type": "array", "items": {"type": "string"}},
+        "symptom_masks_abaxial": {"type": "array", "items": {"type": "string"}},
+        "gall_instances_coco": {"type": ["string", "null"]},
+        "midrib_polyline": {"type": ["string", "null"]},
+        "curl_direction_blind": {"type": ["string", "null"], "enum": ["adaxial_concave", "abaxial_concave", "mixed", "none", null]},
+        "frozen_hash": {"type": "string", "description": "Hash of all annotation files; must precede model outputs for this specimen."}
+      }
+    },
+    "reference_reconstruction": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "properties": {
+        "software": {"type": "string"}, "version": {"type": "string"},
+        "n_views_used": {"type": "integer"},
+        "mean_reprojection_error_px": {"type": "number"},
+        "scale_mm_per_unit": {"type": "number"},
+        "scale_check_error_pct": {"type": "number", "description": "ChArUco scale vs scale bar."},
+        "ref_check_silhouette_iou_median": {"type": "number"},
+        "ref_check_depth_rmse_mm": {"type": "number"},
+        "run_id": {"type": "string", "description": "Executor run ID (no inline compute)."}
+      }
+    },
+    "qc": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status"],
+      "properties": {
+        "status": {"type": "string", "enum": ["ok", "flagged", "excluded"]},
+        "issues": {"type": "array", "items": {"type": "string", "examples": ["motion_blur_R2_a135", "registration_failed", "gall_ruptured_before_capture"]}},
+        "exclusion_reason": {"type": ["string", "null"], "description": "Excluded specimens are kept and reported, never deleted."}
+      }
+    },
+    "notes": {"type": ["string", "null"]}
+  }
+}

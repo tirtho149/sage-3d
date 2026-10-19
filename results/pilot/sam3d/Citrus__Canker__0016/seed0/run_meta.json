@@ -1,0 +1,19 @@
+{
+ "specimen": "Citrus__Canker/0016",
+ "seed": 0,
+ "input": "/home/tirtho/Desktop/Research/external/SAGE-Extend/data/inputs/Citrus__Canker__0016",
+ "load_s": 64.0,
+ "gpu": "NVIDIA GeForce GTX TITAN X",
+ "offload": true,
+ "status": "ok",
+ "n_gaussians": 560544,
+ "infer_s": 1800.0,
+ "peak_vram_gb": 11.67,
+ "stage_s": {
+  "compute_pointmap": 3.1,
+  "get_condition_input": 8.8,
+  "sample_sparse_structure": 915.2,
+  "sample_slat": 781.3,
+  "decode_slat": 92.7
+ }
+}

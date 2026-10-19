@@ -1,0 +1,10 @@
+{
+ "image": "data/inputs/Tomato__Leaf_Mold__0015/image.png",
+ "mask": "data/inputs/Tomato__Leaf_Mold__0015/0.png",
+ "prompt": "make this tomato leaf show leaf mold: pale greenish-yellow spots; olive-green to brown velvety mold forms on the lower leaf surface below leaf spots",
+ "seed": 0,
+ "out": "results/phaseA/Tomato__Leaf_Mold__0015/C_stage/seed0.png",
+ "arm": "C_stage",
+ "key": "Tomato__Leaf_Mold",
+ "sec": 243.0
+}

@@ -1,0 +1,20 @@
+crop,disease,bg,eval,pilot_source,train
+Citrus,Canker,20,163,3,243
+Citrus,Greening Disease,20,43,0,66
+Citrus,Penicillium Fungi,20,24,0,38
+Corn,Common Rust,20,200,0,300
+Corn,Gray Leaf Spot,20,200,0,300
+Corn,Northern Leaf Blight,20,200,0,300
+Corn,Smut,20,149,3,221
+Mango,Anthracnose,20,200,3,300
+Mango,Bacterial Canker,20,200,0,300
+Mango,Die Back,20,200,0,300
+Mango,Sooty Mould,20,200,0,300
+Peach,Bacterial Leaf Spot,20,200,0,300
+Peach,Brown Rot,20,65,0,98
+Peach,Leaf Curl,20,66,3,97
+Peach,Peach Scab,20,26,0,40
+Tomato,Bacterial Leaf Spot,20,200,0,300
+Tomato,Leaf Mold,20,200,3,300
+Tomato,Septoria Leaf Blotch,20,200,0,300
+Tomato,Tomato Leaf Curl Virus,20,200,0,300

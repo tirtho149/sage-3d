@@ -1,0 +1,51 @@
+{
+ "n_orig": 343520,
+ "n_edit": 342696,
+ "n_matched": 342696,
+ "n_added": 0,
+ "n_deleted": 824,
+ "order_preserved_frac": 1.0,
+ "bbox_diag": 1.3767324596557566,
+ "disp_rel": {
+  "mean": 0.0,
+  "median": 0.0,
+  "p95": 0.0,
+  "max": 0.0
+ },
+ "frac_disp_gt_1pct": 0.0,
+ "rot_deg": {
+  "mean": 5.587431921787491e-07,
+  "median": 0.0,
+  "p95": 2.4148365394514667e-06,
+  "max": 3.818191820832845e-06
+ },
+ "dlogscale": {
+  "mean": 0.0,
+  "median": 0.0,
+  "p95": 0.0,
+  "max": 0.0
+ },
+ "dopacity": {
+  "mean": 0.0,
+  "median": 0.0,
+  "p95": 0.0,
+  "max": 0.0,
+  "mean_signed": 0.0
+ },
+ "drgb": {
+  "mean": 0.0,
+  "median": 0.0,
+  "p95": 0.0,
+  "max": 0.0
+ },
+ "bbox_extent_ratio": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "mean_opacity": [
+  0.8243775877387925,
+  0.8263541222444055
+ ],
+ "classification": "appearance-only"
+}

@@ -1,0 +1,19 @@
+{
+ "prompt": "make this citrus fruit show canker: lesions become corky",
+ "prompt_sha1": "e45271b85f6f106f7578672b381689280d2697da",
+ "clip_tokens": 15,
+ "seed": 0,
+ "max_steps": 200,
+ "gs_source": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/pilot/sam3d/Citrus__Canker__0012/seed0/splat_ge.ply",
+ "data_source": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/pilot/Citrus__Canker__0012/D",
+ "exp_root": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/phaseA/Citrus__Canker__0012/K/seed0/_ge",
+ "tag": "edit",
+ "extra": {
+  "system.gs_lr_scaler": 0.0,
+  "system.gs_final_lr_scaler": 0.0,
+  "system.scaling_lr_scaler": 0.0,
+  "system.rotation_lr_scaler": 0.0,
+  "system.opacity_lr_scaler": 0.0,
+  "system.densify_until_iter": 0
+ }
+}

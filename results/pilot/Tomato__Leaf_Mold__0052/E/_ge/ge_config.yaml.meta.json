@@ -1,0 +1,12 @@
+{
+ "prompt": "add disease symptoms to the leaf",
+ "prompt_sha1": "eb61869593c8e6e552c6a9ffaa7675da5fc6d726",
+ "clip_tokens": 8,
+ "seed": 0,
+ "max_steps": 200,
+ "gs_source": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/pilot/sam3d/Tomato__Leaf_Mold__0052/seed0/splat_ge.ply",
+ "data_source": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/pilot/Tomato__Leaf_Mold__0052/D",
+ "exp_root": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/pilot/Tomato__Leaf_Mold__0052/E/_ge",
+ "tag": "edit",
+ "extra": {}
+}

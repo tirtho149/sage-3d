@@ -1,0 +1,129 @@
+{
+ "set": "KB2D",
+ "args": {
+  "set": "KB2D",
+  "mode": "lora",
+  "k": 2,
+  "r": 8,
+  "lr_head": 0.001,
+  "lr_bb": 0.0005,
+  "llrd": 1.0,
+  "wd": 0.05,
+  "ls": 0.0,
+  "balanced": false,
+  "epochs": 15,
+  "clip": 1.0,
+  "aug": "std",
+  "seed": 1,
+  "bs": 64,
+  "val_fold": null,
+  "final": null,
+  "tag": "KB2D_lora_sel_s1",
+  "out": "results/stage1/ft"
+ },
+ "n_train": 1920,
+ "steps": 450,
+ "history": [
+  {
+   "epoch": 0,
+   "train_loss": 2.13155824393034
+  },
+  {
+   "epoch": 1,
+   "train_loss": 0.02011221842840314
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.000625696434872225
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.0003899149975040928
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.00029491013507746783
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.0002445593927404843
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.0002138076471358848
+  },
+  {
+   "epoch": 7,
+   "train_loss": 0.0001854124406236224
+  },
+  {
+   "epoch": 8,
+   "train_loss": 0.00016979985278643047
+  },
+  {
+   "epoch": 9,
+   "train_loss": 0.00016335204078738268
+  },
+  {
+   "epoch": 10,
+   "train_loss": 0.00015295969569706358
+  },
+  {
+   "epoch": 11,
+   "train_loss": 0.00015118558270235856
+  },
+  {
+   "epoch": 12,
+   "train_loss": 0.0001485273547586985
+  },
+  {
+   "epoch": 13,
+   "train_loss": 0.0001432364893844351
+  },
+  {
+   "epoch": 14,
+   "train_loss": 0.0001389992668312819
+  }
+ ],
+ "train_sec": 640.2,
+ "trainable_params": 155156,
+ "dev": {
+  "macro_f1": 0.37089882512663985,
+  "top1": 0.43407900999524035,
+  "bal_acc": 0.4290719429705489,
+  "top5": 0.831984769157544,
+  "macro_f1_ci": [
+   0.3535510593857317,
+   0.3860511116134526
+  ],
+  "per_class_recall": {
+   "citrus::canker": 0.4906832298136646,
+   "citrus::greening_disease": 0.9166666666666666,
+   "coffee::berry_blotch": 0.058823529411764705,
+   "coffee::brown_eye_spot": 0.1724137931034483,
+   "corn::common_rust": 0.9066666666666666,
+   "corn::smut": 0.9285714285714286,
+   "grape::black_rot": 0.01,
+   "grape::downy_mildew": 0.7526881720430108,
+   "mango::anthracnose": 0.20666666666666667,
+   "mango::bacterial_canker": 0.27,
+   "peach::bacterial_spot": 0.6366666666666667,
+   "peach::leaf_curl": 0.014925373134328358,
+   "potato::late_blight": 0.8333333333333334,
+   "potato::tomato_spotted_wilt_virus": 0.3,
+   "pumpkin::bacterial_leaf_spot": 0.44333333333333336,
+   "pumpkin::downy_mildew": 0.13,
+   "strawberry::leaf_scorch": 0.23,
+   "strawberry::leaf_spot": 0.6966666666666667,
+   "tomato::bacterial_leaf_spot": 0.0,
+   "tomato::leaf_mold": 0.5833333333333334
+  },
+  "crop": {
+   "crop_acc": 0.6270823417420276,
+   "errors": 2378,
+   "errors_right_crop": 811,
+   "errors_wrong_crop": 1567
+  }
+ },
+ "embedding_drift": 0.26078665256500244
+}

@@ -1,0 +1,842 @@
+[
+ {
+  "image": "data/inputs/Peach__Leaf_Curl__0006/image.png",
+  "mask": "data/inputs/Peach__Leaf_Curl__0006/0.png",
+  "prompt": "make this peach leaf show leaf curl: developing leaves become severely distorted; thickened and puckered; developing leaves have a reddish or purple cast",
+  "seed": 0,
+  "out": "results/phaseA/Peach__Leaf_Curl__0006/C_stage/seed0.png",
+  "arm": "C_stage",
+  "key": "Peach__Leaf_Curl"
+ },
+ {
+  "image": "data/inputs/Peach__Leaf_Curl__0006/image.png",
+  "mask": "data/inputs/Peach__Leaf_Curl__0006/0.png",
+  "prompt": "make this peach leaf show leaf curl: developing leaves become severely distorted; thickened and puckered; developing leaves have a reddish or purple cast",
+  "seed": 0,
+  "out": "results/phaseA/Peach__Leaf_Curl__0006/I/seed0.png",
+  "igs": 1.2,
+  "dilate": 0.15,
+  "arm": "I",
+  "key": "Peach__Leaf_Curl"
+ },
+ {
+  "image": "data/inputs/Peach__Leaf_Curl__0006/image.png",
+  "mask": "data/inputs/Peach__Leaf_Curl__0006/0.png",
+  "prompt": "make this peach leaf show leaf curl: developing leaves become severely distorted; thickened and puckered; developing leaves have a reddish or purple cast",
+  "seed": 1,
+  "out": "results/phaseA/Peach__Leaf_Curl__0006/C_stage/seed1.png",
+  "arm": "C_stage",
+  "key": "Peach__Leaf_Curl"
+ },
+ {
+  "image": "data/inputs/Peach__Leaf_Curl__0006/image.png",
+  "mask": "data/inputs/Peach__Leaf_Curl__0006/0.png",
+  "prompt": "make this peach leaf show leaf curl: developing leaves become severely distorted; thickened and puckered; developing leaves have a reddish or purple cast",
+  "seed": 1,
+  "out": "results/phaseA/Peach__Leaf_Curl__0006/I/seed1.png",
+  "igs": 1.2,
+  "dilate": 0.15,
+  "arm": "I",
+  "key": "Peach__Leaf_Curl"
+ },
+ {
+  "image": "data/inputs/Peach__Leaf_Curl__0006/image.png",
+  "mask": "data/inputs/Peach__Leaf_Curl__0006/0.png",
+  "prompt": "make this peach leaf show leaf curl: developing leaves become severely distorted; thickened and puckered; developing leaves have a reddish or purple cast",
+  "seed": 2,
+  "out": "results/phaseA/Peach__Leaf_Curl__0006/C_stage/seed2.png",
+  "arm": "C_stage",
+  "key": "Peach__Leaf_Curl"
+ },
+ {
+  "image": "data/inputs/Peach__Leaf_Curl__0006/image.png",
+  "mask": "data/inputs/Peach__Leaf_Curl__0006/0.png",
+  "prompt": "make this peach leaf show leaf curl: developing leaves become severely distorted; thickened and puckered; developing leaves have a reddish or purple cast",
+  "seed": 2,
+  "out": "results/phaseA/Peach__Leaf_Curl__0006/I/seed2.png",
+  "igs": 1.2,
+  "dilate": 0.15,
+  "arm": "I",
+  "key": "Peach__Leaf_Curl"
+ },
+ {
+  "image": "data/inputs/Peach__Leaf_Curl__0063/image.png",
+  "mask": "data/inputs/Peach__Leaf_Curl__0063/0.png",
+  "prompt": "make this peach leaf show leaf curl: developing leaves become severely distorted; thickened and puckered; developing leaves have a reddish or purple cast",
+  "seed": 0,
+  "out": "results/phaseA/Peach__Leaf_Curl__0063/C_stage/seed0.png",
+  "arm": "C_stage",
+  "key": "Peach__Leaf_Curl"
+ },
+ {
+  "image": "data/inputs/Peach__Leaf_Curl__0063/image.png",
+  "mask": "data/inputs/Peach__Leaf_Curl__0063/0.png",
+  "prompt": "make this peach leaf show leaf curl: developing leaves become severely distorted; thickened and puckered; developing leaves have a reddish or purple cast",
+  "seed": 0,
+  "out": "results/phaseA/Peach__Leaf_Curl__0063/I/seed0.png",
+  "igs": 1.2,
+  "dilate": 0.15,
+  "arm": "I",
+  "key": "Peach__Leaf_Curl"
+ },
+ {
+  "image": "data/inputs/Peach__Leaf_Curl__0063/image.png",
+  "mask": "data/inputs/Peach__Leaf_Curl__0063/0.png",
+  "prompt": "make this peach leaf show leaf curl: developing leaves become severely distorted; thickened and puckered; developing leaves have a reddish or purple cast",
+  "seed": 1,
+  "out": "results/phaseA/Peach__Leaf_Curl__0063/C_stage/seed1.png",
+  "arm": "C_stage",
+  "key": "Peach__Leaf_Curl"
+ },
+ {
+  "image": "data/inputs/Peach__Leaf_Curl__0063/image.png",
+  "mask": "data/inputs/Peach__Leaf_Curl__0063/0.png",
+  "prompt": "make this peach leaf show leaf curl: developing leaves become severely distorted; thickened and puckered; developing leaves have a reddish or purple cast",
+  "seed": 1,
+  "out": "results/phaseA/Peach__Leaf_Curl__0063/I/seed1.png",
+  "igs": 1.2,
+  "dilate": 0.15,
+  "arm": "I",
+  "key": "Peach__Leaf_Curl"
+ },
+ {
+  "image": "data/inputs/Peach__Leaf_Curl__0063/image.png",
+  "mask": "data/inputs/Peach__Leaf_Curl__0063/0.png",
+  "prompt": "make this peach leaf show leaf curl: developing leaves become severely distorted; thickened and puckered; developing leaves have a reddish or purple cast",
+  "seed": 2,
+  "out": "results/phaseA/Peach__Leaf_Curl__0063/C_stage/seed2.png",
+  "arm": "C_stage",
+  "key": "Peach__Leaf_Curl"
+ },
+ {
+  "image": "data/inputs/Peach__Leaf_Curl__0063/image.png",
+  "mask": "data/inputs/Peach__Leaf_Curl__0063/0.png",
+  "prompt": "make this peach leaf show leaf curl: developing leaves become severely distorted; thickened and puckered; developing leaves have a reddish or purple cast",
+  "seed": 2,
+  "out": "results/phaseA/Peach__Leaf_Curl__0063/I/seed2.png",
+  "igs": 1.2,
+  "dilate": 0.15,
+  "arm": "I",
+  "key": "Peach__Leaf_Curl"
+ },
+ {
+  "image": "data/inputs/Tomato__Leaf_Mold__0015/image.png",
+  "mask": "data/inputs/Tomato__Leaf_Mold__0015/0.png",
+  "prompt": "make this tomato leaf show leaf mold: pale greenish-yellow spots; olive-green to brown velvety mold forms on the lower leaf surface below leaf spots",
+  "seed": 0,
+  "out": "results/phaseA/Tomato__Leaf_Mold__0015/C_stage/seed0.png",
+  "arm": "C_stage",
+  "key": "Tomato__Leaf_Mold"
+ },
+ {
+  "image": "data/inputs/Tomato__Leaf_Mold__0015/image.png",
+  "mask": "data/inputs/Tomato__Leaf_Mold__0015/0.png",
+  "prompt": "make this tomato leaf show leaf mold: pale greenish-yellow spots; olive-green to brown velvety mold forms on the lower leaf surface below leaf spots",
+  "seed": 0,
+  "out": "results/phaseA/Tomato__Leaf_Mold__0015/I/seed0.png",
+  "igs": 1.2,
+  "dilate": 0.15,
+  "arm": "I",
+  "key": "Tomato__Leaf_Mold"
+ },
+ {
+  "image": "data/inputs/Tomato__Leaf_Mold__0015/image.png",
+  "mask": "data/inputs/Tomato__Leaf_Mold__0015/0.png",
+  "prompt": "make this tomato leaf show leaf mold: pale greenish-yellow spots; olive-green to brown velvety mold forms on the lower leaf surface below leaf spots",
+  "seed": 1,
+  "out": "results/phaseA/Tomato__Leaf_Mold__0015/C_stage/seed1.png",
+  "arm": "C_stage",
+  "key": "Tomato__Leaf_Mold"
+ },
+ {
+  "image": "data/inputs/Tomato__Leaf_Mold__0015/image.png",
+  "mask": "data/inputs/Tomato__Leaf_Mold__0015/0.png",
+  "prompt": "make this tomato leaf show leaf mold: pale greenish-yellow spots; olive-green to brown velvety mold forms on the lower leaf surface below leaf spots",
+  "seed": 1,
+  "out": "results/phaseA/Tomato__Leaf_Mold__0015/I/seed1.png",
+  "igs": 1.2,
+  "dilate": 0.15,
+  "arm": "I",
+  "key": "Tomato__Leaf_Mold"
+ },
+ {
+  "image": "data/inputs/Tomato__Leaf_Mold__0015/image.png",
+  "mask": "data/inputs/Tomato__Leaf_Mold__0015/0.png",
+  "prompt": "make this tomato leaf show leaf mold: pale greenish-yellow spots; olive-green to brown velvety mold forms on the lower leaf surface below leaf spots",
+  "seed": 2,
+  "out": "results/phaseA/Tomato__Leaf_Mold__0015/C_stage/seed2.png",
+  "arm": "C_stage",
+  "key": "Tomato__Leaf_Mold"
+ },
+ {
+  "image": "data/inputs/Tomato__Leaf_Mold__0015/image.png",
+  "mask": "data/inputs/Tomato__Leaf_Mold__0015/0.png",
+  "prompt": "make this tomato leaf show leaf mold: pale greenish-yellow spots; olive-green to brown velvety mold forms on the lower leaf surface below leaf spots",
+  "seed": 2,
+  "out": "results/phaseA/Tomato__Leaf_Mold__0015/I/seed2.png",
+  "igs": 1.2,
+  "dilate": 0.15,
+  "arm": "I",
+  "key": "Tomato__Leaf_Mold"
+ },
+ {
+  "image": "data/inputs/Tomato__Leaf_Mold__0052/image.png",
+  "mask": "data/inputs/Tomato__Leaf_Mold__0052/0.png",
+  "prompt": "make this tomato leaf show leaf mold: pale greenish-yellow spots; olive-green to brown velvety mold forms on the lower leaf surface below leaf spots",
+  "seed": 0,
+  "out": "results/phaseA/Tomato__Leaf_Mold__0052/C_stage/seed0.png",
+  "arm": "C_stage",
+  "key": "Tomato__Leaf_Mold"
+ },
+ {
+  "image": "data/inputs/Tomato__Leaf_Mold__0052/image.png",
+  "mask": "data/inputs/Tomato__Leaf_Mold__0052/0.png",
+  "prompt": "make this tomato leaf show leaf mold: pale greenish-yellow spots; olive-green to brown velvety mold forms on the lower leaf surface below leaf spots",
+  "seed": 0,
+  "out": "results/phaseA/Tomato__Leaf_Mold__0052/I/seed0.png",
+  "igs": 1.2,
+  "dilate": 0.15,
+  "arm": "I",
+  "key": "Tomato__Leaf_Mold"
+ },
+ {
+  "image": "data/inputs/Tomato__Leaf_Mold__0052/image.png",
+  "mask": "data/inputs/Tomato__Leaf_Mold__0052/0.png",
+  "prompt": "make this tomato leaf show leaf mold: pale greenish-yellow spots; olive-green to brown velvety mold forms on the lower leaf surface below leaf spots",
+  "seed": 1,
+  "out": "results/phaseA/Tomato__Leaf_Mold__0052/C_stage/seed1.png",
+  "arm": "C_stage",
+  "key": "Tomato__Leaf_Mold"
+ },
+ {
+  "image": "data/inputs/Tomato__Leaf_Mold__0052/image.png",
+  "mask": "data/inputs/Tomato__Leaf_Mold__0052/0.png",
+  "prompt": "make this tomato leaf show leaf mold: pale greenish-yellow spots; olive-green to brown velvety mold forms on the lower leaf surface below leaf spots",
+  "seed": 1,
+  "out": "results/phaseA/Tomato__Leaf_Mold__0052/I/seed1.png",
+  "igs": 1.2,
+  "dilate": 0.15,
+  "arm": "I",
+  "key": "Tomato__Leaf_Mold"
+ },
+ {
+  "image": "data/inputs/Tomato__Leaf_Mold__0052/image.png",
+  "mask": "data/inputs/Tomato__Leaf_Mold__0052/0.png",
+  "prompt": "make this tomato leaf show leaf mold: pale greenish-yellow spots; olive-green to brown velvety mold forms on the lower leaf surface below leaf spots",
+  "seed": 2,
+  "out": "results/phaseA/Tomato__Leaf_Mold__0052/C_stage/seed2.png",
+  "arm": "C_stage",
+  "key": "Tomato__Leaf_Mold"
+ },
+ {
+  "image": "data/inputs/Tomato__Leaf_Mold__0052/image.png",
+  "mask": "data/inputs/Tomato__Leaf_Mold__0052/0.png",
+  "prompt": "make this tomato leaf show leaf mold: pale greenish-yellow spots; olive-green to brown velvety mold forms on the lower leaf surface below leaf spots",
+  "seed": 2,
+  "out": "results/phaseA/Tomato__Leaf_Mold__0052/I/seed2.png",
+  "igs": 1.2,
+  "dilate": 0.15,
+  "arm": "I",
+  "key": "Tomato__Leaf_Mold"
+ },
+ {
+  "image": "data/inputs/Tomato__Leaf_Mold__0092/image.png",
+  "mask": "data/inputs/Tomato__Leaf_Mold__0092/0.png",
+  "prompt": "make this tomato leaf show leaf mold: pale greenish-yellow spots; olive-green to brown velvety mold forms on the lower leaf surface below leaf spots",
+  "seed": 0,
+  "out": "results/phaseA/Tomato__Leaf_Mold__0092/C_stage/seed0.png",
+  "arm": "C_stage",
+  "key": "Tomato__Leaf_Mold"
+ },
+ {
+  "image": "data/inputs/Tomato__Leaf_Mold__0092/image.png",
+  "mask": "data/inputs/Tomato__Leaf_Mold__0092/0.png",
+  "prompt": "make this tomato leaf show leaf mold: pale greenish-yellow spots; olive-green to brown velvety mold forms on the lower leaf surface below leaf spots",
+  "seed": 0,
+  "out": "results/phaseA/Tomato__Leaf_Mold__0092/I/seed0.png",
+  "igs": 1.2,
+  "dilate": 0.15,
+  "arm": "I",
+  "key": "Tomato__Leaf_Mold"
+ },
+ {
+  "image": "data/inputs/Tomato__Leaf_Mold__0092/image.png",
+  "mask": "data/inputs/Tomato__Leaf_Mold__0092/0.png",
+  "prompt": "make this tomato leaf show leaf mold: pale greenish-yellow spots; olive-green to brown velvety mold forms on the lower leaf surface below leaf spots",
+  "seed": 1,
+  "out": "results/phaseA/Tomato__Leaf_Mold__0092/C_stage/seed1.png",
+  "arm": "C_stage",
+  "key": "Tomato__Leaf_Mold"
+ },
+ {
+  "image": "data/inputs/Tomato__Leaf_Mold__0092/image.png",
+  "mask": "data/inputs/Tomato__Leaf_Mold__0092/0.png",
+  "prompt": "make this tomato leaf show leaf mold: pale greenish-yellow spots; olive-green to brown velvety mold forms on the lower leaf surface below leaf spots",
+  "seed": 1,
+  "out": "results/phaseA/Tomato__Leaf_Mold__0092/I/seed1.png",
+  "igs": 1.2,
+  "dilate": 0.15,
+  "arm": "I",
+  "key": "Tomato__Leaf_Mold"
+ },
+ {
+  "image": "data/inputs/Tomato__Leaf_Mold__0092/image.png",
+  "mask": "data/inputs/Tomato__Leaf_Mold__0092/0.png",
+  "prompt": "make this tomato leaf show leaf mold: pale greenish-yellow spots; olive-green to brown velvety mold forms on the lower leaf surface below leaf spots",
+  "seed": 2,
+  "out": "results/phaseA/Tomato__Leaf_Mold__0092/C_stage/seed2.png",
+  "arm": "C_stage",
+  "key": "Tomato__Leaf_Mold"
+ },
+ {
+  "image": "data/inputs/Tomato__Leaf_Mold__0092/image.png",
+  "mask": "data/inputs/Tomato__Leaf_Mold__0092/0.png",
+  "prompt": "make this tomato leaf show leaf mold: pale greenish-yellow spots; olive-green to brown velvety mold forms on the lower leaf surface below leaf spots",
+  "seed": 2,
+  "out": "results/phaseA/Tomato__Leaf_Mold__0092/I/seed2.png",
+  "igs": 1.2,
+  "dilate": 0.15,
+  "arm": "I",
+  "key": "Tomato__Leaf_Mold"
+ },
+ {
+  "image": "data/inputs/Corn__Smut__0025/image.png",
+  "mask": "data/inputs/Corn__Smut__0025/0.png",
+  "prompt": "make this corn ear show smut: the most obvious symptoms are tumor-like galls that vary in size from less than 1 cm to more than 30 cm",
+  "seed": 0,
+  "out": "results/phaseA/Corn__Smut__0025/C_stage/seed0.png",
+  "arm": "C_stage",
+  "key": "Corn__Smut"
+ },
+ {
+  "image": "data/inputs/Corn__Smut__0025/image.png",
+  "mask": "data/inputs/Corn__Smut__0025/0.png",
+  "prompt": "make this corn ear show smut: the most obvious symptoms are tumor-like galls that vary in size from less than 1 cm to more than 30 cm",
+  "seed": 0,
+  "out": "results/phaseA/Corn__Smut__0025/I/seed0.png",
+  "igs": 1.2,
+  "dilate": 0.15,
+  "arm": "I",
+  "key": "Corn__Smut"
+ },
+ {
+  "image": "data/inputs/Corn__Smut__0025/image.png",
+  "mask": "data/inputs/Corn__Smut__0025/0.png",
+  "prompt": "make this corn ear show smut: the most obvious symptoms are tumor-like galls that vary in size from less than 1 cm to more than 30 cm",
+  "seed": 1,
+  "out": "results/phaseA/Corn__Smut__0025/C_stage/seed1.png",
+  "arm": "C_stage",
+  "key": "Corn__Smut"
+ },
+ {
+  "image": "data/inputs/Corn__Smut__0025/image.png",
+  "mask": "data/inputs/Corn__Smut__0025/0.png",
+  "prompt": "make this corn ear show smut: the most obvious symptoms are tumor-like galls that vary in size from less than 1 cm to more than 30 cm",
+  "seed": 1,
+  "out": "results/phaseA/Corn__Smut__0025/I/seed1.png",
+  "igs": 1.2,
+  "dilate": 0.15,
+  "arm": "I",
+  "key": "Corn__Smut"
+ },
+ {
+  "image": "data/inputs/Corn__Smut__0025/image.png",
+  "mask": "data/inputs/Corn__Smut__0025/0.png",
+  "prompt": "make this corn ear show smut: the most obvious symptoms are tumor-like galls that vary in size from less than 1 cm to more than 30 cm",
+  "seed": 2,
+  "out": "results/phaseA/Corn__Smut__0025/C_stage/seed2.png",
+  "arm": "C_stage",
+  "key": "Corn__Smut"
+ },
+ {
+  "image": "data/inputs/Corn__Smut__0025/image.png",
+  "mask": "data/inputs/Corn__Smut__0025/0.png",
+  "prompt": "make this corn ear show smut: the most obvious symptoms are tumor-like galls that vary in size from less than 1 cm to more than 30 cm",
+  "seed": 2,
+  "out": "results/phaseA/Corn__Smut__0025/I/seed2.png",
+  "igs": 1.2,
+  "dilate": 0.15,
+  "arm": "I",
+  "key": "Corn__Smut"
+ },
+ {
+  "image": "data/inputs/Corn__Smut__0012/image.png",
+  "mask": "data/inputs/Corn__Smut__0012/0.png",
+  "prompt": "make this corn ear show smut: the most obvious symptoms are tumor-like galls that vary in size from less than 1 cm to more than 30 cm",
+  "seed": 0,
+  "out": "results/phaseA/Corn__Smut__0012/C_stage/seed0.png",
+  "arm": "C_stage",
+  "key": "Corn__Smut"
+ },
+ {
+  "image": "data/inputs/Corn__Smut__0012/image.png",
+  "mask": "data/inputs/Corn__Smut__0012/0.png",
+  "prompt": "make this corn ear show smut: the most obvious symptoms are tumor-like galls that vary in size from less than 1 cm to more than 30 cm",
+  "seed": 0,
+  "out": "results/phaseA/Corn__Smut__0012/I/seed0.png",
+  "igs": 1.2,
+  "dilate": 0.15,
+  "arm": "I",
+  "key": "Corn__Smut"
+ },
+ {
+  "image": "data/inputs/Corn__Smut__0012/image.png",
+  "mask": "data/inputs/Corn__Smut__0012/0.png",
+  "prompt": "make this corn ear show smut: the most obvious symptoms are tumor-like galls that vary in size from less than 1 cm to more than 30 cm",
+  "seed": 1,
+  "out": "results/phaseA/Corn__Smut__0012/C_stage/seed1.png",
+  "arm": "C_stage",
+  "key": "Corn__Smut"
+ },
+ {
+  "image": "data/inputs/Corn__Smut__0012/image.png",
+  "mask": "data/inputs/Corn__Smut__0012/0.png",
+  "prompt": "make this corn ear show smut: the most obvious symptoms are tumor-like galls that vary in size from less than 1 cm to more than 30 cm",
+  "seed": 1,
+  "out": "results/phaseA/Corn__Smut__0012/I/seed1.png",
+  "igs": 1.2,
+  "dilate": 0.15,
+  "arm": "I",
+  "key": "Corn__Smut"
+ },
+ {
+  "image": "data/inputs/Corn__Smut__0012/image.png",
+  "mask": "data/inputs/Corn__Smut__0012/0.png",
+  "prompt": "make this corn ear show smut: the most obvious symptoms are tumor-like galls that vary in size from less than 1 cm to more than 30 cm",
+  "seed": 2,
+  "out": "results/phaseA/Corn__Smut__0012/C_stage/seed2.png",
+  "arm": "C_stage",
+  "key": "Corn__Smut"
+ },
+ {
+  "image": "data/inputs/Corn__Smut__0012/image.png",
+  "mask": "data/inputs/Corn__Smut__0012/0.png",
+  "prompt": "make this corn ear show smut: the most obvious symptoms are tumor-like galls that vary in size from less than 1 cm to more than 30 cm",
+  "seed": 2,
+  "out": "results/phaseA/Corn__Smut__0012/I/seed2.png",
+  "igs": 1.2,
+  "dilate": 0.15,
+  "arm": "I",
+  "key": "Corn__Smut"
+ },
+ {
+  "image": "data/inputs/Corn__Smut__0052/image.png",
+  "mask": "data/inputs/Corn__Smut__0052/0.png",
+  "prompt": "make this corn ear show smut: the most obvious symptoms are tumor-like galls that vary in size from less than 1 cm to more than 30 cm",
+  "seed": 0,
+  "out": "results/phaseA/Corn__Smut__0052/C_stage/seed0.png",
+  "arm": "C_stage",
+  "key": "Corn__Smut"
+ },
+ {
+  "image": "data/inputs/Corn__Smut__0052/image.png",
+  "mask": "data/inputs/Corn__Smut__0052/0.png",
+  "prompt": "make this corn ear show smut: the most obvious symptoms are tumor-like galls that vary in size from less than 1 cm to more than 30 cm",
+  "seed": 0,
+  "out": "results/phaseA/Corn__Smut__0052/I/seed0.png",
+  "igs": 1.2,
+  "dilate": 0.15,
+  "arm": "I",
+  "key": "Corn__Smut"
+ },
+ {
+  "image": "data/inputs/Corn__Smut__0052/image.png",
+  "mask": "data/inputs/Corn__Smut__0052/0.png",
+  "prompt": "make this corn ear show smut: the most obvious symptoms are tumor-like galls that vary in size from less than 1 cm to more than 30 cm",
+  "seed": 1,
+  "out": "results/phaseA/Corn__Smut__0052/C_stage/seed1.png",
+  "arm": "C_stage",
+  "key": "Corn__Smut"
+ },
+ {
+  "image": "data/inputs/Corn__Smut__0052/image.png",
+  "mask": "data/inputs/Corn__Smut__0052/0.png",
+  "prompt": "make this corn ear show smut: the most obvious symptoms are tumor-like galls that vary in size from less than 1 cm to more than 30 cm",
+  "seed": 1,
+  "out": "results/phaseA/Corn__Smut__0052/I/seed1.png",
+  "igs": 1.2,
+  "dilate": 0.15,
+  "arm": "I",
+  "key": "Corn__Smut"
+ },
+ {
+  "image": "data/inputs/Corn__Smut__0052/image.png",
+  "mask": "data/inputs/Corn__Smut__0052/0.png",
+  "prompt": "make this corn ear show smut: the most obvious symptoms are tumor-like galls that vary in size from less than 1 cm to more than 30 cm",
+  "seed": 2,
+  "out": "results/phaseA/Corn__Smut__0052/C_stage/seed2.png",
+  "arm": "C_stage",
+  "key": "Corn__Smut"
+ },
+ {
+  "image": "data/inputs/Corn__Smut__0052/image.png",
+  "mask": "data/inputs/Corn__Smut__0052/0.png",
+  "prompt": "make this corn ear show smut: the most obvious symptoms are tumor-like galls that vary in size from less than 1 cm to more than 30 cm",
+  "seed": 2,
+  "out": "results/phaseA/Corn__Smut__0052/I/seed2.png",
+  "igs": 1.2,
+  "dilate": 0.15,
+  "arm": "I",
+  "key": "Corn__Smut"
+ },
+ {
+  "image": "data/inputs/Citrus__Canker__0012/image.png",
+  "mask": "data/inputs/Citrus__Canker__0012/0.png",
+  "prompt": "make this citrus fruit show canker: lesions become corky",
+  "seed": 0,
+  "out": "results/phaseA/Citrus__Canker__0012/C_stage/seed0.png",
+  "arm": "C_stage",
+  "key": "Citrus__Canker"
+ },
+ {
+  "image": "data/inputs/Citrus__Canker__0012/image.png",
+  "mask": "data/inputs/Citrus__Canker__0012/0.png",
+  "prompt": "make this citrus fruit show canker: lesions become corky",
+  "seed": 0,
+  "out": "results/phaseA/Citrus__Canker__0012/I/seed0.png",
+  "igs": 1.2,
+  "dilate": 0.15,
+  "arm": "I",
+  "key": "Citrus__Canker"
+ },
+ {
+  "image": "data/inputs/Citrus__Canker__0012/image.png",
+  "mask": "data/inputs/Citrus__Canker__0012/0.png",
+  "prompt": "make this citrus fruit show canker: lesions become corky",
+  "seed": 1,
+  "out": "results/phaseA/Citrus__Canker__0012/C_stage/seed1.png",
+  "arm": "C_stage",
+  "key": "Citrus__Canker"
+ },
+ {
+  "image": "data/inputs/Citrus__Canker__0012/image.png",
+  "mask": "data/inputs/Citrus__Canker__0012/0.png",
+  "prompt": "make this citrus fruit show canker: lesions become corky",
+  "seed": 1,
+  "out": "results/phaseA/Citrus__Canker__0012/I/seed1.png",
+  "igs": 1.2,
+  "dilate": 0.15,
+  "arm": "I",
+  "key": "Citrus__Canker"
+ },
+ {
+  "image": "data/inputs/Citrus__Canker__0012/image.png",
+  "mask": "data/inputs/Citrus__Canker__0012/0.png",
+  "prompt": "make this citrus fruit show canker: lesions become corky",
+  "seed": 2,
+  "out": "results/phaseA/Citrus__Canker__0012/C_stage/seed2.png",
+  "arm": "C_stage",
+  "key": "Citrus__Canker"
+ },
+ {
+  "image": "data/inputs/Citrus__Canker__0012/image.png",
+  "mask": "data/inputs/Citrus__Canker__0012/0.png",
+  "prompt": "make this citrus fruit show canker: lesions become corky",
+  "seed": 2,
+  "out": "results/phaseA/Citrus__Canker__0012/I/seed2.png",
+  "igs": 1.2,
+  "dilate": 0.15,
+  "arm": "I",
+  "key": "Citrus__Canker"
+ },
+ {
+  "image": "data/inputs/Citrus__Canker__0016/image.png",
+  "mask": "data/inputs/Citrus__Canker__0016/0.png",
+  "prompt": "make this citrus fruit show canker: lesions become corky",
+  "seed": 0,
+  "out": "results/phaseA/Citrus__Canker__0016/C_stage/seed0.png",
+  "arm": "C_stage",
+  "key": "Citrus__Canker"
+ },
+ {
+  "image": "data/inputs/Citrus__Canker__0016/image.png",
+  "mask": "data/inputs/Citrus__Canker__0016/0.png",
+  "prompt": "make this citrus fruit show canker: lesions become corky",
+  "seed": 0,
+  "out": "results/phaseA/Citrus__Canker__0016/I/seed0.png",
+  "igs": 1.2,
+  "dilate": 0.15,
+  "arm": "I",
+  "key": "Citrus__Canker"
+ },
+ {
+  "image": "data/inputs/Citrus__Canker__0016/image.png",
+  "mask": "data/inputs/Citrus__Canker__0016/0.png",
+  "prompt": "make this citrus fruit show canker: lesions become corky",
+  "seed": 1,
+  "out": "results/phaseA/Citrus__Canker__0016/C_stage/seed1.png",
+  "arm": "C_stage",
+  "key": "Citrus__Canker"
+ },
+ {
+  "image": "data/inputs/Citrus__Canker__0016/image.png",
+  "mask": "data/inputs/Citrus__Canker__0016/0.png",
+  "prompt": "make this citrus fruit show canker: lesions become corky",
+  "seed": 1,
+  "out": "results/phaseA/Citrus__Canker__0016/I/seed1.png",
+  "igs": 1.2,
+  "dilate": 0.15,
+  "arm": "I",
+  "key": "Citrus__Canker"
+ },
+ {
+  "image": "data/inputs/Citrus__Canker__0016/image.png",
+  "mask": "data/inputs/Citrus__Canker__0016/0.png",
+  "prompt": "make this citrus fruit show canker: lesions become corky",
+  "seed": 2,
+  "out": "results/phaseA/Citrus__Canker__0016/C_stage/seed2.png",
+  "arm": "C_stage",
+  "key": "Citrus__Canker"
+ },
+ {
+  "image": "data/inputs/Citrus__Canker__0016/image.png",
+  "mask": "data/inputs/Citrus__Canker__0016/0.png",
+  "prompt": "make this citrus fruit show canker: lesions become corky",
+  "seed": 2,
+  "out": "results/phaseA/Citrus__Canker__0016/I/seed2.png",
+  "igs": 1.2,
+  "dilate": 0.15,
+  "arm": "I",
+  "key": "Citrus__Canker"
+ },
+ {
+  "image": "data/inputs/Citrus__Canker__0004/image.png",
+  "mask": "data/inputs/Citrus__Canker__0004/0.png",
+  "prompt": "make this citrus leaf show canker: citrus canker causes lesions that are visible on citrus leaves; lesions appear as brown spots on the upper and lower side of leaves; lesions are oily in appearance; surrounded by a yellow halo",
+  "seed": 0,
+  "out": "results/phaseA/Citrus__Canker__0004/C_stage/seed0.png",
+  "arm": "C_stage",
+  "key": "Citrus__Canker__leaf"
+ },
+ {
+  "image": "data/inputs/Citrus__Canker__0004/image.png",
+  "mask": "data/inputs/Citrus__Canker__0004/0.png",
+  "prompt": "make this citrus leaf show canker: citrus canker causes lesions that are visible on citrus leaves; lesions appear as brown spots on the upper and lower side of leaves; lesions are oily in appearance; surrounded by a yellow halo",
+  "seed": 0,
+  "out": "results/phaseA/Citrus__Canker__0004/I/seed0.png",
+  "igs": 1.2,
+  "dilate": 0.15,
+  "arm": "I",
+  "key": "Citrus__Canker__leaf"
+ },
+ {
+  "image": "data/inputs/Citrus__Canker__0004/image.png",
+  "mask": "data/inputs/Citrus__Canker__0004/0.png",
+  "prompt": "make this citrus leaf show canker: citrus canker causes lesions that are visible on citrus leaves; lesions appear as brown spots on the upper and lower side of leaves; lesions are oily in appearance; surrounded by a yellow halo",
+  "seed": 1,
+  "out": "results/phaseA/Citrus__Canker__0004/C_stage/seed1.png",
+  "arm": "C_stage",
+  "key": "Citrus__Canker__leaf"
+ },
+ {
+  "image": "data/inputs/Citrus__Canker__0004/image.png",
+  "mask": "data/inputs/Citrus__Canker__0004/0.png",
+  "prompt": "make this citrus leaf show canker: citrus canker causes lesions that are visible on citrus leaves; lesions appear as brown spots on the upper and lower side of leaves; lesions are oily in appearance; surrounded by a yellow halo",
+  "seed": 1,
+  "out": "results/phaseA/Citrus__Canker__0004/I/seed1.png",
+  "igs": 1.2,
+  "dilate": 0.15,
+  "arm": "I",
+  "key": "Citrus__Canker__leaf"
+ },
+ {
+  "image": "data/inputs/Citrus__Canker__0004/image.png",
+  "mask": "data/inputs/Citrus__Canker__0004/0.png",
+  "prompt": "make this citrus leaf show canker: citrus canker causes lesions that are visible on citrus leaves; lesions appear as brown spots on the upper and lower side of leaves; lesions are oily in appearance; surrounded by a yellow halo",
+  "seed": 2,
+  "out": "results/phaseA/Citrus__Canker__0004/C_stage/seed2.png",
+  "arm": "C_stage",
+  "key": "Citrus__Canker__leaf"
+ },
+ {
+  "image": "data/inputs/Citrus__Canker__0004/image.png",
+  "mask": "data/inputs/Citrus__Canker__0004/0.png",
+  "prompt": "make this citrus leaf show canker: citrus canker causes lesions that are visible on citrus leaves; lesions appear as brown spots on the upper and lower side of leaves; lesions are oily in appearance; surrounded by a yellow halo",
+  "seed": 2,
+  "out": "results/phaseA/Citrus__Canker__0004/I/seed2.png",
+  "igs": 1.2,
+  "dilate": 0.15,
+  "arm": "I",
+  "key": "Citrus__Canker__leaf"
+ },
+ {
+  "image": "data/inputs/Mango__Anthracnose__0049/image.png",
+  "mask": "data/inputs/Mango__Anthracnose__0049/0.png",
+  "prompt": "make this mango leaf show anthracnose: the disease's symptoms show up as oval or irregular brown to deep brown sunken point-sized spots of varying sizes spread all over the leaf surface",
+  "seed": 0,
+  "out": "results/phaseA/Mango__Anthracnose__0049/C_stage/seed0.png",
+  "arm": "C_stage",
+  "key": "Mango__Anthracnose"
+ },
+ {
+  "image": "data/inputs/Mango__Anthracnose__0049/image.png",
+  "mask": "data/inputs/Mango__Anthracnose__0049/0.png",
+  "prompt": "make this mango leaf show anthracnose: the disease's symptoms show up as oval or irregular brown to deep brown sunken point-sized spots of varying sizes spread all over the leaf surface",
+  "seed": 0,
+  "out": "results/phaseA/Mango__Anthracnose__0049/I/seed0.png",
+  "igs": 1.2,
+  "dilate": 0.15,
+  "arm": "I",
+  "key": "Mango__Anthracnose"
+ },
+ {
+  "image": "data/inputs/Mango__Anthracnose__0049/image.png",
+  "mask": "data/inputs/Mango__Anthracnose__0049/0.png",
+  "prompt": "make this mango leaf show anthracnose: the disease's symptoms show up as oval or irregular brown to deep brown sunken point-sized spots of varying sizes spread all over the leaf surface",
+  "seed": 1,
+  "out": "results/phaseA/Mango__Anthracnose__0049/C_stage/seed1.png",
+  "arm": "C_stage",
+  "key": "Mango__Anthracnose"
+ },
+ {
+  "image": "data/inputs/Mango__Anthracnose__0049/image.png",
+  "mask": "data/inputs/Mango__Anthracnose__0049/0.png",
+  "prompt": "make this mango leaf show anthracnose: the disease's symptoms show up as oval or irregular brown to deep brown sunken point-sized spots of varying sizes spread all over the leaf surface",
+  "seed": 1,
+  "out": "results/phaseA/Mango__Anthracnose__0049/I/seed1.png",
+  "igs": 1.2,
+  "dilate": 0.15,
+  "arm": "I",
+  "key": "Mango__Anthracnose"
+ },
+ {
+  "image": "data/inputs/Mango__Anthracnose__0049/image.png",
+  "mask": "data/inputs/Mango__Anthracnose__0049/0.png",
+  "prompt": "make this mango leaf show anthracnose: the disease's symptoms show up as oval or irregular brown to deep brown sunken point-sized spots of varying sizes spread all over the leaf surface",
+  "seed": 2,
+  "out": "results/phaseA/Mango__Anthracnose__0049/C_stage/seed2.png",
+  "arm": "C_stage",
+  "key": "Mango__Anthracnose"
+ },
+ {
+  "image": "data/inputs/Mango__Anthracnose__0049/image.png",
+  "mask": "data/inputs/Mango__Anthracnose__0049/0.png",
+  "prompt": "make this mango leaf show anthracnose: the disease's symptoms show up as oval or irregular brown to deep brown sunken point-sized spots of varying sizes spread all over the leaf surface",
+  "seed": 2,
+  "out": "results/phaseA/Mango__Anthracnose__0049/I/seed2.png",
+  "igs": 1.2,
+  "dilate": 0.15,
+  "arm": "I",
+  "key": "Mango__Anthracnose"
+ },
+ {
+  "image": "data/inputs/Mango__Anthracnose__0094/image.png",
+  "mask": "data/inputs/Mango__Anthracnose__0094/0.png",
+  "prompt": "make this mango leaf show anthracnose: the disease's symptoms show up as oval or irregular brown to deep brown sunken point-sized spots of varying sizes spread all over the leaf surface",
+  "seed": 0,
+  "out": "results/phaseA/Mango__Anthracnose__0094/C_stage/seed0.png",
+  "arm": "C_stage",
+  "key": "Mango__Anthracnose"
+ },
+ {
+  "image": "data/inputs/Mango__Anthracnose__0094/image.png",
+  "mask": "data/inputs/Mango__Anthracnose__0094/0.png",
+  "prompt": "make this mango leaf show anthracnose: the disease's symptoms show up as oval or irregular brown to deep brown sunken point-sized spots of varying sizes spread all over the leaf surface",
+  "seed": 0,
+  "out": "results/phaseA/Mango__Anthracnose__0094/I/seed0.png",
+  "igs": 1.2,
+  "dilate": 0.15,
+  "arm": "I",
+  "key": "Mango__Anthracnose"
+ },
+ {
+  "image": "data/inputs/Mango__Anthracnose__0094/image.png",
+  "mask": "data/inputs/Mango__Anthracnose__0094/0.png",
+  "prompt": "make this mango leaf show anthracnose: the disease's symptoms show up as oval or irregular brown to deep brown sunken point-sized spots of varying sizes spread all over the leaf surface",
+  "seed": 1,
+  "out": "results/phaseA/Mango__Anthracnose__0094/C_stage/seed1.png",
+  "arm": "C_stage",
+  "key": "Mango__Anthracnose"
+ },
+ {
+  "image": "data/inputs/Mango__Anthracnose__0094/image.png",
+  "mask": "data/inputs/Mango__Anthracnose__0094/0.png",
+  "prompt": "make this mango leaf show anthracnose: the disease's symptoms show up as oval or irregular brown to deep brown sunken point-sized spots of varying sizes spread all over the leaf surface",
+  "seed": 1,
+  "out": "results/phaseA/Mango__Anthracnose__0094/I/seed1.png",
+  "igs": 1.2,
+  "dilate": 0.15,
+  "arm": "I",
+  "key": "Mango__Anthracnose"
+ },
+ {
+  "image": "data/inputs/Mango__Anthracnose__0094/image.png",
+  "mask": "data/inputs/Mango__Anthracnose__0094/0.png",
+  "prompt": "make this mango leaf show anthracnose: the disease's symptoms show up as oval or irregular brown to deep brown sunken point-sized spots of varying sizes spread all over the leaf surface",
+  "seed": 2,
+  "out": "results/phaseA/Mango__Anthracnose__0094/C_stage/seed2.png",
+  "arm": "C_stage",
+  "key": "Mango__Anthracnose"
+ },
+ {
+  "image": "data/inputs/Mango__Anthracnose__0094/image.png",
+  "mask": "data/inputs/Mango__Anthracnose__0094/0.png",
+  "prompt": "make this mango leaf show anthracnose: the disease's symptoms show up as oval or irregular brown to deep brown sunken point-sized spots of varying sizes spread all over the leaf surface",
+  "seed": 2,
+  "out": "results/phaseA/Mango__Anthracnose__0094/I/seed2.png",
+  "igs": 1.2,
+  "dilate": 0.15,
+  "arm": "I",
+  "key": "Mango__Anthracnose"
+ },
+ {
+  "image": "data/inputs/Mango__Anthracnose__0044/image.png",
+  "mask": "data/inputs/Mango__Anthracnose__0044/0.png",
+  "prompt": "make this mango leaf show anthracnose: the disease's symptoms show up as oval or irregular brown to deep brown sunken point-sized spots of varying sizes spread all over the leaf surface",
+  "seed": 0,
+  "out": "results/phaseA/Mango__Anthracnose__0044/C_stage/seed0.png",
+  "arm": "C_stage",
+  "key": "Mango__Anthracnose"
+ },
+ {
+  "image": "data/inputs/Mango__Anthracnose__0044/image.png",
+  "mask": "data/inputs/Mango__Anthracnose__0044/0.png",
+  "prompt": "make this mango leaf show anthracnose: the disease's symptoms show up as oval or irregular brown to deep brown sunken point-sized spots of varying sizes spread all over the leaf surface",
+  "seed": 0,
+  "out": "results/phaseA/Mango__Anthracnose__0044/I/seed0.png",
+  "igs": 1.2,
+  "dilate": 0.15,
+  "arm": "I",
+  "key": "Mango__Anthracnose"
+ },
+ {
+  "image": "data/inputs/Mango__Anthracnose__0044/image.png",
+  "mask": "data/inputs/Mango__Anthracnose__0044/0.png",
+  "prompt": "make this mango leaf show anthracnose: the disease's symptoms show up as oval or irregular brown to deep brown sunken point-sized spots of varying sizes spread all over the leaf surface",
+  "seed": 1,
+  "out": "results/phaseA/Mango__Anthracnose__0044/C_stage/seed1.png",
+  "arm": "C_stage",
+  "key": "Mango__Anthracnose"
+ },
+ {
+  "image": "data/inputs/Mango__Anthracnose__0044/image.png",
+  "mask": "data/inputs/Mango__Anthracnose__0044/0.png",
+  "prompt": "make this mango leaf show anthracnose: the disease's symptoms show up as oval or irregular brown to deep brown sunken point-sized spots of varying sizes spread all over the leaf surface",
+  "seed": 1,
+  "out": "results/phaseA/Mango__Anthracnose__0044/I/seed1.png",
+  "igs": 1.2,
+  "dilate": 0.15,
+  "arm": "I",
+  "key": "Mango__Anthracnose"
+ },
+ {
+  "image": "data/inputs/Mango__Anthracnose__0044/image.png",
+  "mask": "data/inputs/Mango__Anthracnose__0044/0.png",
+  "prompt": "make this mango leaf show anthracnose: the disease's symptoms show up as oval or irregular brown to deep brown sunken point-sized spots of varying sizes spread all over the leaf surface",
+  "seed": 2,
+  "out": "results/phaseA/Mango__Anthracnose__0044/C_stage/seed2.png",
+  "arm": "C_stage",
+  "key": "Mango__Anthracnose"
+ },
+ {
+  "image": "data/inputs/Mango__Anthracnose__0044/image.png",
+  "mask": "data/inputs/Mango__Anthracnose__0044/0.png",
+  "prompt": "make this mango leaf show anthracnose: the disease's symptoms show up as oval or irregular brown to deep brown sunken point-sized spots of varying sizes spread all over the leaf surface",
+  "seed": 2,
+  "out": "results/phaseA/Mango__Anthracnose__0044/I/seed2.png",
+  "igs": 1.2,
+  "dilate": 0.15,
+  "arm": "I",
+  "key": "Mango__Anthracnose"
+ }
+]

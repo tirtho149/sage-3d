@@ -1,0 +1,17 @@
+{
+ "input": "/home/tirtho/Desktop/Research/external/SAGE-Extend/leaf_input",
+ "seed": 42,
+ "load_s": 64.1,
+ "infer_s": 1004.4,
+ "peak_vram_gb": 11.54,
+ "gpu": "NVIDIA GeForce GTX TITAN X",
+ "stage_s": {
+  "compute_pointmap": 3.1,
+  "get_condition_input": 8.6,
+  "sample_sparse_structure": 895.0,
+  "sample_slat": 79.0,
+  "decode_slat": 23.0
+ },
+ "offload": true,
+ "n_gaussians": 37120
+}

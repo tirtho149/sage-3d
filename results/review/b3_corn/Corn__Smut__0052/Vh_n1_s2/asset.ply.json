@@ -1,0 +1,23 @@
+{
+ "n_original": 184320,
+ "n_added": 6896,
+ "n_hidden": 909,
+ "spacing": 0.0019251500801870658,
+ "galls": [
+  {
+   "centre": [
+    0.06266582012176514,
+    0.04567742347717285,
+    0.2567242383956909
+   ],
+   "diameter": 0.08357098648834484,
+   "n_lobes": 8,
+   "volume": 0.000359575205440488,
+   "eq_diameter": 0.08822609115911122,
+   "undercut_frac": 0.4134280742459397,
+   "kernels_replaced": 826,
+   "n_gaussians": 6896
+  }
+ ],
+ "colour_source": "real gall tissue in this photo"
+}

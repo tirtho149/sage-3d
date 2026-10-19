@@ -1,0 +1,56 @@
+{
+ "B": {
+  "dE_in": 32.8499515895807,
+  "outside_change": 0.0,
+  "detail_ratio": 0.4137436775746367,
+  "bg_change": 0.0,
+  "appearance_recall": 0.38095238095238093,
+  "unsupported_appearance_rate": 0.4777777777777778,
+  "n_specimens": 15
+ },
+ "C": {
+  "dE_in": 47.05091645940021,
+  "outside_change": 0.0,
+  "detail_ratio": 3.443415285126236,
+  "bg_change": 0.0,
+  "appearance_recall": 0.7142857142857143,
+  "unsupported_appearance_rate": 0.7722222222222223,
+  "n_specimens": 15
+ },
+ "C_nogeo": {
+  "dE_in": 42.5451977183647,
+  "outside_change": 0.0,
+  "detail_ratio": 3.1975856441047865,
+  "bg_change": 0.0,
+  "appearance_recall": 0.25,
+  "unsupported_appearance_rate": 0.9074074074074073,
+  "n_specimens": 9
+ },
+ "C_mismatch": {
+  "dE_in": 37.40632217762194,
+  "outside_change": 0.0,
+  "detail_ratio": 1.567140794704282,
+  "bg_change": 0.0,
+  "appearance_recall": 0.2857142857142857,
+  "unsupported_appearance_rate": 0.85,
+  "n_specimens": 15
+ },
+ "C_stage": {
+  "dE_in": 36.79148877879353,
+  "outside_change": 0.0,
+  "detail_ratio": 2.3451794555166448,
+  "bg_change": 0.0,
+  "appearance_recall": 0.6904761904761905,
+  "unsupported_appearance_rate": 0.5796296296296296,
+  "n_specimens": 15
+ },
+ "I": {
+  "dE_in": 43.302873439040894,
+  "outside_change": 0.8273387585164311,
+  "detail_ratio": 2.1085410937225872,
+  "bg_change": 0.0,
+  "appearance_recall": 0.7380952380952381,
+  "unsupported_appearance_rate": 0.7388888888888889,
+  "n_specimens": 15
+ }
+}

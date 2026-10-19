@@ -1,0 +1,12 @@
+{
+ "image": "data/inputs/Mango__Anthracnose__0094/image.png",
+ "mask": "data/inputs/Mango__Anthracnose__0094/0.png",
+ "prompt": "make this mango leaf show anthracnose: the disease's symptoms show up as oval or irregular brown to deep brown sunken point-sized spots of varying sizes spread all over the leaf surface",
+ "seed": 1,
+ "out": "results/phaseA/Mango__Anthracnose__0094/I/seed1.png",
+ "igs": 1.2,
+ "dilate": 0.15,
+ "arm": "I",
+ "key": "Mango__Anthracnose",
+ "sec": 170.2
+}

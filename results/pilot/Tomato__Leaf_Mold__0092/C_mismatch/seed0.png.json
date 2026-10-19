@@ -1,0 +1,8 @@
+{
+ "image": "/home/tirtho/Desktop/Research/external/SAGE-Extend/data/inputs/Tomato__Leaf_Mold__0092/image.png",
+ "mask": "/home/tirtho/Desktop/Research/external/SAGE-Extend/data/inputs/Tomato__Leaf_Mold__0092/0.png",
+ "prompt": "make this tomato leaf show septoria leaf blotch: circular, tan to gray, lesions develop on the lower leaves and stems of the plant",
+ "seed": 0,
+ "out": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/pilot/Tomato__Leaf_Mold__0092/C_mismatch/seed0.png",
+ "sec": 53.1
+}

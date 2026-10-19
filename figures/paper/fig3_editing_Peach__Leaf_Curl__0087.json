@@ -1,0 +1,9 @@
+{
+ "figure": "fig3_editing_Peach__Leaf_Curl__0087",
+ "generated": "2026-10-14 15:50:29",
+ "sources": [
+  "results/phaseA/Peach__Leaf_Curl__0087/*/seed0/render",
+  "results/phaseA/Peach__Leaf_Curl__0087/*/seed0/*.json"
+ ],
+ "caption": "Same specimen, fixed rig views (matched crops per column). Geometry recall = fraction of the selected KB stage's geometric attributes detected (specific detectors, synthetic-calibrated thresholds). Coherence: 1 = smooth deformation, 0.25 = i.i.d. jitter. Every view is a synthetic render of a synthetic asset; novel views are unverified."
+}

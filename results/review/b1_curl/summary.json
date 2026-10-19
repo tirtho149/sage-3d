@@ -1,0 +1,2702 @@
+{
+ "Peach__Leaf_Curl__0006": {
+  "specimen": "Peach__Leaf_Curl__0006",
+  "phrase": "Leaves curl upwards and fall off.",
+  "parsed": {
+   "kind": "curl",
+   "direction": 1,
+   "r0": 0.0,
+   "theta_deg": 90.0,
+   "phrase": "Leaves curl upwards and fall off.",
+   "status": "ok"
+  },
+  "flag": "SAM 3D ring topology (E1)",
+  "D": {
+   "roll_deg_median": 1.0457422656079909,
+   "roll_deg_side_plus": 1.2164169701534027,
+   "roll_deg_side_minus": -1.2889983917841534,
+   "kappa_t_halfwidth_median": -0.048922352672444144,
+   "n_bins": 4,
+   "roll_profile": [
+    {
+     "bin": 1,
+     "mean_deg": -9.95676693770837
+    },
+    {
+     "bin": 2,
+     "mean_deg": 6.152956113098513
+    },
+    {
+     "bin": 9,
+     "mean_deg": 0.07122957012548259
+    },
+    {
+     "bin": 10,
+     "mean_deg": -0.9643167500323129
+    }
+   ],
+   "nonrigidity_02L_median": 3.6183325394040697e-16,
+   "nonrigidity_02L_p95": 1.0266316918277899e-15,
+   "strain_02L_median": 0.0,
+   "strain_02L_p95": 0.0,
+   "fine_relief_corr": 1.0,
+   "meanH_L_median_before": 7.628899071667894,
+   "meanH_L_median_after": 6.373114514003787,
+   "meanH_L_shift_median": -0.11549793593333568,
+   "frac_points_H_increased": 0.4886,
+   "disp_rms_rel": 0.0,
+   "midrib_length_ratio": 1.0,
+   "midrib_shape_rms_L": 1.2354451506950642e-16,
+   "self_contact_frac": 0.0,
+   "input_view_iou": 0.5035642710368097
+  },
+  "CU": {
+   "roll_deg_median": -0.39770320817474136,
+   "roll_deg_side_plus": 13.470590487456219,
+   "roll_deg_side_minus": -6.256521703640068,
+   "kappa_t_halfwidth_median": 0.2247729380963104,
+   "n_bins": 4,
+   "roll_profile": [
+    {
+     "bin": 1,
+     "mean_deg": -2.7845432403891115
+    },
+    {
+     "bin": 2,
+     "mean_deg": 28.855428372548566
+    },
+    {
+     "bin": 9,
+     "mean_deg": -5.663632875267618
+    },
+    {
+     "bin": 10,
+     "mean_deg": 10.660667656894628
+    }
+   ],
+   "nonrigidity_02L_median": 0.39658229821609625,
+   "nonrigidity_02L_p95": 0.7849517544606651,
+   "strain_02L_median": 0.11886373416771567,
+   "strain_02L_p95": 0.5562910921794216,
+   "fine_relief_corr": 0.38698691865110874,
+   "meanH_L_median_before": 7.628899071667894,
+   "meanH_L_median_after": 7.672181579409099,
+   "meanH_L_shift_median": 1.819371876237231,
+   "frac_points_H_increased": 0.5036,
+   "disp_rms_rel": 0.11747064396064615,
+   "midrib_length_ratio": 0.981716578965038,
+   "midrib_shape_rms_L": 0.002815631812042559,
+   "self_contact_frac": 0.094875,
+   "roll_change_profile": [
+    7.172223697319258,
+    22.702472259450055,
+    -5.734862445393101,
+    11.624984406926941
+   ],
+   "input_view_iou": 0.5222836363636364,
+   "frac_positions_commanded_sign": 0.75,
+   "median_roll_change": 9.3986040521231,
+   "self_contact_added": 0.094875
+  },
+  "CD": {
+   "roll_deg_median": -23.527884328501777,
+   "roll_deg_side_plus": -17.82045941565271,
+   "roll_deg_side_minus": -36.36998242450984,
+   "kappa_t_halfwidth_median": -1.1480469326575706,
+   "n_bins": 4,
+   "roll_profile": [
+    {
+     "bin": 1,
+     "mean_deg": -34.54966619614499
+    },
+    {
+     "bin": 2,
+     "mean_deg": 4.055672768596866
+    },
+    {
+     "bin": 9,
+     "mean_deg": -28.16386386011937
+    },
+    {
+     "bin": 10,
+     "mean_deg": -26.02996741322378
+    }
+   ],
+   "nonrigidity_02L_median": 0.40828718250444496,
+   "nonrigidity_02L_p95": 0.8870904010157401,
+   "strain_02L_median": 0.13928227043386177,
+   "strain_02L_p95": 0.6855370067323066,
+   "fine_relief_corr": 0.5177254684567939,
+   "meanH_L_median_before": 7.628899071667894,
+   "meanH_L_median_after": -14.964285229414992,
+   "meanH_L_shift_median": -12.816048103485784,
+   "frac_points_H_increased": 0.47155,
+   "disp_rms_rel": 0.11096967865119939,
+   "midrib_length_ratio": 0.9905106836445462,
+   "midrib_shape_rms_L": 0.0022450634394489094,
+   "self_contact_frac": 0.0025,
+   "roll_change_profile": [
+    -24.59289925843662,
+    -2.0972833445016477,
+    -28.235093430244852,
+    -25.065650663191466
+   ],
+   "input_view_iou": 0.47436647306065266,
+   "frac_positions_commanded_sign": 1.0,
+   "median_roll_change": -24.829274960814043,
+   "self_contact_added": 0.0025
+  }
+ },
+ "Peach__Leaf_Curl__0063": {
+  "specimen": "Peach__Leaf_Curl__0063",
+  "phrase": "Leaves curl upwards and fall off.",
+  "parsed": {
+   "kind": "curl",
+   "direction": 1,
+   "r0": 0.0,
+   "theta_deg": 90.0,
+   "phrase": "Leaves curl upwards and fall off.",
+   "status": "ok"
+  },
+  "flag": null,
+  "D": {
+   "roll_deg_median": 3.1993201480261013,
+   "roll_deg_side_plus": 3.684175914593586,
+   "roll_deg_side_minus": -3.4545053820519396,
+   "kappa_t_halfwidth_median": 0.11570068360115182,
+   "n_bins": 10,
+   "roll_profile": [
+    {
+     "bin": 1,
+     "mean_deg": -4.511505797504379
+    },
+    {
+     "bin": 2,
+     "mean_deg": 5.9250064905148605
+    },
+    {
+     "bin": 3,
+     "mean_deg": -2.8422575972151165
+    },
+    {
+     "bin": 4,
+     "mean_deg": -12.889553384769965
+    },
+    {
+     "bin": 5,
+     "mean_deg": -3.74313463355056
+    },
+    {
+     "bin": 6,
+     "mean_deg": 4.1779394158260015
+    },
+    {
+     "bin": 7,
+     "mean_deg": 12.184614807987515
+    },
+    {
+     "bin": 8,
+     "mean_deg": 0.37883074630277425
+    },
+    {
+     "bin": 9,
+     "mean_deg": 1.1113532805173374
+    },
+    {
+     "bin": 10,
+     "mean_deg": -5.540248707882
+    }
+   ],
+   "nonrigidity_02L_median": 3.6112568601372127e-16,
+   "nonrigidity_02L_p95": 9.42046231247547e-16,
+   "strain_02L_median": 0.0,
+   "strain_02L_p95": 0.0,
+   "fine_relief_corr": 1.0,
+   "meanH_L_median_before": 1.5266785131738354,
+   "meanH_L_median_after": 2.4977192502267767,
+   "meanH_L_shift_median": -0.06366629062582163,
+   "frac_points_H_increased": 0.49255,
+   "disp_rms_rel": 0.0,
+   "midrib_length_ratio": 1.0,
+   "midrib_shape_rms_L": 1.06888977245227e-16,
+   "self_contact_frac": 0.0,
+   "input_view_iou": 0.670544049008168
+  },
+  "CU": {
+   "roll_deg_median": 18.575968769774377,
+   "roll_deg_side_plus": 31.15962641900849,
+   "roll_deg_side_minus": 12.318534325340156,
+   "kappa_t_halfwidth_median": 0.7313868661615539,
+   "n_bins": 10,
+   "roll_profile": [
+    {
+     "bin": 1,
+     "mean_deg": 18.38511185746378
+    },
+    {
+     "bin": 2,
+     "mean_deg": 29.427902614790447
+    },
+    {
+     "bin": 3,
+     "mean_deg": 20.464815873333738
+    },
+    {
+     "bin": 4,
+     "mean_deg": 14.056556371301394
+    },
+    {
+     "bin": 5,
+     "mean_deg": 30.708979249467866
+    },
+    {
+     "bin": 6,
+     "mean_deg": 36.546380966182475
+    },
+    {
+     "bin": 7,
+     "mean_deg": 39.88031935684299
+    },
+    {
+     "bin": 8,
+     "mean_deg": 5.774680048804471
+    },
+    {
+     "bin": 9,
+     "mean_deg": 1.65022962485714
+    },
+    {
+     "bin": 10,
+     "mean_deg": 1.4174517922294818
+    }
+   ],
+   "nonrigidity_02L_median": 0.22108725726421896,
+   "nonrigidity_02L_p95": 0.6441562906617038,
+   "strain_02L_median": 0.06458224452607642,
+   "strain_02L_p95": 0.4062779844112089,
+   "fine_relief_corr": 0.7131417157311952,
+   "meanH_L_median_before": 1.5266785131738354,
+   "meanH_L_median_after": 2.2966255021882045,
+   "meanH_L_shift_median": 2.529688529253648,
+   "frac_points_H_increased": 0.50795,
+   "disp_rms_rel": 0.04916098958987421,
+   "midrib_length_ratio": 0.9967720943547637,
+   "midrib_shape_rms_L": 0.0023707644288388416,
+   "self_contact_frac": 0.001125,
+   "roll_change_profile": [
+    22.89661765496816,
+    23.502896124275587,
+    23.307073470548854,
+    26.94610975607136,
+    34.45211388301843,
+    32.36844155035647,
+    27.695704548855474,
+    5.395849302501697,
+    0.5388763443398026,
+    6.957700500111482
+   ],
+   "input_view_iou": 0.5994386840258829,
+   "frac_positions_commanded_sign": 1.0,
+   "median_roll_change": 23.40498479741222,
+   "self_contact_added": 0.001125
+  },
+  "CD": {
+   "roll_deg_median": -20.664556337478587,
+   "roll_deg_side_plus": -15.769719504603202,
+   "roll_deg_side_minus": -33.17900548212257,
+   "kappa_t_halfwidth_median": -0.5866099293541975,
+   "n_bins": 10,
+   "roll_profile": [
+    {
+     "bin": 1,
+     "mean_deg": -26.46529004078601
+    },
+    {
+     "bin": 2,
+     "mean_deg": -16.22002467522479
+    },
+    {
+     "bin": 3,
+     "mean_deg": -18.273357335922253
+    },
+    {
+     "bin": 4,
+     "mean_deg": -33.436424435775
+    },
+    {
+     "bin": 5,
+     "mean_deg": -32.01829860657744
+    },
+    {
+     "bin": 6,
+     "mean_deg": -28.727098133935225
+    },
+    {
+     "bin": 7,
+     "mean_deg": -23.562202395744713
+    },
+    {
+     "bin": 8,
+     "mean_deg": -2.0850056139131823
+    },
+    {
+     "bin": 9,
+     "mean_deg": -9.789256810314757
+    },
+    {
+     "bin": 10,
+     "mean_deg": -26.380321584458137
+    }
+   ],
+   "nonrigidity_02L_median": 0.22822635812530173,
+   "nonrigidity_02L_p95": 0.6512979751197084,
+   "strain_02L_median": 0.06327350961878031,
+   "strain_02L_p95": 0.40710925584849117,
+   "fine_relief_corr": 0.6934607319041323,
+   "meanH_L_median_before": 1.5266785131738354,
+   "meanH_L_median_after": -3.650080188904478,
+   "meanH_L_shift_median": -3.295223218067399,
+   "frac_points_H_increased": 0.48875,
+   "disp_rms_rel": 0.05038758731554351,
+   "midrib_length_ratio": 0.9975732817227962,
+   "midrib_shape_rms_L": 0.002591751846074098,
+   "self_contact_frac": 0.0,
+   "roll_change_profile": [
+    -21.953784243281632,
+    -22.14503116573965,
+    -15.431099738707136,
+    -20.546871051005038,
+    -28.275163973026878,
+    -32.905037549761225,
+    -35.74681720373223,
+    -2.4638363602159563,
+    -10.900610090832094,
+    -20.840072876576137
+   ],
+   "input_view_iou": 0.5705180840664712,
+   "frac_positions_commanded_sign": 1.0,
+   "median_roll_change": -21.396928559928885,
+   "self_contact_added": 0.0
+  }
+ },
+ "Peach__Leaf_Curl__0087": {
+  "specimen": "Peach__Leaf_Curl__0087",
+  "phrase": "Leaves curl upwards and fall off.",
+  "parsed": {
+   "kind": "curl",
+   "direction": 1,
+   "r0": 0.0,
+   "theta_deg": 90.0,
+   "phrase": "Leaves curl upwards and fall off.",
+   "status": "ok"
+  },
+  "flag": null,
+  "D": {
+   "roll_deg_median": -2.303420460683501,
+   "roll_deg_side_plus": -3.3795353549262934,
+   "roll_deg_side_minus": -0.32384637731602617,
+   "kappa_t_halfwidth_median": -0.015187805376293865,
+   "n_bins": 10,
+   "roll_profile": [
+    {
+     "bin": 1,
+     "mean_deg": 9.133423285604923
+    },
+    {
+     "bin": 2,
+     "mean_deg": 0.1600136962443277
+    },
+    {
+     "bin": 3,
+     "mean_deg": -2.9306175148033686
+    },
+    {
+     "bin": 4,
+     "mean_deg": -8.452878739919019
+    },
+    {
+     "bin": 5,
+     "mean_deg": -10.80609854471074
+    },
+    {
+     "bin": 6,
+     "mean_deg": 1.237038944118546
+    },
+    {
+     "bin": 7,
+     "mean_deg": -1.2022116485633756
+    },
+    {
+     "bin": 8,
+     "mean_deg": 2.5860771928995083
+    },
+    {
+     "bin": 9,
+     "mean_deg": 2.657506406127606
+    },
+    {
+     "bin": 10,
+     "mean_deg": -1.3999612715588183
+    }
+   ],
+   "nonrigidity_02L_median": 3.6278979182005383e-16,
+   "nonrigidity_02L_p95": 1.466921502632688e-15,
+   "strain_02L_median": 0.0,
+   "strain_02L_p95": 0.0,
+   "fine_relief_corr": 0.9999999999999998,
+   "meanH_L_median_before": 0.8464386809819413,
+   "meanH_L_median_after": 0.8297788699930762,
+   "meanH_L_shift_median": 0.006879809189462016,
+   "frac_points_H_increased": 0.50265,
+   "disp_rms_rel": 0.0,
+   "midrib_length_ratio": 1.0,
+   "midrib_shape_rms_L": 6.368414730490553e-17,
+   "self_contact_frac": 0.0,
+   "input_view_iou": 0.9460555972952667
+  },
+  "CU": {
+   "roll_deg_median": 23.664851439321225,
+   "roll_deg_side_plus": 23.361101948583933,
+   "roll_deg_side_minus": 24.1973007219026,
+   "kappa_t_halfwidth_median": 0.8426154187425874,
+   "n_bins": 10,
+   "roll_profile": [
+    {
+     "bin": 1,
+     "mean_deg": 12.12695959324067
+    },
+    {
+     "bin": 2,
+     "mean_deg": 33.301878261429735
+    },
+    {
+     "bin": 3,
+     "mean_deg": 35.14041785332786
+    },
+    {
+     "bin": 4,
+     "mean_deg": 25.597051577944825
+    },
+    {
+     "bin": 5,
+     "mean_deg": 19.7166514316518
+    },
+    {
+     "bin": 6,
+     "mean_deg": 23.8891495733657
+    },
+    {
+     "bin": 7,
+     "mean_deg": 22.27586352712118
+    },
+    {
+     "bin": 8,
+     "mean_deg": 15.010990219329521
+    },
+    {
+     "bin": 9,
+     "mean_deg": 21.96103494102108
+    },
+    {
+     "bin": 10,
+     "mean_deg": 23.356046615666386
+    }
+   ],
+   "nonrigidity_02L_median": 0.21993281257855363,
+   "nonrigidity_02L_p95": 0.6823990854567336,
+   "strain_02L_median": 0.058911324330698456,
+   "strain_02L_p95": 0.40849301680699246,
+   "fine_relief_corr": 0.6062232954962006,
+   "meanH_L_median_before": 0.8464386809819413,
+   "meanH_L_median_after": 3.695396522437791,
+   "meanH_L_shift_median": 1.617491245736339,
+   "frac_points_H_increased": 0.5066,
+   "disp_rms_rel": 0.0527983369113065,
+   "midrib_length_ratio": 0.9952832137096601,
+   "midrib_shape_rms_L": 0.00455468904772178,
+   "self_contact_frac": 0.005875,
+   "roll_change_profile": [
+    2.993536307635747,
+    33.14186456518541,
+    38.07103536813123,
+    34.04993031786384,
+    30.52274997636254,
+    22.652110629247154,
+    23.47807517568456,
+    12.424913026430012,
+    19.303528534893474,
+    24.756007887225206
+   ],
+   "input_view_iou": 0.72895467160037,
+   "frac_positions_commanded_sign": 1.0,
+   "median_roll_change": 24.11704153145488,
+   "self_contact_added": 0.005875
+  },
+  "CD": {
+   "roll_deg_median": -23.534179269638493,
+   "roll_deg_side_plus": -27.208931094308902,
+   "roll_deg_side_minus": -20.326525576907457,
+   "kappa_t_halfwidth_median": -0.8739212556304643,
+   "n_bins": 10,
+   "roll_profile": [
+    {
+     "bin": 1,
+     "mean_deg": -0.8099206090204514
+    },
+    {
+     "bin": 2,
+     "mean_deg": -25.668604220679214
+    },
+    {
+     "bin": 3,
+     "mean_deg": -26.155440359372136
+    },
+    {
+     "bin": 4,
+     "mean_deg": -27.545181084934455
+    },
+    {
+     "bin": 5,
+     "mean_deg": -29.25166696425894
+    },
+    {
+     "bin": 6,
+     "mean_deg": -15.468332111691456
+    },
+    {
+     "bin": 7,
+     "mean_deg": -13.686966110899236
+    },
+    {
+     "bin": 8,
+     "mean_deg": -18.4045617516553
+    },
+    {
+     "bin": 9,
+     "mean_deg": -10.65664136545408
+    },
+    {
+     "bin": 10,
+     "mean_deg": -25.764062791577118
+    }
+   ],
+   "nonrigidity_02L_median": 0.1817025566308894,
+   "nonrigidity_02L_p95": 0.60113552179742,
+   "strain_02L_median": 0.047849880683087875,
+   "strain_02L_p95": 0.3085333183016518,
+   "fine_relief_corr": 0.6989492864804054,
+   "meanH_L_median_before": 0.8464386809819413,
+   "meanH_L_median_after": -0.8516419483113213,
+   "meanH_L_shift_median": -0.9396123816269633,
+   "frac_points_H_increased": 0.49565,
+   "disp_rms_rel": 0.046741721753196325,
+   "midrib_length_ratio": 0.9965926253217801,
+   "midrib_shape_rms_L": 0.00517325014452498,
+   "self_contact_frac": 0.002625,
+   "roll_change_profile": [
+    -9.943343894625375,
+    -25.82861791692354,
+    -23.224822844568767,
+    -19.092302345015437,
+    -18.445568419548202,
+    -16.70537105581,
+    -12.48475446233586,
+    -20.99063894455481,
+    -13.314147771581686,
+    -24.3641015200183
+   ],
+   "input_view_iou": 0.8346288675506782,
+   "frac_positions_commanded_sign": 1.0,
+   "median_roll_change": -18.768935382281818,
+   "self_contact_added": 0.002625
+  }
+ },
+ "Tomato__Leaf_Mold__0015": {
+  "specimen": "Tomato__Leaf_Mold__0015",
+  "phrase": "Leaves curl upwards and fall off.",
+  "parsed": {
+   "kind": "curl",
+   "direction": 1,
+   "r0": 0.0,
+   "theta_deg": 90.0,
+   "phrase": "Leaves curl upwards and fall off.",
+   "status": "ok"
+  },
+  "flag": null,
+  "D": {
+   "roll_deg_median": 7.661779793918139,
+   "roll_deg_side_plus": 9.668296317445808,
+   "roll_deg_side_minus": 3.2082442085582796,
+   "kappa_t_halfwidth_median": 0.2617214914922167,
+   "n_bins": 10,
+   "roll_profile": [
+    {
+     "bin": 1,
+     "mean_deg": 5.234226274469754
+    },
+    {
+     "bin": 2,
+     "mean_deg": 7.661779793918139
+    },
+    {
+     "bin": 3,
+     "mean_deg": 7.275543498386675
+    },
+    {
+     "bin": 4,
+     "mean_deg": 6.529975987859963
+    },
+    {
+     "bin": 5,
+     "mean_deg": 6.3319325209356965
+    },
+    {
+     "bin": 6,
+     "mean_deg": 6.272466343302234
+    },
+    {
+     "bin": 7,
+     "mean_deg": 8.34836405927911
+    },
+    {
+     "bin": 8,
+     "mean_deg": 10.073565593970311
+    },
+    {
+     "bin": 9,
+     "mean_deg": 8.269079661540873
+    },
+    {
+     "bin": 10,
+     "mean_deg": 5.9697958828801445
+    }
+   ],
+   "nonrigidity_02L_median": 3.5716060470481304e-16,
+   "nonrigidity_02L_p95": 1.128595457287469e-15,
+   "strain_02L_median": 0.0,
+   "strain_02L_p95": 0.0,
+   "fine_relief_corr": 1.0,
+   "meanH_L_median_before": 4.0007525748305195,
+   "meanH_L_median_after": 3.860470169947076,
+   "meanH_L_shift_median": 0.005579199514304634,
+   "frac_points_H_increased": 0.5198,
+   "disp_rms_rel": 0.0,
+   "midrib_length_ratio": 1.0,
+   "midrib_shape_rms_L": 3.0187205292058754e-16,
+   "self_contact_frac": 0.0,
+   "input_view_iou": 0.9355245763730321
+  },
+  "CU": {
+   "roll_deg_median": 47.260792007517054,
+   "roll_deg_side_plus": 49.40125615496796,
+   "roll_deg_side_minus": 44.891048510238825,
+   "kappa_t_halfwidth_median": 2.2605004358903384,
+   "n_bins": 10,
+   "roll_profile": [
+    {
+     "bin": 1,
+     "mean_deg": 45.824285192541765
+    },
+    {
+     "bin": 2,
+     "mean_deg": 47.85821664002812
+    },
+    {
+     "bin": 3,
+     "mean_deg": 47.60833931676666
+    },
+    {
+     "bin": 4,
+     "mean_deg": 47.39937901454499
+    },
+    {
+     "bin": 5,
+     "mean_deg": 48.66922529396109
+    },
+    {
+     "bin": 6,
+     "mean_deg": 45.57363872435447
+    },
+    {
+     "bin": 7,
+     "mean_deg": 49.654999286967694
+    },
+    {
+     "bin": 8,
+     "mean_deg": 49.13345392978364
+    },
+    {
+     "bin": 9,
+     "mean_deg": 47.286342654675636
+    },
+    {
+     "bin": 10,
+     "mean_deg": 31.69079389078434
+    }
+   ],
+   "nonrigidity_02L_median": 0.10910426792684483,
+   "nonrigidity_02L_p95": 0.31179783027494185,
+   "strain_02L_median": 0.01866548087631703,
+   "strain_02L_p95": 0.15179884044665518,
+   "fine_relief_corr": 0.7743338645721872,
+   "meanH_L_median_before": 4.0007525748305195,
+   "meanH_L_median_after": 4.828145024158079,
+   "meanH_L_shift_median": 1.4982274159898572,
+   "frac_points_H_increased": 0.50905,
+   "disp_rms_rel": 0.04814770503820362,
+   "midrib_length_ratio": 0.9994219879461839,
+   "midrib_shape_rms_L": 0.0011382895906193388,
+   "self_contact_frac": 0.0,
+   "roll_change_profile": [
+    40.59005891807201,
+    40.196436846109975,
+    40.332795818379985,
+    40.86940302668503,
+    42.337292773025396,
+    39.30117238105223,
+    41.30663522768859,
+    39.059888335813326,
+    39.017262993134764,
+    25.720998007904196
+   ],
+   "input_view_iou": 0.6580507179957226,
+   "frac_positions_commanded_sign": 1.0,
+   "median_roll_change": 40.264616332244984,
+   "self_contact_added": 0.0
+  },
+  "CD": {
+   "roll_deg_median": -30.504332229687265,
+   "roll_deg_side_plus": -28.959999915106064,
+   "roll_deg_side_minus": -32.79362716449269,
+   "kappa_t_halfwidth_median": -1.2628603004624535,
+   "n_bins": 10,
+   "roll_profile": [
+    {
+     "bin": 1,
+     "mean_deg": -35.03876679489118
+    },
+    {
+     "bin": 2,
+     "mean_deg": -33.136160987084125
+    },
+    {
+     "bin": 3,
+     "mean_deg": -33.049125842284234
+    },
+    {
+     "bin": 4,
+     "mean_deg": -31.67418403947031
+    },
+    {
+     "bin": 5,
+     "mean_deg": -31.961633921211522
+    },
+    {
+     "bin": 6,
+     "mean_deg": -31.058261695917494
+    },
+    {
+     "bin": 7,
+     "mean_deg": -27.938744508404895
+    },
+    {
+     "bin": 8,
+     "mean_deg": -27.087667968670743
+    },
+    {
+     "bin": 9,
+     "mean_deg": -29.906530417703465
+    },
+    {
+     "bin": 10,
+     "mean_deg": -23.848978012554443
+    }
+   ],
+   "nonrigidity_02L_median": 0.10848426446622055,
+   "nonrigidity_02L_p95": 0.2913450397902467,
+   "strain_02L_median": 0.019523055882587625,
+   "strain_02L_p95": 0.14395133769298485,
+   "fine_relief_corr": 0.6844322331243458,
+   "meanH_L_median_before": 4.0007525748305195,
+   "meanH_L_median_after": -1.3469376302385592,
+   "meanH_L_shift_median": -3.9033145553917534,
+   "frac_points_H_increased": 0.47595,
+   "disp_rms_rel": 0.04811076865967445,
+   "midrib_length_ratio": 1.0025458456720648,
+   "midrib_shape_rms_L": 0.002540831462441553,
+   "self_contact_frac": 0.0,
+   "roll_change_profile": [
+    -40.272993069360936,
+    -40.79794078100227,
+    -40.32466934067091,
+    -38.204160027330275,
+    -38.29356644214722,
+    -37.33072803921973,
+    -36.287108567684,
+    -37.16123356264106,
+    -38.175610079244336,
+    -29.81877389543459
+   ],
+   "input_view_iou": 0.7498930383228409,
+   "frac_positions_commanded_sign": 1.0,
+   "median_roll_change": -38.189885053287306,
+   "self_contact_added": 0.0
+  }
+ },
+ "Tomato__Leaf_Mold__0052": {
+  "specimen": "Tomato__Leaf_Mold__0052",
+  "phrase": "Leaves curl upwards and fall off.",
+  "parsed": {
+   "kind": "curl",
+   "direction": 1,
+   "r0": 0.0,
+   "theta_deg": 90.0,
+   "phrase": "Leaves curl upwards and fall off.",
+   "status": "ok"
+  },
+  "flag": null,
+  "D": {
+   "roll_deg_median": 5.204154603839488,
+   "roll_deg_side_plus": 14.147692455310807,
+   "roll_deg_side_minus": 0.9991945314685825,
+   "kappa_t_halfwidth_median": 0.17258191374557444,
+   "n_bins": 10,
+   "roll_profile": [
+    {
+     "bin": 1,
+     "mean_deg": 7.082775386462092
+    },
+    {
+     "bin": 2,
+     "mean_deg": 8.89509006155422
+    },
+    {
+     "bin": 3,
+     "mean_deg": 8.213556328547392
+    },
+    {
+     "bin": 4,
+     "mean_deg": 9.898444858543455
+    },
+    {
+     "bin": 5,
+     "mean_deg": 6.91593444120412
+    },
+    {
+     "bin": 6,
+     "mean_deg": 4.269996713334452
+    },
+    {
+     "bin": 7,
+     "mean_deg": 3.9607766783183425
+    },
+    {
+     "bin": 8,
+     "mean_deg": 4.966155421008669
+    },
+    {
+     "bin": 9,
+     "mean_deg": 3.8987067120104832
+    },
+    {
+     "bin": 10,
+     "mean_deg": 2.014586967662852
+    }
+   ],
+   "nonrigidity_02L_median": 3.412329516480089e-16,
+   "nonrigidity_02L_p95": 7.622369892811094e-16,
+   "strain_02L_median": 0.0,
+   "strain_02L_p95": 0.0,
+   "fine_relief_corr": 0.9999999999999999,
+   "meanH_L_median_before": 2.220421991917196,
+   "meanH_L_median_after": 2.3611811651595236,
+   "meanH_L_shift_median": 0.015930422678814615,
+   "frac_points_H_increased": 0.5179,
+   "disp_rms_rel": 0.0,
+   "midrib_length_ratio": 1.0,
+   "midrib_shape_rms_L": 1.1514948868733676e-16,
+   "self_contact_frac": 0.0,
+   "input_view_iou": 0.9207391872106367
+  },
+  "CU": {
+   "roll_deg_median": 39.85785107343822,
+   "roll_deg_side_plus": 46.33412539958322,
+   "roll_deg_side_minus": 37.17887225610226,
+   "kappa_t_halfwidth_median": 1.8964271303911664,
+   "n_bins": 10,
+   "roll_profile": [
+    {
+     "bin": 1,
+     "mean_deg": 48.63768352723855
+    },
+    {
+     "bin": 2,
+     "mean_deg": 48.914987762145856
+    },
+    {
+     "bin": 3,
+     "mean_deg": 48.51473986325152
+    },
+    {
+     "bin": 4,
+     "mean_deg": 48.75630657695656
+    },
+    {
+     "bin": 5,
+     "mean_deg": 39.85785107343822
+    },
+    {
+     "bin": 6,
+     "mean_deg": 37.877914415496555
+    },
+    {
+     "bin": 7,
+     "mean_deg": 39.4542905424685
+    },
+    {
+     "bin": 8,
+     "mean_deg": 22.84528242413599
+    },
+    {
+     "bin": 9,
+     "mean_deg": 28.51008664609415
+    },
+    {
+     "bin": 10,
+     "mean_deg": 34.96182065206473
+    }
+   ],
+   "nonrigidity_02L_median": 0.142657104488792,
+   "nonrigidity_02L_p95": 0.39072558041450123,
+   "strain_02L_median": 0.029941272688262854,
+   "strain_02L_p95": 0.1955552219656328,
+   "fine_relief_corr": 0.5710886968517808,
+   "meanH_L_median_before": 2.220421991917196,
+   "meanH_L_median_after": 4.023801805215875,
+   "meanH_L_shift_median": 3.387427489851916,
+   "frac_points_H_increased": 0.51585,
+   "disp_rms_rel": 0.05662555520331654,
+   "midrib_length_ratio": 0.9986132947433226,
+   "midrib_shape_rms_L": 0.003077382897701717,
+   "self_contact_frac": 0.0,
+   "roll_change_profile": [
+    41.55490814077646,
+    40.019897700591635,
+    40.30118353470413,
+    38.857861718413105,
+    32.9419166322341,
+    33.607917702162105,
+    35.49351386415016,
+    17.879127003127323,
+    24.61137993408367,
+    32.94723368440188
+   ],
+   "input_view_iou": 0.6688681841412116,
+   "frac_positions_commanded_sign": 1.0,
+   "median_roll_change": 34.550715783156136,
+   "self_contact_added": 0.0
+  },
+  "CD": {
+   "roll_deg_median": -28.543835891676427,
+   "roll_deg_side_plus": -28.977629269429578,
+   "roll_deg_side_minus": -24.909025716179364,
+   "kappa_t_halfwidth_median": -1.0677351230051477,
+   "n_bins": 10,
+   "roll_profile": [
+    {
+     "bin": 1,
+     "mean_deg": -23.97797647979867
+    },
+    {
+     "bin": 2,
+     "mean_deg": -27.616700298810546
+    },
+    {
+     "bin": 3,
+     "mean_deg": -31.256551594098685
+    },
+    {
+     "bin": 4,
+     "mean_deg": -30.967624236943365
+    },
+    {
+     "bin": 5,
+     "mean_deg": -34.66085935919564
+    },
+    {
+     "bin": 6,
+     "mean_deg": -34.786727886917575
+    },
+    {
+     "bin": 7,
+     "mean_deg": -26.017020022924996
+    },
+    {
+     "bin": 8,
+     "mean_deg": -21.652492712010428
+    },
+    {
+     "bin": 9,
+     "mean_deg": -24.88567107159279
+    },
+    {
+     "bin": 10,
+     "mean_deg": -26.737090431452707
+    }
+   ],
+   "nonrigidity_02L_median": 0.14619827055626378,
+   "nonrigidity_02L_p95": 0.41328412711615065,
+   "strain_02L_median": 0.03692016529378378,
+   "strain_02L_p95": 0.21463273345273454,
+   "fine_relief_corr": 0.5981084618100807,
+   "meanH_L_median_before": 2.220421991917196,
+   "meanH_L_median_after": -0.37908809947303956,
+   "meanH_L_shift_median": -1.7143885119364235,
+   "frac_points_H_increased": 0.49205,
+   "disp_rms_rel": 0.05388642073249351,
+   "midrib_length_ratio": 1.0055543422539048,
+   "midrib_shape_rms_L": 0.003425957559432353,
+   "self_contact_frac": 0.0,
+   "roll_change_profile": [
+    -31.060751866260762,
+    -36.51179036036476,
+    -39.47010792264608,
+    -40.86606909548682,
+    -41.57679380039976,
+    -39.056724600252025,
+    -29.97779670124334,
+    -26.618648133019096,
+    -28.784377783603272,
+    -28.751677399115557
+   ],
+   "input_view_iou": 0.7301042207403267,
+   "frac_positions_commanded_sign": 1.0,
+   "median_roll_change": -33.786271113312765,
+   "self_contact_added": 0.0
+  }
+ },
+ "Tomato__Leaf_Mold__0092": {
+  "specimen": "Tomato__Leaf_Mold__0092",
+  "phrase": "Leaves curl upwards and fall off.",
+  "parsed": {
+   "kind": "curl",
+   "direction": 1,
+   "r0": 0.0,
+   "theta_deg": 90.0,
+   "phrase": "Leaves curl upwards and fall off.",
+   "status": "ok"
+  },
+  "flag": null,
+  "D": {
+   "roll_deg_median": 1.614600196505358,
+   "roll_deg_side_plus": 1.6160636860646125,
+   "roll_deg_side_minus": 1.512266102790706,
+   "kappa_t_halfwidth_median": 0.04037376555051006,
+   "n_bins": 10,
+   "roll_profile": [
+    {
+     "bin": 1,
+     "mean_deg": 3.0286554489011372
+    },
+    {
+     "bin": 2,
+     "mean_deg": 0.9947838007439671
+    },
+    {
+     "bin": 3,
+     "mean_deg": -0.563218910998801
+    },
+    {
+     "bin": 4,
+     "mean_deg": 1.5729896152891905
+    },
+    {
+     "bin": 5,
+     "mean_deg": 5.065081939244265
+    },
+    {
+     "bin": 6,
+     "mean_deg": 0.7612518647969195
+    },
+    {
+     "bin": 7,
+     "mean_deg": 0.7810332201031267
+    },
+    {
+     "bin": 8,
+     "mean_deg": 1.7362949997759265
+    },
+    {
+     "bin": 9,
+     "mean_deg": 1.6348645478260955
+    },
+    {
+     "bin": 10,
+     "mean_deg": 1.1108881680339167
+    }
+   ],
+   "nonrigidity_02L_median": 3.627698291388993e-16,
+   "nonrigidity_02L_p95": 9.37621150850849e-16,
+   "strain_02L_median": 0.0,
+   "strain_02L_p95": 0.0,
+   "fine_relief_corr": 1.0,
+   "meanH_L_median_before": -0.6264405795010894,
+   "meanH_L_median_after": -1.1935447678645916,
+   "meanH_L_shift_median": -0.0037085641671366076,
+   "frac_points_H_increased": 0.49835,
+   "disp_rms_rel": 0.0,
+   "midrib_length_ratio": 1.0,
+   "midrib_shape_rms_L": 9.686552610417222e-17,
+   "self_contact_frac": 0.0,
+   "input_view_iou": 0.8353567704454045
+  },
+  "CU": {
+   "roll_deg_median": 20.431822372327098,
+   "roll_deg_side_plus": 19.25504858377153,
+   "roll_deg_side_minus": 21.05907772864297,
+   "kappa_t_halfwidth_median": 0.7315452103336821,
+   "n_bins": 10,
+   "roll_profile": [
+    {
+     "bin": 1,
+     "mean_deg": 20.16168463721216
+    },
+    {
+     "bin": 2,
+     "mean_deg": 21.30045007380253
+    },
+    {
+     "bin": 3,
+     "mean_deg": 8.694082382389782
+    },
+    {
+     "bin": 4,
+     "mean_deg": -7.9069995403790365
+    },
+    {
+     "bin": 5,
+     "mean_deg": -12.283817482363045
+    },
+    {
+     "bin": 6,
+     "mean_deg": 22.890023963661584
+    },
+    {
+     "bin": 7,
+     "mean_deg": 24.15589122254533
+    },
+    {
+     "bin": 8,
+     "mean_deg": 26.85318376614103
+    },
+    {
+     "bin": 9,
+     "mean_deg": 18.860355685762638
+    },
+    {
+     "bin": 10,
+     "mean_deg": 31.443095503471394
+    }
+   ],
+   "nonrigidity_02L_median": 0.2508381935323025,
+   "nonrigidity_02L_p95": 0.6422307081589393,
+   "strain_02L_median": 0.06857420942911507,
+   "strain_02L_p95": 0.4048409162546206,
+   "fine_relief_corr": 0.4311217072477264,
+   "meanH_L_median_before": -0.6264405795010894,
+   "meanH_L_median_after": -0.4591141182287256,
+   "meanH_L_shift_median": -0.7655221425578915,
+   "frac_points_H_increased": 0.4981,
+   "disp_rms_rel": 0.0701329545491031,
+   "midrib_length_ratio": 0.9955100265163928,
+   "midrib_shape_rms_L": 0.0034026489951688174,
+   "self_contact_frac": 0.04975,
+   "roll_change_profile": [
+    17.133029188311024,
+    20.305666273058563,
+    9.257301293388583,
+    -9.479989155668227,
+    -17.34889942160731,
+    22.128772098864665,
+    23.374858002442203,
+    25.116888766365104,
+    17.225491137936544,
+    30.332207335437477
+   ],
+   "input_view_iou": 0.6762974647020351,
+   "frac_positions_commanded_sign": 0.8,
+   "median_roll_change": 18.765578705497553,
+   "self_contact_added": 0.04975
+  },
+  "CD": {
+   "roll_deg_median": -15.41985729538139,
+   "roll_deg_side_plus": -32.48439376877831,
+   "roll_deg_side_minus": -3.992215990402281,
+   "kappa_t_halfwidth_median": -0.4382869925776248,
+   "n_bins": 10,
+   "roll_profile": [
+    {
+     "bin": 1,
+     "mean_deg": -18.851051700315743
+    },
+    {
+     "bin": 2,
+     "mean_deg": -16.827160398607987
+    },
+    {
+     "bin": 3,
+     "mean_deg": -23.66733736910355
+    },
+    {
+     "bin": 4,
+     "mean_deg": -15.838391920511453
+    },
+    {
+     "bin": 5,
+     "mean_deg": -9.766344935669308
+    },
+    {
+     "bin": 6,
+     "mean_deg": -18.695945262546093
+    },
+    {
+     "bin": 7,
+     "mean_deg": -16.38239484123214
+    },
+    {
+     "bin": 8,
+     "mean_deg": -13.007916537745345
+    },
+    {
+     "bin": 9,
+     "mean_deg": -18.87105115381094
+    },
+    {
+     "bin": 10,
+     "mean_deg": -19.581103456450787
+    }
+   ],
+   "nonrigidity_02L_median": 0.26227210254297617,
+   "nonrigidity_02L_p95": 0.644723627416144,
+   "strain_02L_median": 0.06771982773949214,
+   "strain_02L_p95": 0.3926427650029085,
+   "fine_relief_corr": 0.2767219594508166,
+   "meanH_L_median_before": -0.6264405795010894,
+   "meanH_L_median_after": -2.734569137795432,
+   "meanH_L_shift_median": -2.7820285247461527,
+   "frac_points_H_increased": 0.49355,
+   "disp_rms_rel": 0.0673822224940766,
+   "midrib_length_ratio": 1.0157270399508758,
+   "midrib_shape_rms_L": 0.006919266208328426,
+   "self_contact_frac": 0.0095,
+   "roll_change_profile": [
+    -21.87970714921688,
+    -17.821944199351954,
+    -23.104118458104747,
+    -17.411381535800643,
+    -14.831426874913571,
+    -19.45719712734301,
+    -17.163428061335267,
+    -14.744211537521272,
+    -20.505915701637033,
+    -20.691991624484704
+   ],
+   "input_view_iou": 0.7390011437285551,
+   "frac_positions_commanded_sign": 1.0,
+   "median_roll_change": -18.639570663347484,
+   "self_contact_added": 0.0095
+  }
+ },
+ "Citrus__Canker__0004": {
+  "specimen": "Citrus__Canker__0004",
+  "phrase": "Leaves curl upwards and fall off.",
+  "parsed": {
+   "kind": "curl",
+   "direction": 1,
+   "r0": 0.0,
+   "theta_deg": 90.0,
+   "phrase": "Leaves curl upwards and fall off.",
+   "status": "ok"
+  },
+  "flag": null,
+  "D": {
+   "roll_deg_median": -1.2894160854529169,
+   "roll_deg_side_plus": -1.811732805360455,
+   "roll_deg_side_minus": -0.46078436085855257,
+   "kappa_t_halfwidth_median": -0.037567452273212454,
+   "n_bins": 10,
+   "roll_profile": [
+    {
+     "bin": 1,
+     "mean_deg": -1.0904436012716388
+    },
+    {
+     "bin": 2,
+     "mean_deg": -1.2894160854529169
+    },
+    {
+     "bin": 3,
+     "mean_deg": -1.1998048318151742
+    },
+    {
+     "bin": 4,
+     "mean_deg": -1.3816395684336211
+    },
+    {
+     "bin": 5,
+     "mean_deg": -1.252300884471266
+    },
+    {
+     "bin": 6,
+     "mean_deg": -1.0727123344038332
+    },
+    {
+     "bin": 7,
+     "mean_deg": -0.9176500244619455
+    },
+    {
+     "bin": 8,
+     "mean_deg": -0.6741963701640791
+    },
+    {
+     "bin": 9,
+     "mean_deg": -0.46068578630644597
+    },
+    {
+     "bin": 10,
+     "mean_deg": -0.693262723826068
+    }
+   ],
+   "nonrigidity_02L_median": 3.646387398825726e-16,
+   "nonrigidity_02L_p95": 1.0487072139461861e-15,
+   "strain_02L_median": 0.0,
+   "strain_02L_p95": 0.0,
+   "fine_relief_corr": 0.9999999999999999,
+   "meanH_L_median_before": 0.04234853559049992,
+   "meanH_L_median_after": 0.0030677036240035235,
+   "meanH_L_shift_median": -0.0004139997239465121,
+   "frac_points_H_increased": 0.49165,
+   "disp_rms_rel": 0.0,
+   "midrib_length_ratio": 1.0,
+   "midrib_shape_rms_L": 8.490003673539344e-17,
+   "self_contact_frac": 0.0,
+   "input_view_iou": 0.9085310288730284
+  },
+  "CU": {
+   "roll_deg_median": 40.616814266822274,
+   "roll_deg_side_plus": 37.49471585558071,
+   "roll_deg_side_minus": 44.802587249068154,
+   "kappa_t_halfwidth_median": 1.7837383146236716,
+   "n_bins": 10,
+   "roll_profile": [
+    {
+     "bin": 1,
+     "mean_deg": 39.57866449529528
+    },
+    {
+     "bin": 2,
+     "mean_deg": 41.28729247959491
+    },
+    {
+     "bin": 3,
+     "mean_deg": 41.68774402812322
+    },
+    {
+     "bin": 4,
+     "mean_deg": 41.44387493896306
+    },
+    {
+     "bin": 5,
+     "mean_deg": 41.945359853686654
+    },
+    {
+     "bin": 6,
+     "mean_deg": 41.350968050707706
+    },
+    {
+     "bin": 7,
+     "mean_deg": 41.63418344350559
+    },
+    {
+     "bin": 8,
+     "mean_deg": 42.362439767344455
+    },
+    {
+     "bin": 9,
+     "mean_deg": 40.700121207000066
+    },
+    {
+     "bin": 10,
+     "mean_deg": 39.26200839713695
+    }
+   ],
+   "nonrigidity_02L_median": 0.09552104301689943,
+   "nonrigidity_02L_p95": 0.23637444241987984,
+   "strain_02L_median": 0.01530162344581587,
+   "strain_02L_p95": 0.1078607956211761,
+   "fine_relief_corr": 0.1347369288626185,
+   "meanH_L_median_before": 0.04234853559049992,
+   "meanH_L_median_after": 3.248293982352039,
+   "meanH_L_shift_median": 3.6653062530831324,
+   "frac_points_H_increased": 0.5277,
+   "disp_rms_rel": 0.06058947860769273,
+   "midrib_length_ratio": 1.0008201114131243,
+   "midrib_shape_rms_L": 0.0005328172295139336,
+   "self_contact_frac": 0.0,
+   "roll_change_profile": [
+    40.669108096566916,
+    42.576708565047824,
+    42.88754885993839,
+    42.82551450739668,
+    43.19766073815792,
+    42.42368038511154,
+    42.55183346796754,
+    43.03663613750853,
+    41.160806993306515,
+    39.95527112096302
+   ],
+   "input_view_iou": 0.6389875639740723,
+   "frac_positions_commanded_sign": 1.0,
+   "median_roll_change": 42.56427101650768,
+   "self_contact_added": 0.0
+  },
+  "CD": {
+   "roll_deg_median": -39.877242258991004,
+   "roll_deg_side_plus": -38.24133310636137,
+   "roll_deg_side_minus": -40.71429588429562,
+   "kappa_t_halfwidth_median": -1.7302985955849501,
+   "n_bins": 10,
+   "roll_profile": [
+    {
+     "bin": 1,
+     "mean_deg": -38.33131941995346
+    },
+    {
+     "bin": 2,
+     "mean_deg": -38.79714420293751
+    },
+    {
+     "bin": 3,
+     "mean_deg": -39.7624112522481
+    },
+    {
+     "bin": 4,
+     "mean_deg": -39.49023392566316
+    },
+    {
+     "bin": 5,
+     "mean_deg": -40.894985385114424
+    },
+    {
+     "bin": 6,
+     "mean_deg": -40.73106009294581
+    },
+    {
+     "bin": 7,
+     "mean_deg": -39.25128844018114
+    },
+    {
+     "bin": 8,
+     "mean_deg": -41.30044931345029
+    },
+    {
+     "bin": 9,
+     "mean_deg": -40.199844742755374
+    },
+    {
+     "bin": 10,
+     "mean_deg": -38.005488288684724
+    }
+   ],
+   "nonrigidity_02L_median": 0.09478657012941957,
+   "nonrigidity_02L_p95": 0.19180173633500808,
+   "strain_02L_median": 0.01792069976472277,
+   "strain_02L_p95": 0.09672949912104813,
+   "fine_relief_corr": 0.18561727471304856,
+   "meanH_L_median_before": 0.04234853559049992,
+   "meanH_L_median_after": -3.4497164859678717,
+   "meanH_L_shift_median": -3.2620079507637554,
+   "frac_points_H_increased": 0.47445,
+   "disp_rms_rel": 0.06066250937040756,
+   "midrib_length_ratio": 1.000281773583025,
+   "midrib_shape_rms_L": 0.0013257408440078544,
+   "self_contact_frac": 0.0,
+   "roll_change_profile": [
+    -37.24087581868182,
+    -37.50772811748459,
+    -38.56260642043293,
+    -38.10859435722954,
+    -39.642684500643156,
+    -39.65834775854198,
+    -38.33363841571919,
+    -40.62625294328621,
+    -39.739158956448925,
+    -37.31222556485866
+   ],
+   "input_view_iou": 0.6123447520725794,
+   "frac_positions_commanded_sign": 1.0,
+   "median_roll_change": -38.44812241807606,
+   "self_contact_added": 0.0
+  }
+ },
+ "Citrus__Canker__0012": {
+  "specimen": "Citrus__Canker__0012",
+  "phrase": "Leaves curl upwards and fall off.",
+  "parsed": {
+   "kind": "curl",
+   "direction": 1,
+   "r0": 0.0,
+   "theta_deg": 90.0,
+   "phrase": "Leaves curl upwards and fall off.",
+   "status": "ok"
+  },
+  "flag": null,
+  "D": {
+   "roll_deg_median": -0.12809730490071125,
+   "roll_deg_side_plus": -0.1292222917554008,
+   "roll_deg_side_minus": -0.08057026557745701,
+   "kappa_t_halfwidth_median": 0.015194302711908862,
+   "n_bins": 10,
+   "roll_profile": [
+    {
+     "bin": 1,
+     "mean_deg": -0.2627940168941306
+    },
+    {
+     "bin": 2,
+     "mean_deg": -0.17910761969310066
+    },
+    {
+     "bin": 3,
+     "mean_deg": 0.034886496158189284
+    },
+    {
+     "bin": 4,
+     "mean_deg": -0.12809730490071125
+    },
+    {
+     "bin": 5,
+     "mean_deg": -0.38367302187569313
+    },
+    {
+     "bin": 6,
+     "mean_deg": -0.02747058875003358
+    },
+    {
+     "bin": 7,
+     "mean_deg": 0.3009564263074014
+    },
+    {
+     "bin": 8,
+     "mean_deg": -0.0057768514194917325
+    },
+    {
+     "bin": 9,
+     "mean_deg": 0.2456731904135539
+    },
+    {
+     "bin": 10,
+     "mean_deg": 0.5838837967378705
+    }
+   ],
+   "nonrigidity_02L_median": 3.917232041681782e-16,
+   "nonrigidity_02L_p95": 2.490445980464617e-15,
+   "strain_02L_median": 0.0,
+   "strain_02L_p95": 0.0,
+   "fine_relief_corr": 1.0,
+   "meanH_L_median_before": -14.917692330584266,
+   "meanH_L_median_after": -14.904835528534441,
+   "meanH_L_shift_median": -0.18335116293582132,
+   "frac_points_H_increased": 0.47535,
+   "disp_rms_rel": 0.0,
+   "midrib_length_ratio": 1.0,
+   "midrib_shape_rms_L": 1.3458835659692782e-16,
+   "self_contact_frac": 0.0,
+   "input_view_iou": 0.9914705564225783
+  },
+  "CU": {
+   "roll_deg_median": 7.4614873911826365,
+   "roll_deg_side_plus": -7.5499557246215385,
+   "roll_deg_side_minus": 13.054457116582565,
+   "kappa_t_halfwidth_median": 0.04110615063569813,
+   "n_bins": 10,
+   "roll_profile": [
+    {
+     "bin": 1,
+     "mean_deg": 28.30722856328684
+    },
+    {
+     "bin": 2,
+     "mean_deg": 13.746762852888772
+    },
+    {
+     "bin": 3,
+     "mean_deg": -2.7934834878017556
+    },
+    {
+     "bin": 4,
+     "mean_deg": -0.9762343868330037
+    },
+    {
+     "bin": 5,
+     "mean_deg": 8.068101951315366
+    },
+    {
+     "bin": 6,
+     "mean_deg": 20.979111554500374
+    },
+    {
+     "bin": 7,
+     "mean_deg": 28.077372815951506
+    },
+    {
+     "bin": 8,
+     "mean_deg": -17.277680646182787
+    },
+    {
+     "bin": 9,
+     "mean_deg": -2.8852305804650165
+    },
+    {
+     "bin": 10,
+     "mean_deg": 11.098265259116236
+    }
+   ],
+   "nonrigidity_02L_median": 0.3549750859082236,
+   "nonrigidity_02L_p95": 1.8174064385107336,
+   "strain_02L_median": 0.13783486256622646,
+   "strain_02L_p95": 1.4826746508695905,
+   "fine_relief_corr": 0.11708072468870646,
+   "meanH_L_median_before": -14.917692330584266,
+   "meanH_L_median_after": 1.2915889913522336,
+   "meanH_L_shift_median": 4.192891432161076,
+   "frac_points_H_increased": 0.51015,
+   "disp_rms_rel": 0.12449505437550867,
+   "midrib_length_ratio": 0.9849140930079514,
+   "midrib_shape_rms_L": 0.0030156652089641115,
+   "self_contact_frac": 0.067875,
+   "roll_change_profile": [
+    28.57002258018097,
+    13.925870472581872,
+    -2.828369983959945,
+    -0.8481370819322924,
+    8.451774973191059,
+    21.00658214325041,
+    27.776416389644105,
+    -17.271903794763297,
+    -3.1309037708785703,
+    10.514381462378365
+   ],
+   "input_view_iou": 0.6077787273864488,
+   "frac_positions_commanded_sign": 0.6,
+   "median_roll_change": 9.483078217784712,
+   "self_contact_added": 0.067875
+  },
+  "CD": {
+   "roll_deg_median": -19.298227057652156,
+   "roll_deg_side_plus": -15.098128408657354,
+   "roll_deg_side_minus": -21.823097038038362,
+   "kappa_t_halfwidth_median": -0.6588697451474574,
+   "n_bins": 10,
+   "roll_profile": [
+    {
+     "bin": 1,
+     "mean_deg": -26.854992980187824
+    },
+    {
+     "bin": 2,
+     "mean_deg": -24.326362037307888
+    },
+    {
+     "bin": 3,
+     "mean_deg": -21.422383164426805
+    },
+    {
+     "bin": 4,
+     "mean_deg": -20.201842619222074
+    },
+    {
+     "bin": 5,
+     "mean_deg": -15.532801582308018
+    },
+    {
+     "bin": 6,
+     "mean_deg": -0.939202861345584
+    },
+    {
+     "bin": 7,
+     "mean_deg": 9.038065996806555
+    },
+    {
+     "bin": 8,
+     "mean_deg": 15.781803330531773
+    },
+    {
+     "bin": 9,
+     "mean_deg": -22.187636148104616
+    },
+    {
+     "bin": 10,
+     "mean_deg": -28.80939409599766
+    }
+   ],
+   "nonrigidity_02L_median": 0.39528685802460034,
+   "nonrigidity_02L_p95": 1.8960178396525353,
+   "strain_02L_median": 0.19701488520401478,
+   "strain_02L_p95": 1.7243131077609934,
+   "fine_relief_corr": 0.09425138569868184,
+   "meanH_L_median_before": -14.917692330584266,
+   "meanH_L_median_after": -11.840402815893437,
+   "meanH_L_shift_median": -1.8749674707219786,
+   "frac_points_H_increased": 0.4958,
+   "disp_rms_rel": 0.11523801225779212,
+   "midrib_length_ratio": 1.0053821584151885,
+   "midrib_shape_rms_L": 0.00203347730217476,
+   "self_contact_frac": 0.005375,
+   "roll_change_profile": [
+    -26.592198963293693,
+    -24.147254417614786,
+    -21.457269660584995,
+    -20.073745314321364,
+    -15.149128560432326,
+    -0.9117322725955503,
+    8.737109570499154,
+    15.787580181951265,
+    -22.43330933851817,
+    -29.393277892735533
+   ],
+   "input_view_iou": 0.6741422162310171,
+   "frac_positions_commanded_sign": 0.8,
+   "median_roll_change": -20.765507487453178,
+   "self_contact_added": 0.005375
+  }
+ },
+ "Citrus__Canker__0016": {
+  "specimen": "Citrus__Canker__0016",
+  "phrase": "Leaves curl upwards and fall off.",
+  "parsed": {
+   "kind": "curl",
+   "direction": 1,
+   "r0": 0.0,
+   "theta_deg": 90.0,
+   "phrase": "Leaves curl upwards and fall off.",
+   "status": "ok"
+  },
+  "flag": null,
+  "D": {
+   "roll_deg_median": -0.6205390151745943,
+   "roll_deg_side_plus": -0.015961209153437694,
+   "roll_deg_side_minus": -1.0493004799712815,
+   "kappa_t_halfwidth_median": -0.02704416664904756,
+   "n_bins": 10,
+   "roll_profile": [
+    {
+     "bin": 1,
+     "mean_deg": 0.964614305245968
+    },
+    {
+     "bin": 2,
+     "mean_deg": 0.3971146739034648
+    },
+    {
+     "bin": 3,
+     "mean_deg": 0.1190391977495946
+    },
+    {
+     "bin": 4,
+     "mean_deg": -0.29236482913100725
+    },
+    {
+     "bin": 5,
+     "mean_deg": -0.8867334948128904
+    },
+    {
+     "bin": 6,
+     "mean_deg": -0.7900216577250342
+    },
+    {
+     "bin": 7,
+     "mean_deg": -0.958891721651706
+    },
+    {
+     "bin": 8,
+     "mean_deg": -1.3699169971655436
+    },
+    {
+     "bin": 9,
+     "mean_deg": -1.2172773958244492
+    },
+    {
+     "bin": 10,
+     "mean_deg": -1.0858413303691807
+    }
+   ],
+   "nonrigidity_02L_median": 3.807229716702243e-16,
+   "nonrigidity_02L_p95": 1.7284017781314918e-15,
+   "strain_02L_median": 0.0,
+   "strain_02L_p95": 0.0,
+   "fine_relief_corr": 1.0,
+   "meanH_L_median_before": -5.610331912388681,
+   "meanH_L_median_after": -6.740373540836167,
+   "meanH_L_shift_median": -0.06300749400093864,
+   "frac_points_H_increased": 0.4925,
+   "disp_rms_rel": 0.0,
+   "midrib_length_ratio": 1.0,
+   "midrib_shape_rms_L": 1.1317596475171693e-16,
+   "self_contact_frac": 0.0,
+   "input_view_iou": 0.9807092057657121
+  },
+  "CU": {
+   "roll_deg_median": 10.379692521139958,
+   "roll_deg_side_plus": 10.379692521139958,
+   "roll_deg_side_minus": 11.016623065474409,
+   "kappa_t_halfwidth_median": 0.20053511953659636,
+   "n_bins": 10,
+   "roll_profile": [
+    {
+     "bin": 1,
+     "mean_deg": 38.29327393810917
+    },
+    {
+     "bin": 2,
+     "mean_deg": 32.168536136836344
+    },
+    {
+     "bin": 3,
+     "mean_deg": 22.737421404542363
+    },
+    {
+     "bin": 4,
+     "mean_deg": 14.307245411625228
+    },
+    {
+     "bin": 5,
+     "mean_deg": 6.031351705865821
+    },
+    {
+     "bin": 6,
+     "mean_deg": 6.236482493975121
+    },
+    {
+     "bin": 7,
+     "mean_deg": 0.26299981817213247
+    },
+    {
+     "bin": 8,
+     "mean_deg": -7.452556130833148
+    },
+    {
+     "bin": 9,
+     "mean_deg": -9.705839664252082
+    },
+    {
+     "bin": 10,
+     "mean_deg": -0.4831726718300775
+    }
+   ],
+   "nonrigidity_02L_median": 0.39210437982001256,
+   "nonrigidity_02L_p95": 1.445989144030292,
+   "strain_02L_median": 0.16740617312556272,
+   "strain_02L_p95": 1.211202612769233,
+   "fine_relief_corr": 0.05740807407985433,
+   "meanH_L_median_before": -5.610331912388681,
+   "meanH_L_median_after": 12.027383826124678,
+   "meanH_L_shift_median": 4.719282022858394,
+   "frac_points_H_increased": 0.50965,
+   "disp_rms_rel": 0.1222466173662218,
+   "midrib_length_ratio": 0.999278258013551,
+   "midrib_shape_rms_L": 0.0026412533394057076,
+   "self_contact_frac": 0.016,
+   "roll_change_profile": [
+    37.3286596328632,
+    31.771421462932878,
+    22.61838220679277,
+    14.599610240756235,
+    6.9180852006787115,
+    7.026504151700155,
+    1.2218915398238384,
+    -6.0826391336676044,
+    -8.488562268427632,
+    0.6026686585391032
+   ],
+   "input_view_iou": 0.7096852653597315,
+   "frac_positions_commanded_sign": 0.8,
+   "median_roll_change": 6.972294676189433,
+   "self_contact_added": 0.016
+  },
+  "CD": {
+   "roll_deg_median": -28.85896704479444,
+   "roll_deg_side_plus": -37.57102784032905,
+   "roll_deg_side_minus": -0.14210123683048836,
+   "kappa_t_halfwidth_median": -0.1681822852152058,
+   "n_bins": 10,
+   "roll_profile": [
+    {
+     "bin": 1,
+     "mean_deg": -32.323499754599304
+    },
+    {
+     "bin": 2,
+     "mean_deg": -33.853677523517305
+    },
+    {
+     "bin": 3,
+     "mean_deg": -32.364483561558735
+    },
+    {
+     "bin": 4,
+     "mean_deg": -30.92607095984134
+    },
+    {
+     "bin": 5,
+     "mean_deg": -22.412031127062864
+    },
+    {
+     "bin": 6,
+     "mean_deg": -10.195094233836453
+    },
+    {
+     "bin": 7,
+     "mean_deg": -6.126462423590412
+    },
+    {
+     "bin": 8,
+     "mean_deg": -16.609953077911253
+    },
+    {
+     "bin": 9,
+     "mean_deg": -17.996258146138192
+    },
+    {
+     "bin": 10,
+     "mean_deg": -18.435964989811147
+    }
+   ],
+   "nonrigidity_02L_median": 0.42288735558842194,
+   "nonrigidity_02L_p95": 1.6535304575343253,
+   "strain_02L_median": 0.19619604907463084,
+   "strain_02L_p95": 1.3526074601479783,
+   "fine_relief_corr": 0.08226799698475268,
+   "meanH_L_median_before": -5.610331912388681,
+   "meanH_L_median_after": -15.671751013945045,
+   "meanH_L_shift_median": -8.418548161313637,
+   "frac_points_H_increased": 0.48205,
+   "disp_rms_rel": 0.1239479683775217,
+   "midrib_length_ratio": 1.0046789373716591,
+   "midrib_shape_rms_L": 0.0027547913431734124,
+   "self_contact_frac": 0.018625,
+   "roll_change_profile": [
+    -33.28811405984527,
+    -34.25079219742077,
+    -32.48352275930833,
+    -30.633706130710333,
+    -21.525297632249973,
+    -9.405072576111419,
+    -5.167570701938706,
+    -15.24003608074571,
+    -16.778980750313742,
+    -17.350123659441966
+   ],
+   "input_view_iou": 0.6453059142527316,
+   "frac_positions_commanded_sign": 1.0,
+   "median_roll_change": -19.437710645845968,
+   "self_contact_added": 0.018625
+  }
+ },
+ "Mango__Anthracnose__0044": {
+  "specimen": "Mango__Anthracnose__0044",
+  "phrase": "Leaves curl upwards and fall off.",
+  "parsed": {
+   "kind": "curl",
+   "direction": 1,
+   "r0": 0.0,
+   "theta_deg": 90.0,
+   "phrase": "Leaves curl upwards and fall off.",
+   "status": "ok"
+  },
+  "flag": null,
+  "D": {
+   "roll_deg_median": 0.7094519772354388,
+   "roll_deg_side_plus": 0.6270294772003713,
+   "roll_deg_side_minus": 1.0096655786019404,
+   "kappa_t_halfwidth_median": 0.010951509008161208,
+   "n_bins": 10,
+   "roll_profile": [
+    {
+     "bin": 1,
+     "mean_deg": 0.9445242078001521
+    },
+    {
+     "bin": 2,
+     "mean_deg": 1.0487379065510534
+    },
+    {
+     "bin": 3,
+     "mean_deg": 1.1127992295779832
+    },
+    {
+     "bin": 4,
+     "mean_deg": 0.8428497892012217
+    },
+    {
+     "bin": 5,
+     "mean_deg": 0.6000933874763305
+    },
+    {
+     "bin": 6,
+     "mean_deg": 0.3056253779902947
+    },
+    {
+     "bin": 7,
+     "mean_deg": 0.11643558950391186
+    },
+    {
+     "bin": 8,
+     "mean_deg": 0.001895618078969652
+    },
+    {
+     "bin": 9,
+     "mean_deg": 0.16794611764524692
+    },
+    {
+     "bin": 10,
+     "mean_deg": -0.14226112813637037
+    }
+   ],
+   "nonrigidity_02L_median": 3.550372678296531e-16,
+   "nonrigidity_02L_p95": 1.2112661125920198e-15,
+   "strain_02L_median": 0.0,
+   "strain_02L_p95": 0.0,
+   "fine_relief_corr": 1.0,
+   "meanH_L_median_before": -1.532830401751132,
+   "meanH_L_median_after": -1.2566864685701855,
+   "meanH_L_shift_median": 0.0006165654190857239,
+   "frac_points_H_increased": 0.5053,
+   "disp_rms_rel": 0.0,
+   "midrib_length_ratio": 1.0,
+   "midrib_shape_rms_L": 3.4959719853123064e-16,
+   "self_contact_frac": 0.0,
+   "input_view_iou": 0.9279694347679515
+  },
+  "CU": {
+   "roll_deg_median": 43.90166094295918,
+   "roll_deg_side_plus": 43.90166094295918,
+   "roll_deg_side_minus": 43.573279924828086,
+   "kappa_t_halfwidth_median": 1.9541895105620712,
+   "n_bins": 10,
+   "roll_profile": [
+    {
+     "bin": 1,
+     "mean_deg": 43.27873184033848
+    },
+    {
+     "bin": 2,
+     "mean_deg": 43.59570439490028
+    },
+    {
+     "bin": 3,
+     "mean_deg": 44.2738647388755
+    },
+    {
+     "bin": 4,
+     "mean_deg": 43.201076128911765
+    },
+    {
+     "bin": 5,
+     "mean_deg": 42.72246349520783
+    },
+    {
+     "bin": 6,
+     "mean_deg": 42.85950330465196
+    },
+    {
+     "bin": 7,
+     "mean_deg": 42.926043212548024
+    },
+    {
+     "bin": 8,
+     "mean_deg": 42.48887939346481
+    },
+    {
+     "bin": 9,
+     "mean_deg": 44.69377004151758
+    },
+    {
+     "bin": 10,
+     "mean_deg": 44.96305718138693
+    }
+   ],
+   "nonrigidity_02L_median": 0.10747074835818418,
+   "nonrigidity_02L_p95": 0.1846575247528437,
+   "strain_02L_median": 0.01375593906796424,
+   "strain_02L_p95": 0.07307509021512736,
+   "fine_relief_corr": 0.3140849028905771,
+   "meanH_L_median_before": -1.532830401751132,
+   "meanH_L_median_after": 5.9944643211029005,
+   "meanH_L_shift_median": 6.9405998257650765,
+   "frac_points_H_increased": 0.54335,
+   "disp_rms_rel": 0.03226054223901222,
+   "midrib_length_ratio": 1.000318932953117,
+   "midrib_shape_rms_L": 0.0008710252496474987,
+   "self_contact_frac": 0.0,
+   "roll_change_profile": [
+    42.33420763253833,
+    42.54696648834923,
+    43.16106550929752,
+    42.35822633971054,
+    42.122370107731506,
+    42.55387792666166,
+    42.80960762304411,
+    42.486983775385845,
+    44.52582392387234,
+    45.1053183095233
+   ],
+   "input_view_iou": 0.597592883307169,
+   "frac_positions_commanded_sign": 1.0,
+   "median_roll_change": 42.55042220750545,
+   "self_contact_added": 0.0
+  },
+  "CD": {
+   "roll_deg_median": -42.334547020587806,
+   "roll_deg_side_plus": -40.59795762405339,
+   "roll_deg_side_minus": -44.06275740040968,
+   "kappa_t_halfwidth_median": -1.8205587824654426,
+   "n_bins": 10,
+   "roll_profile": [
+    {
+     "bin": 1,
+     "mean_deg": -40.06747543636571
+    },
+    {
+     "bin": 2,
+     "mean_deg": -42.08647810743606
+    },
+    {
+     "bin": 3,
+     "mean_deg": -42.627253568124345
+    },
+    {
+     "bin": 4,
+     "mean_deg": -42.4391671164926
+    },
+    {
+     "bin": 5,
+     "mean_deg": -41.55239961697058
+    },
+    {
+     "bin": 6,
+     "mean_deg": -42.334547020587806
+    },
+    {
+     "bin": 7,
+     "mean_deg": -42.5911108501968
+    },
+    {
+     "bin": 8,
+     "mean_deg": -43.36027899309427
+    },
+    {
+     "bin": 9,
+     "mean_deg": -42.95730811772337
+    },
+    {
+     "bin": 10,
+     "mean_deg": -43.66927864793587
+    }
+   ],
+   "nonrigidity_02L_median": 0.11015890016273563,
+   "nonrigidity_02L_p95": 0.16395773570288188,
+   "strain_02L_median": 0.014077302210372733,
+   "strain_02L_p95": 0.07062957346309097,
+   "fine_relief_corr": 0.27919922768446703,
+   "meanH_L_median_before": -1.532830401751132,
+   "meanH_L_median_after": -6.463191432879846,
+   "meanH_L_shift_median": -4.441276569024964,
+   "frac_points_H_increased": 0.47375,
+   "disp_rms_rel": 0.03249401402171932,
+   "midrib_length_ratio": 1.000604701112348,
+   "midrib_shape_rms_L": 0.001337818195610401,
+   "self_contact_frac": 0.0,
+   "roll_change_profile": [
+    -41.01199964416586,
+    -43.13521601398711,
+    -43.740052797702326,
+    -43.28201690569382,
+    -42.15249300444691,
+    -42.6401723985781,
+    -42.707546439700714,
+    -43.36217461117324,
+    -43.125254235368615,
+    -43.5270175197995
+   ],
+   "input_view_iou": 0.6266127268751367,
+   "frac_positions_commanded_sign": 1.0,
+   "median_roll_change": -43.13023512467787,
+   "self_contact_added": 0.0
+  }
+ },
+ "Mango__Anthracnose__0049": {
+  "specimen": "Mango__Anthracnose__0049",
+  "phrase": "Leaves curl upwards and fall off.",
+  "parsed": {
+   "kind": "curl",
+   "direction": 1,
+   "r0": 0.0,
+   "theta_deg": 90.0,
+   "phrase": "Leaves curl upwards and fall off.",
+   "status": "ok"
+  },
+  "flag": null,
+  "D": {
+   "roll_deg_median": 3.6579360287113953,
+   "roll_deg_side_plus": 2.7871270414522478,
+   "roll_deg_side_minus": 6.058629060105515,
+   "kappa_t_halfwidth_median": 0.14975781638563113,
+   "n_bins": 10,
+   "roll_profile": [
+    {
+     "bin": 1,
+     "mean_deg": 8.807200403440241
+    },
+    {
+     "bin": 2,
+     "mean_deg": 4.686909721555299
+    },
+    {
+     "bin": 3,
+     "mean_deg": 4.181992209781774
+    },
+    {
+     "bin": 4,
+     "mean_deg": 3.6391444769977035
+    },
+    {
+     "bin": 5,
+     "mean_deg": 4.143321826563601
+    },
+    {
+     "bin": 6,
+     "mean_deg": 2.8648079330764373
+    },
+    {
+     "bin": 7,
+     "mean_deg": 2.783975828451486
+    },
+    {
+     "bin": 8,
+     "mean_deg": 4.1232204266944255
+    },
+    {
+     "bin": 9,
+     "mean_deg": 4.446283067321674
+    },
+    {
+     "bin": 10,
+     "mean_deg": 4.986218330048476
+    }
+   ],
+   "nonrigidity_02L_median": 3.8692325512559296e-16,
+   "nonrigidity_02L_p95": 2.2562909772788342e-15,
+   "strain_02L_median": 0.0,
+   "strain_02L_p95": 0.0,
+   "fine_relief_corr": 1.0,
+   "meanH_L_median_before": 2.1782755371474405,
+   "meanH_L_median_after": 1.9398316540043719,
+   "meanH_L_shift_median": -0.0012879028708479012,
+   "frac_points_H_increased": 0.48695,
+   "disp_rms_rel": 0.0,
+   "midrib_length_ratio": 1.0,
+   "midrib_shape_rms_L": 8.799595766793934e-17,
+   "self_contact_frac": 0.0,
+   "input_view_iou": 0.9530301895273054
+  },
+  "CU": {
+   "roll_deg_median": 46.10513997097368,
+   "roll_deg_side_plus": 48.05099769746103,
+   "roll_deg_side_minus": 43.31706307794428,
+   "kappa_t_halfwidth_median": 2.090889508310383,
+   "n_bins": 10,
+   "roll_profile": [
+    {
+     "bin": 1,
+     "mean_deg": 43.643827234595896
+    },
+    {
+     "bin": 2,
+     "mean_deg": 47.08738712484423
+    },
+    {
+     "bin": 3,
+     "mean_deg": 46.91157699887088
+    },
+    {
+     "bin": 4,
+     "mean_deg": 44.989498298778976
+    },
+    {
+     "bin": 5,
+     "mean_deg": 44.95947857107533
+    },
+    {
+     "bin": 6,
+     "mean_deg": 47.74180645233342
+    },
+    {
+     "bin": 7,
+     "mean_deg": 46.93824629185585
+    },
+    {
+     "bin": 8,
+     "mean_deg": 46.23598147320008
+    },
+    {
+     "bin": 9,
+     "mean_deg": 45.65683917632222
+    },
+    {
+     "bin": 10,
+     "mean_deg": 46.01282729848929
+    }
+   ],
+   "nonrigidity_02L_median": 0.10974417822765335,
+   "nonrigidity_02L_p95": 0.2980309476377012,
+   "strain_02L_median": 0.01360830172537747,
+   "strain_02L_p95": 0.12280638498492669,
+   "fine_relief_corr": 0.6231994718793347,
+   "meanH_L_median_before": 2.1782755371474405,
+   "meanH_L_median_after": 7.5440146418363145,
+   "meanH_L_shift_median": 4.656059681337545,
+   "frac_points_H_increased": 0.52915,
+   "disp_rms_rel": 0.027820669170583363,
+   "midrib_length_ratio": 0.9931355855965217,
+   "midrib_shape_rms_L": 0.0014244213391534527,
+   "self_contact_frac": 0.0,
+   "roll_change_profile": [
+    34.836626831155655,
+    42.40047740328893,
+    42.7295847890891,
+    41.35035382178127,
+    40.81615674451173,
+    44.876998519256986,
+    44.15427046340436,
+    42.11276104650565,
+    41.21055610900055,
+    41.02660896844082
+   ],
+   "input_view_iou": 0.6740769230769231,
+   "frac_positions_commanded_sign": 1.0,
+   "median_roll_change": 41.73155743414346,
+   "self_contact_added": 0.0
+  },
+  "CD": {
+   "roll_deg_median": -34.6435827413967,
+   "roll_deg_side_plus": -39.81214630764063,
+   "roll_deg_side_minus": -30.792663995557007,
+   "kappa_t_halfwidth_median": -1.5636965108102205,
+   "n_bins": 10,
+   "roll_profile": [
+    {
+     "bin": 1,
+     "mean_deg": -26.167062284873403
+    },
+    {
+     "bin": 2,
+     "mean_deg": -33.17820999116563
+    },
+    {
+     "bin": 3,
+     "mean_deg": -35.46490406923934
+    },
+    {
+     "bin": 4,
+     "mean_deg": -36.93487444195944
+    },
+    {
+     "bin": 5,
+     "mean_deg": -36.13870318831345
+    },
+    {
+     "bin": 6,
+     "mean_deg": -37.54763067844277
+    },
+    {
+     "bin": 7,
+     "mean_deg": -38.64133771421738
+    },
+    {
+     "bin": 8,
+     "mean_deg": -36.809497467499206
+    },
+    {
+     "bin": 9,
+     "mean_deg": -36.504265555937266
+    },
+    {
+     "bin": 10,
+     "mean_deg": -36.222698175779215
+    }
+   ],
+   "nonrigidity_02L_median": 0.11165246327195644,
+   "nonrigidity_02L_p95": 0.2916261108731925,
+   "strain_02L_median": 0.014112506208543985,
+   "strain_02L_p95": 0.12178635596579251,
+   "fine_relief_corr": 0.5617966618551979,
+   "meanH_L_median_before": 2.1782755371474405,
+   "meanH_L_median_after": -5.0935128653489485,
+   "meanH_L_shift_median": -6.501765953054086,
+   "frac_points_H_increased": 0.45665,
+   "disp_rms_rel": 0.02759737787258087,
+   "midrib_length_ratio": 1.0040038078480955,
+   "midrib_shape_rms_L": 0.001384075970951963,
+   "self_contact_frac": 0.0,
+   "roll_change_profile": [
+    -34.974262688313644,
+    -37.865119712720926,
+    -39.646896279021114,
+    -40.57401891895714,
+    -40.28202501487705,
+    -40.41243861151921,
+    -41.42531354266887,
+    -40.93271789419363,
+    -40.95054862325894,
+    -41.20891650582769
+   ],
+   "input_view_iou": 0.7445059167050868,
+   "frac_positions_commanded_sign": 1.0,
+   "median_roll_change": -40.49322876523817,
+   "self_contact_added": 0.0
+  }
+ },
+ "Mango__Anthracnose__0094": {
+  "specimen": "Mango__Anthracnose__0094",
+  "phrase": "Leaves curl upwards and fall off.",
+  "parsed": {
+   "kind": "curl",
+   "direction": 1,
+   "r0": 0.0,
+   "theta_deg": 90.0,
+   "phrase": "Leaves curl upwards and fall off.",
+   "status": "ok"
+  },
+  "flag": null,
+  "D": {
+   "roll_deg_median": 10.072966246146983,
+   "roll_deg_side_plus": 9.098285473921056,
+   "roll_deg_side_minus": 11.578192050025725,
+   "kappa_t_halfwidth_median": 0.3603589036230518,
+   "n_bins": 10,
+   "roll_profile": [
+    {
+     "bin": 1,
+     "mean_deg": 10.082514435677165
+    },
+    {
+     "bin": 2,
+     "mean_deg": 11.884067211130056
+    },
+    {
+     "bin": 3,
+     "mean_deg": 12.72632693393574
+    },
+    {
+     "bin": 4,
+     "mean_deg": 12.664189094775256
+    },
+    {
+     "bin": 5,
+     "mean_deg": 8.287822286166309
+    },
+    {
+     "bin": 6,
+     "mean_deg": 7.589250303900175
+    },
+    {
+     "bin": 7,
+     "mean_deg": 10.726171835658043
+    },
+    {
+     "bin": 8,
+     "mean_deg": 11.326278995436626
+    },
+    {
+     "bin": 9,
+     "mean_deg": 9.6876971413467
+    },
+    {
+     "bin": 10,
+     "mean_deg": 11.103575217164778
+    }
+   ],
+   "nonrigidity_02L_median": 3.819413792956768e-16,
+   "nonrigidity_02L_p95": 2.0939470352453765e-15,
+   "strain_02L_median": 0.0,
+   "strain_02L_p95": 0.0,
+   "fine_relief_corr": 1.0,
+   "meanH_L_median_before": -0.8984239407780283,
+   "meanH_L_median_after": -1.0079264740075382,
+   "meanH_L_shift_median": -0.001145712222692552,
+   "frac_points_H_increased": 0.49135,
+   "disp_rms_rel": 0.0,
+   "midrib_length_ratio": 1.0,
+   "midrib_shape_rms_L": 9.649532386436705e-17,
+   "self_contact_frac": 0.0,
+   "input_view_iou": 0.8554260413842957
+  },
+  "CU": {
+   "roll_deg_median": 48.916878348470746,
+   "roll_deg_side_plus": 53.53845838263028,
+   "roll_deg_side_minus": 44.41029751899961,
+   "kappa_t_halfwidth_median": 2.4591720263045582,
+   "n_bins": 10,
+   "roll_profile": [
+    {
+     "bin": 1,
+     "mean_deg": 50.33390415432329
+    },
+    {
+     "bin": 2,
+     "mean_deg": 51.75588018211816
+    },
+    {
+     "bin": 3,
+     "mean_deg": 51.877180958144706
+    },
+    {
+     "bin": 4,
+     "mean_deg": 51.45709341753922
+    },
+    {
+     "bin": 5,
+     "mean_deg": 50.83429144825434
+    },
+    {
+     "bin": 6,
+     "mean_deg": 49.85318934075103
+    },
+    {
+     "bin": 7,
+     "mean_deg": 49.25247837419951
+    },
+    {
+     "bin": 8,
+     "mean_deg": 47.017473700789395
+    },
+    {
+     "bin": 9,
+     "mean_deg": 47.31897654583608
+    },
+    {
+     "bin": 10,
+     "mean_deg": 47.68897249543059
+    }
+   ],
+   "nonrigidity_02L_median": 0.10478797941588949,
+   "nonrigidity_02L_p95": 0.34985832445689174,
+   "strain_02L_median": 0.0172747836808827,
+   "strain_02L_p95": 0.13395913985585156,
+   "fine_relief_corr": 0.42240901530958225,
+   "meanH_L_median_before": -0.8984239407780283,
+   "meanH_L_median_after": 4.706857685080152,
+   "meanH_L_shift_median": 4.966732977697742,
+   "frac_points_H_increased": 0.5308,
+   "disp_rms_rel": 0.04242774041795074,
+   "midrib_length_ratio": 0.9989092669401487,
+   "midrib_shape_rms_L": 0.0021970477872434633,
+   "self_contact_frac": 0.0,
+   "roll_change_profile": [
+    40.251389718646124,
+    39.8718129709881,
+    39.15085402420897,
+    38.79290432276396,
+    42.54646916208803,
+    42.26393903685086,
+    38.52630653854147,
+    35.69119470535277,
+    37.631279404489376,
+    36.585397278265816
+   ],
+   "input_view_iou": 0.5970191760015189,
+   "frac_positions_commanded_sign": 1.0,
+   "median_roll_change": 38.971879173486464,
+   "self_contact_added": 0.0
+  },
+  "CD": {
+   "roll_deg_median": -28.18110506101516,
+   "roll_deg_side_plus": -25.662386560875312,
+   "roll_deg_side_minus": -31.770041584340483,
+   "kappa_t_halfwidth_median": -1.1955185257193675,
+   "n_bins": 10,
+   "roll_profile": [
+    {
+     "bin": 1,
+     "mean_deg": -30.77168640535578
+    },
+    {
+     "bin": 2,
+     "mean_deg": -31.380080186745317
+    },
+    {
+     "bin": 3,
+     "mean_deg": -29.017217276053564
+    },
+    {
+     "bin": 4,
+     "mean_deg": -30.368897878426075
+    },
+    {
+     "bin": 5,
+     "mean_deg": -30.383926932641266
+    },
+    {
+     "bin": 6,
+     "mean_deg": -28.71677955312498
+    },
+    {
+     "bin": 7,
+     "mean_deg": -27.59255400468622
+    },
+    {
+     "bin": 8,
+     "mean_deg": -20.94325766654773
+    },
+    {
+     "bin": 9,
+     "mean_deg": -23.677877052287574
+    },
+    {
+     "bin": 10,
+     "mean_deg": -24.928049182436716
+    }
+   ],
+   "nonrigidity_02L_median": 0.1218623523058506,
+   "nonrigidity_02L_p95": 0.29714877435948633,
+   "strain_02L_median": 0.017040368041363774,
+   "strain_02L_p95": 0.12453921380810139,
+   "fine_relief_corr": 0.3857521054768189,
+   "meanH_L_median_before": -0.8984239407780283,
+   "meanH_L_median_after": -2.1250042818585193,
+   "meanH_L_shift_median": -1.8542974530294334,
+   "frac_points_H_increased": 0.4888,
+   "disp_rms_rel": 0.04177006348083626,
+   "midrib_length_ratio": 0.9995156627094547,
+   "midrib_shape_rms_L": 0.002134674925052299,
+   "self_contact_frac": 0.0,
+   "roll_change_profile": [
+    -40.85420084103295,
+    -43.26414739787538,
+    -41.7435442099893,
+    -43.033086973201335,
+    -38.67174921880758,
+    -36.30602985702515,
+    -38.318725840344264,
+    -32.269536661984354,
+    -33.365574193634274,
+    -36.0316243996015
+   ],
+   "input_view_iou": 0.6777238403451996,
+   "frac_positions_commanded_sign": 1.0,
+   "median_roll_change": -38.49523752957592,
+   "self_contact_added": 0.0
+  }
+ }
+}

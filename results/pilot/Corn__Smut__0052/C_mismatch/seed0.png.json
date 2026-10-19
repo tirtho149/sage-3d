@@ -1,0 +1,8 @@
+{
+ "image": "/home/tirtho/Desktop/Research/external/SAGE-Extend/data/inputs/Corn__Smut__0052/image.png",
+ "mask": "/home/tirtho/Desktop/Research/external/SAGE-Extend/data/inputs/Corn__Smut__0052/0.png",
+ "prompt": "make this corn ear show northern leaf blight: however, before lesions are fully developed, they first appear as small light-green to grayish spots approximately 1-2 weeks after infection",
+ "seed": 0,
+ "out": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/pilot/Corn__Smut__0052/C_mismatch/seed0.png",
+ "sec": 34.3
+}

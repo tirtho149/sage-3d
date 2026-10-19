@@ -1,0 +1,12 @@
+{
+ "prompt": "make this corn ear show smut: the most obvious symptoms are tumor-like galls that vary in size from less than 1 cm to more than 30 cm (0; young galls are white, smooth and firm, and as they mature they become masses of powdery, dark, sooty teliospores as the periderm",
+ "prompt_sha1": "9e58984b8e798801d35bf012e5da09511535756b",
+ "clip_tokens": 73,
+ "seed": 0,
+ "max_steps": 200,
+ "gs_source": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/pilot/sam3d/Corn__Smut__0052/seed0/splat_ge.ply",
+ "data_source": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/pilot/Corn__Smut__0052/D",
+ "exp_root": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/pilot/Corn__Smut__0052/F/_ge",
+ "tag": "edit",
+ "extra": {}
+}

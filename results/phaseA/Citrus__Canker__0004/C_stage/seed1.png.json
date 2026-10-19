@@ -1,0 +1,10 @@
+{
+ "image": "data/inputs/Citrus__Canker__0004/image.png",
+ "mask": "data/inputs/Citrus__Canker__0004/0.png",
+ "prompt": "make this citrus leaf show canker: citrus canker causes lesions that are visible on citrus leaves; lesions appear as brown spots on the upper and lower side of leaves; lesions are oily in appearance; surrounded by a yellow halo",
+ "seed": 1,
+ "out": "results/phaseA/Citrus__Canker__0004/C_stage/seed1.png",
+ "arm": "C_stage",
+ "key": "Citrus__Canker__leaf",
+ "sec": 148.7
+}

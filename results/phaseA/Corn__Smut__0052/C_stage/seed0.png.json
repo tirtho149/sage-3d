@@ -1,0 +1,10 @@
+{
+ "image": "data/inputs/Corn__Smut__0052/image.png",
+ "mask": "data/inputs/Corn__Smut__0052/0.png",
+ "prompt": "make this corn ear show smut: the most obvious symptoms are tumor-like galls that vary in size from less than 1 cm to more than 30 cm",
+ "seed": 0,
+ "out": "results/phaseA/Corn__Smut__0052/C_stage/seed0.png",
+ "arm": "C_stage",
+ "key": "Corn__Smut",
+ "sec": 171.6
+}

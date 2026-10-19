@@ -1,0 +1,22 @@
+\begin{table}[H]\centering\scriptsize
+\caption{Specimen-level paired comparisons (seeds averaged within specimen). Cluster bootstrap over disease classes; $^\ast$ fewer than 3 classes, so the cluster CI is degenerate or unreliable (specimen-bootstrap CI shown as sensitivity). With n $\le$ 9 the Wilcoxon test cannot reach p $<$ 0.05 for n $<$ 6; CIs and sign counts are the primary summary.}
+\resizebox{\linewidth}{!}{
+\begin{tabular}{lrrrrrrrrr}\toprule
+Comparison & Metric & n (classes) & mean a & mean b & diff [cluster CI] & specimen CI & a$>$b / a$<$b & Wilcoxon p & Holm p \\ \midrule
+J vs G & geometry\_recall & 6 (2) & 0.44 & 0.07 & +0.37 [+0.11, +0.63]$^\ast$ & [+0.13, +0.61] & 4/0 & 0.125 & 0.875 \\
+J vs G & unsupported\_rate & 9 (3) & 0.06 & 0.17 & -0.10 [-0.20, +0.00] & [-0.28, +0.03] & 1/3 & 0.375 & 1.000 \\
+J vs E & coherence & 9 (3) & 0.81 & 0.31 & +0.50 [+0.25, +0.66] & [+0.37, +0.61] & 9/0 & 0.004 & 0.043 \\
+J vs E & grain\_ratio & 9 (3) & 1.28 & 12.94 & -11.66 [-14.68, -6.20] & [-15.89, -7.94] & 0/9 & 0.004 & 0.043 \\
+K vs E & appearance\_recall & 7 (3) & 0.50 & 0.29 & +0.21 [-0.50, +0.67] & [-0.14, +0.57] & 2/1 & 0.500 & 1.000 \\
+K vs E & grain\_ratio & 15 (5) & 8.71 & 16.98 & -8.27 [-12.81, -4.00] & [-14.15, -4.24] & 0/15 & 0.000 & 0.001 \\
+K vs E & fuzz\_ratio & 15 (5) & 1.00 & 1.90 & -0.90 [-1.00, -0.79] & [-1.01, -0.78] & 0/15 & 0.000 & 0.001 \\
+H vs F & geometry\_recall & 6 (2) & 0.56 & 0.00 & +0.56 [+0.33, +0.78]$^\ast$ & [+0.22, +0.89] & 4/0 & 0.125 & 0.875 \\
+H vs F & appearance\_recall & 3 (1) & 0.67 & 0.67 & +0.00 [+0.00, +0.00]$^\ast$ & [+0.00, +0.00] & 0/0 & -- & -- \\
+H vs F & grain\_ratio & 9 (3) & 7.09 & 15.73 & -8.64 [-11.86, -2.93] & [-11.96, -5.45] & 0/9 & 0.004 & 0.043 \\
+F vs E & appearance\_recall & 7 (3) & 0.50 & 0.29 & +0.21 [-0.50, +0.67] & [-0.14, +0.57] & 2/1 & 0.500 & 1.000 \\
+H vs G & appearance\_recall & 3 (1) & 0.67 & 0.00 & +0.67 [+0.67, +0.67]$^\ast$ & [+0.00, +1.00] & 2/0 & 0.500 & 1.000 \\
+H vs G & geometry\_recall & 6 (2) & 0.56 & 0.07 & +0.48 [+0.33, +0.63]$^\ast$ & [+0.17, +0.80] & 4/0 & 0.125 & 0.875 \\
+F vs E & coherence & 15 (5) & 0.31 & 0.31 & +0.00 [+0.00, +0.00] & [+0.00, +0.00] & 11/4 & 0.030 & 0.241 \\
+K vs E & appearance\_recall\_v1 & 3 (1) & 0.00 & 0.00 & +0.00 [+0.00, +0.00]$^\ast$ & [+0.00, +0.00] & 0/0 & -- & -- \\
+F vs E & appearance\_recall\_v1 & 3 (1) & 0.00 & 0.00 & +0.00 [+0.00, +0.00]$^\ast$ & [+0.00, +0.00] & 0/0 & -- & -- \\
+\bottomrule\end{tabular}}\end{table}

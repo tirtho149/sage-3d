@@ -1,0 +1,12 @@
+{
+ "prompt": "add disease symptoms to the fruit",
+ "prompt_sha1": "bf31c26a0a153103568fb8ef338dfbc40883e1f4",
+ "clip_tokens": 8,
+ "seed": 0,
+ "max_steps": 200,
+ "gs_source": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/pilot/sam3d/Citrus__Canker__0016/seed0/splat_ge.ply",
+ "data_source": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/pilot/Citrus__Canker__0016/D",
+ "exp_root": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/pilot/Citrus__Canker__0016/E/_ge",
+ "tag": "edit",
+ "extra": {}
+}

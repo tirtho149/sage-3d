@@ -1,0 +1,12 @@
+{
+ "prompt": "make this citrus fruit show canker: lesions appear as brown spots that are oily in appearance and surrounded by a yellow halo, becoming corky with a crater-like depression",
+ "prompt_sha1": "cb971553a2f9029323b50d15c87d6b1e9d084d57",
+ "clip_tokens": 37,
+ "seed": 0,
+ "max_steps": 200,
+ "gs_source": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/pilot/sam3d/Citrus__Canker__0016/seed0/splat_ge.ply",
+ "data_source": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/pilot/Citrus__Canker__0016/D",
+ "exp_root": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/pilot/Citrus__Canker__0016/F/_ge",
+ "tag": "edit",
+ "extra": {}
+}

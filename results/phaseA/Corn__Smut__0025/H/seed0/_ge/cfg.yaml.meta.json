@@ -1,0 +1,19 @@
+{
+ "prompt": "make this corn ear show smut: the most obvious symptoms are tumor-like galls that vary in size from less than 1 cm to more than 30 cm",
+ "prompt_sha1": "657ce2863c1c0c60231c650db7e62bcb07e72fa4",
+ "clip_tokens": 35,
+ "seed": 0,
+ "max_steps": 200,
+ "gs_source": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/phaseA/Corn__Smut__0025/J/seed0/asset.ply",
+ "data_source": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/phaseA/Corn__Smut__0025/H/seed0/views_J",
+ "exp_root": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/phaseA/Corn__Smut__0025/H/seed0/_ge",
+ "tag": "edit",
+ "extra": {
+  "system.gs_lr_scaler": 0.0,
+  "system.gs_final_lr_scaler": 0.0,
+  "system.scaling_lr_scaler": 0.0,
+  "system.rotation_lr_scaler": 0.0,
+  "system.opacity_lr_scaler": 0.0,
+  "system.densify_until_iter": 0
+ }
+}

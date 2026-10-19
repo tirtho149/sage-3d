@@ -1,0 +1,9 @@
+\section*{Summary}
+\begin{itemize}
+\item \textbf{Reconstruction.} The low input-view IoU reported in the interim was a SAM~3D pose/scale error (objects over-scaled in 13/15), not a camera error. A pose-only correction raises median IoU from 0.63 to 0.92 on all 15 reconstructions. This is a fit to the input silhouette, not an accuracy measurement. One specimen (Peach 0006) is a reconstruction failure.
+\item \textbf{Arm F} failed only because of prompt serialisation (fixed and verified on live runs). A second bug (non-finite opacity $\rightarrow$ NaN $\rightarrow$ every fp16 step skipped) explained the ``no change'' on Peach 0006.
+\item \textbf{GaussianEditor does not edit geometry.} Its Gaussians move incoherently (displacement coherence 0.31 vs 0.25 for noise); the sheet thickens and the texture becomes grainy. KB text changes its colour output but not its geometry: F vs E coherence 0.31 vs 0.31 ($\Delta$ +0.00, specimen-bootstrap 95\% CI [+0.00, +0.00], 11/15 specimens favour the first arm, 5 classes).
+\item \textbf{A KB-driven geometry editor} produces coherent, measurable deformation (coherence $\approx$1). Against an equal-magnitude generic warp, KB geometric recall is 0.44 vs 0.07 ($\Delta$ +0.37, specimen-bootstrap 95\% CI [+0.13, +0.61], 4/6 specimens favour the first arm, 2 classes). Recall is partly by construction; biological correctness is unvalidated.
+\item \textbf{Cross-view consistency} (same surface point, adjacent views, median $\Delta$E): per-view 2D edits 16.8/19.3 (generic/KB), GaussianEditor 3D 9.3, geometry-only 3D 2.0, against a floor of 2.0. This is internal consistency only.
+\item \textbf{Not established:} external validity of any novel view (no reference data), biological validity (no experts) and downstream utility (not run).
+\end{itemize}

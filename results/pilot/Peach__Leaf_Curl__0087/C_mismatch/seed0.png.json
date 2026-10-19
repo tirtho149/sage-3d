@@ -1,0 +1,8 @@
+{
+ "image": "/home/tirtho/Desktop/Research/external/SAGE-Extend/data/inputs/Peach__Leaf_Curl__0087/image.png",
+ "mask": "/home/tirtho/Desktop/Research/external/SAGE-Extend/data/inputs/Peach__Leaf_Curl__0087/0.png",
+ "prompt": "make this peach leaf show bacterial leaf spot: leaves develop small, angular, water-soaked spots at the tip, and the end of the leaf eventually turns brown or black",
+ "seed": 0,
+ "out": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/pilot/Peach__Leaf_Curl__0087/C_mismatch/seed0.png",
+ "sec": 60.8
+}

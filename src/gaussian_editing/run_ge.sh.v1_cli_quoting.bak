@@ -1,0 +1,17 @@
+#!/bin/bash
+# GaussianEditor edit-n2n for one asset. Hyperparameters = collaborator's submit_ge_edit.sh (A100 run plan), except max_steps (arg).
+# usage: run_ge.sh <splat.ply> <views_dir> <prompt> <seed> <max_steps> <exp_root>
+set -e
+E=$HOME/micromamba/envs/gedit; GE=$HOME/Desktop/Research/external/GaussianEditor
+export LD_LIBRARY_PATH=$E/lib CUDA_HOME=$E PATH=$E/bin:$PATH WANDB_MODE=disabled
+cd $GE
+# YAML-quote the prompt: KB prompts contain ":" which OmegaConf would parse as a mapping
+P=${3//\\/\\\\}; P=${P//\"/\\\"}
+$E/bin/python launch.py --config configs/edit-n2n.yaml --train --gpu 0 seed=$4 \
+  trainer.max_steps=$5 system.prompt_processor.prompt="\"$P\"" tag=edit \
+  system.gs_source=$1 data.source=$2 \
+  system.max_densify_percent=0.01 system.anchor_weight_init_g0=0.05 system.anchor_weight_init=0.1 system.anchor_weight_multiplier=1.3 \
+  system.gs_lr_scaler=5 system.gs_final_lr_scaler=5 system.color_lr_scaler=5 system.opacity_lr_scaler=2 system.scaling_lr_scaler=2 system.rotation_lr_scaler=2 \
+  system.loss.lambda_anchor_color=0 system.loss.lambda_anchor_geo=50 system.loss.lambda_anchor_scale=50 system.loss.lambda_anchor_opacity=50 \
+  system.densify_from_iter=100 system.densify_until_iter=1501 system.densification_interval=100 \
+  exp_root_dir=$6

@@ -1,0 +1,8 @@
+{
+ "figure": "fig1_pipeline",
+ "generated": "2026-10-14 15:50:10",
+ "sources": [
+  "src/**"
+ ],
+ "caption": "Pipeline. Only the input image and mask are real; every 3D asset and render is synthetic. KB text enters only as verbatim cited phrases mapped to measurable operators/attributes."
+}

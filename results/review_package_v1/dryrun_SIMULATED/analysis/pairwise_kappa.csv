@@ -1,0 +1,19 @@
+data_status,criterion,rater_a,rater_b,kappa_quadratic,n_items
+SIMULATED RATINGS - NOT EXPERT DATA. No real expert ratings exist yet (as of 2026-10-14).,a_symptom_match,SIM01,SIM02,0.155,72
+SIMULATED RATINGS - NOT EXPERT DATA. No real expert ratings exist yet (as of 2026-10-14).,a_symptom_match,SIM01,SIM03,0.121,72
+SIMULATED RATINGS - NOT EXPERT DATA. No real expert ratings exist yet (as of 2026-10-14).,a_symptom_match,SIM02,SIM03,0.262,72
+SIMULATED RATINGS - NOT EXPERT DATA. No real expert ratings exist yet (as of 2026-10-14).,b_distribution,SIM01,SIM02,0.224,72
+SIMULATED RATINGS - NOT EXPERT DATA. No real expert ratings exist yet (as of 2026-10-14).,b_distribution,SIM01,SIM03,0.439,72
+SIMULATED RATINGS - NOT EXPERT DATA. No real expert ratings exist yet (as of 2026-10-14).,b_distribution,SIM02,SIM03,0.299,72
+SIMULATED RATINGS - NOT EXPERT DATA. No real expert ratings exist yet (as of 2026-10-14).,c_geometry,SIM01,SIM02,0.285,72
+SIMULATED RATINGS - NOT EXPERT DATA. No real expert ratings exist yet (as of 2026-10-14).,c_geometry,SIM01,SIM03,0.391,72
+SIMULATED RATINGS - NOT EXPERT DATA. No real expert ratings exist yet (as of 2026-10-14).,c_geometry,SIM02,SIM03,0.242,72
+SIMULATED RATINGS - NOT EXPERT DATA. No real expert ratings exist yet (as of 2026-10-14).,d_surface,SIM01,SIM02,0.236,72
+SIMULATED RATINGS - NOT EXPERT DATA. No real expert ratings exist yet (as of 2026-10-14).,d_surface,SIM01,SIM03,0.353,72
+SIMULATED RATINGS - NOT EXPERT DATA. No real expert ratings exist yet (as of 2026-10-14).,d_surface,SIM02,SIM03,0.406,72
+SIMULATED RATINGS - NOT EXPERT DATA. No real expert ratings exist yet (as of 2026-10-14).,e_artefacts,SIM01,SIM02,0.141,72
+SIMULATED RATINGS - NOT EXPERT DATA. No real expert ratings exist yet (as of 2026-10-14).,e_artefacts,SIM01,SIM03,0.354,72
+SIMULATED RATINGS - NOT EXPERT DATA. No real expert ratings exist yet (as of 2026-10-14).,e_artefacts,SIM02,SIM03,0.096,72
+SIMULATED RATINGS - NOT EXPERT DATA. No real expert ratings exist yet (as of 2026-10-14).,f_overall_accept,SIM01,SIM02,0.249,72
+SIMULATED RATINGS - NOT EXPERT DATA. No real expert ratings exist yet (as of 2026-10-14).,f_overall_accept,SIM01,SIM03,0.481,72
+SIMULATED RATINGS - NOT EXPERT DATA. No real expert ratings exist yet (as of 2026-10-14).,f_overall_accept,SIM02,SIM03,0.208,72

@@ -1,0 +1,155 @@
+diff --git a/gsplat/cuda/csrc/Projection2DGSFused.cu b/gsplat/cuda/csrc/Projection2DGSFused.cu
+index 9d6e1c55..e82da69d 100644
+--- a/gsplat/cuda/csrc/Projection2DGSFused.cu
++++ b/gsplat/cuda/csrc/Projection2DGSFused.cu
+@@ -433,7 +433,7 @@ __global__ void projection_2dgs_fused_bwd_kernel(
+     // #if __CUDA_ARCH__ >= 700
+     // write out results with warp-level reduction
+     auto warp = cg::tiled_partition<32>(cg::this_thread_block());
+-    auto warp_group_g = cg::labeled_partition(warp, gid);
++    auto warp_group_g = GS_LABELED_PARTITION(warp, gid);
+     if (v_means != nullptr) {
+         warpSum(v_mean, warp_group_g);
+         if (warp_group_g.thread_rank() == 0) {
+@@ -460,7 +460,7 @@ __global__ void projection_2dgs_fused_bwd_kernel(
+     }
+ 
+     if (v_viewmats != nullptr) {
+-        auto warp_group_c = cg::labeled_partition(warp, cid);
++        auto warp_group_c = GS_LABELED_PARTITION(warp, cid);
+         warpSum(v_R, warp_group_c);
+         warpSum(v_t, warp_group_c);
+         if (warp_group_c.thread_rank() == 0) {
+diff --git a/gsplat/cuda/csrc/Projection2DGSPacked.cu b/gsplat/cuda/csrc/Projection2DGSPacked.cu
+index 4667dc77..e881cd61 100644
+--- a/gsplat/cuda/csrc/Projection2DGSPacked.cu
++++ b/gsplat/cuda/csrc/Projection2DGSPacked.cu
+@@ -414,7 +414,7 @@ __global__ void projection_2dgs_packed_bwd_kernel(
+         // write out results with dense layout
+         // #if __CUDA_ARCH__ >= 700
+         // write out results with warp-level reduction
+-        auto warp_group_g = cg::labeled_partition(warp, gid);
++        auto warp_group_g = GS_LABELED_PARTITION(warp, gid);
+         if (v_means != nullptr) {
+             warpSum(v_mean, warp_group_g);
+             if (warp_group_g.thread_rank() == 0) {
+@@ -441,7 +441,7 @@ __global__ void projection_2dgs_packed_bwd_kernel(
+     }
+ 
+     if (v_viewmats != nullptr) {
+-        auto warp_group_c = cg::labeled_partition(warp, cid);
++        auto warp_group_c = GS_LABELED_PARTITION(warp, cid);
+         warpSum(v_R, warp_group_c);
+         warpSum(v_t, warp_group_c);
+         if (warp_group_c.thread_rank() == 0) {
+diff --git a/gsplat/cuda/csrc/ProjectionEWA3DGSFused.cu b/gsplat/cuda/csrc/ProjectionEWA3DGSFused.cu
+index 09997d04..d62b636a 100644
+--- a/gsplat/cuda/csrc/ProjectionEWA3DGSFused.cu
++++ b/gsplat/cuda/csrc/ProjectionEWA3DGSFused.cu
+@@ -469,7 +469,7 @@ __global__ void projection_ewa_3dgs_fused_bwd_kernel(
+     // #if __CUDA_ARCH__ >= 700
+     // write out results with warp-level reduction
+     auto warp = cg::tiled_partition<32>(cg::this_thread_block());
+-    auto warp_group_g = cg::labeled_partition(warp, gid);
++    auto warp_group_g = GS_LABELED_PARTITION(warp, gid);
+     if (v_means != nullptr) {
+         warpSum(v_mean, warp_group_g);
+         if (warp_group_g.thread_rank() == 0) {
+@@ -513,7 +513,7 @@ __global__ void projection_ewa_3dgs_fused_bwd_kernel(
+         }
+     }
+     if (v_viewmats != nullptr) {
+-        auto warp_group_c = cg::labeled_partition(warp, cid);
++        auto warp_group_c = GS_LABELED_PARTITION(warp, cid);
+         warpSum(v_R, warp_group_c);
+         warpSum(v_t, warp_group_c);
+         if (warp_group_c.thread_rank() == 0) {
+diff --git a/gsplat/cuda/csrc/ProjectionEWA3DGSPacked.cu b/gsplat/cuda/csrc/ProjectionEWA3DGSPacked.cu
+index 6a36854c..ded5774f 100644
+--- a/gsplat/cuda/csrc/ProjectionEWA3DGSPacked.cu
++++ b/gsplat/cuda/csrc/ProjectionEWA3DGSPacked.cu
+@@ -591,7 +591,7 @@ __global__ void projection_ewa_3dgs_packed_bwd_kernel(
+         // write out results with dense layout
+         // #if __CUDA_ARCH__ >= 700
+         // write out results with warp-level reduction
+-        auto warp_group_g = cg::labeled_partition(warp, gid);
++        auto warp_group_g = GS_LABELED_PARTITION(warp, gid);
+         if (v_means != nullptr) {
+             warpSum(v_mean, warp_group_g);
+             if (warp_group_g.thread_rank() == 0) {
+@@ -639,7 +639,7 @@ __global__ void projection_ewa_3dgs_packed_bwd_kernel(
+     }
+     // v_viewmats is always in dense layout
+     if (v_viewmats != nullptr) {
+-        auto warp_group_c = cg::labeled_partition(warp, cid);
++        auto warp_group_c = GS_LABELED_PARTITION(warp, cid);
+         warpSum(v_R, warp_group_c);
+         warpSum(v_t, warp_group_c);
+         if (warp_group_c.thread_rank() == 0) {
+diff --git a/gsplat/cuda/include/Utils.cuh b/gsplat/cuda/include/Utils.cuh
+index 2809d93f..b1d87914 100644
+--- a/gsplat/cuda/include/Utils.cuh
++++ b/gsplat/cuda/include/Utils.cuh
+@@ -79,6 +79,20 @@ inline __device__ void covarW2C_VJP(
+     v_covarW += glm::transpose(R) * v_covarC * R;
+ }
+ 
++///////////////////////////////
++// Pre-Volta (sm < 70) fallback: cg::labeled_partition is unavailable, so each
++// thread is its own "group" and writes its gradient with its own atomicAdd.
++// Numerically equivalent to the warp reduction (up to float summation order).
++///////////////////////////////
++struct GsSoloGroup { __device__ unsigned thread_rank() const { return 0; } };
++template <class WarpT> inline __device__ float gs_reduce(WarpT &warp, float x) { return cg::reduce(warp, x, cg::plus<float>()); }
++inline __device__ float gs_reduce(GsSoloGroup &, float x) { return x; }
++#if defined(__CUDA_ARCH__) && (__CUDA_ARCH__ < 700)
++#define GS_LABELED_PARTITION(w, id) GsSoloGroup{}
++#else
++#define GS_LABELED_PARTITION(w, id) cg::labeled_partition(w, id)
++#endif
++
+ ///////////////////////////////
+ // Reduce
+ ///////////////////////////////
+@@ -87,30 +101,30 @@ template <uint32_t DIM, class WarpT>
+ inline __device__ void warpSum(float *val, WarpT &warp) {
+ #pragma unroll
+     for (uint32_t i = 0; i < DIM; i++) {
+-        val[i] = cg::reduce(warp, val[i], cg::plus<float>());
++        val[i] = gs_reduce(warp, val[i]);
+     }
+ }
+ 
+ template <class WarpT> inline __device__ void warpSum(float &val, WarpT &warp) {
+-    val = cg::reduce(warp, val, cg::plus<float>());
++    val = gs_reduce(warp, val);
+ }
+ 
+ template <class WarpT> inline __device__ void warpSum(vec4 &val, WarpT &warp) {
+-    val.x = cg::reduce(warp, val.x, cg::plus<float>());
+-    val.y = cg::reduce(warp, val.y, cg::plus<float>());
+-    val.z = cg::reduce(warp, val.z, cg::plus<float>());
+-    val.w = cg::reduce(warp, val.w, cg::plus<float>());
++    val.x = gs_reduce(warp, val.x);
++    val.y = gs_reduce(warp, val.y);
++    val.z = gs_reduce(warp, val.z);
++    val.w = gs_reduce(warp, val.w);
+ }
+ 
+ template <class WarpT> inline __device__ void warpSum(vec3 &val, WarpT &warp) {
+-    val.x = cg::reduce(warp, val.x, cg::plus<float>());
+-    val.y = cg::reduce(warp, val.y, cg::plus<float>());
+-    val.z = cg::reduce(warp, val.z, cg::plus<float>());
++    val.x = gs_reduce(warp, val.x);
++    val.y = gs_reduce(warp, val.y);
++    val.z = gs_reduce(warp, val.z);
+ }
+ 
+ template <class WarpT> inline __device__ void warpSum(vec2 &val, WarpT &warp) {
+-    val.x = cg::reduce(warp, val.x, cg::plus<float>());
+-    val.y = cg::reduce(warp, val.y, cg::plus<float>());
++    val.x = gs_reduce(warp, val.x);
++    val.y = gs_reduce(warp, val.y);
+ }
+ 
+ template <class WarpT> inline __device__ void warpSum(mat4 &val, WarpT &warp) {

@@ -1,0 +1,133 @@
+seeds:
+- 0
+- 1
+- 2
+specimens:
+- Peach__Leaf_Curl/0006
+- Peach__Leaf_Curl/0063
+- Peach__Leaf_Curl/0087
+- Tomato__Leaf_Mold/0015
+- Tomato__Leaf_Mold/0052
+- Tomato__Leaf_Mold/0092
+- Corn__Smut/0025
+- Corn__Smut/0012
+- Corn__Smut/0052
+- Citrus__Canker/0012
+- Citrus__Canker/0016
+- Citrus__Canker/0004
+- Mango__Anthracnose/0049
+- Mango__Anthracnose/0094
+- Mango__Anthracnose/0044
+organ:
+  Peach__Leaf_Curl: leaf
+  Tomato__Leaf_Mold: leaf
+  Corn__Smut: fruit
+  Citrus__Canker: fruit
+  Mango__Anthracnose: leaf
+boxes:
+  Peach__Leaf_Curl/0006:
+  - 0.08
+  - 0.13
+  - 0.72
+  - 0.87
+  Corn__Smut/0012:
+  - 0.1
+  - 0.1
+  - 0.95
+  - 0.8
+  Citrus__Canker/0012:
+  - 0.22
+  - 0.08
+  - 0.88
+  - 0.9
+  Citrus__Canker/0016:
+  - 0.2
+  - 0.07
+  - 0.75
+  - 0.85
+  Citrus__Canker/0004:
+  - 0.02
+  - 0.15
+  - 1.0
+  - 0.8
+  Mango__Anthracnose/0044:
+  - 0.35
+  - 0.0
+  - 0.62
+  - 1.0
+  Peach__Leaf_Curl/0063:
+  - 0.38
+  - 0.18
+  - 0.92
+  - 0.52
+  Peach__Leaf_Curl/0087:
+  - 0.38
+  - 0.35
+  - 0.67
+  - 0.75
+  Tomato__Leaf_Mold/0015:
+  - 0.08
+  - 0.1
+  - 0.88
+  - 0.92
+  Tomato__Leaf_Mold/0052:
+  - 0.12
+  - 0.0
+  - 0.92
+  - 0.98
+  Tomato__Leaf_Mold/0092:
+  - 0.05
+  - 0.08
+  - 0.98
+  - 0.97
+  Corn__Smut/0025:
+  - 0.15
+  - 0.0
+  - 0.75
+  - 0.88
+  Corn__Smut/0052:
+  - 0.3
+  - 0.0
+  - 0.68
+  - 1.0
+  Mango__Anthracnose/0049:
+  - 0.38
+  - 0.02
+  - 0.85
+  - 1.0
+  Mango__Anthracnose/0094:
+  - 0.0
+  - 0.33
+  - 1.0
+  - 0.57
+organ_override:
+  Citrus__Canker/0004: leaf
+replacement_log:
+  Peach__Leaf_Curl/0026:
+    replaced_by: Peach__Leaf_Curl/0063
+    reason: original was in split 'opt' (pilot assets must come from D_build); no reconstruction had been run
+  Peach__Leaf_Curl/0031:
+    replaced_by: Peach__Leaf_Curl/0087
+    reason: original was in split 'val' (pilot assets must come from D_build); no reconstruction had been run
+  Tomato__Leaf_Mold/0004:
+    replaced_by: Tomato__Leaf_Mold/0015
+    reason: original was in split 'val' (pilot assets must come from D_build); no reconstruction had been run
+  Tomato__Leaf_Mold/0022:
+    replaced_by: Tomato__Leaf_Mold/0052
+    reason: original was in split 'val' (pilot assets must come from D_build); no reconstruction had been run
+  Tomato__Leaf_Mold/0023:
+    replaced_by: Tomato__Leaf_Mold/0092
+    reason: original was in split 'test' (pilot assets must come from D_build); no reconstruction had been run
+  Corn__Smut/0009:
+    replaced_by: Corn__Smut/0025
+    reason: original was in split 'opt' (pilot assets must come from D_build); no reconstruction had been run
+  Corn__Smut/0030:
+    replaced_by: Corn__Smut/0052
+    reason: original was in split 'val' (pilot assets must come from D_build); no reconstruction had been run
+  Mango__Anthracnose/0002:
+    replaced_by: Mango__Anthracnose/0049
+    reason: original was in split 'opt' (pilot assets must come from D_build); no reconstruction had been run
+  Mango__Anthracnose/0035:
+    replaced_by: Mango__Anthracnose/0094
+    reason: original was in split 'test' (pilot assets must come from D_build); no reconstruction had been run
+  note: 'Peach 0035 (build) was also rejected: Vecteezy watermark over the organ.'

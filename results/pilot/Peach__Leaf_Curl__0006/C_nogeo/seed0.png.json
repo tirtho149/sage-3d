@@ -1,0 +1,8 @@
+{
+ "image": "/home/tirtho/Desktop/Research/external/SAGE-Extend/data/inputs/Peach__Leaf_Curl__0006/image.png",
+ "mask": "/home/tirtho/Desktop/Research/external/SAGE-Extend/data/inputs/Peach__Leaf_Curl__0006/0.png",
+ "prompt": "make this peach leaf show leaf curl: later, as spores form on the leaf surface, the leaves become powdery gray in color; shortly after this, the leaves turn yellow or brown and drop",
+ "seed": 0,
+ "out": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/pilot/Peach__Leaf_Curl__0006/C_nogeo/seed0.png",
+ "sec": 38.0
+}

@@ -1,0 +1,189 @@
+{
+ "seed": 20261015,
+ "rules": "(declared here; nothing below depends on classifier results):\n  * pool = known (not open-set) tier-A classes (B or C, >= 100 unique images), minus\n    pest/non-pathogen labels and the dataset-artefact label \"alternaria_black_molds_stem_cankers\";\n  * within-crop pairs, so the task cannot be solved by recognising the crop alone:\n      - the 5 crops with existing SAM 3D assets keep their pilot disease plus the most frequent\n        other pool class of that crop with the OPPOSITE modality if one exists (else same);\n      - 5 further crops with >= 2 pool classes, drawn with a fixed seed; per crop one geometry (C)\n        and one appearance (B) class when both exist, drawn with the same seed;\n  * nested later stages must contain these 20 (protocol Part M).",
+ "classes": [
+  {
+   "class_id": "peach::leaf_curl",
+   "tier": "C",
+   "modality": "geometry",
+   "unique_images": 222,
+   "geometry_terms": "pucker+distort+thicken+gall",
+   "reason": "pilot class with existing SAM 3D assets"
+  },
+  {
+   "class_id": "peach::bacterial_spot",
+   "tier": "B",
+   "modality": "appearance",
+   "unique_images": 11544,
+   "geometry_terms": "",
+   "reason": "second peach disease (opposite modality, most frequent)"
+  },
+  {
+   "class_id": "tomato::leaf_mold",
+   "tier": "B",
+   "modality": "appearance",
+   "unique_images": 10011,
+   "geometry_terms": "",
+   "reason": "pilot class with existing SAM 3D assets"
+  },
+  {
+   "class_id": "tomato::bacterial_leaf_spot",
+   "tier": "C",
+   "modality": "geometry",
+   "unique_images": 16004,
+   "geometry_terms": "sunken",
+   "reason": "second tomato disease (opposite modality, most frequent)"
+  },
+  {
+   "class_id": "corn::smut",
+   "tier": "C",
+   "modality": "geometry",
+   "unique_images": 503,
+   "geometry_terms": "gall",
+   "reason": "pilot class with existing SAM 3D assets"
+  },
+  {
+   "class_id": "corn::common_rust",
+   "tier": "B",
+   "modality": "appearance",
+   "unique_images": 12676,
+   "geometry_terms": "",
+   "reason": "second corn disease (opposite modality, most frequent)"
+  },
+  {
+   "class_id": "citrus::canker",
+   "tier": "C",
+   "modality": "geometry",
+   "unique_images": 545,
+   "geometry_terms": "sunken",
+   "reason": "pilot class with existing SAM 3D assets"
+  },
+  {
+   "class_id": "citrus::greening_disease",
+   "tier": "C",
+   "modality": "geometry",
+   "unique_images": 145,
+   "geometry_terms": "thicken",
+   "reason": "second citrus disease (same modality, most frequent)"
+  },
+  {
+   "class_id": "mango::anthracnose",
+   "tier": "C",
+   "modality": "geometry",
+   "unique_images": 2578,
+   "geometry_terms": "sunken",
+   "reason": "pilot class with existing SAM 3D assets"
+  },
+  {
+   "class_id": "mango::bacterial_canker",
+   "tier": "B",
+   "modality": "appearance",
+   "unique_images": 3384,
+   "geometry_terms": "",
+   "reason": "second mango disease (opposite modality, most frequent)"
+  },
+  {
+   "class_id": "potato::late_blight",
+   "tier": "C",
+   "modality": "geometry",
+   "unique_images": 7943,
+   "geometry_terms": "sunken",
+   "reason": "seeded crop draw (potato)"
+  },
+  {
+   "class_id": "coffee::berry_blotch",
+   "tier": "C",
+   "modality": "geometry",
+   "unique_images": 113,
+   "geometry_terms": "sunken",
+   "reason": "seeded crop draw (coffee)"
+  },
+  {
+   "class_id": "coffee::brown_eye_spot",
+   "tier": "B",
+   "modality": "appearance",
+   "unique_images": 106,
+   "geometry_terms": "",
+   "reason": "seeded crop draw (coffee)"
+  },
+  {
+   "class_id": "pumpkin::bacterial_leaf_spot",
+   "tier": "C",
+   "modality": "geometry",
+   "unique_images": 5780,
+   "geometry_terms": "pucker+sunken",
+   "reason": "seeded crop draw (pumpkin)"
+  },
+  {
+   "class_id": "pumpkin::downy_mildew",
+   "tier": "B",
+   "modality": "appearance",
+   "unique_images": 13386,
+   "geometry_terms": "",
+   "reason": "seeded crop draw (pumpkin)"
+  },
+  {
+   "class_id": "grape::downy_mildew",
+   "tier": "B",
+   "modality": "appearance",
+   "unique_images": 312,
+   "geometry_terms": "",
+   "reason": "seeded crop draw (grape)"
+  },
+  {
+   "class_id": "grape::black_rot",
+   "tier": "B",
+   "modality": "appearance",
+   "unique_images": 18516,
+   "geometry_terms": "",
+   "reason": "seeded crop draw (grape)"
+  },
+  {
+   "class_id": "potato::tomato_spotted_wilt_virus",
+   "tier": "C",
+   "modality": "geometry",
+   "unique_images": 100,
+   "geometry_terms": "distort",
+   "reason": "same-crop valid replacement"
+  },
+  {
+   "class_id": "strawberry::leaf_scorch",
+   "tier": "C",
+   "modality": "geometry",
+   "unique_images": 7574,
+   "geometry_terms": "curl+sunken",
+   "reason": "crop pair replaced by seeded draw (strawberry)"
+  },
+  {
+   "class_id": "strawberry::leaf_spot",
+   "tier": "B",
+   "modality": "appearance",
+   "unique_images": 1050,
+   "geometry_terms": "",
+   "reason": "crop pair replaced by seeded draw (strawberry)"
+  }
+ ],
+ "n_crops": 10,
+ "n_geometry": 11,
+ "n_appearance": 9,
+ "amendments": [
+  {
+   "removed": "potato::bacteria_wilt_and_soft_rot",
+   "reason": "KB describes leaf wilt; class photos show tuber soft rot (KB-photo mismatch)",
+   "added": "potato::tomato_spotted_wilt_virus",
+   "rule": "same-crop valid replacement"
+  },
+  {
+   "removed": "rice::bacterial_blight",
+   "reason": "KB quote describes bacterial panicle blight; identical to rice::bacterial_panicle_blight",
+   "added": "strawberry::leaf_scorch",
+   "rule": "crop pair replaced by seeded draw (strawberry)"
+  },
+  {
+   "removed": "rice::bacterial_panicle_blight",
+   "reason": "identical KB quote to rice::bacterial_blight; no prompt for the photographed organ",
+   "added": "strawberry::leaf_spot",
+   "rule": "crop pair replaced by seeded draw (strawberry)"
+  }
+ ]
+}

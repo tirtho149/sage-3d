@@ -1,0 +1,13 @@
+{
+ "distorted": 6.979001261661153e-05,
+ "puckered": 0.00033522408115364334,
+ "blister_count": 0,
+ "blister_density": 0.0,
+ "outgrowth": 0.0002938532084861957,
+ "depression": 0.002803579609634079,
+ "jitter": 0.00352780109677717,
+ "thickened": 1.0,
+ "tangential": 0.02204568592312851,
+ "n_matched": 57792,
+ "L": 1.060670686441192
+}

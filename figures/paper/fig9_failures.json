@@ -1,0 +1,11 @@
+{
+ "figure": "fig9_failures",
+ "generated": "2026-10-14 15:51:29",
+ "sources": [
+  "results/alignment",
+  "results/pilot",
+  "results/phaseA",
+  "results/ge_diagnosis"
+ ],
+ "caption": "Failure taxonomy (all from real runs). 1 reconstruction failure; 2 pose-refinement divergence (handled by the A3* acceptance rule); 3 GaussianEditor appearance edit adds grain/fuzz and incoherent jitter, no deformation; 4 GE no-op caused by non-finite opacity (fixed); 5 unmasked per-view 2D baseline (fixed by masking); 6 a 2D edit that may change shape replaces observed puckering with a flat leaf."
+}

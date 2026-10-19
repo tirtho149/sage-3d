@@ -1,0 +1,19 @@
+{
+ "specimen": "Tomato__Leaf_Mold/0052",
+ "seed": 0,
+ "input": "/home/tirtho/Desktop/Research/external/SAGE-Extend/data/inputs/Tomato__Leaf_Mold__0052",
+ "load_s": 64.0,
+ "gpu": "NVIDIA GeForce GTX TITAN X",
+ "offload": true,
+ "status": "ok",
+ "n_gaussians": 66240,
+ "infer_s": 987.0,
+ "peak_vram_gb": 11.55,
+ "stage_s": {
+  "compute_pointmap": 3.2,
+  "get_condition_input": 8.8,
+  "sample_sparse_structure": 898.4,
+  "sample_slat": 78.1,
+  "decode_slat": 2.6
+ }
+}

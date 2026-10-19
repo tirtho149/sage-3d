@@ -1,0 +1,19 @@
+{
+ "specimen": "Mango__Anthracnose/0049",
+ "seed": 0,
+ "input": "/home/tirtho/Desktop/Research/external/SAGE-Extend/data/inputs/Mango__Anthracnose__0049",
+ "load_s": 64.0,
+ "gpu": "NVIDIA GeForce GTX TITAN X",
+ "offload": true,
+ "status": "ok",
+ "n_gaussians": 23136,
+ "infer_s": 958.9,
+ "peak_vram_gb": 11.55,
+ "stage_s": {
+  "compute_pointmap": 3.0,
+  "get_condition_input": 8.8,
+  "sample_sparse_structure": 900.6,
+  "sample_slat": 50.5,
+  "decode_slat": 0.8
+ }
+}

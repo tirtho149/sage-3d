@@ -1,0 +1,9 @@
+{
+ "figure": "fig4_kb_ablation_Peach__Leaf_Curl__0087",
+ "generated": "2026-10-14 15:50:34",
+ "sources": [
+  "results/pilot/Peach__Leaf_Curl__0087",
+  "results/phaseA/Peach__Leaf_Curl__0087"
+ ],
+ "caption": "Knowledge ablation. Colour terms are detected with a priori CIELAB thresholds (5 units); geometric recall uses the synthetic-calibrated detectors. Only prompts that contain 'reddish or purple' produce a redder leaf in 2D. Renders are synthetic."
+}

@@ -1,0 +1,15 @@
+# Phase 1 candidate classes (SAGE crop, disease). category = which 3D question it tests.
+# All are diseases (fungal / bacterial / viral / oomycete); no insect-pest classes are included.
+cap_per_class: 300
+seed: 0
+classes:
+  - {crop: Grape,   disease: Leafroll Disease,   category: A_geometry_deformation}
+  - {crop: Peach,   disease: Leaf Curl,          category: A_geometry_deformation}
+  - {crop: Pumpkin, disease: Mosaic Disease,     category: A_geometry_deformation}
+  - {crop: Tomato,  disease: Leaf Mold,          category: B_underside_occlusion}
+  - {crop: Squash,  disease: Downy Mildew,       category: B_underside_occlusion}
+  - {crop: Cherry,  disease: Black Knot,         category: C_outgrowth_stem}
+  - {crop: Plum,    disease: Black Knot,         category: C_outgrowth_stem}
+  - {crop: Corn,    disease: Smut,               category: C_outgrowth_stem}
+  - {crop: Citrus,  disease: Canker,             category: D_surface_relief}
+  - {crop: Mango,   disease: Anthracnose,        category: Z_flat_control}

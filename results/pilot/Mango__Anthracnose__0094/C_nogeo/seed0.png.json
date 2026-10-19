@@ -1,0 +1,8 @@
+{
+ "image": "/home/tirtho/Desktop/Research/external/SAGE-Extend/data/inputs/Mango__Anthracnose__0094/image.png",
+ "mask": "/home/tirtho/Desktop/Research/external/SAGE-Extend/data/inputs/Mango__Anthracnose__0094/0.png",
+ "prompt": "make this mango leaf show anthracnose: as the leaves age, these spots develop into larger lesions that are either circular or irregular in shape and surrounded by a",
+ "seed": 0,
+ "out": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/pilot/Mango__Anthracnose__0094/C_nogeo/seed0.png",
+ "sec": 36.5
+}

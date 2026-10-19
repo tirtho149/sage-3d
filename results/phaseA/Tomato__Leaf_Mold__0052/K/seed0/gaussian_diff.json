@@ -1,0 +1,60 @@
+{
+ "n_orig": 66240,
+ "n_edit": 66240,
+ "n_matched": 66240,
+ "n_added": 0,
+ "n_deleted": 0,
+ "consecutive_match_frac": 1.0,
+ "bbox_diag": 1.1005640821905291,
+ "disp_rel": {
+  "mean": 0.0,
+  "median": 0.0,
+  "p95": 0.0,
+  "max": 0.0
+ },
+ "frac_disp_gt_1pct": 0.0,
+ "rot_deg": {
+  "mean": 5.530122077829544e-07,
+  "median": 0.0,
+  "p95": 2.4148365394514667e-06,
+  "max": 3.818191820832845e-06
+ },
+ "dlogscale": {
+  "mean": 0.0,
+  "median": 0.0,
+  "p95": 0.0,
+  "max": 0.0
+ },
+ "dopacity": {
+  "mean": 0.0,
+  "median": 0.0,
+  "p95": 0.0,
+  "max": 0.0,
+  "mean_signed": 0.0
+ },
+ "drgb": {
+  "mean": 0.234913018297548,
+  "median": 0.21769774452038573,
+  "p95": 0.44950769685957465,
+  "max": 0.9615947132561555
+ },
+ "disp_coherence_k16": {
+  "median": 0.0,
+  "iid_reference": 0.25
+ },
+ "sheet_thickness_rel": {
+  "orig_median": 0.0009381307024667882,
+  "edit_median": 0.0009411833424541069,
+  "ratio": 1.003253960220353
+ },
+ "bbox_extent_ratio": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "mean_opacity": [
+  0.8090688633225486,
+  0.8090688633225486
+ ],
+ "classification": "appearance-only"
+}

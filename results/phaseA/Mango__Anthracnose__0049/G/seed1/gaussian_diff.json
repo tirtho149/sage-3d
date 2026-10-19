@@ -1,0 +1,60 @@
+{
+ "n_orig": 23136,
+ "n_edit": 23136,
+ "n_matched": 23136,
+ "n_added": 0,
+ "n_deleted": 0,
+ "consecutive_match_frac": 1.0,
+ "bbox_diag": 1.0215073534052128,
+ "disp_rel": {
+  "mean": 0.0016950185550923984,
+  "median": 0.0015822806301335778,
+  "p95": 0.0031821860529640984,
+  "max": 0.015684054983533317
+ },
+ "frac_disp_gt_1pct": 0.0008212309820193638,
+ "rot_deg": {
+  "mean": 5.986797787761739,
+  "median": 2.6864631950632436,
+  "p95": 23.55872700882434,
+  "max": 65.8516980819164
+ },
+ "dlogscale": {
+  "mean": 0.0,
+  "median": 0.0,
+  "p95": 0.0,
+  "max": 0.0
+ },
+ "dopacity": {
+  "mean": 0.0,
+  "median": 0.0,
+  "p95": 0.0,
+  "max": 0.0,
+  "mean_signed": 0.0
+ },
+ "drgb": {
+  "mean": 0.0,
+  "median": 0.0,
+  "p95": 0.0,
+  "max": 0.0
+ },
+ "disp_coherence_k16": {
+  "median": 0.942170693913152,
+  "iid_reference": 0.25
+ },
+ "sheet_thickness_rel": {
+  "orig_median": 0.0004782789258030054,
+  "edit_median": 0.0005139512462153322,
+  "ratio": 1.0745847631744068
+ },
+ "bbox_extent_ratio": [
+  0.994561373712588,
+  0.9991763830276503,
+  0.973967999987423
+ ],
+ "mean_opacity": [
+  0.5792442697729244,
+  0.5792442697729244
+ ],
+ "classification": "appearance-only"
+}

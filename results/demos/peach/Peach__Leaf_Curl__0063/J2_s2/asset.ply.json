@@ -1,0 +1,134 @@
+{
+ "input": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/pilot/sam3d/Peach__Leaf_Curl__0063/seed0/splat_ge.ply",
+ "spec": {
+  "seed": 2,
+  "ops": [
+   {
+    "amp": 0.06,
+    "sigma": 0.3,
+    "op": "distort",
+    "kb_term": "distorted",
+    "kb_phrase": "Developing leaves become severely distorted"
+   },
+   {
+    "amp": 0.02,
+    "sigma": 0.035,
+    "op": "pucker",
+    "kb_term": "puckered",
+    "kb_phrase": "thickened and puckered",
+    "weights_npy": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/demos/peach/Peach__Leaf_Curl__0063/pucker_weights.npy"
+   },
+   {
+    "factor": 2.0,
+    "op": "thicken",
+    "kb_term": "thickened",
+    "kb_phrase": "thickened and puckered"
+   }
+  ],
+  "iters": 300,
+  "mode": "sheet",
+  "normals_npy": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/demos/peach/Peach__Leaf_Curl__0063/normals.npy"
+ },
+ "mode": "sheet",
+ "L_bbox_diag": 1.1540516537650425,
+ "oplog": [
+  {
+   "op": "distort",
+   "sigma": 0.34621549612951275
+  },
+  {
+   "op": "pucker",
+   "n_bumps": 19,
+   "sigma": 0.040391807881776494,
+   "weighted": true
+  },
+  {
+   "op": "thicken",
+   "factor": 2.0
+  }
+ ],
+ "loss_history": [
+  {
+   "it": 0,
+   "total": 0.20378805696964264,
+   "edit": 4.576190623311801e-18,
+   "arap": 2.0378785133361816,
+   "smooth": 2.1573114281636663e-05,
+   "anchor": 0.0
+  },
+  {
+   "it": 50,
+   "total": 0.018451077863574028,
+   "edit": 2.141858021786902e-05,
+   "arap": 0.18429574370384216,
+   "smooth": 8.330212949658744e-06,
+   "anchor": 0.0
+  },
+  {
+   "it": 100,
+   "total": 0.007724998518824577,
+   "edit": 3.984364229836501e-05,
+   "arap": 0.07685089856386185,
+   "smooth": 6.495461548183812e-06,
+   "anchor": 0.0
+  },
+  {
+   "it": 150,
+   "total": 0.00491462554782629,
+   "edit": 5.37969172000885e-05,
+   "arap": 0.0486077144742012,
+   "smooth": 5.7260613175458275e-06,
+   "anchor": 0.0
+  },
+  {
+   "it": 200,
+   "total": 0.003589134430512786,
+   "edit": 6.454910908360034e-05,
+   "arap": 0.03524532541632652,
+   "smooth": 5.283676728140563e-06,
+   "anchor": 0.0
+  },
+  {
+   "it": 250,
+   "total": 0.0028085263911634684,
+   "edit": 7.304254540940747e-05,
+   "arap": 0.02735433727502823,
+   "smooth": 4.994749360776041e-06,
+   "anchor": 0.0
+  },
+  {
+   "it": 299,
+   "total": 0.0024110826198011637,
+   "edit": 7.975849439390004e-05,
+   "arap": 0.0233127623796463,
+   "smooth": 4.793661446456099e-06,
+   "anchor": 0.0
+  }
+ ],
+ "lambdas": {
+  "edit": 1.0,
+  "arap": 0.1,
+  "smooth": 0.01,
+  "anchor": 1.0
+ },
+ "sec": 11.285156965255737,
+ "target_normal_rms_rel": 0.03924780487176529,
+ "realised_normal_rms_rel": 0.03347531149019442,
+ "edit_fidelity_corr": 0.9803852050759858,
+ "disp_rel": {
+  "median": 0.033914256272101595,
+  "p95": 0.053078541782729124
+ },
+ "edge_stretch": {
+  "median_abs": 0.027810468182552284,
+  "p95_abs": 0.21174891752522607
+ },
+ "normal_change_deg": {
+  "median": 17.180861849900015,
+  "p95": 48.380026777140685
+ },
+ "displacement_in_region_frac": 0.9999999999999999,
+ "thicken_factor": 2.0,
+ "thicken_applied_frac": 0.8069772528433946,
+ "n": 182880
+}

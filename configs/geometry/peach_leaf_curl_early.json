@@ -1,0 +1,5 @@
+{"seed": 0, "mode": "sheet",
+ "ops": [{"op": "distort", "amp": 0.06, "sigma": 0.3, "kb_term": "distorted"},
+         {"op": "pucker", "amp": 0.02, "sigma": 0.07, "kb_term": "puckered"},
+         {"op": "thicken", "factor": 2.0, "kb_term": "thickened"}],
+ "iters": 300}

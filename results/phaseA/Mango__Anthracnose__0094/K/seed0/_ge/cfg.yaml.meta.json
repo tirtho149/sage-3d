@@ -1,0 +1,19 @@
+{
+ "prompt": "make this mango leaf show anthracnose: the disease's symptoms show up as oval or irregular brown to deep brown sunken point-sized spots of varying sizes spread all over the leaf surface",
+ "prompt_sha1": "68e3fac0fd748ffea983adfa1db91a8695c3a117",
+ "clip_tokens": 40,
+ "seed": 0,
+ "max_steps": 200,
+ "gs_source": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/pilot/sam3d/Mango__Anthracnose__0094/seed0/splat_ge.ply",
+ "data_source": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/pilot/Mango__Anthracnose__0094/D",
+ "exp_root": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/phaseA/Mango__Anthracnose__0094/K/seed0/_ge",
+ "tag": "edit",
+ "extra": {
+  "system.gs_lr_scaler": 0.0,
+  "system.gs_final_lr_scaler": 0.0,
+  "system.scaling_lr_scaler": 0.0,
+  "system.rotation_lr_scaler": 0.0,
+  "system.opacity_lr_scaler": 0.0,
+  "system.densify_until_iter": 0
+ }
+}

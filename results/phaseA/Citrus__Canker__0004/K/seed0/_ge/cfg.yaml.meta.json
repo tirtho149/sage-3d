@@ -1,0 +1,19 @@
+{
+ "prompt": "make this citrus leaf show canker: citrus canker causes lesions that are visible on citrus leaves; lesions appear as brown spots on the upper and lower side of leaves; lesions are oily in appearance; surrounded by a yellow halo",
+ "prompt_sha1": "6a8e4b1e599929cfd4cda709d8b5bb1d61940090",
+ "clip_tokens": 50,
+ "seed": 0,
+ "max_steps": 200,
+ "gs_source": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/pilot/sam3d/Citrus__Canker__0004/seed0/splat_ge.ply",
+ "data_source": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/pilot/Citrus__Canker__0004/D",
+ "exp_root": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/phaseA/Citrus__Canker__0004/K/seed0/_ge",
+ "tag": "edit",
+ "extra": {
+  "system.gs_lr_scaler": 0.0,
+  "system.gs_final_lr_scaler": 0.0,
+  "system.scaling_lr_scaler": 0.0,
+  "system.rotation_lr_scaler": 0.0,
+  "system.opacity_lr_scaler": 0.0,
+  "system.densify_until_iter": 0
+ }
+}

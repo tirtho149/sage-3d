@@ -1,0 +1,19 @@
+{
+ "prompt": "make this peach leaf show leaf curl: developing leaves have a reddish or purple cast",
+ "prompt_sha1": "3d0692571ddae35890fb9a7d812a2176b5cb430f",
+ "clip_tokens": 18,
+ "seed": 0,
+ "max_steps": 200,
+ "gs_source": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/phaseA/Peach__Leaf_Curl__0006/J/seed0/asset.ply",
+ "data_source": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/phaseA/Peach__Leaf_Curl__0006/H/seed0/views_J",
+ "exp_root": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/phaseA/Peach__Leaf_Curl__0006/H/seed0/_ge",
+ "tag": "edit",
+ "extra": {
+  "system.gs_lr_scaler": 0.0,
+  "system.gs_final_lr_scaler": 0.0,
+  "system.scaling_lr_scaler": 0.0,
+  "system.rotation_lr_scaler": 0.0,
+  "system.opacity_lr_scaler": 0.0,
+  "system.densify_until_iter": 0
+ }
+}

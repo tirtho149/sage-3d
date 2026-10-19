@@ -1,0 +1,3 @@
+# Reconstruction-stability subset: seeds 1-2 for one specimen per class (seed 0 already run for all 15)
+seeds: [1, 2]
+specimens: [Peach__Leaf_Curl/0006, Tomato__Leaf_Mold/0015, Corn__Smut/0025, Citrus__Canker/0012, Mango__Anthracnose/0049]

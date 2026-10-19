@@ -1,0 +1,23 @@
+{
+ "Mango__Anthracnose__0044": {
+  "dE_updown_2D": 13.58699597812161,
+  "dE_updown_3D_input": 47.20251428867342,
+  "dE_updown_3D_rig": 45.01903315748199,
+  "iou_2D_up": 0.5870148637489678,
+  "iou_2D_down": 0.6140724946695096
+ },
+ "Mango__Anthracnose__0049": {
+  "dE_updown_2D": 4.673093536906259,
+  "dE_updown_3D_input": 11.696902317712103,
+  "dE_updown_3D_rig": 46.15157670886103,
+  "iou_2D_up": 0.6733697632058288,
+  "iou_2D_down": 0.7626399610543153
+ },
+ "Mango__Anthracnose__0094": {
+  "dE_updown_2D": 7.769249835828121,
+  "dE_updown_3D_input": 31.577267280582213,
+  "dE_updown_3D_rig": 41.31332558649312,
+  "iou_2D_up": 0.6638616175783076,
+  "iou_2D_down": 0.734615068605702
+ }
+}

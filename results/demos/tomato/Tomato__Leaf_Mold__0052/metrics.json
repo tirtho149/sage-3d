@@ -1,0 +1,187 @@
+{
+ "specimen": "Tomato__Leaf_Mold__0052",
+ "assumptions": [
+  {
+   "item": "adaxial side",
+   "value": "side facing the input camera",
+   "status": "assumption",
+   "check": "0.978 of input-visible Gaussians face the camera after unpinned sign propagation (1 = consistently orientable)"
+  },
+  {
+   "item": "midrib",
+   "value": "per-u-bin midpoint of the flattened lateral extent",
+   "status": "approximation",
+   "check": "Isomap stress 0.001 (1 - corr(geodesic, embedded distance))"
+  },
+  {
+   "item": "tip vs base",
+   "value": "not inferred",
+   "status": "unknown"
+  },
+  {
+   "item": "input camera fit",
+   "value": "pose A3",
+   "status": "measured",
+   "check": "Umeyama residual 1.14e-07 L"
+  }
+ ],
+ "methods": {
+  "D": {
+   "input_view_iou": 0.9207391872106367,
+   "upper_px": 304263,
+   "lower_px": 293289,
+   "mold_on_upper": 0.06725102953694666,
+   "mold_on_lower": 0.07994162754143525,
+   "spot_on_lower": 0.19635240326094738
+  },
+  "E": {
+   "input_view_iou": 0.9076689445709947,
+   "upper_px": 364210,
+   "lower_px": 356848,
+   "mold_on_upper": 0.02856868290272096,
+   "mold_on_lower": 0.046619288884903375,
+   "spot_on_lower": 0.11936174505671883
+  },
+  "F": {
+   "input_view_iou": 0.9123396456933415,
+   "upper_px": 362139,
+   "lower_px": 354557,
+   "mold_on_upper": 0.06785792195814315,
+   "mold_on_lower": 0.06498531970881974,
+   "spot_on_lower": 0.16416542333108639
+  },
+  "K": {
+   "input_view_iou": 0.9207391872106367,
+   "upper_px": 304353,
+   "lower_px": 293379,
+   "mold_on_upper": 0.031532463948112884,
+   "mold_on_lower": 0.03146441974374444,
+   "spot_on_lower": 0.16141237102860123
+  },
+  "BLk_s0": {
+   "input_view_iou": 0.9212357033368707,
+   "upper_px": 324594,
+   "lower_px": 311524,
+   "mold_on_upper": 0.08072854088492086,
+   "mold_on_lower": 0.28855882692826235,
+   "spot_on_lower": 0.03960850528370206,
+   "mold_footprint_on_spots": 0.8443588444922759
+  },
+  "BLr_s0": {
+   "input_view_iou": 0.9212357033368707,
+   "upper_px": 324578,
+   "lower_px": 311508,
+   "mold_on_upper": 0.0813394623172242,
+   "mold_on_lower": 0.22493483313430152,
+   "spot_on_lower": 0.040596068158763175,
+   "mold_footprint_on_spots": 0.2814125957483184
+  },
+  "BLu_s0": {
+   "input_view_iou": 0.9212357033368707,
+   "upper_px": 324459,
+   "lower_px": 311389,
+   "mold_on_upper": 0.2696211231619403,
+   "mold_on_lower": 0.0908959532931478,
+   "spot_on_lower": 0.035556811576516835
+  },
+  "BL0_s0": {
+   "input_view_iou": 0.9212357033368707,
+   "upper_px": 324480,
+   "lower_px": 311410,
+   "mold_on_upper": 0.07316321499013807,
+   "mold_on_lower": 0.0864166211746572,
+   "spot_on_lower": 0.03837705918242831
+  },
+  "BLk_s1": {
+   "input_view_iou": 0.9212357033368707,
+   "upper_px": 324599,
+   "lower_px": 311529,
+   "mold_on_upper": 0.08091522155028204,
+   "mold_on_lower": 0.2905411695219386,
+   "spot_on_lower": 0.03958218978008468,
+   "mold_footprint_on_spots": 0.8443588444922759
+  },
+  "BLr_s1": {
+   "input_view_iou": 0.9212357033368707,
+   "upper_px": 324584,
+   "lower_px": 311514,
+   "mold_on_upper": 0.08209277105464224,
+   "mold_on_lower": 0.23440680033642147,
+   "spot_on_lower": 0.03979917435492466,
+   "mold_footprint_on_spots": 0.2584105395795
+  },
+  "BLu_s1": {
+   "input_view_iou": 0.9212357033368707,
+   "upper_px": 324455,
+   "lower_px": 311385,
+   "mold_on_upper": 0.2712795302892543,
+   "mold_on_lower": 0.0909741959310821,
+   "spot_on_lower": 0.03558617145976845
+  },
+  "BLk_s2": {
+   "input_view_iou": 0.9212357033368707,
+   "upper_px": 324597,
+   "lower_px": 311527,
+   "mold_on_upper": 0.08093112382431138,
+   "mold_on_lower": 0.28966991625123983,
+   "spot_on_lower": 0.03965948376866211,
+   "mold_footprint_on_spots": 0.8443588444922759
+  },
+  "BLr_s2": {
+   "input_view_iou": 0.9212357033368707,
+   "upper_px": 324624,
+   "lower_px": 311554,
+   "mold_on_upper": 0.07958438069890088,
+   "mold_on_lower": 0.21322788344877613,
+   "spot_on_lower": 0.04126090501165127,
+   "mold_footprint_on_spots": 0.14390782625031281
+  },
+  "BLu_s2": {
+   "input_view_iou": 0.9212357033368707,
+   "upper_px": 324457,
+   "lower_px": 311387,
+   "mold_on_upper": 0.27136107404062787,
+   "mold_on_lower": 0.09107637762655474,
+   "spot_on_lower": 0.03559236576992617
+  },
+  "REAL_photo": {
+   "mold_on_upper": 0.002517459801851551,
+   "spot_on_upper": 0.04373071300958259,
+   "surface": "upper only (photo)"
+  },
+  "C_2D_kb_joint": {
+   "mold_on_upper": 0.3079827838232906,
+   "spot_on_upper": 0.020586324508689295,
+   "surface": "upper only (photo)"
+  },
+  "Cstage_2D_kb": {
+   "mold_on_upper": 0.4926506415462076,
+   "spot_on_upper": 0.009907422445996426,
+   "surface": "upper only (photo)"
+  },
+  "B_2D_generic": {
+   "mold_on_upper": 8.120838070488874e-05,
+   "spot_on_upper": 0.0012993340912782199,
+   "surface": "upper only (photo)"
+  }
+ },
+ "placement_log": [
+  {
+   "kind": "evidence",
+   "text": "KB: 'Pale greenish-yellow spots ... form on the upper sides of leaves' -> spots observed in the photo"
+  },
+  {
+   "kind": "measured",
+   "text": "spot map covers 0.189 of the asset (L* z > 0.5 and hue toward yellow)"
+  },
+  {
+   "kind": "evidence",
+   "text": "KB: mold 'forms on the lower leaf surface below leaf spots' -> mold footprint = spot footprint, lower layer"
+  }
+ ],
+ "spot_frac": 0.18893417874396135,
+ "colour_ref": [
+  57.0361865191483,
+  115.84720900620559
+ ]
+}

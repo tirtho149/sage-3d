@@ -1,0 +1,8 @@
+{
+ "image": "/home/tirtho/Desktop/Research/external/SAGE-Extend/data/inputs/Corn__Smut__0025/image.png",
+ "mask": "/home/tirtho/Desktop/Research/external/SAGE-Extend/data/inputs/Corn__Smut__0025/0.png",
+ "prompt": "add disease symptoms to the ear",
+ "seed": 1,
+ "out": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/pilot/Corn__Smut__0025/B/seed1.png",
+ "sec": 27.9
+}

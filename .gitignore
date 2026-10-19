@@ -2,3 +2,33 @@ sam-3d-objects/
 GaussianEditor/
 *.log
 *.err
+__pycache__/
+*.pyc
+
+# large local artifacts (kept on beast0, not in git)
+/data/
+/backups/
+DiseaseNet/data/
+DiseaseNet/checkpoints/
+DiseaseNet/logs/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.npz
+*.ply
+*.splat
+
+# results: keep only small text summaries
+/results/**
+!/results/**/
+!/results/**/*.json
+!/results/**/*.csv
+!/results/**/*.md
+!/results/**/*.tex
+!/results/**/*.yaml
+DiseaseNet/results/**
+!DiseaseNet/results/**/
+!DiseaseNet/results/**/*.json
+!DiseaseNet/results/**/*.csv
+!DiseaseNet/results/**/*.md

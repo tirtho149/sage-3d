@@ -1,0 +1,86 @@
+{
+ "Mango__Anthracnose__0049": {
+  "D": {
+   "input_view_iou": 0.9530301895273054,
+   "self_contact_frac": 0.0
+  },
+  "full": {
+   "median_roll_change": 41.73155743414346,
+   "strain_02L_p95": 0.12280638498492669,
+   "nonrigidity_02L_p95": 0.2980309476377012,
+   "fine_relief_corr": 0.6231994718793347,
+   "self_contact_added": 0.0,
+   "midrib_length_ratio": 0.9931355855965217,
+   "input_view_iou": 0.6740769230769231
+  },
+  "no_arap": {
+   "median_roll_change": 42.52765102939634,
+   "strain_02L_p95": 0.35368739613288,
+   "nonrigidity_02L_p95": 0.48846387069322,
+   "fine_relief_corr": 0.6708638063158429,
+   "self_contact_added": 0.0,
+   "midrib_length_ratio": 0.999909434884146,
+   "input_view_iou": 0.6718833908707327
+  },
+  "no_smooth": {
+   "median_roll_change": 41.60992180400643,
+   "strain_02L_p95": 0.1262868495782331,
+   "nonrigidity_02L_p95": 0.3021967168683011,
+   "fine_relief_corr": 0.6198257157623762,
+   "self_contact_added": 0.0,
+   "midrib_length_ratio": 0.9930424240927218,
+   "input_view_iou": 0.6730991004843546
+  },
+  "none": {
+   "median_roll_change": 42.52999038074657,
+   "strain_02L_p95": 0.3540689158531171,
+   "nonrigidity_02L_p95": 0.4890740141167025,
+   "fine_relief_corr": 0.6702461879326873,
+   "self_contact_added": 0.0,
+   "midrib_length_ratio": 0.9999121009420183,
+   "input_view_iou": 0.6717299578059072
+  }
+ },
+ "Peach__Leaf_Curl__0087": {
+  "D": {
+   "input_view_iou": 0.9460555972952667,
+   "self_contact_frac": 0.0
+  },
+  "full": {
+   "median_roll_change": 24.11704153145488,
+   "strain_02L_p95": 0.40849301680699246,
+   "nonrigidity_02L_p95": 0.6823990854567336,
+   "fine_relief_corr": 0.6062232954962006,
+   "self_contact_added": 0.005875,
+   "midrib_length_ratio": 0.9952832137096601,
+   "input_view_iou": 0.72895467160037
+  },
+  "no_arap": {
+   "median_roll_change": 23.723810174192934,
+   "strain_02L_p95": 1.7497267137034909,
+   "nonrigidity_02L_p95": 2.2320449102787494,
+   "fine_relief_corr": 0.4848106354104928,
+   "self_contact_added": 0.040375,
+   "midrib_length_ratio": 1.0000465652024788,
+   "input_view_iou": 0.7392232180964575
+  },
+  "no_smooth": {
+   "median_roll_change": 24.261224542236892,
+   "strain_02L_p95": 0.41249994703545356,
+   "nonrigidity_02L_p95": 0.6881804277210556,
+   "fine_relief_corr": 0.6067247197171013,
+   "self_contact_added": 0.006,
+   "midrib_length_ratio": 0.9950957953139492,
+   "input_view_iou": 0.7281837804502004
+  },
+  "none": {
+   "median_roll_change": 23.72482235868457,
+   "strain_02L_p95": 1.7516361688774307,
+   "nonrigidity_02L_p95": 2.2334677226393915,
+   "fine_relief_corr": 0.48462342048292445,
+   "self_contact_added": 0.0405,
+   "midrib_length_ratio": 1.0000465206572138,
+   "input_view_iou": 0.7391180654338549
+  }
+ }
+}

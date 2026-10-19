@@ -1,0 +1,8 @@
+{
+ "image": "/home/tirtho/Desktop/Research/external/SAGE-Extend/data/inputs/Citrus__Canker__0004/image.png",
+ "mask": "/home/tirtho/Desktop/Research/external/SAGE-Extend/data/inputs/Citrus__Canker__0004/0.png",
+ "prompt": "make this citrus fruit show greening disease: enlarged, corky mid-ribs of leaves; typical symptoms include: yellow shoots with pale green and yellow flushes",
+ "seed": 0,
+ "out": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/pilot/Citrus__Canker__0004/C_mismatch/seed0.png",
+ "sec": 30.1
+}

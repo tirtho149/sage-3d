@@ -1,0 +1,9 @@
+{
+ "figure": "fig6_attributes",
+ "generated": "2026-10-14 15:51:09",
+ "sources": [
+  "results/phaseA/*/*/seed*/{geom_attributes,appearance_kb}.json",
+  "results/pilot/*/*/seed*.png"
+ ],
+ "caption": "Requested vs realised KB attributes. * = required by the selected KB stage; detections in unstarred columns are unsupported. Geometric detectors: specific only (depression excluded). Colour detectors: CIELAB shifts >= 5 units. Detection is not biological validation."
+}

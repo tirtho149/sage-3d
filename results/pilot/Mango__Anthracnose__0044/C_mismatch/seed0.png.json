@@ -1,0 +1,8 @@
+{
+ "image": "/home/tirtho/Desktop/Research/external/SAGE-Extend/data/inputs/Mango__Anthracnose__0044/image.png",
+ "mask": "/home/tirtho/Desktop/Research/external/SAGE-Extend/data/inputs/Mango__Anthracnose__0044/0.png",
+ "prompt": "make this mango leaf show bacterial canker: the spots merge, destroying large areas of the leaves, and as they age they turn grey and crack",
+ "seed": 0,
+ "out": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/pilot/Mango__Anthracnose__0044/C_mismatch/seed0.png",
+ "sec": 56.8
+}

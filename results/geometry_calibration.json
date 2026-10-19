@@ -1,0 +1,144 @@
+{
+ "responses": {
+  "distort": {
+   "distorted": 0.02858971257015723,
+   "puckered": 0.0059354777666685435,
+   "blister_count": 1,
+   "blister_density": 0.11868583305131546,
+   "outgrowth": 0.025847318664970028,
+   "depression": 0.0028373665813080213,
+   "jitter": 0.00042663802232586833,
+   "thickened": 1.0000030472715753,
+   "tangential": 0.00019310757326376754,
+   "n_matched": 40000,
+   "L": 1.4141723234284
+  },
+  "pucker": {
+   "distorted": 0.0017305993597843945,
+   "puckered": 0.005951801372681136,
+   "blister_count": 40,
+   "blister_density": 4.747433322052618,
+   "outgrowth": 0.008358809109426966,
+   "depression": 0.009715403650965447,
+   "jitter": 0.0028295505222149546,
+   "thickened": 1.0002518447879898,
+   "tangential": 0.0007374448794984489,
+   "n_matched": 40000,
+   "L": 1.4141723234284
+  },
+  "thicken": {
+   "distorted": 0.0,
+   "puckered": 0.0,
+   "blister_count": 0,
+   "blister_density": 0.0,
+   "outgrowth": 0.0,
+   "depression": 0.0,
+   "jitter": 0.0,
+   "thickened": 1.9999729176347643,
+   "tangential": 0.0,
+   "n_matched": 40000,
+   "L": 1.4141723234284
+  },
+  "outgrowth": {
+   "distorted": 0.011625216436857471,
+   "puckered": 0.010939769034864067,
+   "blister_count": 3,
+   "blister_density": 0.35605749915394636,
+   "outgrowth": 0.0555558892772046,
+   "depression": 0.007836823966646032,
+   "jitter": 0.0009499267099319866,
+   "thickened": 1.0000063923815996,
+   "tangential": 0.0005306570153312371,
+   "n_matched": 40000,
+   "L": 1.4141723234284
+  },
+  "depress": {
+   "distorted": 6.726706525107077e-05,
+   "puckered": 0.00028195497500424656,
+   "blister_count": 0,
+   "blister_density": 0.0,
+   "outgrowth": 0.00038780963245288447,
+   "depression": 0.0028404121860811137,
+   "jitter": 0.0004512620869663941,
+   "thickened": 1.0000033941127737,
+   "tangential": 0.00024067705182152343,
+   "n_matched": 40000,
+   "L": 1.4141723234284
+  }
+ },
+ "thresholds": {
+  "_doc": "Uniform rule on a synthetic flat sheet (src/metrics/calibrate_attributes.py; never tuned on specimens): threshold_k = midpoint between operator k's own response and the largest response of any OTHER operator on detector k. If the own response does not exceed every off-target response the detector is NON-SPECIFIC and is excluded from binary recall/unsupported-rate (raw score still reported). Pucker uses blister DENSITY (distinct blisters per (0.1 L)^2 of sheet area); the absolute count used first was not scale-invariant (deviation logged in reports/03).",
+  "distorted": {
+   "score": "distorted",
+   "threshold": 0.02011,
+   "own": 0.02859,
+   "max_off_target": 0.01163,
+   "specific": true
+  },
+  "puckered": {
+   "score": "blister_density",
+   "threshold": 2.55175,
+   "own": 4.74743,
+   "max_off_target": 0.35606,
+   "specific": true
+  },
+  "thickened": {
+   "score": "thickened",
+   "threshold": 1.50011,
+   "own": 1.99997,
+   "max_off_target": 1.00025,
+   "specific": true
+  },
+  "outgrowth": {
+   "score": "outgrowth",
+   "threshold": 0.0407,
+   "own": 0.05556,
+   "max_off_target": 0.02585,
+   "specific": true
+  },
+  "depression": {
+   "score": "depression",
+   "threshold": 0.00628,
+   "own": 0.00284,
+   "max_off_target": 0.00972,
+   "specific": false
+  }
+ },
+ "crosstalk": {
+  "distort": {
+   "distorted": true,
+   "puckered": false,
+   "thickened": false,
+   "outgrowth": false,
+   "depression": false
+  },
+  "pucker": {
+   "distorted": false,
+   "puckered": true,
+   "thickened": false,
+   "outgrowth": false,
+   "depression": false
+  },
+  "thicken": {
+   "distorted": false,
+   "puckered": false,
+   "thickened": true,
+   "outgrowth": false,
+   "depression": false
+  },
+  "outgrowth": {
+   "distorted": false,
+   "puckered": false,
+   "thickened": false,
+   "outgrowth": true,
+   "depression": false
+  },
+  "depress": {
+   "distorted": false,
+   "puckered": false,
+   "thickened": false,
+   "outgrowth": false,
+   "depression": false
+  }
+ }
+}

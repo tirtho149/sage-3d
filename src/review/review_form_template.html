@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plant Disease Image Review</title>
+<style>
+:root { --bg:#fafaf8; --fg:#1d1d1b; --muted:#5c5c58; --line:#d6d6d0; --real:#146e32; --acc:#1f4e8c; --warn:#a33; --card:#fff; }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font:15px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
+header { position:sticky; top:0; z-index:5; background:var(--card); border-bottom:1px solid var(--line); padding:8px 16px; display:flex; gap:12px; align-items:center; flex-wrap:wrap; }
+header .grow { flex:1; }
+.bar { height:6px; background:var(--line); border-radius:3px; overflow:hidden; min-width:160px; flex:1; max-width:360px; }
+.bar > div { height:100%; background:var(--acc); width:0; }
+main { max-width:1180px; margin:0 auto; padding:16px; }
+.card { background:var(--card); border:1px solid var(--line); border-radius:6px; padding:14px 16px; margin-bottom:14px; }
+img.item { width:100%; height:auto; border:1px solid var(--line); cursor:zoom-in; display:block; }
+blockquote { margin:6px 0; padding:6px 12px; border-left:4px solid var(--real); background:#f1f6f2; }
+.prohib { border-left:4px solid var(--warn); background:#faf0f0; padding:6px 12px; margin-top:6px; }
+.q { border-top:1px solid var(--line); padding:10px 0; }
+.q:first-child { border-top:none; }
+.q h4 { margin:0 0 4px; font-size:15px; }
+.q .help { color:var(--muted); font-size:13px; margin:0 0 6px; }
+.opts { display:flex; flex-wrap:wrap; gap:6px; }
+.opts label { border:1px solid var(--line); border-radius:4px; padding:4px 10px; cursor:pointer; user-select:none; }
+.opts input { margin-right:4px; }
+.opts label:has(input:checked) { background:var(--acc); color:#fff; border-color:var(--acc); }
+details.anch { font-size:13px; color:var(--muted); margin-top:4px; }
+details.anch ol { margin:4px 0 0 0; padding-left:20px; }
+textarea { width:100%; min-height:56px; font:inherit; }
+button { font:inherit; padding:6px 14px; border:1px solid var(--acc); background:var(--card); color:var(--acc); border-radius:4px; cursor:pointer; }
+button.primary { background:var(--acc); color:#fff; }
+button:disabled { opacity:.5; cursor:default; }
+.nav { display:flex; gap:8px; justify-content:space-between; flex-wrap:wrap; }
+.missing { color:var(--warn); font-size:13px; }
+.hidden { display:none; }
+input[type=text] { font:inherit; padding:5px 8px; }
+#grid { display:flex; flex-wrap:wrap; gap:4px; }
+#grid button { padding:2px 6px; font-size:12px; min-width:34px; }
+#grid button.done { background:#e3ecf7; }
+#grid button.cur { outline:2px solid var(--acc); }
+@media (max-width:640px) { main { padding:10px; } }
+</style>
+</head>
+<body>
+<header>
+  <strong>Plant disease image review</strong>
+  <span id="who" class="grow"></span>
+  <span id="prog"></span>
+  <div class="bar"><div id="barfill"></div></div>
+  <button id="exportBtn" title="Download your ratings as CSV">Export CSV</button>
+</header>
+<main>
+  <section id="start" class="card">
+    <h2>Before you start</h2>
+    <p>Package <code>__PACKAGE_ID__</code>. Each item shows a <b style="color:var(--real)">REAL photo</b> of the specimen and a
+      <b>candidate</b> image (one image, or several views of the same organ). Rate the <b>candidate</b> against the written
+      disease description for the stated stage. Candidates were produced in different ways and some may be unaltered; you are not told how.
+      Some items appear twice; rate each appearance independently.</p>
+    <p>Answers are saved in this browser as you go. Click <b>Export CSV</b> at the end (or at any time as a backup) and send the file to the study coordinator.
+      Nothing is sent over the network.</p>
+    <p><label>Rater code (not your name): <input type="text" id="rater" autocomplete="off"></label>
+      <button class="primary" id="startBtn">Start / resume</button></p>
+    <p><label>Resume from an exported CSV: <input type="file" id="importFile" accept=".csv"></label></p>
+    <p class="missing" id="startMsg"></p>
+  </section>
+
+  <section id="itemView" class="hidden">
+    <div class="card">
+      <div class="nav"><strong id="title"></strong><span id="itemMeta" style="color:var(--muted)"></span></div>
+      <a id="imgLink" target="_blank"><img class="item" id="img" alt="item image: REAL reference photo and candidate"></a>
+    </div>
+    <div class="card" id="disease"></div>
+    <div class="card" id="form"></div>
+    <div class="card nav">
+      <button id="prevBtn">&larr; Previous</button>
+      <span class="missing" id="missMsg"></span>
+      <button class="primary" id="nextBtn">Save and next &rarr;</button>
+    </div>
+    <div class="card"><div style="margin-bottom:6px;color:var(--muted);font-size:13px">Jump to item (shaded = complete):</div><div id="grid"></div></div>
+  </section>
+
+  <section id="doneView" class="card hidden">
+    <h2>All items have answers</h2>
+    <p>Click <b>Export CSV</b> (top right) and send the downloaded file to the study coordinator. You may go back and revise any item.</p>
+    <button id="backBtn">Back to items</button>
+  </section>
+</main>
+<script>
+const DATA = /*__DATA__*/null;
+const R = DATA.rubric, ITEMS = DATA.items, PKG = DATA.package_id;
+const SCALES = R.scales, BIN = R.binary;
+const COLS = ["package_id","rater_id","item_id","page"].concat(SCALES.map(s=>s.id), BIN.map(b=>b.id), ["comment","seconds_on_item","saved_at"]);
+let rater = "", cur = 0, answers = {}, enterTime = Date.now();
+
+function storeKey(){ return "review:" + PKG + ":" + rater; }
+function save(){ try { localStorage.setItem(storeKey(), JSON.stringify({cur, answers})); } catch(e) {} }
+function load(){ try { const s = JSON.parse(localStorage.getItem(storeKey()) || "null"); if (s) { answers = s.answers || {}; cur = s.cur || 0; } } catch(e) {} }
+function esc(t){ return String(t).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+function complete(id){ const a = answers[id]; if (!a) return false; return SCALES.every(s => a[s.id]) && BIN.every(b => a[b.id] !== undefined && a[b.id] !== ""); }
+function nDone(){ return ITEMS.filter(it => complete(it.id)).length; }
+
+function renderItem(){
+  const it = ITEMS[cur], a = answers[it.id] || {};
+  enterTime = Date.now();
+  document.getElementById("title").textContent = "Item " + it.page + " of " + ITEMS.length + "  (" + it.id + ")";
+  document.getElementById("itemMeta").textContent = it.disease + " - " + it.organ;
+  document.getElementById("img").src = it.img; document.getElementById("imgLink").href = it.img;
+  let d = "<h3 style='margin-top:0'>" + esc(it.disease) + " (" + esc(it.organ) + ")</h3>";
+  d += "<div>Disease description (verbatim source quote):</div><blockquote>" + esc(it.quote) + "</blockquote>";
+  d += "<div><b>Stage to judge</b> (stage " + it.stage_index + " of " + it.n_stages + "): " + esc(it.stage_sentences.join(" ")) + "</div>";
+  let pro = it.other_stage_sentences.length ? "<div><b>Should not be present at this stage:</b> " + esc(it.other_stage_sentences.join(" ")) + "</div>" : "";
+  pro += "<div>Also counts as an excluded feature: symptoms of a different disease; changes to background or to unaffected parts; shape changes not described above.</div>";
+  d += "<div class='prohib'>" + pro + "</div>";
+  d += "<div style='font-size:12px;color:var(--muted);margin-top:4px'>Source: " + esc(it.source_url) + "</div>";
+  document.getElementById("disease").innerHTML = d;
+  let f = "";
+  SCALES.forEach(s => {
+    f += "<div class='q'><h4>" + esc(s.short) + "</h4><p class='help'>" + esc(s.question) + "</p><div class='opts'>";
+    ["1","2","3","4","5", R.na_code].forEach(v => {
+      f += "<label title='" + esc(v === R.na_code ? R.na_definition : s.anchors[v]) + "'><input type='radio' name='" + s.id + "' value='" + v + "'" + (a[s.id] === v ? " checked" : "") + ">" + v + "</label>";
+    });
+    f += "</div><details class='anch'" + (cur < 3 ? " open" : "") + "><summary>anchors</summary><ol>";
+    ["1","2","3","4","5"].forEach(v => { f += "<li>" + esc(s.anchors[v]) + "</li>"; });
+    f += "</ol></details></div>";
+  });
+  BIN.forEach(b => {
+    f += "<div class='q'><h4>" + esc(b.short) + "</h4><p class='help'>" + esc(b.question) + "</p><div class='opts'>";
+    [["1","yes"],["0","no"]].forEach(([v,l]) => {
+      f += "<label><input type='radio' name='" + b.id + "' value='" + v + "'" + (a[b.id] === v ? " checked" : "") + ">" + l + "</label>";
+    });
+    f += "</div></div>";
+  });
+  f += "<div class='q'><h4>Comment (optional)</h4><textarea id='comment'>" + esc(a.comment || "") + "</textarea></div>";
+  document.getElementById("form").innerHTML = f;
+  document.getElementById("prevBtn").disabled = cur === 0;
+  document.getElementById("missMsg").textContent = "";
+  renderGrid(); renderProgress(); window.scrollTo(0, 0);
+}
+
+function collect(){
+  const it = ITEMS[cur], a = Object.assign({}, answers[it.id] || {});
+  SCALES.concat(BIN).forEach(s => { const el = document.querySelector("input[name='" + s.id + "']:checked"); if (el) a[s.id] = el.value; });
+  a.comment = document.getElementById("comment").value;
+  a.seconds_on_item = Math.round((Number(a.seconds_on_item) || 0) + (Date.now() - enterTime) / 1000);
+  a.saved_at = new Date().toISOString();
+  answers[it.id] = a; enterTime = Date.now(); save();
+}
+
+function renderGrid(){
+  const g = document.getElementById("grid"); g.innerHTML = "";
+  ITEMS.forEach((it, i) => {
+    const b = document.createElement("button"); b.textContent = it.page;
+    if (complete(it.id)) b.classList.add("done"); if (i === cur) b.classList.add("cur");
+    b.onclick = () => { collect(); cur = i; save(); renderItem(); };
+    g.appendChild(b);
+  });
+}
+function renderProgress(){
+  const n = nDone();
+  document.getElementById("prog").textContent = n + " / " + ITEMS.length + " complete";
+  document.getElementById("barfill").style.width = (100 * n / ITEMS.length) + "%";
+}
+
+function csvCell(v){ v = (v === undefined || v === null) ? "" : String(v); return /[",\n\r]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v; }
+function exportCsv(){
+  if (!document.getElementById("itemView").classList.contains("hidden")) collect();
+  const lines = [COLS.join(",")];
+  ITEMS.forEach(it => {
+    const a = answers[it.id] || {};
+    const row = {package_id: PKG, rater_id: rater, item_id: it.id, page: it.page};
+    COLS.forEach(c => { if (!(c in row)) row[c] = a[c]; });
+    lines.push(COLS.map(c => csvCell(row[c])).join(","));
+  });
+  const blob = new Blob([lines.join("\r\n") + "\r\n"], {type: "text/csv"});
+  const url = URL.createObjectURL(blob), el = document.createElement("a");
+  el.href = url; el.download = "ratings_" + PKG + "_" + (rater || "rater") + "_" + new Date().toISOString().slice(0,16).replace(/[:T]/g, "") + ".csv";
+  document.body.appendChild(el); el.click(); setTimeout(() => { URL.revokeObjectURL(url); el.remove(); }, 500);
+}
+
+function parseCsv(text){
+  const rows = []; let row = [], v = "", q = false;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (q) { if (c === '"') { if (text[i+1] === '"') { v += '"'; i++; } else q = false; } else v += c; }
+    else if (c === '"') q = true;
+    else if (c === ",") { row.push(v); v = ""; }
+    else if (c === "\n" || c === "\r") { if (c === "\r" && text[i+1] === "\n") i++; row.push(v); rows.push(row); row = []; v = ""; }
+    else v += c;
+  }
+  if (v !== "" || row.length) { row.push(v); rows.push(row); }
+  return rows;
+}
+function importCsv(file){
+  const rd = new FileReader();
+  rd.onload = () => {
+    const rows = parseCsv(rd.result), head = rows.shift() || [];
+    let n = 0;
+    rows.forEach(r => {
+      const o = {}; head.forEach((h, i) => o[h] = r[i]);
+      if (!o.item_id || !ITEMS.some(it => it.id === o.item_id)) return;
+      if (o.rater_id && !document.getElementById("rater").value) document.getElementById("rater").value = o.rater_id;
+      const a = {}; COLS.slice(4).forEach(c => { if (o[c] !== undefined && o[c] !== "") a[c] = o[c]; });
+      answers[o.item_id] = a; n++;
+    });
+    document.getElementById("startMsg").textContent = "Loaded " + n + " rows from file. Enter your rater code and click Start / resume.";
+    window._imported = true;
+  };
+  rd.readAsText(file);
+}
+
+document.getElementById("importFile").onchange = e => { if (e.target.files[0]) importCsv(e.target.files[0]); };
+document.getElementById("startBtn").onclick = () => {
+  const r = document.getElementById("rater").value.trim();
+  if (!/^[A-Za-z0-9_-]{1,32}$/.test(r)) { document.getElementById("startMsg").textContent = "Enter a rater code (letters, digits, - or _)."; return; }
+  rater = r;
+  const imported = window._imported ? answers : null;
+  load();
+  if (imported) { answers = Object.assign(answers, imported); const k = ITEMS.findIndex(it => !complete(it.id)); cur = k < 0 ? 0 : k; save(); }
+  document.getElementById("who").textContent = "Rater: " + rater;
+  document.getElementById("start").classList.add("hidden");
+  document.getElementById("itemView").classList.remove("hidden");
+  renderItem();
+};
+document.getElementById("prevBtn").onclick = () => { collect(); if (cur > 0) { cur--; save(); renderItem(); } };
+document.getElementById("nextBtn").onclick = () => {
+  collect();
+  const it = ITEMS[cur];
+  if (!complete(it.id)) { document.getElementById("missMsg").textContent = "Please answer every criterion (or choose NA) and the yes/no question."; return; }
+  if (cur < ITEMS.length - 1) { cur++; save(); renderItem(); }
+  else if (nDone() === ITEMS.length) { document.getElementById("itemView").classList.add("hidden"); document.getElementById("doneView").classList.remove("hidden"); renderProgress(); }
+  else { const k = ITEMS.findIndex(x => !complete(x.id)); cur = k; save(); renderItem(); document.getElementById("missMsg").textContent = "This item still needs answers."; }
+};
+document.getElementById("backBtn").onclick = () => { document.getElementById("doneView").classList.add("hidden"); document.getElementById("itemView").classList.remove("hidden"); renderItem(); };
+document.getElementById("exportBtn").onclick = exportCsv;
+document.addEventListener("keydown", e => { if (e.target.tagName === "TEXTAREA" || e.target.tagName === "INPUT" && e.target.type === "text") return; if (e.key === "ArrowRight") document.getElementById("nextBtn").click(); if (e.key === "ArrowLeft") document.getElementById("prevBtn").click(); });
+</script>
+</body>
+</html>

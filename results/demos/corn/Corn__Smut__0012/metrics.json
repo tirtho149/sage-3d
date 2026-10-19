@@ -1,0 +1,282 @@
+{
+ "specimen": "Corn__Smut__0012",
+ "assumptions": [
+  {
+   "item": "ear axis",
+   "value": "first principal axis",
+   "status": "approximation"
+  },
+  {
+   "item": "kernel tissue",
+   "value": "Lab k-means cluster 2 (centre [77.7, -10.4, 49.9])",
+   "status": "inferred from photo colour"
+  },
+  {
+   "item": "existing galls",
+   "value": "cluster 0 (centre [72.2, -1.0, 7.7])",
+   "status": "inferred from photo colour"
+  },
+  {
+   "item": "tip vs base",
+   "value": "not inferred",
+   "status": "unknown"
+  }
+ ],
+ "methods": {
+  "D": {
+   "input_view_iou": 0.943337310553172
+  },
+  "J": {
+   "input_view_iou": 0.8296937504098629,
+   "added_volume_heightfield": 0.0057853114120785505,
+   "max_offset_rel": 0.07801687325027105,
+   "undercut_frac": 0.0
+  },
+  "G": {
+   "input_view_iou": 0.9102437040990063,
+   "added_volume_heightfield": 0.0022967284903741606,
+   "max_offset_rel": 0.03010809356446598,
+   "undercut_frac": 0.0
+  },
+  "E": {
+   "input_view_iou": 0.9226550041076692
+  },
+  "F": {
+   "input_view_iou": 0.9217506631299734
+  },
+  "V_s0": {
+   "input_view_iou": 0.7871390798519302,
+   "n_galls": 3,
+   "centres_on_kernel_frac": 1.0,
+   "diam_cm": [
+    1.5371950941398917,
+    1.067478740870379,
+    3.6550497048749446
+   ],
+   "eq_diam_cm": [
+    1.6004473771938545,
+    1.0709083481171355,
+    3.9743538135924332
+   ],
+   "volume_cm3": [
+    2.1464600983593303,
+    0.6430659795663145,
+    32.869886459495966
+   ],
+   "total_volume_cm3": 35.65941253742161,
+   "undercut_frac": 0.3835215567205061,
+   "kernels_replaced": 2730,
+   "within_kb_size_range": true
+  },
+  "Vr_s0": {
+   "input_view_iou": 0.8435611290943251,
+   "n_galls": 3,
+   "centres_on_kernel_frac": 0.0,
+   "diam_cm": [
+    1.5371950941398917,
+    1.067478740870379,
+    3.6550497048749446
+   ],
+   "eq_diam_cm": [
+    1.6001773834252657,
+    1.0708378683550175,
+    3.972400688120839
+   ],
+   "volume_cm3": [
+    2.145373965009496,
+    0.642939021490332,
+    32.821450307702946
+   ],
+   "total_volume_cm3": 35.60976329420277,
+   "undercut_frac": 0.3812529263697651,
+   "kernels_replaced": 4908,
+   "within_kb_size_range": true
+  },
+  "V_s1": {
+   "input_view_iou": 0.8918659828404352,
+   "n_galls": 3,
+   "centres_on_kernel_frac": 1.0,
+   "diam_cm": [
+    4.548306922323839,
+    1.5189952018199604,
+    1.1387947858197573
+   ],
+   "eq_diam_cm": [
+    4.727840141354505,
+    1.512844159130627,
+    1.1369681727108825
+   ],
+   "volume_cm3": [
+    55.33335117162917,
+    1.8129306896925244,
+    0.7695618767808887
+   ],
+   "total_volume_cm3": 57.91584373810258,
+   "undercut_frac": 0.38781230691580637,
+   "kernels_replaced": 12607,
+   "within_kb_size_range": true
+  },
+  "Vr_s1": {
+   "input_view_iou": 0.8392709381639271,
+   "n_galls": 3,
+   "centres_on_kernel_frac": 0.3333333333333333,
+   "diam_cm": [
+    4.548306922323839,
+    1.5189952018199604,
+    1.1387947858197573
+   ],
+   "eq_diam_cm": [
+    4.729844066794615,
+    1.5130021249604417,
+    1.1381749199023943
+   ],
+   "volume_cm3": [
+    55.403741188390185,
+    1.8134986484006435,
+    0.7720148547958855
+   ],
+   "total_volume_cm3": 57.989254691586716,
+   "undercut_frac": 0.3881012949016331,
+   "kernels_replaced": 719,
+   "within_kb_size_range": true
+  },
+  "V_s2": {
+   "input_view_iou": 0.838325498097157,
+   "n_galls": 3,
+   "centres_on_kernel_frac": 1.0,
+   "diam_cm": [
+    1.6091493253327784,
+    3.660619794725022,
+    1.5499442925514069
+   ],
+   "eq_diam_cm": [
+    1.6990772220927506,
+    3.8306557068401257,
+    1.6919875038958827
+   ],
+   "volume_cm3": [
+    2.5682540140948755,
+    29.431878532235157,
+    2.5362384137282454
+   ],
+   "total_volume_cm3": 34.53637096005828,
+   "undercut_frac": 0.37826251529808724,
+   "kernels_replaced": 8463,
+   "within_kb_size_range": true
+  },
+  "Vr_s2": {
+   "input_view_iou": 0.8807651930479412,
+   "n_galls": 3,
+   "centres_on_kernel_frac": 0.0,
+   "diam_cm": [
+    1.6091493253327784,
+    3.660619794725022,
+    1.5499442925514069
+   ],
+   "eq_diam_cm": [
+    1.6971521436640744,
+    3.8343958554911697,
+    1.6937276494793554
+   ],
+   "volume_cm3": [
+    2.559534297187576,
+    29.518172203304616,
+    2.544071742274193
+   ],
+   "total_volume_cm3": 34.62177824276638,
+   "undercut_frac": 0.3769636330117791,
+   "kernels_replaced": 0,
+   "within_kb_size_range": true
+  }
+ },
+ "evidence": [
+  {
+   "source_url": "https://www.apsnet.org/edcenter/pdlessons/Pages/CornSmut.aspx",
+   "in_sage_kb": true,
+   "quote": "The most obvious symptoms are tumor-like galls that vary in size from less than 1 cm to more than 30 cm (0.4-12 inch) in diameter.",
+   "constrains": "gall diameter range 1-30 cm"
+  },
+  {
+   "source_url": "https://cropwatch.unl.edu/plantdisease/corn/common-smut",
+   "in_sage_kb": false,
+   "quote": "but are probably most common and easily recognizable when they develop on the ear replacing kernels.",
+   "constrains": "placement: galls on kernel-bearing ear tissue (replacing kernels), not on husk/shank"
+  },
+  {
+   "source_url": "https://cropwatch.unl.edu/plantdisease/corn/common-smut",
+   "in_sage_kb": false,
+   "quote": "Young galls may be white to gray in color and fleshy to the touch.",
+   "constrains": "appearance of new (young) galls: white to gray"
+  },
+  {
+   "source_url": "https://cropwatch.unl.edu/plantdisease/corn/common-smut",
+   "in_sage_kb": false,
+   "quote": "Galls on stalks and ears tend to be larger than those produced on infected leaves.",
+   "constrains": "no quantitative ear-gall size beyond the SAGE range"
+  },
+  {
+   "source_url": "https://extension.umn.edu/corn-pest-management/common-smut-corn",
+   "in_sage_kb": false,
+   "quote": null,
+   "constrains": "NEGATIVE EVIDENCE: no position along the ear (tip vs base) is stated in any source checked; along-ear position is NOT inferable and is sampled uniformly over kernel tissue (logged)."
+  }
+ ],
+ "scale": {
+  "cm_per_unit": 18.02413217185985,
+  "diam_cm": [
+   1.5371950941398915,
+   1.067478740870379,
+   3.655049704874944
+  ],
+  "ear_diameter_cm": 4.92193192665013,
+  "candidates": 43725
+ },
+ "placement_log": [
+  {
+   "kind": "evidence",
+   "text": "UNL CropWatch: galls 'develop on the ear replacing kernels' -> centres on kernel tissue only"
+  },
+  {
+   "kind": "evidence",
+   "text": "SAGE KB: diameters 1-30 cm -> log-uniform in [1, min(30, ear diameter)] cm"
+  },
+  {
+   "kind": "assumption",
+   "text": "ear length 18.0 cm (no scale in the photo) -> 1 cm = 0.0555 asset units; ear diameter 4.9 cm"
+  },
+  {
+   "kind": "unknown",
+   "text": "position along the ear (tip vs base) not given by any source: uniform over kernel tissue"
+  },
+  {
+   "kind": "assumption",
+   "text": "number of new galls = 3 (no source gives a count)"
+  }
+ ],
+ "real_galls_in_photo": [
+  {
+   "n": 17496,
+   "extent_cm": [
+    2.95,
+    5.77,
+    12.76
+   ]
+  },
+  {
+   "n": 509,
+   "extent_cm": [
+    0.44,
+    1.2,
+    2.47
+   ]
+  },
+  {
+   "n": 226,
+   "extent_cm": [
+    0.28,
+    0.73,
+    1.45
+   ]
+  }
+ ]
+}

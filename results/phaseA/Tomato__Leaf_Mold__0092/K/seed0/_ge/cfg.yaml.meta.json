@@ -1,0 +1,19 @@
+{
+ "prompt": "make this tomato leaf show leaf mold: pale greenish-yellow spots; olive-green to brown velvety mold forms on the lower leaf surface below leaf spots",
+ "prompt_sha1": "8a88fdedc7b8677b05435598feb56d1b4740400c",
+ "clip_tokens": 34,
+ "seed": 0,
+ "max_steps": 200,
+ "gs_source": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/pilot/sam3d/Tomato__Leaf_Mold__0092/seed0/splat_ge.ply",
+ "data_source": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/pilot/Tomato__Leaf_Mold__0092/D",
+ "exp_root": "/home/tirtho/Desktop/Research/external/SAGE-Extend/results/phaseA/Tomato__Leaf_Mold__0092/K/seed0/_ge",
+ "tag": "edit",
+ "extra": {
+  "system.gs_lr_scaler": 0.0,
+  "system.gs_final_lr_scaler": 0.0,
+  "system.scaling_lr_scaler": 0.0,
+  "system.rotation_lr_scaler": 0.0,
+  "system.opacity_lr_scaler": 0.0,
+  "system.densify_until_iter": 0
+ }
+}

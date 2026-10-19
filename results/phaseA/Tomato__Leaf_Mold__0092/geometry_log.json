@@ -1,0 +1,23 @@
+[
+ {
+  "arm": "J",
+  "seed": 0,
+  "status": "ABSTAIN",
+  "reason": "no implemented, unhedged geometric operator in the selected KB stage",
+  "unsupported": []
+ },
+ {
+  "arm": "J",
+  "seed": 1,
+  "status": "ABSTAIN",
+  "reason": "no implemented, unhedged geometric operator in the selected KB stage",
+  "unsupported": []
+ },
+ {
+  "arm": "J",
+  "seed": 2,
+  "status": "ABSTAIN",
+  "reason": "no implemented, unhedged geometric operator in the selected KB stage",
+  "unsupported": []
+ }
+]

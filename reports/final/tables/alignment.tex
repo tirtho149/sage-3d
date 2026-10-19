@@ -1,0 +1,21 @@
+\begin{table}[H]\centering\scriptsize
+\caption{E1 input-view alignment (IoU). A1 = principal point at centre; A2 = closed-form scale+translation; A3 = 7-DoF render-and-compare (mask loss only, geometry frozen); A3* = A3 if better than A2. $^\dagger$ diverged. LPIPS and depth agreement with MoGe are never optimised.}
+\resizebox{\linewidth}{!}{
+\begin{tabular}{lrrrrrrrrrr}\toprule
+Specimen & K px & A0 & A1 & A2 & A3 & A3* & area err & LPIPS (held-out) & depth err (held-out) & label \\ \midrule
+Citrus Canker 0004 & 0.6 & 0.67 & 0.67 & 0.84 & 0.91 & \textbf{0.91} & 0.44 & 0.29$\to$0.30 & 0.025$\to$0.079 & ok \\
+Citrus Canker 0012 & 0.3 & 0.73 & 0.73 & 0.98 & 0.99 & \textbf{0.99} & 0.36 & 0.23$\to$0.21 & 0.095$\to$0.029 & ok \\
+Citrus Canker 0016 & 5.6 & 0.76 & 0.77 & 0.98 & 0.98 & \textbf{0.98} & -0.19 & 0.18$\to$0.19 & 0.088$\to$0.071 & ok \\
+Corn Smut 0012 & 0.4 & 0.63 & 0.63 & 0.86 & 0.94 & \textbf{0.94} & 0.43 & 0.20$\to$0.18 & 0.011$\to$0.015 & ok \\
+Corn Smut 0025 & 4.3 & 0.61 & 0.61 & 0.77 & 0.76 & \textbf{0.77} & -0.09 & 0.22$\to$0.21 & 0.039$\to$0.042 & ok \\
+Corn Smut 0052 & 1.0 & 0.72 & 0.72 & 0.83 & 0.90 & \textbf{0.90} & 0.34 & 0.16$\to$0.16 & 0.051$\to$0.091 & ok \\
+Mango Anthracnose 0044 & 0.2 & 0.70 & 0.70 & 0.87 & 0.93 & \textbf{0.93} & 0.27 & 0.14$\to$0.12 & 0.009$\to$0.081 & ok \\
+Mango Anthracnose 0049 & 0.3 & 0.77 & 0.78 & 0.85 & 0.95 & \textbf{0.95} & 0.19 & 0.11$\to$0.10 & 0.016$\to$0.039 & ok \\
+Mango Anthracnose 0094 & 0.3 & 0.63 & 0.63 & 0.82 & 0.86 & \textbf{0.86} & 0.57 & 0.09$\to$0.13 & 0.035$\to$0.060 & ok \\
+Peach Leaf\_Curl 0006 & 1.6 & 0.43 & 0.43 & 0.50 & 0.13$^\dagger$ & \textbf{0.50} & 0.68 & 0.18$\to$0.20 & 0.031$\to$0.027 & reconstruction\_failure \\
+Peach Leaf\_Curl 0063 & 6.4 & 0.58 & 0.58 & 0.67 & 0.00$^\dagger$ & \textbf{0.67} & 0.35 & 0.11$\to$0.11 & 0.015$\to$0.014 & ok \\
+Peach Leaf\_Curl 0087 & 1.6 & 0.84 & 0.85 & 0.89 & 0.95 & \textbf{0.95} & 0.08 & 0.05$\to$0.04 & 0.003$\to$0.012 & ok \\
+Tomato Leaf\_Mold 0015 & 0.3 & 0.40 & 0.40 & 0.88 & 0.94 & \textbf{0.94} & 1.50 & 0.20$\to$0.21 & 0.017$\to$0.031 & ok \\
+Tomato Leaf\_Mold 0052 & 0.4 & 0.55 & 0.55 & 0.72 & 0.92 & \textbf{0.92} & 0.79 & 0.29$\to$0.28 & 0.034$\to$0.043 & ok \\
+Tomato Leaf\_Mold 0092 & 0.5 & 0.47 & 0.47 & 0.84 & 0.23$^\dagger$ & \textbf{0.84} & 1.11 & 0.32$\to$0.32 & 0.030$\to$0.028 & ok \\
+\bottomrule\end{tabular}}\end{table}

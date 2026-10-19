@@ -1,0 +1,10 @@
+{
+ "figure": "fig7_crossview_Peach__Leaf_Curl__0087",
+ "generated": "2026-10-14 15:51:23",
+ "sources": [
+  "results/pilot/Peach__Leaf_Curl__0087/Bmv",
+  "results/pilot/Peach__Leaf_Curl__0087/Cmv",
+  "results/phaseA/Peach__Leaf_Curl__0087/*/seed0/render"
+ ],
+ "caption": "Cross-view consistency of the edit: per-view 2D edits are made independently on each render; a 3D edit is one asset. Consistency is internal agreement between views only (no real multi-view reference exists)."
+}

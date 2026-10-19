@@ -1,0 +1,109 @@
+{
+ "set": "KB3D",
+ "args": {
+  "set": "KB3D",
+  "mode": "lastk",
+  "k": 2,
+  "r": 8,
+  "lr_head": 0.001,
+  "lr_bb": 3e-05,
+  "llrd": 1.0,
+  "wd": 0.05,
+  "ls": 0.1,
+  "balanced": false,
+  "epochs": 10,
+  "clip": 1.0,
+  "aug": "std",
+  "seed": 1,
+  "bs": 64,
+  "val_fold": null,
+  "final": null,
+  "tag": "KB3D_lastk_sel_s1",
+  "out": "results/stage1/ft"
+ },
+ "n_train": 1920,
+ "steps": 300,
+ "history": [
+  {
+   "epoch": 0,
+   "train_loss": 1.9482595920562744
+  },
+  {
+   "epoch": 1,
+   "train_loss": 0.6918109854062399
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.6377119104067485
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.6226694762706757
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.6141621212164561
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.608980538447698
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.6064301431179047
+  },
+  {
+   "epoch": 7,
+   "train_loss": 0.6039783358573914
+  },
+  {
+   "epoch": 8,
+   "train_loss": 0.6040367583433787
+  },
+  {
+   "epoch": 9,
+   "train_loss": 0.6028548081715902
+  }
+ ],
+ "train_sec": 217.3,
+ "trainable_params": 3558932,
+ "dev": {
+  "macro_f1": 0.4237490394181247,
+  "top1": 0.47715373631603997,
+  "bal_acc": 0.46227066295725183,
+  "top5": 0.8086625416468348,
+  "macro_f1_ci": [
+   0.4060845611519717,
+   0.43910029815984525
+  ],
+  "per_class_recall": {
+   "citrus::canker": 0.5527950310559007,
+   "citrus::greening_disease": 0.8125,
+   "coffee::berry_blotch": 0.08823529411764706,
+   "coffee::brown_eye_spot": 0.13793103448275862,
+   "corn::common_rust": 0.9266666666666666,
+   "corn::smut": 0.8642857142857143,
+   "grape::black_rot": 0.19,
+   "grape::downy_mildew": 0.7741935483870968,
+   "mango::anthracnose": 0.3933333333333333,
+   "mango::bacterial_canker": 0.2833333333333333,
+   "peach::bacterial_spot": 0.6066666666666667,
+   "peach::leaf_curl": 0.23880597014925373,
+   "potato::late_blight": 0.8166666666666667,
+   "potato::tomato_spotted_wilt_virus": 0.26666666666666666,
+   "pumpkin::bacterial_leaf_spot": 0.3466666666666667,
+   "pumpkin::downy_mildew": 0.14,
+   "strawberry::leaf_scorch": 0.45,
+   "strawberry::leaf_spot": 0.57,
+   "tomato::bacterial_leaf_spot": 0.0,
+   "tomato::leaf_mold": 0.7866666666666666
+  },
+  "crop": {
+   "crop_acc": 0.6377915278438838,
+   "errors": 2197,
+   "errors_right_crop": 675,
+   "errors_wrong_crop": 1522
+  }
+ },
+ "embedding_drift": 0.31865859031677246
+}
